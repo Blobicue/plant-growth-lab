@@ -1,0 +1,24 @@
+BUD DIAGNOSTICS29 - SECOND STAGE PREREGISTRATION
+Not a promoted candidate. W27 remains active.
+Motivation: seed12011 exact birth state, diagnostics28 mode3 completes a shoot
+at806, then both leaf proposals expire at820 blocked by localN. Baseline observer
+matches W27 first960 hashes and final8160. No maturity threshold/rate/cost changes.
+Further interventions on first ordinary child only, same saved birth states:
+4 retain partly paid segment AND unpaid leaf bud; reproductive collection unchanged.
+5 same retention plus defer new collection until32 paid nodes.
+6 retain unpaid leaf bud plus defer collection; original segment deadline retained.
+Occupancy/disconnection cancellation remains. All tissue locally funded; unchanged
+uptake/transport/maintenance, no subsidies/manual caregiving or blueprint tissue.
+Per seed12011,4242,7301 run each3072h after birth; retain768,1536,3072 checkpoints.
+These are secondary diagnostic hypotheses informed by the reported negative primary
+factorial. Evaluate growth, completion, leaves, >=32maturity, survival, lineage and
+conservation. This is not a claim that dormant buds solve ordinary maturity.
+Every engine start keeps8GiB freecommit guard and600s monitor when blocked.
+
+2026-10-07 21:44UTC amendment BEFORE any secondary engine run:
+Add arm7: retain unpaid leaf buds only; original partial-segment expiry and
+reproductive collection remain unchanged. This completes all8 combinations of
+three binary interventions at the common768h endpoint and prevents assuming a
+stack of mechanisms is minimal. No completed case is repeated. Secondary arms
+continue to3072h as already specified; their later outcomes cannot establish
+necessity versus primary arms1/2/3, whose matched follow-up ended at768h.

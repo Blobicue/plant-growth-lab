@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "name": "full-state hourly960 12011 gpu",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 12011 reverse",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 12011 replay",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 4242 gpu",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 4242 reverse",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 4242 replay",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 7301 gpu",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 7301 reverse",
+      "pass": true
+    },
+    {
+      "name": "full-state hourly960 7301 replay",
+      "pass": true
+    }
+  ]
+}

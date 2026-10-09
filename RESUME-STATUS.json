@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-08T00:08:56.691435+00:00",
+  "migration_paused": true,
+  "active_owned_engine_jobs": 0,
+  "windows_fallback": "shared-atmosphere27",
+  "primary_checks": 42,
+  "factorial_checks": 96,
+  "carbon_budget_checks": 12,
+  "common_cases": 24,
+  "candidate": "juvenile-allocation30",
+  "candidate_ordinary_complete": true,
+  "candidate_promoted": false,
+  "candidate_native_validation": "not started; native shell preparation paused for migration",
+  "godot_windows": "4.7.2.stable.official.ed1daf0bf",
+  "godot_cloud": "4.6.3",
+  "native_language": "C11",
+  "ordinary_source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f"
+}

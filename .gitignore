@@ -1,0 +1,13 @@
+.godot/
+__pycache__/
+*.pyc
+*.dll
+*.so
+*.exe
+*.pck
+*.o
+*.obj
+.env*
+active.json
+transfer.json
+auth.json

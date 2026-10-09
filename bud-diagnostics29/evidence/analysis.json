@@ -1,0 +1,1775 @@
+{
+  "complete": true,
+  "pending": [],
+  "checks": [
+    {
+      "name": "12011/0 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/0 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/0 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/1 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/1 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/1 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/2 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/2 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/2 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/3 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/3 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/3 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/4 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/4 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/4 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/4 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/4 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "12011/5 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/5 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/5 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/5 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/5 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "12011/6 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/6 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/6 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/6 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/6 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "12011/7 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "12011/7 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/7 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "12011/7 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "12011/7 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "4242/0 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/0 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/0 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/1 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/1 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/1 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/2 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/2 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/2 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/3 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/3 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/3 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/4 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/4 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/4 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/4 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/4 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "4242/5 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/5 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/5 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/5 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/5 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "4242/6 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/6 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/6 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/6 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/6 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "4242/7 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "4242/7 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/7 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "4242/7 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "4242/7 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "7301/0 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/0 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/0 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/1 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/1 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/1 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/2 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/2 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/2 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/3 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/3 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/3 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/4 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/4 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/4 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/4 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/4 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "7301/5 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/5 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/5 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/5 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/5 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "7301/6 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/6 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/6 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/6 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/6 headless run completed",
+      "pass": true
+    },
+    {
+      "name": "7301/7 identical birth state",
+      "pass": true
+    },
+    {
+      "name": "7301/7 common768h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/7 conservation and no failure",
+      "pass": true
+    },
+    {
+      "name": "7301/7 extended3072h complete",
+      "pass": true
+    },
+    {
+      "name": "7301/7 headless run completed",
+      "pass": true
+    }
+  ],
+  "common768": [
+    {
+      "seed": 12011,
+      "mode": 0,
+      "treatment": "unchanged",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "C_refusals": 1133,
+      "N_refusals": 58,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 1,
+      "treatment": "defer_bank",
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.013761230379435172,
+      "leaf_operating_C": 0.0861040231012094,
+      "unpaid_C": 0.0,
+      "C_refusals": 1054,
+      "N_refusals": 133,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 2,
+      "treatment": "hold_partial",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "C_refusals": 1449,
+      "N_refusals": 78,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 3,
+      "treatment": "defer_bank+hold_partial",
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 2,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 1,
+      "new_paid_leaves": 0,
+      "operating_C": 0.01373517426570951,
+      "leaf_operating_C": 0.08609861382989815,
+      "unpaid_C": 0.0,
+      "C_refusals": 1177,
+      "N_refusals": 179,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 4,
+      "treatment": "hold_partial+hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "C_refusals": 1449,
+      "N_refusals": 78,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 5,
+      "treatment": "defer_bank+hold_partial+hold_leaf",
+      "paid_nodes": 18,
+      "living_nodes": 18,
+      "paid_leaves": 5,
+      "completed_segments_or_leaves": 3,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 1,
+      "new_paid_leaves": 1,
+      "operating_C": 0.02034282736061994,
+      "leaf_operating_C": 0.09311306535685254,
+      "unpaid_C": 0.0,
+      "C_refusals": 1210,
+      "N_refusals": 1296,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 6,
+      "treatment": "defer_bank+hold_leaf",
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.013761230379435172,
+      "leaf_operating_C": 0.0861040231012094,
+      "unpaid_C": 0.0,
+      "C_refusals": 1054,
+      "N_refusals": 133,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 12011,
+      "mode": 7,
+      "treatment": "hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "C_refusals": 1133,
+      "N_refusals": 58,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 0,
+      "treatment": "unchanged",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 1,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "C_refusals": 1156,
+      "N_refusals": 60,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 1,
+      "treatment": "defer_bank",
+      "paid_nodes": 18,
+      "living_nodes": 18,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 1,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.024895669605682035,
+      "leaf_operating_C": 0.10325326324977124,
+      "unpaid_C": 0.0,
+      "C_refusals": 1126,
+      "N_refusals": 84,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 2,
+      "treatment": "hold_partial",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 1,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "C_refusals": 1311,
+      "N_refusals": 73,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 3,
+      "treatment": "defer_bank+hold_partial",
+      "paid_nodes": 19,
+      "living_nodes": 19,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 3,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 2,
+      "new_paid_leaves": 0,
+      "operating_C": 0.02340221389870416,
+      "leaf_operating_C": 0.10343978687735299,
+      "unpaid_C": 0.0,
+      "C_refusals": 1521,
+      "N_refusals": 104,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 4,
+      "treatment": "hold_partial+hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 1,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "C_refusals": 2379,
+      "N_refusals": 493,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 5,
+      "treatment": "defer_bank+hold_partial+hold_leaf",
+      "paid_nodes": 20,
+      "living_nodes": 20,
+      "paid_leaves": 6,
+      "completed_segments_or_leaves": 5,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 2,
+      "new_paid_leaves": 2,
+      "operating_C": 0.029037773818980463,
+      "leaf_operating_C": 0.10741400935337812,
+      "unpaid_C": 0.0,
+      "C_refusals": 1490,
+      "N_refusals": 1181,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 6,
+      "treatment": "defer_bank+hold_leaf",
+      "paid_nodes": 20,
+      "living_nodes": 20,
+      "paid_leaves": 6,
+      "completed_segments_or_leaves": 3,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 2,
+      "operating_C": 0.030081374720764064,
+      "leaf_operating_C": 0.10717115624478075,
+      "unpaid_C": 0.0,
+      "C_refusals": 1144,
+      "N_refusals": 1161,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 4242,
+      "mode": 7,
+      "treatment": "hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 1,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "C_refusals": 2224,
+      "N_refusals": 480,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 0,
+      "treatment": "unchanged",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "C_refusals": 1133,
+      "N_refusals": 58,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 1,
+      "treatment": "defer_bank",
+      "paid_nodes": 17,
+      "living_nodes": 17,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.015102024093585612,
+      "leaf_operating_C": 0.08799449840106356,
+      "unpaid_C": 0.0,
+      "C_refusals": 1062,
+      "N_refusals": 124,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 2,
+      "treatment": "hold_partial",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "C_refusals": 1449,
+      "N_refusals": 78,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 3,
+      "treatment": "defer_bank+hold_partial",
+      "paid_nodes": 17,
+      "living_nodes": 17,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 3,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 2,
+      "new_paid_leaves": 0,
+      "operating_C": 0.014854826805519722,
+      "leaf_operating_C": 0.08800531928181402,
+      "unpaid_C": 0.0,
+      "C_refusals": 1201,
+      "N_refusals": 170,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 4,
+      "treatment": "hold_partial+hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "C_refusals": 1449,
+      "N_refusals": 78,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 5,
+      "treatment": "defer_bank+hold_partial+hold_leaf",
+      "paid_nodes": 19,
+      "living_nodes": 19,
+      "paid_leaves": 5,
+      "completed_segments_or_leaves": 4,
+      "mature32": false,
+      "shoot_completions": 1,
+      "root_completions": 2,
+      "new_paid_leaves": 1,
+      "operating_C": 0.02047888060736058,
+      "leaf_operating_C": 0.09559911267500402,
+      "unpaid_C": 0.0,
+      "C_refusals": 1262,
+      "N_refusals": 1256,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 6,
+      "treatment": "defer_bank+hold_leaf",
+      "paid_nodes": 17,
+      "living_nodes": 17,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.015102024093585612,
+      "leaf_operating_C": 0.08799449840106356,
+      "unpaid_C": 0.0,
+      "C_refusals": 1062,
+      "N_refusals": 124,
+      "water_refusals": 0,
+      "child_births": 0
+    },
+    {
+      "seed": 7301,
+      "mode": 7,
+      "treatment": "hold_leaf",
+      "paid_nodes": 12,
+      "living_nodes": 12,
+      "paid_leaves": 4,
+      "completed_segments_or_leaves": 0,
+      "mature32": false,
+      "shoot_completions": 0,
+      "root_completions": 0,
+      "new_paid_leaves": 0,
+      "operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "C_refusals": 1133,
+      "N_refusals": 58,
+      "water_refusals": 0,
+      "child_births": 0
+    }
+  ],
+  "secondary_later": [
+    {
+      "seed": 12011,
+      "mode": 4,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 4,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 4,
+      "age": 3072,
+      "nodes": 12,
+      "living": 0,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 5,
+      "age": 768,
+      "nodes": 18,
+      "living": 18,
+      "leaves": 5,
+      "completed": 3,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 5,
+      "age": 1536,
+      "nodes": 24,
+      "living": 24,
+      "leaves": 7,
+      "completed": 7,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 5,
+      "age": 3072,
+      "nodes": 24,
+      "living": 24,
+      "leaves": 7,
+      "completed": 7,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 6,
+      "age": 768,
+      "nodes": 16,
+      "living": 16,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 6,
+      "age": 1536,
+      "nodes": 20,
+      "living": 20,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 6,
+      "age": 3072,
+      "nodes": 26,
+      "living": 26,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 7,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 7,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "mode": 7,
+      "age": 3072,
+      "nodes": 12,
+      "living": 0,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 4,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 4,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 4,
+      "age": 3072,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 5,
+      "age": 768,
+      "nodes": 20,
+      "living": 20,
+      "leaves": 6,
+      "completed": 5,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 5,
+      "age": 1536,
+      "nodes": 26,
+      "living": 26,
+      "leaves": 8,
+      "completed": 8,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 5,
+      "age": 3072,
+      "nodes": 29,
+      "living": 29,
+      "leaves": 8,
+      "completed": 8,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 6,
+      "age": 768,
+      "nodes": 20,
+      "living": 20,
+      "leaves": 6,
+      "completed": 3,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 6,
+      "age": 1536,
+      "nodes": 25,
+      "living": 25,
+      "leaves": 6,
+      "completed": 3,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 6,
+      "age": 3072,
+      "nodes": 32,
+      "living": 32,
+      "leaves": 6,
+      "completed": 3,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 7,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 7,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 4242,
+      "mode": 7,
+      "age": 3072,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 4,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 4,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 4,
+      "age": 3072,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 5,
+      "age": 768,
+      "nodes": 19,
+      "living": 19,
+      "leaves": 5,
+      "completed": 4,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 5,
+      "age": 1536,
+      "nodes": 26,
+      "living": 26,
+      "leaves": 8,
+      "completed": 8,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 5,
+      "age": 3072,
+      "nodes": 26,
+      "living": 0,
+      "leaves": 8,
+      "completed": 8,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 6,
+      "age": 768,
+      "nodes": 17,
+      "living": 17,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 6,
+      "age": 1536,
+      "nodes": 20,
+      "living": 20,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 6,
+      "age": 3072,
+      "nodes": 27,
+      "living": 27,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 7,
+      "age": 768,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 7,
+      "age": 1536,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    },
+    {
+      "seed": 7301,
+      "mode": 7,
+      "age": 3072,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "child_births": 0,
+      "all_lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ]
+    }
+  ],
+  "warning": "Later secondary3072h outcomes do not establish necessity against primary interventions1-3 that ended768h."
+}

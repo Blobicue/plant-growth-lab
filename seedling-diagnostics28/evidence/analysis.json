@@ -1,0 +1,426 @@
+{
+  "checks": [
+    {
+      "name": "12011 first960 observer fingerprints",
+      "pass": true
+    },
+    {
+      "name": "12011 complete8160 fingerprint",
+      "pass": true
+    },
+    {
+      "name": "12011 all8 metrics checkpoints",
+      "pass": true
+    },
+    {
+      "name": "12011 conservative baseline",
+      "pass": true
+    },
+    {
+      "name": "12011 restored baseline matches all768 hourly records",
+      "pass": true
+    },
+    {
+      "name": "12011 mode0 conserved",
+      "pass": true
+    },
+    {
+      "name": "12011 mode0 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "12011 mode1 conserved",
+      "pass": true
+    },
+    {
+      "name": "12011 mode1 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "12011 mode2 conserved",
+      "pass": true
+    },
+    {
+      "name": "12011 mode2 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "12011 mode3 conserved",
+      "pass": true
+    },
+    {
+      "name": "12011 mode3 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "12011 all4 arms identical restored physical state",
+      "pass": true
+    },
+    {
+      "name": "4242 first960 observer fingerprints",
+      "pass": true
+    },
+    {
+      "name": "4242 complete8160 fingerprint",
+      "pass": true
+    },
+    {
+      "name": "4242 all8 metrics checkpoints",
+      "pass": true
+    },
+    {
+      "name": "4242 conservative baseline",
+      "pass": true
+    },
+    {
+      "name": "4242 restored baseline matches all768 hourly records",
+      "pass": true
+    },
+    {
+      "name": "4242 mode0 conserved",
+      "pass": true
+    },
+    {
+      "name": "4242 mode0 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "4242 mode1 conserved",
+      "pass": true
+    },
+    {
+      "name": "4242 mode1 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "4242 mode2 conserved",
+      "pass": true
+    },
+    {
+      "name": "4242 mode2 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "4242 mode3 conserved",
+      "pass": true
+    },
+    {
+      "name": "4242 mode3 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "4242 all4 arms identical restored physical state",
+      "pass": true
+    },
+    {
+      "name": "7301 first960 observer fingerprints",
+      "pass": true
+    },
+    {
+      "name": "7301 complete8160 fingerprint",
+      "pass": true
+    },
+    {
+      "name": "7301 all8 metrics checkpoints",
+      "pass": true
+    },
+    {
+      "name": "7301 conservative baseline",
+      "pass": true
+    },
+    {
+      "name": "7301 restored baseline matches all768 hourly records",
+      "pass": true
+    },
+    {
+      "name": "7301 mode0 conserved",
+      "pass": true
+    },
+    {
+      "name": "7301 mode0 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "7301 mode1 conserved",
+      "pass": true
+    },
+    {
+      "name": "7301 mode1 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "7301 mode2 conserved",
+      "pass": true
+    },
+    {
+      "name": "7301 mode2 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "7301 mode3 conserved",
+      "pass": true
+    },
+    {
+      "name": "7301 mode3 all768 steps uncensored without error",
+      "pass": true
+    },
+    {
+      "name": "7301 all4 arms identical restored physical state",
+      "pass": true
+    }
+  ],
+  "summary": [
+    {
+      "seed": 12011,
+      "mode": 0,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 84,
+      "partial_cancellations": 2,
+      "leaf_cancellations": 0,
+      "blocked_C": 1133,
+      "blocked_N": 58,
+      "blocked_water": 0,
+      "net_operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "root_W": 0.09450153300000001,
+      "root_N": 0.0014741989999999977,
+      "reserve_C": 0.0265081580460112,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 12011,
+      "mode": 1,
+      "nodes": 16,
+      "living": 16,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 84,
+      "partial_cancellations": 6,
+      "leaf_cancellations": 0,
+      "blocked_C": 1054,
+      "blocked_N": 133,
+      "blocked_water": 0,
+      "net_operating_C": 0.013761230379435172,
+      "leaf_operating_C": 0.0861040231012094,
+      "unpaid_C": 0.0,
+      "root_W": 0.12773952999999988,
+      "root_N": 0.0019838110000000016,
+      "reserve_C": 0.0,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 12011,
+      "mode": 2,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 0,
+      "partial_cancellations": 0,
+      "leaf_cancellations": 0,
+      "blocked_C": 1449,
+      "blocked_N": 78,
+      "blocked_water": 0,
+      "net_operating_C": 0.00128945722990121,
+      "leaf_operating_C": 0.06133461745680337,
+      "unpaid_C": 0.0,
+      "root_W": 0.09450153300000001,
+      "root_N": 0.0014741989999999977,
+      "reserve_C": 0.0265081580460112,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 12011,
+      "mode": 3,
+      "nodes": 16,
+      "living": 16,
+      "leaves": 4,
+      "completed": 2,
+      "expired": 49,
+      "partial_cancellations": 0,
+      "leaf_cancellations": 2,
+      "blocked_C": 1177,
+      "blocked_N": 179,
+      "blocked_water": 0,
+      "net_operating_C": 0.01373517426570951,
+      "leaf_operating_C": 0.08609861382989815,
+      "unpaid_C": 0.0,
+      "root_W": 0.1277873369999999,
+      "root_N": 0.0019845160000000013,
+      "reserve_C": 0.0,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 4242,
+      "mode": 0,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "expired": 86,
+      "partial_cancellations": 1,
+      "leaf_cancellations": 2,
+      "blocked_C": 1156,
+      "blocked_N": 60,
+      "blocked_water": 0,
+      "net_operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "root_W": 0.10015164499999991,
+      "root_N": 0.0015615550000000011,
+      "reserve_C": 0.0339396102764723,
+      "max_error": 1.45519152283669e-11
+    },
+    {
+      "seed": 4242,
+      "mode": 1,
+      "nodes": 18,
+      "living": 18,
+      "leaves": 4,
+      "completed": 1,
+      "expired": 86,
+      "partial_cancellations": 7,
+      "leaf_cancellations": 2,
+      "blocked_C": 1126,
+      "blocked_N": 84,
+      "blocked_water": 0,
+      "net_operating_C": 0.024895669605682035,
+      "leaf_operating_C": 0.10325326324977124,
+      "unpaid_C": 0.0,
+      "root_W": 0.1555026210000001,
+      "root_N": 0.0024017980000000014,
+      "reserve_C": 0.0,
+      "max_error": 1.45519152283669e-11
+    },
+    {
+      "seed": 4242,
+      "mode": 2,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 1,
+      "expired": 44,
+      "partial_cancellations": 0,
+      "leaf_cancellations": 2,
+      "blocked_C": 1311,
+      "blocked_N": 73,
+      "blocked_water": 0,
+      "net_operating_C": 0.0100453840309925,
+      "leaf_operating_C": 0.07014637188339329,
+      "unpaid_C": 0.0,
+      "root_W": 0.10015164499999991,
+      "root_N": 0.0015615550000000011,
+      "reserve_C": 0.0339396102764723,
+      "max_error": 1.45519152283669e-11
+    },
+    {
+      "seed": 4242,
+      "mode": 3,
+      "nodes": 19,
+      "living": 19,
+      "leaves": 4,
+      "completed": 3,
+      "expired": 39,
+      "partial_cancellations": 1,
+      "leaf_cancellations": 2,
+      "blocked_C": 1521,
+      "blocked_N": 104,
+      "blocked_water": 0,
+      "net_operating_C": 0.02340221389870416,
+      "leaf_operating_C": 0.10343978687735299,
+      "unpaid_C": 0.0,
+      "root_W": 0.15352344999999998,
+      "root_N": 0.0023771330000000018,
+      "reserve_C": 0.0,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 7301,
+      "mode": 0,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 84,
+      "partial_cancellations": 2,
+      "leaf_cancellations": 0,
+      "blocked_C": 1133,
+      "blocked_N": 58,
+      "blocked_water": 0,
+      "net_operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "root_W": 0.09666633599999996,
+      "root_N": 0.0015412370000000009,
+      "reserve_C": 0.0285364363177026,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 7301,
+      "mode": 1,
+      "nodes": 17,
+      "living": 17,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 84,
+      "partial_cancellations": 7,
+      "leaf_cancellations": 0,
+      "blocked_C": 1062,
+      "blocked_N": 124,
+      "blocked_water": 0,
+      "net_operating_C": 0.015102024093585612,
+      "leaf_operating_C": 0.08799449840106356,
+      "unpaid_C": 0.0,
+      "root_W": 0.13294788600000007,
+      "root_N": 0.002147118,
+      "reserve_C": 0.0,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 7301,
+      "mode": 2,
+      "nodes": 12,
+      "living": 12,
+      "leaves": 4,
+      "completed": 0,
+      "expired": 0,
+      "partial_cancellations": 0,
+      "leaf_cancellations": 0,
+      "blocked_C": 1449,
+      "blocked_N": 78,
+      "blocked_water": 0,
+      "net_operating_C": 0.003329473449827421,
+      "leaf_operating_C": 0.06313072224951918,
+      "unpaid_C": 0.0,
+      "root_W": 0.09666633599999996,
+      "root_N": 0.0015412370000000009,
+      "reserve_C": 0.0285364363177026,
+      "max_error": 2.91038304567337e-11
+    },
+    {
+      "seed": 7301,
+      "mode": 3,
+      "nodes": 17,
+      "living": 17,
+      "leaves": 4,
+      "completed": 3,
+      "expired": 50,
+      "partial_cancellations": 0,
+      "leaf_cancellations": 2,
+      "blocked_C": 1201,
+      "blocked_N": 170,
+      "blocked_water": 0,
+      "net_operating_C": 0.014854826805519722,
+      "leaf_operating_C": 0.08800531928181402,
+      "unpaid_C": 0.0,
+      "root_W": 0.1329746860000001,
+      "root_N": 0.002147607999999999,
+      "reserve_C": 0.0,
+      "max_error": 2.91038304567337e-11
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[application]
+config/name="Juvenile allocation30 candidate"
+[rendering]
+renderer/rendering_method="mobile"

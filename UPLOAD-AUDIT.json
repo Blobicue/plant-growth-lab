@@ -1,0 +1,7 @@
+{
+  "scope": "all selected bytes, structured JSON credentials, excluded-file allowlist; no secret values stored",
+  "secret_or_personal_path_flags": [],
+  "json_parsed": 26,
+  "python_syntax_parsed": 28,
+  "experiments_restarted": false
+}

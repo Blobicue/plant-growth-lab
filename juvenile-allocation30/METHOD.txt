@@ -1,0 +1,24 @@
+JUVENILE ALLOCATION30 - ISOLATED SINGLE-POLICY CANDIDATE
+2026-10-07. Not promoted; W27 remains active.
+Source=W27. Only physical change in shared-atmosphere mode: defer NEW reserve
+collection while paid node count<32, the preexisting reproductive eligibility
+threshold. Applies to founders and descendants alike. Existing reserves are not
+refunded/preloaded; maintenance protection, prices,rates,genes,32-node gate,
+proposal deadlines/geometry and field/backend unchanged. Private-carbon control
+retainsW27 behavior. Counter reason records why collection is deferred.
+
+Rationale: completed28/29 factorial found bank deferral alone increased ordinary
+child growth at768h in all3seeds(12->16/18/17), with exact matched birth states.
+Proposal retention alone changed no paidgrowth; full bundle worsened survival in
+seed7301. Do not stack those mechanisms into this candidate or tune for32success.
+This is a developmental allocation alternative; no claim it solves maturity yet.
+
+Preregistered ordinary candidate runs: seeds12011,4242,7301, W27 sharedmode1,
+scenario3, water.3,N.01,flux.08,slant1,12hday/lifecycle3/recycling/decomposition1,
+through8160h. Compare against existing sealed W27 sharedmode1 evidence; do not
+rerun that baseline. Record8checkpoints, first960 hashes, everyborn child's paid
+nodes/alive/leaves atdaily intervals, lineage, global/plant errors, endfingerprint.
+Assess child->grandchild, founder/child survival, growth andresource balances.
+No fixture/handfeeding/manualarchitecture. Native/parity/replay/package validation
+and W27fallback are required before any promotion of a supported candidate.
+Every engine startup retains8GiBfreecommit guard, single mutex owner and600swait.

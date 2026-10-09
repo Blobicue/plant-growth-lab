@@ -1,0 +1,30 @@
+SEEDLING DIAGNOSTICS28 - PREREGISTERED CAUSAL PLAN
+2026-10-07. Source baseline=promoted shared-atmosphere27, ordinarymode1.
+No production change. Source costs,rates,genes,32paid-node/64h gates unchanged.
+
+Passive baseline: seeds12011,4242,7301 to8160. Trace all ordinary children, hourly
+for their first768h then daily, with first-failure/proposal events and endstates.
+Compare all recorded checkpoints and first960 full-state hashes against sealed27.
+Save an exact binary state at each firstchild birth; restore clones and demand
+identical physical fingerprints before assigning diagnostic interventions.
+
+Primary matched factorial: each firstchild x four arms, from its birth to+768h:
+0 unchanged;1 suppress NEW reproductive collection before32paid nodes;2 keep a
+partly constructed connected proposal's original endpoint past the14h deadline
+while resources are missing;3 both. Targetonly that firstchild for attribution.
+No resource refund/preload,free tissue,nonlocal growth allocation,parameter tuning,
+or manual architecture. Occupied-target and disconnected-front cancellation stay.
+Causal endpoints: paidnodes>=32,completedshoots,newleaves,proposalreset/refusal
+counts,local and connected C/N/W,reserve transfers,leaf/whole operating margins,
+first unpaid/death/connectivity,offspring and founder survival. Report all outcomes.
+These are diagnostic branches, not automatic candidate defaults.
+
+Hypotheses: premature reserve collection may compete with maturation; a partially
+paid segment that expires and reproposes a NEW endpoint may never reach the
+completion event that creates leaves. Both must be verified against actual27
+traces; neither is assumed true or sufficient. Finite resource/delivery failure
+remains a separate explanation. A successful candidate must be the smallest
+supported correction, subsequently tested in ordinary all-plant development.
+
+No newengine starts below8GiB free commit; monitor at10min when blocked. No installs,
+access/security/network changes. W27/old results remain untouched.

@@ -1,0 +1,99 @@
+{
+  "ordinary_source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f",
+  "files": [
+    {
+      "path": "world.gd",
+      "bytes": 29719,
+      "sha256": "8b7457629f5b449d1d2c2c5c44a30422987b13c2d85e89a767718c255f147fce"
+    },
+    {
+      "path": "plant.gd",
+      "bytes": 5677,
+      "sha256": "f8c4b589831599ad0d8c62f7bcbf4b9582f902456216cd9bee20daa0164c74fd"
+    },
+    {
+      "path": "reserve.gd",
+      "bytes": 2769,
+      "sha256": "0f60f3d50b11de2b48750f64c82e8a83055d54e6e5a2e9417dd70ef43b33ed3b"
+    },
+    {
+      "path": "atmosphere.gd",
+      "bytes": 2803,
+      "sha256": "606debc29a800dc5884deb4cd20f02a5f05b0a7b405cdd00f4dd6dab2529b639"
+    },
+    {
+      "path": "canopy.gd",
+      "bytes": 2282,
+      "sha256": "cc502c19e75127abeff6cf35e0d40d782df58c19a4d29b4f11274e305227c75d"
+    },
+    {
+      "path": "hydrology.gd",
+      "bytes": 1774,
+      "sha256": "0f2e1be59e47849a2fbf58d14f707ca343450d1318825277a6a3e2b7cf9018c4"
+    },
+    {
+      "path": "decomposition.gd",
+      "bytes": 621,
+      "sha256": "a243f91db03c4bd2ff11b239a5aa958484015000e5f07ae39a800c358cb4e431"
+    },
+    {
+      "path": "field.gd",
+      "bytes": 10033,
+      "sha256": "76d4ef08839ee491241d413e073feef0d20b21f4aff38877da4c9e8f39f6f771"
+    },
+    {
+      "path": "field.compute.txt",
+      "bytes": 2583,
+      "sha256": "e510085a94bfa4b9c7de20ed000bf1e1b333162bb7b9718e5b8b995a578f2542"
+    },
+    {
+      "path": "serial.compute.txt",
+      "bytes": 1743,
+      "sha256": "8208d8232dfaa9ccc26002599e5392b2f57aca06e902f49ed39fdd3e89645c31"
+    },
+    {
+      "path": "legacy/model.gd",
+      "bytes": 15399,
+      "sha256": "5f1c014516cb23cc0ba03cea9f65a0419eec171dab47165022590a6ba0883233"
+    },
+    {
+      "path": "native/resource_field.dll",
+      "bytes": 90080,
+      "sha256": "553c0f7fd357638a9cfccc62359c1924696410d93e8481237b1eba2f3b6e15fe"
+    },
+    {
+      "path": "native/resource_field.gdextension",
+      "bytes": 158,
+      "sha256": "edb62f3065aa4b5796fe49b79f320f361c5178250dbce39c5388f42cf1d2e61d"
+    }
+  ],
+  "runs": [
+    {
+      "seed": 12011,
+      "source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f",
+      "complete": true,
+      "started": "2026-10-07T23:49:55.719602+00:00",
+      "dispatcher": "evidence/serial_queue.py",
+      "mutex": "Local/BlobusPlantOwnedExperimentQueue28_29",
+      "exit": 0
+    },
+    {
+      "seed": 4242,
+      "source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f",
+      "complete": true,
+      "started": "2026-10-07T23:51:12.870864+00:00",
+      "dispatcher": "evidence/serial_queue.py",
+      "mutex": "Local/BlobusPlantOwnedExperimentQueue28_29",
+      "exit": 0
+    },
+    {
+      "seed": 7301,
+      "source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f",
+      "complete": true,
+      "started": "2026-10-07T23:53:04.888828+00:00",
+      "dispatcher": "evidence/serial_queue.py",
+      "mutex": "Local/BlobusPlantOwnedExperimentQueue28_29",
+      "exit": 0
+    }
+  ]
+}

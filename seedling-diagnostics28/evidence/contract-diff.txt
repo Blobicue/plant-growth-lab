@@ -1,0 +1,34 @@
+--- W27/plant.gd
++++ diagnostics28/base_plant.gd
+@@ -80,7 +80,7 @@
+  for i in proposals.size():
+   var p=proposals[i]
+   if p.state!="developing":continue
+-  if tick>=p.deadline or not nodes[p.front].connected:
++  if proposal_expired(p) or not nodes[p.front].connected:
+    p.state="failed";totals.expired+=1
+    if p.tip>=0:tips[p.tip].node=p.front;tips[p.tip].proposal=-1;tips[p.tip].ready=tick+4
+    continue
+@@ -106,3 +106,5 @@
+  if reserve!=null:result.C+=reserve.c;result.N+=reserve.n;result.W+=reserve.w;result.E+=reserve.c*20.0
+  return result
+ func reserve_state()->Dictionary:return {"balance":reserve.duplicate(),"capacity":Reserve.CAP,"deposited":reserve_deposited.duplicate(),"refunded":reserve_refunded.duplicate(),"released":reserve_released.duplicate(),"disposed":reserve_disposed.duplicate(),"sources":reserve_sources.duplicate(),"recent":reserve_recent.duplicate(true),"last_surplus":reserve_last_surplus,"surplus":reserve_surplus,"committed":reserve_committed,"reason":reserve_reason}
++
++func proposal_expired(p:Dictionary)->bool:return tick>=p.deadline
+--- W27/world.gd
++++ diagnostics28/world.gd
+@@ -143,7 +143,7 @@
+   p.maintain()
+   if config.lifecycle==3:
+    p._connections() # Exclude tissue disconnected by this maintenance pass.
+-   Plant.Reserve.collect(p,Plant.Reserve.mobile(p)-before-refunded)
++   policy_collect(p,Plant.Reserve.mobile(p)-before-refunded)
+  audit_sample("after_maintenance")
+  resolve_growth(order)
+  audit_sample("after_construction")
+@@ -435,3 +435,5 @@
+   var at=sites[(k+parent)%sites.size()]
+   if site_free(at):return at
+  return Vector3i(0,1,0) # no physical site, not a history/lineage veto
++
++func policy_collect(p,net:float):Plant.Reserve.collect(p,net)

@@ -1,0 +1,84 @@
+REDUCED SOURCE PACKAGE: the original scope section below describes the FULL archive. This smaller package omits the PDF, screenshots, DLLs, bulk traces and old-project history; see SMALL-README.txt for its authoritative scope.
+
+PLANT LAB PRIVATE CLOUD MIGRATION SNAPSHOT — 2026-10-08
+Extract into a NEW directory. All paths below are relative to the archive root.
+No shared Windows filesystem is assumed. Run verify_snapshot.py first.
+
+CURRENT STATE
+shared-atmosphere27 is the promoted, fully checked Windows fallback. Normal
+Desktop/Start Menu shortcuts still point to W27 and were not changed.
+seedling-diagnostics28 is COMPLETE:3 passive8160h baselines and12 matched controls;
+42checks pass. bud-diagnostics29 is COMPLETE:12 extended controls and24-case
+common768h comparison;96checks pass plus12 carbon-budget reconciliation checks.
+juvenile-allocation30 is NOT PROMOTED. Three ordinary8160h shared-atmosphere runs
+are COMPLETE. Its native workbench shell was only copied/prepared, not tested or
+packaged. All our experiment queues completed and exited before this snapshot.
+
+CANDIDATE30
+Only physical change: defer NEW reproductive reserve collection in shared-air mode
+until the EXISTING32-paid-node maturity gate is met. Applies to founders and
+descendants. No threshold/price/rate/gene/deadline change, reserve refund/preload,
+caregiving or manual architecture. Private-carbon control retainsW27 behavior.
+Paid ordinary grandchildren appeared in all3seeds:12011 at7334h;4242 at5318h;
+7301 at5510h. Their parents each had32living nodes at8160h. Only seed12011's
+grandchild survived(13nodes); the other two died. This is not indefinite
+self-sustainability. See ORDINARY-COMPARISON.json and the original full results.
+
+CONTINUE
+1.Resolve the engine/native ABI mismatch below in a NEW cloud port, preserving
+original source/evidence. Establish small CPU reference/parity checks. Do not
+relabel old hashes as cloud results: serialization and ABI versions matter.
+2.Complete candidate30 resource/conservation and juvenile/mature allocation checks,
+fairorder, CPU parity, exact replay, native Windows/GPU checks on suitable
+hardware, and package integrity. Retain W27 fallback before promotion.
+3.Native preparation is unfinished: lab.gd still has W27 branding/schema literals;
+copied tests.gd/run.py/native helpers need coherent review. Do NOT run copied
+queue_validation.py blindly or repeat completed ordinary matrices just to refresh
+metadata. Original scripts are Windows-specific.
+4.Candidate evidence/scientific-runtime-manifest.json preserves13 exact runtime
+hashes and original run records. ordinary-project.godot and ordinary-preflight.py
+preserve the original minimal runner shell. Broad source digest changed when
+UI/helpers were added AFTER the ordinary runs. Qualify unchanged runtime
+explicitly; never overwrite or retag original run evidence.
+No public deployment, push, merge, persistent-access registration, or complex
+chemistry/backend redesign is requested.
+
+COMPATIBILITY
+Windows used Godot4.7.2.stable.official.ed1daf0bf
+(full observed hash ed1daf0bf001b61586d9930840f2f1394092c079).
+Cloud has Godot4.6.3 and GCC/G++14.2. The backend is C11, NOT C++; no godot-cpp or
+SCons is required. Its header marks classdb_construct_object3 and
+classdb_register_extension_class6 as "since4.7". Godot4.6.3 cannot load it unchanged.
+Do not merely lower compatibility_minimum or blindly rename APIs. See NATIVE-BUILD.txt.
+
+EXPERIMENTS
+Exact birth checkpoints: seedling-diagnostics28/evidence/birth-{seed}.bin.
+checkpoint.gd restores field quanta/world/plant state and asserts full fingerprint.
+Arms atCOMMON768h:0 unchanged;1 deferbank(A);2 retainpartial(B);3 AB;4 BC;5 ABC;
+6 AC;7 retainleafonly(C). Primary0-3 end768h; secondary4-7 extend3072h. Do not infer
+late-horizon necessity from mismatched follow-up. Retention alone changed no paid
+growth. Bank deferral improved every seed. The full bundle harmed seed7301 survival
+and was NOT adopted. Preserve all negative evidence.
+Two actual native W27 saved records are under saved-experiments/W27. Place copies
+in the project's resolved user://air27/runs/, not a guessed Windows path.
+They differ from diagnostic birth checkpoints and raw matrix JSON.
+Review a cloud launcher with explicit engine path, serialized ownership and the
+8GiBheadroom policy's Linux equivalent. Do not silently weaken safeguards or run
+historical launchers together. Old PIDs are historical and can be reused; never
+act on them without identity revalidation. No owned jobs were active at snapshot.
+
+SCOPE
+Included: non-cache W27/28/29/30 source/evidence/checkpoints; native C/header/small
+DLLs; licenses; compact failed-approach source/reports20-26; native ABI/build
+findings; two native saves; original ABOP PDF; small Windows build-input assets.
+Excluded: Godot EXEs, packaged EXE/PCK copies, caches/objects, shortcuts, private
+control state, auth/transfer files, and large raw histories from older context-only
+projects. Originals remain on PC. This archive's manifest defines coverage.
+Historical seals may reference omitted platform binaries; that is not source
+corruption.
+The uploaded voxel-reference ZIP is not present as readable local bytes here.
+If needed, materialize Library libfile_18205a1023fc819189c8e8e65ea500f2, filename
+"Hexagonal prism voxel game assets (8).zip", using the current Library skill on
+the CONSUMING cloud executor. Never reuse an old signed URL.
+No auth files or signed transfer URLs are included. Historical local paths and
+PIDs in evidence are provenance, not shared-filesystem or access assumptions.

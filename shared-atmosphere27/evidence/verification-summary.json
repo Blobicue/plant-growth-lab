@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-07T20:48:12.538479+00:00",
+  "source_digest": "a142984f09f6e0e09075da09ddeb50dc8b5cb396f3e61703eebace5fbe142d45",
+  "checks": {
+    "model": 20,
+    "fixture": 5,
+    "parity": 9,
+    "native": 9,
+    "restart": 7,
+    "ui_safety": 3,
+    "shortcut": 5,
+    "package": 17
+  },
+  "engine_native_safety_shortcut_checks": 58,
+  "package_checks": 17,
+  "cli_parser_checks": 1,
+  "ordinary_cases": 6,
+  "ordinary_horizon": 8160,
+  "ordinary_grandchildren": 0,
+  "shared_founder_births_by_seed": {
+    "12011": 2,
+    "4242": 1,
+    "7301": 1
+  },
+  "prepared_fixture_child_hour": 358,
+  "prepared_fixture_grandchild_hour": 1158,
+  "fixture_is_not_ordinary_growth": true,
+  "previous_sealed_files_unchanged": 636,
+  "normal_entry": "shared-atmosphere27",
+  "fallback": "carbon-workstation20",
+  "mutation": false,
+  "pending": 0,
+  "blocker": null,
+  "limitations": [
+    "ordinary descendants remain below32paid-node maturity gate",
+    "prepared caregiving fixture is not natural viability",
+    "well-mixed demand-bounded air, not resolved gas diffusion",
+    "dead tissue remains matter/obstacles; no indefinite replacement claim"
+  ],
+  "screenshots_reviewed": [
+    "native-fresh-final.png",
+    "native-mode-0.png",
+    "native-mode-1.png",
+    "native-restart-fresh.png",
+    "native-restart-replayed.png",
+    "native-shortcut-fresh.png",
+    "native-child-carbon.png"
+  ]
+}

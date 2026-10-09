@@ -1,0 +1,345 @@
+[
+  {
+    "seed": 12011,
+    "baseline_lineage": [
+      {
+        "birth_tick": 742,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 7238,
+        "child": 3,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 1
+      }
+    ],
+    "candidate_lineage": [
+      {
+        "birth_tick": 838,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 7334,
+        "child": 3,
+        "generation": 2,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 2,
+        "propagule": 1
+      }
+    ],
+    "baseline_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 53,
+        "living": 22,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 58,
+        "living": 53,
+        "leaves": 5
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 12,
+        "living": 0,
+        "leaves": 4
+      },
+      {
+        "id": 3,
+        "generation": 1,
+        "nodes": 11,
+        "living": 11,
+        "leaves": 4
+      }
+    ],
+    "candidate_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 54,
+        "living": 14,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 59,
+        "living": 54,
+        "leaves": 5
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 32,
+        "living": 32,
+        "leaves": 4
+      },
+      {
+        "id": 3,
+        "generation": 2,
+        "nodes": 13,
+        "living": 13,
+        "leaves": 4
+      }
+    ],
+    "global_error": 1.74622982740402e-10,
+    "plant_error": 1.70530256582424e-12
+  },
+  {
+    "seed": 4242,
+    "baseline_lineage": [
+      {
+        "birth_tick": 710,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      }
+    ],
+    "candidate_lineage": [
+      {
+        "birth_tick": 678,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 1286,
+        "child": 3,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 1
+      },
+      {
+        "birth_tick": 5318,
+        "child": 4,
+        "generation": 2,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 2,
+        "propagule": 2
+      }
+    ],
+    "baseline_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 57,
+        "living": 30,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 56,
+        "living": 51,
+        "leaves": 5
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 12,
+        "living": 0,
+        "leaves": 4
+      }
+    ],
+    "candidate_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 57,
+        "living": 11,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 59,
+        "living": 56,
+        "leaves": 6
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 32,
+        "living": 32,
+        "leaves": 4
+      },
+      {
+        "id": 3,
+        "generation": 1,
+        "nodes": 30,
+        "living": 30,
+        "leaves": 4
+      },
+      {
+        "id": 4,
+        "generation": 2,
+        "nodes": 12,
+        "living": 0,
+        "leaves": 4
+      }
+    ],
+    "global_error": 1.74622982740402e-10,
+    "plant_error": 2.95585778076202e-12
+  },
+  {
+    "seed": 7301,
+    "baseline_lineage": [
+      {
+        "birth_tick": 742,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 15220,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      }
+    ],
+    "candidate_lineage": [
+      {
+        "birth_tick": 806,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 15220,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 5510,
+        "child": 3,
+        "generation": 2,
+        "genotype": {
+          "branch_seed": 15220,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 2,
+        "propagule": 1
+      }
+    ],
+    "baseline_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 56,
+        "living": 31,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 58,
+        "living": 55,
+        "leaves": 5
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 12,
+        "living": 0,
+        "leaves": 4
+      }
+    ],
+    "candidate_end": [
+      {
+        "id": 0,
+        "generation": 0,
+        "nodes": 56,
+        "living": 29,
+        "leaves": 4
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "nodes": 59,
+        "living": 55,
+        "leaves": 5
+      },
+      {
+        "id": 2,
+        "generation": 1,
+        "nodes": 32,
+        "living": 32,
+        "leaves": 4
+      },
+      {
+        "id": 3,
+        "generation": 2,
+        "nodes": 12,
+        "living": 0,
+        "leaves": 4
+      }
+    ],
+    "global_error": 1.74622982740402e-10,
+    "plant_error": 2.8421709430404e-12
+  }
+]

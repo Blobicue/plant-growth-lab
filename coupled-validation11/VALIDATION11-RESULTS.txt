@@ -1,0 +1,70 @@
+COUPLED11 VALIDATION CHECKPOINT — NATIVE CPU AND QUANTIZATION
+
+FINDING
+The compiled CPU field backend is faster for this2184-cell coupled workload. Coupled10's apparent GPU advantage was against interpreted field code. Do not use that earlier timing to justify replacing the backend.
+Resource precision also matters: coarse quanta alter represented inventory, uptake and plant topology. The three finest tested quanta(1e-8,1e-9,1e-10) matched funded topology at every recorded tick for both tested seeds, but their resource uptake values were not identical. This is bounded evidence, not universal convergence or species calibration.
+The reviewed Coupled10 application, package, shortcuts and biological rules remain unchanged. Native code and all experimental variants are confined to coupled-validation11/. No installation, persistent access, MCP registration, credential or network change occurred.
+
+FAIR NATIVE COMPARISON
+NativeResourceField is an in-process Godot GDExtension written in C, compiled with the already installed MinGW-w64 GCC13.2.0 using -O3 -g -std=c11 -shared. It uses resident ping-pong uint32 cell arrays, exact int64 intermediates/uint64 totals, sequential bounded exchanges, the same sparse query results and diagnostics. No external-process IPC is used. The installed Godot4.7.2 engine generated its matching ABI header; the header's license and GODOT-LICENSE.txt are retained. DLL imports are only existing Windows/UCRT APIs(listed in evidence/native-dependencies.txt).
+This compiles the resource backend, not the entire biological model. Both CPU and GPU paths call the SAME unchanged GDScript physiological/construction functions and equivalent coupling/diagnostic work. Rewriting biology into C would introduce another source of differences and is outside this checkpoint. The native code is a single-threaded optimized reference, not a claim of the fastest possible CPU implementation.
+Hardware: AMD Ryzen7 7800X3D(8cores/16threads) and NVIDIA RTX5070Ti, driver610.88; hardware.json retains the system-reported versions. Other user applications were left running; these are bounded local measurements, not an isolated hardware certification.
+
+Three backends were measured: native_cpu, the original reviewed Coupled10 GPU algorithm at1e-9(gpu_original), and the wide-accounting validation GPU(gpu_wide). At1e-9 they have identical complete field-and-plant fingerprints. All six seed/preset baseline fingerprints also match the reviewed Coupled10 results. The original GPU copy differs only in resource-path wiring and a scale accessor; its numerical kernel is retained unchanged.
+One warm-up triplet preceded six measured triplets. All six execution-order permutations were used. Seed12011, fed preset,96ticks, same grid, boundaries, initial quantized inventories and update order. Every tick runs the same guard, metrics and quick signature after simulation. The endpoint audit reads full fields and hashes the complete state. All18measured endpoints matched exactly and were healthy.
+
+MEDIAN MILLISECONDS PER96TICK RUN
+backend | model+field setup | simulation | diagnostics | loop wall | end audit | setup+loop+audit
+native_cpu | 6.311 | 31.274 | 66.347 | 97.854 | 0.522 | 104.835
+gpu_original | 138.589 | 53.544 | 60.293 | 113.868 | 0.656 | 254.098
+gpu_wide | 136.415 | 54.025 | 61.159 | 115.120 | 0.639 | 253.918
+Native simulation range: [28.462, 33.357]; original GPU simulation range: [51.631, 55.19]ms. No measured native simulation run was slower than an original-GPU simulation run.
+Native extension loading/registration was separately1.239ms, once per process, before the warm-up; include that for a cold native session. Common engine startup/script loading, application rendering/pacing, and teardown are excluded from BOTH paths. The raw complete_ms field means setup+loop+audit only, not whole-application startup/close time. Per-component medians need not sum to the median total.
+Simulation includes command construction, conversion, native ABI calls or GPU upload/dispatch/sync/readback, receipt decoding, actual root credit, physiological transport/photosynthesis/maintenance and paid construction. Native per-call allocation/conversion costs are included. GPU startup includes device/pipeline/buffer creation; it is not hidden. Diagnostics dominate much of the now-shorter CPU loop. No FPS or pure shader timestamp is presented as coupled throughput.
+
+PRECISION SWEEP
+Tested physical quantum1e-5,1e-6,1e-7,1e-8,1e-9,1e-10model units; scales are their reciprocals. Seeds12011and4242, fed/water-absent/nitrogen-absent presets,96ticks each:36paired cases and3456paired ticks. No biological parameter, seed, timestep, deposit schedule, starvation preset, threshold or branching rule was retuned.
+Each precision begins from the SAME unquantized physical field formula, rounded to its grid. Reservoir quantities and pulse sizes keep the SAME physical values. Uptake requests truncate downward to quanta. Precision therefore changes both initial represented inventories and per-step flux/uptake truncation; these effects were not separated by compensating totals or silently normalizing fields.
+Conservative face diffusion remains W:trunc(3*delta/100), N:trunc(2*delta/100)in integer units, with no-flux boundaries. Signed face fluxes are equal/opposite. A difference of34W-quanta or50N-quanta is needed for a nonzero one-quantum flux. At coarse precision, small gradients stall while total mass remains conserved. Native/GPU field inventories are exact integers; plant ledgers remain floating point under the unchanged biological code.
+
+FED RESULTS — SEEDS12011/4242
+quantum | paid cells | full topology history matches1e-10,both seeds | max N uptake difference vs1e-10 | max W uptake difference
+1e-05 | 29 / 29 | NO | 49.29070% | 31.16653%
+1e-06 | 37 / 36 | NO | 22.24574% | 10.29043%
+1e-07 | 39 / 39 | NO | 2.84678% | 15.34962%
+1e-08 | 37 / 39 | yes | 0.14276% | 0.00021%
+1e-09 | 37 / 39 | yes | 0.01337% | 0.00002%
+1e-10 | 37 / 39 | yes | 0.00000% | 0.00000%
+Topology hashes include every funded node's position,parent,kind and birth tick; equality of cell counts alone was not accepted. Coarse effects are non-monotonic:1e-7produced39cells for both seeds, while the finer result is37/39. The1e-6case with37cells still had a different topology from the finer37-cell case.
+At1e-9,N uptake differed from the finest tested result by at most0.01337% across the two fed seeds; at1e-8the bound was0.14276%. These are observed two-seed/96tick differences, not tolerance guarantees. No unquantized-continuum reference or longer-horizon convergence is claimed.
+All24starvation cases remained seven living paid cells, with zero new built carbon. Uptake of the absent resource was exactly zero. Integer field conservation, positivity, reservoir accounting and CPU/GPU agreement passed at every precision. Maximum observed full-plant budget discrepancy was3.411e-13model units, below the existing1e-9guard.
+Initial inventory rounding is visible and recorded: at1e-5, nominal soil N0.2becomes0.19656; at1e-9it is0.1999998; at1e-10it is0.2000000184. This is part of the sensitivity result, not a hidden biological adjustment. Exact initial ledgers and represented totals are in precision-results.json.
+
+RANGE / OVERFLOW RULES
+Reviewed Coupled10 uses uint32 field totals. At quantum1e-9 its maximum representable total is4.294967295units, enough for the bounded~4.12water budget. At1e-10that same accumulator would represent only0.4294967295units and cannot support the fed case; using it would be invalid.
+Validation therefore uses two32-bit limbs for each GPU total(with explicit carry) and uint64 native totals. Cell storage remains uint32, physically capped at0.1units. At the finest tested precision, each cell holds at most1,000,000,000quanta, and the entire2184-cell domain at most2,184,000,000,000quanta(218.4units). These are the validated bounds, not the theoretical capacity of an unconstrained uint64 total.
+The GPU avoids signed32-bit product overflow through an exact quotient/remainder decomposition: trunc(delta/100)*coefficient + trunc((delta-trunc(delta/100)*100)*coefficient/100). The native CPU computes the equivalent expression with int64 intermediates. Precision1e-11is explicitly rejected BEFORE GPU allocation because its per-cell range exceeds the validated bound. Fixed-grid dimensions, cell capacities, finite inventory and command limits remain bounded.
+Seven additional range checks passed: maximum-cell impulse and maximum uniform field, exact wide totals above2^32, positivity, full native/GPU agreement, and rejection of unsupported finer precision. They exercise the overflow-sensitive cases directly, beyond ordinary plant inventories.
+
+NEGATIVE EVIDENCE AND REPAIRS
+The first native class registration crashed because empty native String metadata was not initialized. Its source and raw crash logs are retained in evidence/native-registration-failure/. Initializing the metadata removed the crash; final native smoke, all numerical suites and review stderr are clean. This is a local reference-module repair, not a change to the reviewed application.
+The first wide GPU flux decomposition used signed %. It failed conservation/reference checks immediately. The installed SPIR-V tool confirms that expression compiled to OpSMod, while division compiled to OpSDiv. Explicitly reconstructing the truncating remainder restored equal/opposite signed fluxes and exact agreement. Original shader, failed output and disassembly are retained in evidence/signed-remainder-failure/. These failed runs are NOT included as successful results. Original Coupled10's GPU kernel did not contain this introduced decomposition and was never modified.
+The initial two-backend timing set is retained under evidence/initial-wide-benchmark/; the final three-backend set is native-benchmark.json. No allocation failure occurred in these final runs. Memory safeguards refused launch below3GiB commit headroom and would stop only the owned validation process below1GiB or at150seconds. Peak observed working set was about1.09GB, sampled private commit1.30GB; sampling100ms. No unrelated application was closed.
+
+REVIEWED ARTIFACTS
+Actual Windows screenshot: evidence/precision-review.png. It shows29cells at1e-5versus37at1e-9and1e-10for seed12011, with measured uptake and initial N labels. This is a native rendered window, captured only after verifying the foreground PID; no Godot framebuffer capture was used. Its disposable review window was closed. The ordinary reviewed Plant Field Coupling Lab remains available unchanged.
+Per-tick equality checks compare the complete plant snapshot and compact field summary; full field arrays are compared at the endpoint. The additional high-range field tests compare full arrays after the bounded run. This avoids silently charging every-tick full readbacks to only one performance path.
+
+Raw evidence: precision-results.json(121checks plus all per-tick histories), range-tests.json(7checks), native-benchmark.json(all18timed runs), analysis.json, memory.json, endpoint binaries/manifest and raw logs. Independent interpreted CPU references matched compiled CPU endpoints at all six precisions. All six1e-9baseline fingerprints match reviewed Coupled10.
+Endpoint .bin files retain the inherited biological state identity for exact baseline comparison; their scale MUST be taken from the matching precision-results row/endpoint-manifest.json. They are validation snapshots, not standalone replay records for the reviewed application.
+
+REPRODUCE WITH EXISTING TOOLS
+From the original plant-growth-lab root:
+ gcc -O3 -g -std=c11 -shared -o coupled-validation11/native/resource_field.dll coupled-validation11/native/resource_field.c
+ python coupled-validation11/run.py
+For only the final timing comparison: python coupled-validation11/run.py --benchmark-only
+Use the installed Godot4.7.2binary with --path pointing to coupled-validation11 and --script res://range_tests.gd for bounds checks, or res://review.tscn for the temporary visual review. The native interface header can be regenerated with that same engine's --dump-gdextension-interface. No fetched dependency or package installation is required. This local module was tested against that exact engine/Windows ABI only; it is not a portable published plugin.
+
+PRESERVATION AND PRACTICAL NEXT STEP
+Verified342entries across the reviewed workstation, prior field benchmark and Coupled10 manifests: unchanged. The legacy biological model copy is byte-identical. All new work is in coupled-validation11/. No backend replacement, app repackaging, deployment, merge or persistent-access change was made.
+For this small grid, prefer investigating the compiled CPU path before further GPU integration. Keep1e-9as the reviewed experiment's precision; it passed this bounded sensitivity check, and coarsening for speed is not justified. Next useful work is a separate native-CPU lab option plus a controlled grid-size crossover experiment and a broader seed/horizon precision check. Optimize shared diagnostics before attributing whole-loop latency to the field solver. Do not silently change the reviewed package at this checkpoint.

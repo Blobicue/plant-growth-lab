@@ -1,0 +1,9 @@
+{
+  "seed": 4242,
+  "source_digest": "833efbbf83ee8c513795b82ca757feb92c1aae38f18005fb38ca1a55cc02d10f",
+  "complete": true,
+  "started": "2026-10-07T23:51:12.870864+00:00",
+  "dispatcher": "evidence/serial_queue.py",
+  "mutex": "Local/BlobusPlantOwnedExperimentQueue28_29",
+  "exit": 0
+}

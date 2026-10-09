@@ -1,0 +1,33 @@
+NATIVE BUILD NOTES
+Original native/resource_field.c is C11 with vendored gdextension_interface.h
+and GODOT-LICENSE.txt. Original compiler:MinGW-w64 GCC13.2.0:
+ gcc -O3 -g -std=c11 -shared -o native/resource_field.dll native/resource_field.c
+Original engine:Godot4.7.2.stable.official.ed1daf0bf. It generated the matching
+header with --dump-gdextension-interface. No godot-cpp, C++binding library or SCons.
+
+Linux needs a reviewed export change in a COPY:
+ __declspec(dllexport) -> __attribute__((visibility("default")))
+Typical compile after that platform adaptation:
+ gcc -O3 -std=c11 -fPIC -shared -I native -o native/resource_field.so native/resource_field_linux.c
+Add an appropriate linux.x86_64 entry to a COPY of resource_field.gdextension.
+These Linux commands have NOT been executed or validated on this Windows executor.
+
+Current source uses4.7-only classdb_construct_object3 and
+classdb_register_extension_class6 / GDExtensionClassCreationInfo6.
+Options for the consuming executor:
+A.Use a matching4.7.2 Linux engine, rebuild C extension, and verify CPU parity.
+B.Explicitly port to4.6.3 against its generated ABI header, auditing class creation,
+refcount/postinitialization semantics and callback layouts. Do not merely lower
+compatibility_minimum or rename function pointers.
+C.An interpreted reference exists in field.gd. In an isolated reference copy,
+change the world constructor's forced validation/cpu="native" to "gdscript" and
+avoid harness extension-loading calls. Tag/test it as a new backend/version.
+
+Keep integer field scale1e9, signed division semantics, bounded claims, exact
+allocation and conservation. Prior registration/remainder failures are documented
+in the included validation notes.
+GCC/G++14.2 suffices for the C11 compiler requirement; Godot4.6.3 does not meet the
+unchanged module's ABI requirement. No Linux/native/GPU compatibility or
+candidate30 Windows package verification is claimed by this archive.
+Original helpers use Python3.11 standard library. Optional Windows UI capture
+requires Pillow; optional charts may use NumPy/matplotlib. They are not vendored.

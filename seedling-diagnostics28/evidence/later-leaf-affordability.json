@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 12011,
+    "mode": 3,
+    "expired_tick": 820,
+    "front": 12,
+    "first_later_sample_affordable": {
+      "tick": 1265,
+      "local": {
+        "active": true,
+        "birth": 806,
+        "bound_w": 0.000720000000000001,
+        "c": 0.00194993303406663,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.000132052460721801,
+        "parent": 11,
+        "pos": "(4, 4, 3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.00400627489412576
+      }
+    },
+    "interpretation": "Observed affordability at the original attachment point only; does not simulate diversion, competition, maintenance or later feedback. Absence of a sample does not prove later impossibility."
+  },
+  {
+    "seed": 4242,
+    "mode": 3,
+    "expired_tick": 735,
+    "front": 11,
+    "first_later_sample_affordable": null,
+    "interpretation": "Observed affordability at the original attachment point only; does not simulate diversion, competition, maintenance or later feedback. Absence of a sample does not prove later impossibility."
+  }
+]

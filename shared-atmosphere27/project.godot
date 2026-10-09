@@ -1,0 +1,16 @@
+config_version=5
+[application]
+config/name="Plant Growth Lab / Shared Finite Atmosphere"
+config/version="27.0.0"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="BlobusPlantAir27"
+run/main_scene="res://lab.tscn"
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=1080
+window/size/window_width_override=1440
+window/size/window_height_override=1080
+window/size/min_width=1280
+window/size/min_height=1000
+[rendering]
+renderer/rendering_method="mobile"

@@ -1,0 +1,4 @@
+[application]
+config/name="Seedling causal diagnostics28"
+[rendering]
+renderer/rendering_method="mobile"

@@ -1,0 +1,32 @@
+SHARED ATMOSPHERE27 - preregistered correction,2026-10-07
+Base: reviewed W20; no operating/growth escrow experimental allocators.
+Ordinary matrix: seeds12011,4242,7301 x private-control/shared-air,8160h,
+scenario3,soilW.3,N.01,diagonalflux.08,12/12day,recycling/decomposition ON,
+surplus lifecycle3. All outcomes recorded; no coefficient tuning. Primary endpoint
+is a paid founder->child->grandchild chain; a negative ordinary result is retained.
+Fixtures independently validate accounting and lifecycle gates; never describe a
+prepared fixture as ordinary viable growth. Mutation OFF. Runtime8GiBguard applies.
+
+Contract: shared finite atmosphericC initially receives each founder's existing5C
+private gas. No totalC or energy is added. Perplant optical/water biochemical
+claims are floored to1e-9C; aggregate frozen demand receives proportional integer
+shares with rotating remainder ties. Shares never exceed physiological demand
+or stock. Allocation precedes all photosynthesis. Respiration,unused shares and
+litter mineralization are returned AFTER the hour's growth/lifecycle and cannot be
+reused mid-hour. Seed respiration/assembly loss also returns to shared air.
+Perplant cumulativeC receipts/returns and world source/debit/credit ledgers audited.
+
+The .05organicC/.002N/.04W seed and .001assemblyC costs are unchanged. The old.1C
+private gas parcel is removed only in sharedmode: atmosphericC stays in the finite
+commons and is acquired by actual light/water-limited fixation. Privatecontrol
+retains the old gas parcel and onecommitment/sixrecords behavior. Sharedmode permits
+new paid commitments after prior seed resolves; ordinary32paid-node/64h checks,
+32h request cadence and offspringconstructor remain. Sites are chosen from a
+fixed deterministic finite list, checking ACTUAL tissue/pendingseed occupancy.
+Historical lineage entries never occupy a site. Deadpaidtissue remains actual
+matter/obstacle; no deletion/free recycling is introduced.32plantrecords or4096
+paidcells and field request capacity are COMPUTATIONAL bounds that censor the
+whole shared experiment, not selective biological birth vetoes.
+
+Normal entry changes only after full current-source model,parity,replay,native
+controls/lineage/flow inspection and package/shortcut checks. PreserveW20fallback.
