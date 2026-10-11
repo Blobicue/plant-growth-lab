@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ustring.cpp",
+    "url": "https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/core/string/ustring.cpp",
+    "sha256": "fc403ff50652c5258bcf28d4b5ab5ac377301b656763c7ad87d9cf748bbbb903",
+    "bytes": 140220
+  },
+  {
+    "file": "json.cpp",
+    "url": "https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/core/io/json.cpp",
+    "sha256": "3e15e166841d96466ee2890f5e9340f7ffcd9e06c4211229881c019eeeb069d5",
+    "bytes": 41232
+  },
+  {
+    "file": "ustring.h",
+    "url": "https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/core/string/ustring.h",
+    "sha256": "038c5bf786258bdf438234949641891539831daec1d7bd3310a75350bf68a9e2",
+    "bytes": 32268
+  }
+]

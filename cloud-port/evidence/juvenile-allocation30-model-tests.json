@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "name": "private control exactly matches W20 physical metrics every hour960",
+      "pass": true
+    },
+    {
+      "name": "shared initialization transfers existing founder gas without subsidy",
+      "pass": true
+    },
+    {
+      "name": "shared960h positivity and global/plant C N W E ledgers",
+      "pass": true
+    },
+    {
+      "name": "actual assimilation access and accounted respiration/litter returns",
+      "pass": true
+    },
+    {
+      "name": "perplant receipts reconcile with global air",
+      "pass": true
+    },
+    {
+      "name": "dark conservative resource boundary",
+      "pass": true
+    },
+    {
+      "name": "no fixation or atmospheric withdrawal in darkness",
+      "pass": true
+    },
+    {
+      "name": "dry conservative resource boundary",
+      "pass": true
+    },
+    {
+      "name": "noN conservative resource boundary",
+      "pass": true
+    },
+    {
+      "name": "symmetric competition bounded fair rotating remainder no double spend",
+      "pass": true
+    },
+    {
+      "name": "empty finite source grants zero",
+      "pass": true
+    },
+    {
+      "name": "five-quanta finite air exhausted without overdraft",
+      "pass": true
+    },
+    {
+      "name": "allocated atmospheric C used by actual photon-limited fixation",
+      "pass": true
+    },
+    {
+      "name": "no available carbon means no fixation despite light and water",
+      "pass": true
+    },
+    {
+      "name": "safety censor freezes whole experiment rather than selecting a birth",
+      "pass": true
+    },
+    {
+      "name": "second parent commitment is fully paid after prior seed resolves; fixture only",
+      "pass": true
+    },
+    {
+      "name": "shared seeds have no duplicated private gas parcel",
+      "pass": true
+    },
+    {
+      "name": "offspring constructor contains zero tissue and zero matter subsidy",
+      "pass": true
+    },
+    {
+      "name": "shared/private carbon mode in exact replay schema",
+      "pass": true
+    },
+    {
+      "name": "fractional carbon mode rejected",
+      "pass": true
+    }
+  ]
+}

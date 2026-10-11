@@ -1,0 +1,24 @@
+{
+  "adapter": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "catalog_sha256": "abe1cb7e411d85c7f19f52efe920ce2167735a4ed4b5517e340adbdf9184f411",
+  "checks": [
+    {
+      "name": "startup paused, control off, no archive/live hidden resume",
+      "pass": true
+    },
+    {
+      "name": "six exact F1 catalog records",
+      "pass": true
+    },
+    {
+      "name": "only archive selection/pane retained across process reopen",
+      "pass": true
+    },
+    {
+      "name": "window-close path stops replay and revokes control",
+      "pass": true
+    }
+  ],
+  "display": "X11",
+  "reopen": true
+}

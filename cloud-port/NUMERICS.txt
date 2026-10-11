@@ -1,0 +1,79 @@
+JSON METRICS DIAGNOSIS — SEPARATE FROM PHYSICAL VALIDATION
+
+The original strict comparisons and exit statuses are retained. No original
+JSON, state hash, physics constant or conservation threshold is rewritten.
+
+Godot4.7.2 source inspection identifies two transformations:
+1. JSON.stringify with default full_precision=false formats floating values
+   with about15 significant decimal digits, using String.num and the host C
+   formatter. String.num permits at most32 fractional digits.
+2. JSON.parse_string calls String.to_float. Its built_in_strtod consumes at most
+   the first18 mantissa digits, including the leading zero and fractional leading
+   zeroes; later digits are discarded before applying the exponent. Consequently
+   fixed decimal and scientific spellings of the same mathematical number need
+   not decode to the same binary64 number.
+
+The candidate archive records _repository_compaction and uses scientific notation
+for many small values. The golden harness parses that archive once but serializes
+and parses fresh metrics in default fixed decimal form. That asymmetry is part of
+the failed strict metric comparison. W27 archive samples are already fixed-decimal
+and were idempotent in the tested roundtrip probe. All24 candidate sample records
+were non-idempotent. This behavior exists without taking a simulation step.
+
+The new numeric_diagnostics.gd probe preserves raw binary64 bits, shortest
+full-precision decimal strings, default formatter output and parse results. It
+replays only W27 up to960h at the five archived early checkpoints for all six
+seed/mode cases, and restores the three already-verified candidate8160h snapshots.
+Every one of these33 checkpoint fingerprints must match before recording metric
+diagnostics. This isolates reporting from biological divergence. No full8160h
+matrix or completed survival extension is repeated for this diagnosis.
+
+NUMERICAL COMPARISON CONTRACT
+For diagnostic raw binary64 metrics against archived decimal metrics, use the
+archive formatter's rounding interval, not a fixed epsilon selected from observed
+errors. Let q =10^max(-32, floor(log10(abs(archive_value)))-14), with q=1e-32 for
+zero. Require abs(exact_binary64_value - archived_decimal) <= q/2 + one binary64
+ulp at the archived value. q/2 follows the15-significant-digit formatter; the ulp
+accounts for binary conversion at the decimal rounding boundary. Decimal and
+binary bit decoding make this independent of Godot's lossy JSON parser. The
+script numeric_analysis.py implements and records the criterion on all strictly
+mismatching scalars found by the33-checkpoint probe. A failure stays a failure.
+This is a report-precision criterion, not permission to change conservation
+limits or accept nonidentical physical hashes. Counts, identities, strings,
+container structure, simulation full-state hashes and replay remain exact.
+
+Default parsed JSON must not be used as a lossless saved state. Diagnostic records
+use binary snapshots and explicit full-precision strings/bits. Original evidence
+and strict failures remain available alongside this supplemental diagnosis.
+
+Vendor sources (download SHA256 values retained in godot-json-source-provenance.json):
+https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/core/io/json.cpp
+https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/core/string/ustring.cpp
+https://docs.godotengine.org/en/4.7/classes/class_json.html
+
+MEASURED RESULTS
+All33 physical checkpoints match exact archived hashes. At30 W27 checkpoints,
+13 strictly differing scalars all satisfy the derived raw/archive interval. At
+three candidate8160h checkpoints,617 differing scalars all satisfy it;613 of617
+are reproduced exactly by the archived-value JSON roundtrip alone. The remaining
+four and all13 W27 cases are decimal rounding-boundary cases. For example, raw
+0.002874464785163565 is printed by Linux as0.00287446478516356, whereas the archive
+has0.00287446478516357. The raw binary value lies within one ulp of the midpoint.
+Rounding the shortest decimal spelling half-up reproduces all17 archive residuals;
+this is an explicit formatter emulation, not an executed Windows runtime test.
+
+A pure parser probe, with no simulation/reduction, decodes fixed decimal
+0.000000000000007105427357601 to7.1e-15, while7.105427357601e-15 retains that value;
+serializing and parsing the latter once more also produces7.1e-15. Its two raw
+binary encodings are recorded in the evidence. Thus the primary candidate report
+mismatch is lexical serialization/parsing, independent of allocation order.
+
+The remaining pattern is archive/Linux decimal formatter boundary behavior, not
+observed physical reduction-order divergence: raw reserve values and Air.report
+are included in exact state fingerprints; aggregate report fields derive from
+those same ordered nodes. Forward/reverse physical hashes also remain exact.
+The precise Windows C-runtime conversion path cannot be executed in this Linux
+workspace, so its historical implementation is not claimed independently verified.
+The630-scalar analysis covers the33 targeted checkpoints, not an invented raw-
+precision reconstruction of every historical checkpoint. Earlier strict logs,
+including later W27 checkpoint differences, remain unchanged and inspectable.

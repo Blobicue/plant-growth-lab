@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30",
+    "--script",
+    "res://restart_checks.gd",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30/lab.pck"
+  ],
+  "input_sha256": {
+    "lab.pck": "e51e2de0a588c26263b9cc25f6969d65757af2d57fb25880ba6ebae4e2c7f308",
+    "native/resource_field.so": "061f31f814abab39ff32d320434d6d2a51b386752996400cecd4dd5585e65dc4"
+  },
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 1.1058426480001344,
+  "peak_rss_bytes": 126648320,
+  "initial_headroom_bytes": 16489586688,
+  "minimum_headroom_bytes": 16436232192
+}

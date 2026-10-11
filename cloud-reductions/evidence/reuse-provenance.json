@@ -1,0 +1,57 @@
+[
+  {
+    "seed": 12011,
+    "id": 2,
+    "mode": 0,
+    "source": "cloud-transport/evidence/trial-12011-2-0.json",
+    "sha256": "768b89b5fa0778e6a5f904d0ab3544696bb598774cb608e85d101bb184083d95",
+    "requires_exact_hourly_replay": true,
+    "R1_hourly_hashes_exact": 768,
+    "R1_verification": "verify-12011-2-0.json",
+    "reused_without_replacement": true
+  },
+  {
+    "seed": 12011,
+    "id": 2,
+    "mode": 24,
+    "source": "cloud-transport/evidence/trial-12011-2-24.json",
+    "sha256": "5ebe88d60126905fbf9e0c0292cd57f04500b4307ef34dd1aebca4c12d5e9e79",
+    "requires_exact_hourly_replay": true,
+    "R1_hourly_hashes_exact": 768,
+    "R1_verification": "verify-12011-2-24.json",
+    "reused_without_replacement": true
+  },
+  {
+    "seed": 12011,
+    "id": 2,
+    "mode": 48,
+    "source": "cloud-transport/evidence/trial-12011-2-48.json",
+    "sha256": "aea5a646972f976096c6ef50fa6b5bf39c31c083ed48d387f0c4ec7f829a0fa4",
+    "requires_exact_hourly_replay": true,
+    "R1_hourly_hashes_exact": 768,
+    "R1_verification": "verify-12011-2-48.json",
+    "reused_without_replacement": true
+  },
+  {
+    "seed": 12011,
+    "id": 3,
+    "mode": 0,
+    "source": "cloud-transport/evidence/trial-12011-3-0.json",
+    "sha256": "e38b9c50792e2c061ce07dedcc337f7078d3f271074da6c819bf730032cc24b2",
+    "requires_exact_hourly_replay": true,
+    "R1_hourly_hashes_exact": 768,
+    "R1_verification": "verify-12011-3-0.json",
+    "reused_without_replacement": true
+  },
+  {
+    "seed": 12011,
+    "id": 3,
+    "mode": 24,
+    "source": "cloud-transport/evidence/trial-12011-3-24.json",
+    "sha256": "fdfb20379a5ba694a4038f04e6cbb670ef15bb2957da8028f900859cd8101a1b",
+    "requires_exact_hourly_replay": true,
+    "R1_hourly_hashes_exact": 768,
+    "R1_verification": "verify-12011-3-24.json",
+    "reused_without_replacement": true
+  }
+]

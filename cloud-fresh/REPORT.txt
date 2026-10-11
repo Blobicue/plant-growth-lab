@@ -1,0 +1,182 @@
+F1 FRESH-FOUNDER COMPARISON — COMPLETE, UNPROMOTED
+
+Run identity and scope
+Six trajectories: original seeds12011,4242,7301; candidate30+R1 with original
+ordered transport ("legacy") versus the frozen T1/24+R1 alternative, from tick0 to
+12288h. "Legacy" here does NOT mean the reviewed W27 model. W27 and all original
+source/evidence remain unchanged. Three paired initial configurations, finite
+inventories, complete physical fingerprints, founder geometry and genotypes match
+exactly. Offspring identities, parents, sites and inherited branch seeds can differ
+as outcomes; descendants are not paired by ID across arms. Gene inheritance and
+all physiological/resource rules are unchanged. No feedback, tuning or extra
+endowment/environment input was introduced. All trajectories reached the fixed
+endpoint without early stopping or invariant failure. Survivors are right-censored
+at that fixed endpoint. No push/promotion.
+
+Whole-world results
+Births exclude founders. Paid descendants and living plants are separated; living
+tissue counts do not establish offspring replacement. All counts at12288h.
+ Seed arm    births paidGen1/2/3 aliveGen0/1/2/3 livingCells deaths
+12011 legacy   3   2/1/0       1/1/0/0        86        3
+12011 T1/24    1   1/0/0       2/1/0/0        81        0
+ 4242 legacy   5   2/3/0       1/2/0/0       110        4
+ 4242 T1/24    4   1/3/0       2/1/1/0       125        2
+ 7301 legacy   3   1/2/0       2/1/0/0       116        2
+ 7301 T1/24    1   1/0/0       2/0/0/0        71        1
+
+Founder tradeoffs (legacy -> T1)
+These two founders are legitimately paired by their identical initial identity.
+Fixation/operation/releases are lifetime model-C. Operation excludes construction
+and reproductive releases; cumulative negative operation can spend founder
+endowment and does not by itself establish a negative late-time operating rate.
+ Seed/id living offspring    fixation C            operating C             released C
+12011/0  0->25  0->1   1.5396->2.2688  -0.19680->-0.13646 0.000->0.051
+12011/1 54->43  2->0   4.3610->3.3942  -0.07185->-0.16535 0.102->0.000
+ 4242/0  0->30  0->0   1.6036->2.5125  -0.18840->-0.15372 0.000->0.000
+ 4242/1 50->51  2->1   5.2368->4.3483  -0.08438->-0.10514 0.102->0.051
+ 7301/0 29->28  0->1   2.5000->2.5002  -0.18927->-0.11116 0.000->0.051
+ 7301/1 55->43  1->0   4.4350->3.3956  -0.10639->-0.16258 0.051->0.000
+
+The paired-founders.csv includes upkeep, stress/tip respiration, repair,
+construction, W/N uptake, photons, reserve deposits/refunds/releases and final192h
+operating margins. Deposits are not reproductive output: maintenance refunds can
+recycle them repeatedly. First-seed example:12011 T1 preserves founder0 (25 living
+cells, one offspring), whereas its control loses founder0 without offspring;
+founder1 produces two control offspring but none under T1. Its paid leaf packets
+are5 versus4 and cumulative fixation4.3610 versus3.3942C. Those are coupled
+architecture/competition outcomes, not an isolated leaf or nitrogen intervention.
+
+Every paid descendant, including failures and censoring
+Mode0=legacy,24=T1. IDs are local to each world. Death age None means surviving
+at endpoint, not immortal. C columns are first0–768 and576–768h operating budgets;
+use only rows marked complete for those windows. Paid/connected roots are separate.
+Seed mode id par gen birth ageEnd living/paid roots paid/conn deathAge kids O0_768 O576_768 full768
+12011  0  2  1  1   838 11450  32/32  13/13  None  1  0.0114397  0.0038815 True
+12011  0  3  2  2  7334  4954   0/13   2/0   1224  0 -0.0108526 -0.0077492 True
+12011  0  4  1  1 10694  1594   0/12   2/0    935  0 -0.0219014 -0.0134182 True
+12011 24  2  0  1  8198  4090  13/13   3/3   None  0  0.0073381  0.0004879 True
+ 4242  0  2  1  1   678 11610  28/32  13/10  None  2  0.0188404  0.0056639 True
+ 4242  0  3  1  1  1286 11002  32/32  13/13  None  1  0.0055118 -0.0001642 True
+ 4242  0  4  2  2  5318  6970   0/12   2/0   1073  0 -0.0145573 -0.0103665 True
+ 4242  0  5  2  2  8678  3610   0/12   2/0   1708  0 -0.0156113 -0.0046430 True
+ 4242  0  6  3  2  9158  3130   0/13   2/0   1102  0 -0.0139240 -0.0094833 True
+ 4242 24  2  1  1   998 11290  32/32  12/12  None  3  0.0217545  0.0064591 True
+ 4242 24  3  2  2  5798  6490   0/13   3/0   2274  0  0.0020696 -0.0017501 True
+ 4242 24  4  2  2  8678  3610   0/13   3/0   1519  0 -0.0061515 -0.0051267 True
+ 4242 24  5  2  2 11270  1018  12/12   3/3   None  0 -0.0005845  0.0018339 True
+ 7301  0  2  1  1   806 11482  32/32  13/13  None  2  0.0197366  0.0053686 True
+ 7301  0  3  2  2  5510  6778   0/12   2/0   1159  0 -0.0109614 -0.0088665 True
+ 7301  0  4  2  2 10022  2266   0/12   2/0    928  0 -0.0230090 -0.0136965 True
+ 7301 24  2  0  1  7238  5050   0/13   3/0   2880  0  0.0040318 -0.0008822 True
+
+T1 has6 paid descendants;6 have complete768h windows.
+2 complete-window T1 descendants have
+negative cumulative0–768h operation;3
+have negative576–768h operation. Among observed T1 descendants,
+6 show a root-front N-only
+shortfall with a recorded N block at age16,5 have
+an observed leaf N-only refusal, and0
+new leaf packets are paid over their observed lives. These are local-access
+observations, not evidence that redirecting nitrogen is free or sufficient.
+First occurrence records are not refusal episode counts. Expiry records distinguish
+current resource shortfalls from the previous hour's stored blocked label.
+
+Interpretation
+T1 produced fewer paid births in all three seeds: 1/4/1 versus 3/5/3 in the
+controls. It preserved both founders in every seed but did not improve all-world
+living tissue consistently (81/125/71 versus 86/110/116 living cells). No arm
+produced generation3. The only living T1 grandchild, seed4242 child5, is age1018
+with12 paid nodes and no offspring; this is censored survival, not replacement.
+Its two older T1 siblings died at ages2274 and1519. Seed7301's sole T1 offspring
+died at age2880 despite positive cumulative operation in its first768h. Sustained
+replacement is not established, and neither candidate30 nor T1 is promoted.
+
+These fresh histories remove the inherited legacy-world switch from the T1 arm.
+They are necessary context for the earlier switched-birth root/tissue gains: those
+conditional gains cannot be promoted to a whole-world reproductive benefit. Each
+seed's full lineage and founder tradeoffs must be considered. Finite-window living
+grandchildren, if present, are reported with their actual ages and right-censoring;
+no generation or node count by itself proves sustained replacement. No additional
+horizon, rescue mechanism, coefficient search or selective successful seed was run.
+Three seed pairs are a bounded model investigation, not independent descendant
+replicates or a calibrated biological prediction. T1 remains an alternative finite
+transport contract, not an exact numerical implementation of the old ordered law.
+
+Environment and resource accounting
+3,072 daily world rows and paired same-tick resource differences are retained.
+Daily traces include every plant's budget/state and world C/N/W partitions,
+soil totals, atmosphere, canopy/energy boundary accounting, hydrology,
+decomposition, lineage, propagules, contest and occupancy counters. Initial finite
+C/N/W stocks are identical within each pair; transfers, not added resources, drive
+partition differences. Scalar daily comparisons are in environment-days.csv and
+paired-environment-differences.csv; full records in runs/*/daily.jsonl.gz. Daily
+binary states retain the full field and individual resource distribution locally.
+Maximum independent lifetime plant mobile/reserve/export budget closure error:
+3.46528361561e-13. Formula: change(mobile+reserve+released+disposed)
+=operating C-construction C. Reproductive assembly respiration is separated from
+maintenance, as are construction and repair yield losses. Turnover is not charged
+twice. Conservation/positivity/allocation guards remain the original model guards.
+Maximum daily C/N/W total drift was 9.9831e-13 / 6.4246e-13 / 1.3997e-11,
+respectively, below the unchanged1e-9 matter limit. Maximum hourly per-plant
+error was1.2392e-11, below1e-9. Maximum reported open-energy error was1.1642e-9,
+below its distinct unchanged1e-7 limit. The energy error must not be compared
+against the matter limit. Independent mobile-budget closure above uses its own
+explicit carbon accounting, rather than a relaxed model guard.
+
+Correctness
+Final passive observer passed1,056 reference hourly hashes before primary runs:
+3*96 fresh legacy golden steps and768 previously completed T1 steps. The first
+observer variant also passed; its passive stress-call classifier was then corrected
+to exactly match the post-damage branch condition and the final preflight rerun.
+Both source/log/runtime records are retained. This was observation-only work.
+Every legacy primary reproduces original first960 hourly physical hashes and
+8160/12288 endpoints; all11 legacy birth-world
+fingerprints also match archived evidence exactly. This does not relabel the
+older strict JSON-metric serializer comparisons as passed.
+12 selected verification jobs;1152
+exact hourly reverse/saved-replay comparisons;576 hours of exact
+canonical node and integer-field comparisons. Each primary restores tick6144 and
+matches its next96 uninterrupted hours. Each T1 seed also permutes both founders
+at tick0 for96h and its first paid descendant at birth for96h. All three descendants existed
+and had the full selected96h available; no selected job was unavailable.
+Canonical checks are selected windows, not a claim that every possible renumbering
+was run for12288h. No hardware GPU or Windows validation was available; not passed.
+
+Execution and resources
+Official checksum-verified Godot4.7.2 Linux ed1daf0bf, original CPU native kernel,
+Xeon Platinum8573C,5 visible CPUs with4 CPU-equivalent quota,16GiB cgroup, no GPU.
+All engines serialized by ownership lock;>=8GiB effective headroom enforced.
+Each primary has1800s total engine budget;600s slices resume only after committed
+forward progress. No numerical/resource failure is bypassed. Each day uses atomic
+JSON/state/latest-pointer writes. All512 daily checkpoints per trajectory survive,
+with digests recorded; initial,6144,12288 and selected birth states are also archived.
+
+Seed mode primarySeconds peakRSSMiB minHeadroomGiB slices
+12011  0  489.142   141.961    14.133  1
+12011 24  361.673   127.238    13.620  1
+ 4242  0  782.165   182.340    12.497  2
+ 4242 24  622.252   157.047    11.742  2
+ 7301  0  496.304   141.691    10.984  1
+ 7301 24  354.082   126.746    10.524  1
+
+Primary and verification invocations total3158.456s engine wall;
+peak RSS182.340MiB; minimum effective headroom
+10.513GiB.2 scheduled timed slices
+were resumed without changing the biological endpoint or total time bound.
+The two preflights took36.940s and37.575s. Final Python analysis took9.367s
+with61.418MiB peak RSS, recorded separately from primary/verification totals. Exact commands and source hashes are in
+attempts/*.runtime.json; raw timed-slice logs remain evidence, not biological deaths.
+
+Reproduction (repository root; generated setup refuses overwrite)
+python3 cloud-fresh/setup.py
+python3 cloud-fresh/run.py --timeout 300 model preflight.gd
+python3 cloud-fresh/run_matrix.py
+python3 cloud-fresh/run_founder_checks.py
+python3 cloud-fresh/archive_selected.py
+python3 cloud-fresh/analyze.py
+python3 cloud-fresh/audit.py
+The saved environment already contains completed work; run_matrix.py and run_founder_checks.py resume/
+skip completed jobs and never invent new trials. Preserve archived evidence before
+intentional fresh execution. Setup depends on the preceding isolated R1 runtime
+and original repository inputs; see manifest.json and earlier migration/setup notes.
+All scripts target /workspace/plant-growth-lab in this saved cloud environment.

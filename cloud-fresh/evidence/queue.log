@@ -1,0 +1,52 @@
+START model-f1-12011-0 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "12011", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 489.14205803000004, "peak_rss_bytes": 148856832, "initial_headroom_bytes": 15977119744, "minimum_headroom_bytes": 15175335936}
+PRIMARY COMPLETE 12011 0 wall 489.14205803000004 plants 5
+START model-verify_f1-12011-0-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "12011", "0", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 4.115365665000354, "peak_rss_bytes": 126242816, "initial_headroom_bytes": 15225958400, "minimum_headroom_bytes": 15168593920}
+VERIFIED verify-12011-0-restart.json
+START model-f1-12011-24 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "12011", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 361.6731135249993, "peak_rss_bytes": 133419008, "initial_headroom_bytes": 15225868288, "minimum_headroom_bytes": 14624190464}
+PRIMARY COMPLETE 12011 24 wall 361.6731135249993 plants 3
+START model-verify_f1-12011-24-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "12011", "24", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 3.2119685649995517, "peak_rss_bytes": 122499072, "initial_headroom_bytes": 14668275712, "minimum_headroom_bytes": 14614528000}
+VERIFIED verify-12011-24-restart.json
+START model-verify_f1-12011-24-canonical attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "12011", "24", "canonical"], "exit": 0, "stop_reason": null, "wall_seconds": 6.026523155000177, "peak_rss_bytes": 125689856, "initial_headroom_bytes": 14668165120, "minimum_headroom_bytes": 14611988480}
+VERIFIED verify-12011-24-canonical.json
+START model-f1-4242-0 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "4242", "0"], "exit": -15, "stop_reason": "timeout", "wall_seconds": 600.051618675001, "peak_rss_bytes": 177602560, "initial_headroom_bytes": 14668087296, "minimum_headroom_bytes": 13542465536}
+RECOVER TIMED SLICE f1-4242-0 completed tick 10296 cumulative seconds 600.051618675001
+START model-f1-4242-0 attempt 2 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "4242", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 182.113260301001, "peak_rss_bytes": 191197184, "initial_headroom_bytes": 13808041984, "minimum_headroom_bytes": 13418561536}
+PRIMARY COMPLETE 4242 0 wall 782.164878976002 plants 7
+START model-verify_f1-4242-0-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "4242", "0", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 6.625162932999956, "peak_rss_bytes": 144609280, "initial_headroom_bytes": 13507719168, "minimum_headroom_bytes": 13431934976}
+VERIFIED verify-4242-0-restart.json
+START model-f1-4242-24 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "4242", "24"], "exit": -15, "stop_reason": "timeout", "wall_seconds": 600.042206221, "peak_rss_bytes": 157356032, "initial_headroom_bytes": 13507317760, "minimum_headroom_bytes": 12643762176}
+RECOVER TIMED SLICE f1-4242-24 completed tick 11976 cumulative seconds 600.042206221
+START model-f1-4242-24 attempt 2 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "4242", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 22.210148473001027, "peak_rss_bytes": 164675584, "initial_headroom_bytes": 12734394368, "minimum_headroom_bytes": 12607578112}
+PRIMARY COMPLETE 4242 24 wall 622.252354694001 plants 6
+START model-verify_f1-4242-24-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "4242", "24", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 5.434570662999249, "peak_rss_bytes": 129130496, "initial_headroom_bytes": 12677533696, "minimum_headroom_bytes": 12617510912}
+VERIFIED verify-4242-24-restart.json
+START model-verify_f1-4242-24-canonical attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "4242", "24", "canonical"], "exit": 0, "stop_reason": null, "wall_seconds": 6.426594292999653, "peak_rss_bytes": 123375616, "initial_headroom_bytes": 12677455872, "minimum_headroom_bytes": 12622848000}
+VERIFIED verify-4242-24-canonical.json
+START model-f1-7301-0 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "7301", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 496.304450788999, "peak_rss_bytes": 148574208, "initial_headroom_bytes": 12677091328, "minimum_headroom_bytes": 11794120704}
+PRIMARY COMPLETE 7301 0 wall 496.304450788999 plants 5
+START model-verify_f1-7301-0-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "7301", "0", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 4.619146914001249, "peak_rss_bytes": 127037440, "initial_headroom_bytes": 11876364288, "minimum_headroom_bytes": 11818590208}
+VERIFIED verify-7301-0-restart.json
+START model-f1-7301-24 attempt 1 timeout 600
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://f1.gd", "--", "7301", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 354.08202229199924, "peak_rss_bytes": 132902912, "initial_headroom_bytes": 11875823616, "minimum_headroom_bytes": 11300220928}
+PRIMARY COMPLETE 7301 24 wall 354.08202229199924 plants 3
+START model-verify_f1-7301-24-restart attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "7301", "24", "restart"], "exit": 0, "stop_reason": null, "wall_seconds": 3.111849566001183, "peak_rss_bytes": 122200064, "initial_headroom_bytes": 11344068608, "minimum_headroom_bytes": 11290787840}
+VERIFIED verify-7301-24-restart.json
+START model-verify_f1-7301-24-canonical attempt 1 timeout 300
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "7301", "24", "canonical"], "exit": 0, "stop_reason": null, "wall_seconds": 6.032366772000387, "peak_rss_bytes": 124555264, "initial_headroom_bytes": 11343708160, "minimum_headroom_bytes": 11288154112}
+VERIFIED verify-7301-24-canonical.json
+ALL SIX F1 TRAJECTORIES COMPLETE

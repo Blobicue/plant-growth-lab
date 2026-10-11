@@ -1,0 +1,32 @@
+--- original/base_plant.gd
++++ T1/base_plant.gd
+@@ -106,3 +106,11 @@
+  if reserve!=null:result.C+=reserve.c;result.N+=reserve.n;result.W+=reserve.w;result.E+=reserve.c*20.0
+  return result
+ func reserve_state()->Dictionary:return {"balance":reserve.duplicate(),"capacity":Reserve.CAP,"deposited":reserve_deposited.duplicate(),"refunded":reserve_refunded.duplicate(),"released":reserve_released.duplicate(),"disposed":reserve_disposed.duplicate(),"sources":reserve_sources.duplicate(),"recent":reserve_recent.duplicate(true),"last_surplus":reserve_last_surplus,"surplus":reserve_surplus,"committed":reserve_committed,"reason":reserve_reason}
++
++# Isolated T1 experiment: zero retains exact legacy dispatch.
++const T1=preload("res://transport.gd")
++var transport_substeps=0
++var transport_last={}
++func transport_pools():
++ if transport_substeps==0:super.transport_pools()
++ else:transport_last=T1.apply(self,transport_substeps)
+--- original/world.gd
++++ T1/world.gd
+@@ -1,4 +1,5 @@
+ extends RefCounted
++var transport_substeps=0
+ const FIELD_ID="juvenile-allocation30-cnw-q1e-9"
+ const Air=preload("res://atmosphere.gd")
+ const MAX_RECORDS=32 # computational bound: censor the WHOLE experiment
+@@ -134,7 +135,8 @@
+   allocation_residual=maxi(allocation_residual,maxi(absi(sum[0]-receipts[j][0]),absi(sum[1]-receipts[j][1])))
+  distribute_light()
+  audit_sample("before_transport")
+- for p in order:p.transport_pools()
++ for p in order:
++  p.transport_substeps=transport_substeps;p.transport_pools()
+  audit_sample("after_transport")
+  if config.carbon_access==1:Air.allocate(self)
+  for p in order:

@@ -1,0 +1,1 @@
+Observer v1 passed1056 physical reference hashes. Before primary runs, its passive respiration classifier was corrected to match the exact post-damage stress>0 condition (including a possible tiny newly accrued stress). No biology changed. V1 source/log/runtime preserved; final observer preflight rerun after this instrumentation correction.

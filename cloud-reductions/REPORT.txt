@@ -1,0 +1,176 @@
+R1 DETERMINISTIC REDUCTIONS AND COMPLETED T1 COMPARISON
+
+Outcome
+Completed the preregistered repair and all11 fixed768h matched birth comparisons:
+33 trajectories (5 preserved/reused after exact certification,28 newly executed),
+23 verification jobs. No pending cases. T1+R1 passes the tested physical node/edge
+relabeling contract, reverse plant evaluation, saved restart, and original
+conservation/positivity checks. This establishes a usable tested alternative
+numerical model; it does not establish sustained biological replacement.
+Candidate30, T1, R1 and local construction feedback remain unpromoted. Feedback
+remains OFF/unimplemented. Nothing was pushed, merged, deployed or published.
+
+Implementation and compatibility
+Branch experiment/deterministic-reductions is isolated from preserved T1 tip
+5456dfe73d92c33c3cabf716fbaca0e8c6f2f0fa. All tracked changes are under
+cloud-reductions/. setup.py builds a separate work copy; original evidence is intact.
+Physical chronology (birth tick plus deterministic spatial/seed-shape tie order)
+reconstructs original valid-history append order. It replaces arbitrary node-index
+traversal in photo claim, photosynthesis/vapor, maintenance/litter, reserve totals
+and traversal, report sums, and root-claim integer tie keys. No arithmetic formula,
+floor threshold, resource quantity, physiological priority, rate, cost, gene or
+32-paid-node gate changes. Duplicate physical keys are rejected without ID fallback.
+This compatibility tie convention is not a new biological age assumption.
+AUDIT.txt gives the complete shared-resource audit and binary64 error bound.
+
+The five old trajectories are byte-identical copies with provenance. Each R1 replay
+reproduces all768 archived original hourly hashes; none required recomputation.
+All11 reduction-only controls reproduce preserved ordinary paid-growth events;
+three earlier control endpoint fingerprints also match. Generated histories assert
+that physical ordering equals original chronological append order every hour.
+The old sequential transport operator is deliberately unchanged in mode0 and
+retains its intrinsic order dependence. Full permutation invariance is claimed
+only for tested T1+R1 inputs, not for legacy transport or arbitrary lineage renaming.
+
+T1 itself is unchanged: frozen simultaneous explicit-Euler exchanges over existing
+paid graph edges, nominal conductance .72*a/hour,24 substeps with fixed48 shadows.
+Positivity guard increases steps only for high-degree adversarial graphs. It is an
+alternative finite-step transport law, not an exact implementation of the old
+three ordered .24 passes. The earlier70 fixtures/420 canonical permutations and
+independent conservation, maximum-principle, bounded-sender and convergence checks
+remain applicable to the byte-identical kernel. No extra physical time or tuned
+mixing was introduced. T1 moves C,N,W and applies to every plant in each saved world.
+
+Correctness evidence
+- 17664 exact hourly reverse/saved-replay comparisons.
+- 9216 whole-model canonical node/field comparisons;
+  all tested canonical differences zero. This includes11 primary T1 cases plus
+  the one previously completed48-step trajectory's reuse certificate.
+- Saved restart at age384 in each verification. Node geometry/resources and field
+  are checked together; integer fields are exact and no tolerance was relaxed.
+- Adjacent-floor sums, tiny/heterogeneous/zero operands,6 rotating integer tie cases,
+  physical-key collision rejection, scarce reserve upkeep and capacity/refund
+  fixtures passed. Repaired failing12011/id3 now passes the complete768h window.
+- Maximum world accounting error 5.82076609135e-10; maximum plant error
+  9.32232069317e-12; focal carbon stock/budget closure error
+  9.90960785652e-16. Existing guards remain unchanged.
+- Original189 payload hashes,11 birth hashes,5 reuse hashes, previous branch tips,
+  native code/binary, T1 kernel, atmosphere, canopy, hydrology and decomposition
+  verified unchanged by audit.py. Construction/reproduction function bodies too.
+
+Recovered implementation errors remain recorded: the first unit attempt used an
+unsupported display-only numeric format; its log/runtime/source are preserved.
+A view-only traversal edit was reverted to original indexing before the matrix;
+implementation-notes.txt retains its source distinction. Neither recovery changed
+a scientific threshold. Historical failed exact-field evidence remains failed.
+
+Actual old quantum discrepancy
+Unrepaired12011/id3 T1 paths first differed in condensation at297h and field at298h.
+Over768h,471 hours had field differences, at most47 quanta summed absolute field
+difference; maximum node resource difference5.909659311388593e-10. The original path
+matched all archived hashes. Every actual construction, expiry, active/dead and
+connected state, reproduction stage and lineage decision across all plants matched
+every hour. Thus no discrete biological consequence was observed in this pair and
+window, despite genuinely different resource states. This is not universal
+harmlessness or an isolated quantum injection. A synthetic front with N=.000108
+is payable while N=.000108-1e-9 is not; the boundary can matter in another state.
+
+Fixed768h biological results
+Numbers are mode0 / T1-24 / T1-48. Roots are cumulative paid roots, not necessarily
+living connected roots; living counts include all living tissue. Detailed connected
+roots, costs, receipts and budgets are in cohort-results.csv and analysis.json.
+None means no third paid root during the window. All cases are reported, unselected.
+
+ Seed ID Gen    Paid roots     Living tissue     Third-root age(h)
+12011  2   1    6/ 6/ 6       16/16/16          6/5/5
+12011  3   2    2/ 3/ 3       13/13/13       None/5/5
+12011  4   1    2/ 3/ 3       12/13/13       None/5/5
+ 4242  2   1    7/ 8/ 8       17/19/19          6/5/5
+ 4242  3   1    4/ 4/ 4       14/14/14          7/5/5
+ 4242  4   2    2/ 3/ 3       12/13/13       None/5/5
+ 4242  5   2    2/ 3/ 3       12/12/12       None/5/5
+ 4242  6   2    2/ 3/ 3       13/13/13       None/5/5
+ 7301  2   1    7/ 8/ 8       17/19/19          6/5/5
+ 7301  3   2    2/ 3/ 3       12/13/13       None/5/5
+ 7301  4   2    2/ 3/ 3       12/12/12       None/5/5
+
+T1-24 increased paid root count in 9/11
+cohorts and living tissue count in 5/11.
+All T1 third roots were paid at age5. Fixed-C and operating-C changes are retained
+per cohort, not pooled as independent samples. Negative T1 operating-C budgets:
+12011/4 (-0.013262152); 4242/4 (-0.008746549); 4242/5 (-0.006540303); 7301/3 (-0.002621171); 7301/4 (-0.008674665).
+No focal plant lost all tissue during768h in any arm. No focal offspring were
+produced in any of the33 trajectories.
+
+A material world-level tradeoff occurs at4242/id2: the legacy control has a
+founder1 child3 birth at age608, absent in both T1 worlds by768. The baseline child
+has13 living nodes at endpoint. Existing other plants gain one living node, so the
+net other-plant difference of-12 is a missing birth, not12 tissue deaths. No claim
+is made that this birth will occur later. At4242/id5 the other parent3 child6 birth
+at age480 is shared by all modes. All world births and existing-plant living
+changes are explicitly recorded in analysis.json.
+
+Refinement
+No registered discrete endpoint or milestone differences between24 and48.
+Different detailed construction timelines: 12011/2.
+Thus agreement of endpoint counts must not be called exact trajectory convergence.
+Numerical budgets differ slightly; the48-step arm was never selected for a better
+outcome. Full per-cohort differences and original event timelines are retained.
+
+Interpretation limits
+These are11 related descendants from3 seed families, each restored at a LEGACY
+birth. They are not11 independent populations or ordinary-from-seed T1 histories.
+All-plant transport changes competitor/parent behavior as well as focal resources;
+this is not a pure local-N intervention. The fixed768h window is shorter than the
+observed ordinary generation2 death ages928–1708h. Surviving that window or gaining
+one root establishes neither lifetime survival advantage nor replacement. Earlier
+ordinary candidate30 continuations to12288h still show all6 grandchildren dead and
+no generation3. Ordinary T1 multigeneration testing is outside this fixed comparison. Construction feedback remains a separate unimplemented hypothesis.
+
+Resources and runtime
+Same official verified Godot4.7.2 Linux build ed1daf0bf, C11 native extension,
+Xeon Platinum8573C,4 CPU-equivalent quota,16GiB cgroup; Python3.12.14/GCC14.2.
+56 recorded R1 engine invocations total
+2459.826s (41.00min) wall time; this includes unit,
+reuse, diagnostic and recovered display-format attempt, excludes prior reused
+trajectory execution and earlier T1 kernel/migration suites. Peak RSS
+202.285MiB; minimum measured effective headroom
+14.756GiB. Jobs ran serially under the shared flock,
+600s bounds and8GiB headroom guard. Exact per-run commands, source hashes, timing
+and memory records are evidence/*.runtime.json. No new paid resources were purchased.
+GPU hardware and Windows tests remain unavailable, NOT passed. No new GUI capture
+was needed for this numerical repair; prior software-rendered migration screenshots
+and limitations remain in cloud-port/REPORT.txt. Original strict archived-JSON
+metric differences remain separately documented failures despite exact binary
+physical golden hashes; R1 does not retroactively relabel them passed.
+
+Reproduction in this saved environment (repository root)
+python3 verify_snapshot.py
+python3 cloud-reductions/audit.py
+python3 cloud-reductions/analyze.py
+python3 cloud-reductions/resume_matrix.py
+The last command validates/resumes and skips existing complete generated results;
+it does not rerun a completed matrix. Preserve evidence before intentional reruns.
+
+To rebuild R1 in a fresh work area, first follow predecessor cloud-port,
+cloud-diagnostics and cloud-transport setup instructions; retain the registered
+source birth and old-result evidence. setup.py refuses to overwrite a work copy.
+Exact new-layer commands:
+python3 cloud-reductions/setup.py
+python3 cloud-reductions/run.py candidate30 reduction_checks.gd
+python3 cloud-reductions/run.py candidate30 boundary_checks.gd
+python3 cloud-reductions/run.py candidate30 reserve_checks.gd
+cp cloud-reductions/work/candidate30/evidence/*-checks.json cloud-reductions/evidence/
+python3 cloud-reductions/resume_matrix.py
+python3 cloud-reductions/setup_legacy_diagnostic.py
+python3 cloud-reductions/run.py legacy_numeric quantum_outcomes.gd
+cp cloud-reductions/work/legacy_numeric/evidence/quantum-outcomes.json cloud-reductions/evidence/
+python3 cloud-reductions/analyze.py
+python3 cloud-reductions/audit.py
+
+Example isolated treatment and replay commands (write generated work results):
+python3 cloud-reductions/run.py candidate30 trial.gd 7301 4 24
+python3 cloud-reductions/run.py candidate30 verify_trial.gd 7301 4 24
+All scripts currently reference this authorized /workspace/plant-growth-lab checkout.
+For relocation, preserve source roots or explicitly adapt paths without changing
+registered inputs. No external upload or publication is part of reproduction.

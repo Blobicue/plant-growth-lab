@@ -1,0 +1,13 @@
+{
+  "canonical_endpoint_checked": false,
+  "canonical_node_and_field_hours_checked": 0,
+  "id": 3,
+  "max_canonical_numeric_difference": 0.0,
+  "max_plant_error": 1.5916157281026244e-12,
+  "max_world_error": 1.7462298274040222e-10,
+  "mode": 0,
+  "pass": true,
+  "restart_age": 384,
+  "reverse_saved_replay_hours_exact": 768,
+  "seed": 12011
+}

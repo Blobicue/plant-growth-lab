@@ -1,0 +1,12 @@
+{
+  "available": true,
+  "canonical_nodes_and_field_exact": false,
+  "hours": 96,
+  "kind": "restart",
+  "max_world_error": 1.1641532182693481e-10,
+  "mode": 24,
+  "pass": true,
+  "reverse_saved_replay_exact": true,
+  "seed": 4242,
+  "start_tick": 6144
+}

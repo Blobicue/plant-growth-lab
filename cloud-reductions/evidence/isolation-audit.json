@@ -1,0 +1,57 @@
+{
+  "only_changed_directory": "cloud-reductions",
+  "preserved_branches": {
+    "migration/linux-cpu": "701d108642fe61cb051d9360d81eaf40258b30de",
+    "diagnostic/gen2-survival-causality": "7cb5a51e30171c9770f52d47810d8da5b8b1b5b9",
+    "design/local-nitrogen-contract": "93aac33022d3f9ea69490ea04d3732d0a74f83dd",
+    "experiment/local-construction-feedback": "db7f2d1aae27961ffefb5734de45b29bad4af449",
+    "experiment/synchronous-local-transport": "5456dfe73d92c33c3cabf716fbaca0e8c6f2f0fa"
+  },
+  "original_payloads_checked": 189,
+  "unchanged_modules": [
+    {
+      "path": "transport.gd",
+      "sha256": "34c4563076c36c4b0d09273db00d3ad7d79f645af6e7ac0f28c0febebc4e6828"
+    },
+    {
+      "path": "atmosphere.gd",
+      "sha256": "606debc29a800dc5884deb4cd20f02a5f05b0a7b405cdd00f4dd6dab2529b639"
+    },
+    {
+      "path": "canopy.gd",
+      "sha256": "cc502c19e75127abeff6cf35e0d40d782df58c19a4d29b4f11274e305227c75d"
+    },
+    {
+      "path": "hydrology.gd",
+      "sha256": "0f2e1be59e47849a2fbf58d14f707ca343450d1318825277a6a3e2b7cf9018c4"
+    },
+    {
+      "path": "decomposition.gd",
+      "sha256": "a243f91db03c4bd2ff11b239a5aa958484015000e5f07ae39a800c358cb4e431"
+    },
+    {
+      "path": "field.gd",
+      "sha256": "76d4ef08839ee491241d413e073feef0d20b21f4aff38877da4c9e8f39f6f771"
+    },
+    {
+      "path": "native/resource_field.c",
+      "sha256": "9a5a1d33c1db9c04dde92ec2600367467cb2f0e8cc3000967070dc24aceffe49"
+    },
+    {
+      "path": "native/resource_field.so",
+      "sha256": "061f31f814abab39ff32d320434d6d2a51b386752996400cecd4dd5585e65dc4"
+    },
+    {
+      "path": "native/gdextension_interface.h",
+      "sha256": "640b48188708ba0016f8d7ace9e0e1d3279a41fa1226c59ff3193b15538bd254"
+    }
+  ],
+  "transport_and_biology_function_bodies_unchanged": true,
+  "old_numeric_quantum_diagnostic_source_unchanged": true,
+  "original_birth_hashes_verified": 11,
+  "reuse_candidates": 5,
+  "numerical_change": "physical chronological traversal and root claim keys only; no new arithmetic formula or floor tolerance",
+  "GPU": "unavailable, not passed",
+  "Windows": "unavailable, not passed",
+  "push_merge_deploy_promotion": false
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30/godot",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30/lab.pck",
+    "--rendering-method",
+    "gl_compatibility",
+    "--audio-driver",
+    "Dummy",
+    "--headless",
+    "--script",
+    "res://smoke.gd"
+  ],
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 1.0032097089999752,
+  "peak_rss_bytes": 117850112,
+  "minimum_headroom_bytes": 16440721408
+}

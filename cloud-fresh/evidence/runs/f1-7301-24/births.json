@@ -1,0 +1,383 @@
+[
+  {
+    "environment": {
+      "air": 10.24398530077997,
+      "allocation_residual": 0,
+      "contested": 0,
+      "decomposition": {
+        "associated_N_W": "already mobilized by unchanged turnover; zero additional return",
+        "cap_C_per_plant_hour": 0.0001,
+        "enabled": 1,
+        "excluded_detritus": {
+          "C": 0.0,
+          "N": 0.0,
+          "W": 0.0
+        },
+        "heat_released": 23.79889656,
+        "litter": 0.0795144659433901,
+        "rate": 0.002,
+        "returned_C": 1.189944828,
+        "sources": [
+          {
+            "atmosphere": 0.0,
+            "heat_released": 10.17792598,
+            "litter": 0.03243046012604908,
+            "plant": 0,
+            "returned_C": 0.508896299
+          },
+          {
+            "atmosphere": 0.0,
+            "heat_released": 13.62097058,
+            "litter": 0.04708400581734102,
+            "plant": 1,
+            "returned_C": 0.681048529
+          },
+          {
+            "atmosphere": 0.0,
+            "heat_released": 0.0,
+            "litter": 0.0,
+            "plant": 2,
+            "returned_C": 0.0
+          }
+        ],
+        "this_hour_C": 0.000159346
+      },
+      "detritus": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      },
+      "hydrology": {
+        "cloud": 0.000252082,
+        "condensed_this_hour": 0.000252082,
+        "condensed_total": 1.711314143,
+        "connected_mobile": 0.8165498924706878,
+        "disconnected_mobile": 0.4003553464717066,
+        "enabled": 1,
+        "heat": 0.023838127865962205,
+        "latent_released": 3.422628286,
+        "radiated": 3.398790158134033,
+        "rain_cells": 273,
+        "rain_this_hour": 0.000254628,
+        "rain_total": 1.711062061,
+        "sources_q": {
+          "0": 727360290,
+          "1": 983953853
+        },
+        "vapor": 0.02495620199999992,
+        "water_limited_cell_hours": 91287,
+        "water_received": 3.055227691,
+        "water_requested": 73.007007809
+      },
+      "ledger": {
+        "C": 10.62279999999969,
+        "E": 324143.0159999995,
+        "N": 0.08152243999967848,
+        "W": 2.4088400609939695
+      },
+      "limited": 160931,
+      "lineage": [
+        {
+          "birth_tick": 7238,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 7301,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 0,
+          "propagule": 0
+        }
+      ],
+      "matter": {
+        "C": {
+          "atmosphere": 10.24398530077997,
+          "detritus": 0.0,
+          "litter": 0.0795144659433901,
+          "mobile": 0.049559281807750676,
+          "reserves": 0.013433927963328615,
+          "seed_gas": 0.0,
+          "seed_organic": 0.0,
+          "structure": 0.23630702350524974
+        },
+        "N": {
+          "detritus": 0.0,
+          "mobile": 0.06429463598918264,
+          "reserves": 0.002,
+          "seeds": 0.0,
+          "soil": 0.005831778,
+          "structure": 0.009396026010495813
+        },
+        "W": {
+          "bound": 0.07089210705157475,
+          "cloud": 0.000252082,
+          "detritus": 0.0,
+          "mobile": 1.2169052389423944,
+          "reserves": 0.04,
+          "seeds": 0.0,
+          "soil": 1.055834431,
+          "vapor": 0.02495620199999992
+        },
+        "boundary_exports": {
+          "C": 0.0,
+          "N": 0.0,
+          "W": 0.0
+        },
+        "boundary_imports": {
+          "C": 0.0,
+          "N": 0.0,
+          "W": 0.0
+        }
+      },
+      "propagules": [
+        {
+          "birth": 7232,
+          "c": 0.0,
+          "child": 2,
+          "deadline": 7250,
+          "failure": "",
+          "gas": 0.0,
+          "genotype": {
+            "branch_seed": 7301,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "id": 0,
+          "n": 0.0,
+          "parent": 0,
+          "pos": "(-3, 0, 3)",
+          "release": 7234,
+          "respired": 0.0011,
+          "stage": "juvenile",
+          "w": 0.0
+        }
+      ],
+      "radiation": {
+        "canopy_flux": 0.0,
+        "day_energy": 1073.28,
+        "energy_error": -5.238689482212067e-10,
+        "heat_inside": 119.3764610166725,
+        "hour": 13,
+        "input_this_tick": 0.0,
+        "input_total": 324130.56,
+        "leaf_prompt_out": 633.5523215555578,
+        "mode": 2,
+        "output_total": 324016.01333259436,
+        "source_remaining": 0.0,
+        "stored_inside": 127.0026674051187,
+        "thermal_out": 16068.697297749799,
+        "transmitted_out": 307313.763713289,
+        "units": "E model units; one tick = one model hour;24 ticks/day"
+      },
+      "soil_totals": [
+        1055834431,
+        5831778,
+        0,
+        0,
+        637321,
+        4039
+      ],
+      "space_conflicts": 137
+    },
+    "fingerprint": "e18e3b8e7691fbe1aa2eddc6d3e5243180d4764ca5bd1f18a3298fa82adbdf89",
+    "nodes": [
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.036300000000000006,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "n": 0.0012488,
+        "parent": -1,
+        "pos": "(-3, 0, 3)",
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.03658
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 0,
+        "pos": "(-3, 1, 3)",
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.0
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.00054,
+        "c": 0.0,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 0,
+        "pos": "(-3, -1, 3)",
+        "solid_c": 0.0018,
+        "solid_n": 0.000108,
+        "stress": 0.0,
+        "w": 0.0
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(-2, 1, 3)",
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.0
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(-4, 1, 3)",
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.0
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(-3, 1, 4)",
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.0
+      },
+      {
+        "active": true,
+        "birth": 7238,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(-3, 1, 2)",
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.0
+      }
+    ],
+    "plant": {
+      "age": 0,
+      "birth_tick": 7238,
+      "budget": {},
+      "connected_roots": 1,
+      "cumulative": {},
+      "events": [],
+      "fronts": [],
+      "generation": 1,
+      "genotype": {
+        "branch_seed": 7301,
+        "physiology": "paid-v8",
+        "version": 1
+      },
+      "id": 2,
+      "leaves": 4,
+      "living": 7,
+      "paid": 7,
+      "parent": 0,
+      "pools": {
+        "c": 0.036300000000000006,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0012488,
+        "w": 0.03658
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "not collecting",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 1,
+      "totals": {
+        "built_c": 0.0,
+        "completed": 0,
+        "expired": 0,
+        "fixed_c": 0.0,
+        "photons": 0.0,
+        "respired_c": 0.0,
+        "uptake_n": 0.0,
+        "uptake_w": 0.0
+      },
+      "windows": {
+        "0_768": {},
+        "0_96": {},
+        "576_768": {}
+      }
+    },
+    "tick": 7238
+  }
+]

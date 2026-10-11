@@ -1,0 +1,168 @@
+START verify-12011-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 20.726852995001536, "peak_rss_bytes": 123215872, "initial_headroom_bytes": 16143818752, "minimum_headroom_bytes": 16089169920}
+VERIFIED verify-12011-2-0.json
+REUSED CERTIFIED trial-12011-2-0.json
+START verify-12011-2-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "2", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 49.04577132600025, "peak_rss_bytes": 125292544, "initial_headroom_bytes": 16141590528, "minimum_headroom_bytes": 16084930560}
+VERIFIED verify-12011-2-24.json
+REUSED CERTIFIED trial-12011-2-24.json
+START verify-12011-2-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "2", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 56.20925041600094, "peak_rss_bytes": 125042688, "initial_headroom_bytes": 16139190272, "minimum_headroom_bytes": 16061861888}
+VERIFIED verify-12011-2-48.json
+REUSED CERTIFIED trial-12011-2-48.json
+COHORT COMPLETE 12011 2
+START verify-12011-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 30.13605873800043, "peak_rss_bytes": 137940992, "initial_headroom_bytes": 16115658752, "minimum_headroom_bytes": 16065781760}
+VERIFIED verify-12011-3-0.json
+REUSED CERTIFIED trial-12011-3-0.json
+VERIFIED verify-12011-3-24.json
+REUSED CERTIFIED trial-12011-3-24.json
+START trial-12011-3-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "12011", "3", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 41.593046195999705, "peak_rss_bytes": 128970752, "initial_headroom_bytes": 16130191360, "minimum_headroom_bytes": 16069042176}
+COMPLETE trial-12011-3-48.json
+COHORT COMPLETE 12011 3
+START trial-12011-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "12011", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 39.53681738200066, "peak_rss_bytes": 135860224, "initial_headroom_bytes": 16127086592, "minimum_headroom_bytes": 16043843584}
+COMPLETE trial-12011-4-0.json
+START verify-12011-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 36.74209994000012, "peak_rss_bytes": 147509248, "initial_headroom_bytes": 16121819136, "minimum_headroom_bytes": 16041979904}
+VERIFIED verify-12011-4-0.json
+START trial-12011-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "12011", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 42.22518798700003, "peak_rss_bytes": 135917568, "initial_headroom_bytes": 16119115776, "minimum_headroom_bytes": 16050642944}
+COMPLETE trial-12011-4-24.json
+START verify-12011-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 73.4102917830005, "peak_rss_bytes": 160256000, "initial_headroom_bytes": 16115081216, "minimum_headroom_bytes": 15996633088}
+VERIFIED verify-12011-4-24.json
+START trial-12011-4-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "12011", "4", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 43.29776380799922, "peak_rss_bytes": 135917568, "initial_headroom_bytes": 16112775168, "minimum_headroom_bytes": 16044265472}
+COMPLETE trial-12011-4-48.json
+COHORT COMPLETE 12011 4
+START trial-4242-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 19.486559903998568, "peak_rss_bytes": 122961920, "initial_headroom_bytes": 16109166592, "minimum_headroom_bytes": 16034553856}
+COMPLETE trial-4242-2-0.json
+START verify-4242-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 18.871704254001088, "peak_rss_bytes": 121790464, "initial_headroom_bytes": 16106848256, "minimum_headroom_bytes": 16051658752}
+VERIFIED verify-4242-2-0.json
+START trial-4242-2-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "2", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 23.10553662500024, "peak_rss_bytes": 120537088, "initial_headroom_bytes": 16105897984, "minimum_headroom_bytes": 16052563968}
+COMPLETE trial-4242-2-24.json
+START verify-4242-2-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "2", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 47.720123374998366, "peak_rss_bytes": 122843136, "initial_headroom_bytes": 16103960576, "minimum_headroom_bytes": 16047456256}
+VERIFIED verify-4242-2-24.json
+START trial-4242-2-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "2", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 26.80590423800095, "peak_rss_bytes": 122376192, "initial_headroom_bytes": 16102621184, "minimum_headroom_bytes": 16021741568}
+COMPLETE trial-4242-2-48.json
+COHORT COMPLETE 4242 2
+START trial-4242-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 23.38784964899969, "peak_rss_bytes": 123047936, "initial_headroom_bytes": 16101040128, "minimum_headroom_bytes": 16044646400}
+COMPLETE trial-4242-3-0.json
+START verify-4242-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 22.29758105200017, "peak_rss_bytes": 125804544, "initial_headroom_bytes": 16098177024, "minimum_headroom_bytes": 16040783872}
+VERIFIED verify-4242-3-0.json
+START trial-4242-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "3", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 27.32030487299926, "peak_rss_bytes": 124280832, "initial_headroom_bytes": 16096694272, "minimum_headroom_bytes": 16040984576}
+COMPLETE trial-4242-3-24.json
+START verify-4242-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "3", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 54.80012315800013, "peak_rss_bytes": 131563520, "initial_headroom_bytes": 16094408704, "minimum_headroom_bytes": 16006832128}
+VERIFIED verify-4242-3-24.json
+START trial-4242-3-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "3", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 31.146546080999542, "peak_rss_bytes": 124141568, "initial_headroom_bytes": 16093065216, "minimum_headroom_bytes": 16037294080}
+COMPLETE trial-4242-3-48.json
+COHORT COMPLETE 4242 3
+START trial-4242-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 42.66914279199955, "peak_rss_bytes": 156860416, "initial_headroom_bytes": 16090300416, "minimum_headroom_bytes": 15992827904}
+COMPLETE trial-4242-4-0.json
+START verify-4242-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 41.14929182199921, "peak_rss_bytes": 156983296, "initial_headroom_bytes": 16086749184, "minimum_headroom_bytes": 15997419520}
+VERIFIED verify-4242-4-0.json
+START trial-4242-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 48.41909451900028, "peak_rss_bytes": 143126528, "initial_headroom_bytes": 16083353600, "minimum_headroom_bytes": 15990525952}
+COMPLETE trial-4242-4-24.json
+START verify-4242-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 93.78710348499953, "peak_rss_bytes": 172498944, "initial_headroom_bytes": 16079884288, "minimum_headroom_bytes": 15959629824}
+VERIFIED verify-4242-4-24.json
+START trial-4242-4-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "4", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 55.09847378499944, "peak_rss_bytes": 143089664, "initial_headroom_bytes": 16076603392, "minimum_headroom_bytes": 16000823296}
+COMPLETE trial-4242-4-48.json
+COHORT COMPLETE 4242 4
+START trial-4242-5-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "5", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 60.490909096000905, "peak_rss_bytes": 186814464, "initial_headroom_bytes": 16072904704, "minimum_headroom_bytes": 15922565120}
+COMPLETE trial-4242-5-0.json
+START verify-4242-5-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "5", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 57.3666349189989, "peak_rss_bytes": 181927936, "initial_headroom_bytes": 16047341568, "minimum_headroom_bytes": 15952654336}
+VERIFIED verify-4242-5-0.json
+START trial-4242-5-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "5", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 64.80006058799881, "peak_rss_bytes": 161427456, "initial_headroom_bytes": 16063242240, "minimum_headroom_bytes": 15956844544}
+COMPLETE trial-4242-5-24.json
+START verify-4242-5-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "5", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 114.76290793699991, "peak_rss_bytes": 204812288, "initial_headroom_bytes": 16053764096, "minimum_headroom_bytes": 15915388928}
+VERIFIED verify-4242-5-24.json
+START trial-4242-5-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "5", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 67.78484721699897, "peak_rss_bytes": 161280000, "initial_headroom_bytes": 16049102848, "minimum_headroom_bytes": 15954399232}
+COMPLETE trial-4242-5-48.json
+COHORT COMPLETE 4242 5
+START trial-4242-6-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "6", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 63.79785910500141, "peak_rss_bytes": 164352000, "initial_headroom_bytes": 16044023808, "minimum_headroom_bytes": 15919501312}
+COMPLETE trial-4242-6-0.json
+START verify-4242-6-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "6", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 64.84268381200127, "peak_rss_bytes": 187408384, "initial_headroom_bytes": 16038682624, "minimum_headroom_bytes": 15917641728}
+VERIFIED verify-4242-6-0.json
+START trial-4242-6-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "6", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 66.66993207499945, "peak_rss_bytes": 164237312, "initial_headroom_bytes": 16034324480, "minimum_headroom_bytes": 15936184320}
+COMPLETE trial-4242-6-24.json
+START verify-4242-6-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "4242", "6", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 122.01815585999975, "peak_rss_bytes": 212111360, "initial_headroom_bytes": 16028758016, "minimum_headroom_bytes": 15843614720}
+VERIFIED verify-4242-6-24.json
+START trial-4242-6-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "4242", "6", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 72.37618206200023, "peak_rss_bytes": 164229120, "initial_headroom_bytes": 16024444928, "minimum_headroom_bytes": 15926804480}
+COMPLETE trial-4242-6-48.json
+COHORT COMPLETE 4242 6
+START trial-7301-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 18.868331305999163, "peak_rss_bytes": 122216448, "initial_headroom_bytes": 16018976768, "minimum_headroom_bytes": 15943835648}
+COMPLETE trial-7301-2-0.json
+START verify-7301-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 19.375099611999758, "peak_rss_bytes": 122966016, "initial_headroom_bytes": 16016650240, "minimum_headroom_bytes": 15962316800}
+VERIFIED verify-7301-2-0.json
+START trial-7301-2-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "2", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 22.782237278999673, "peak_rss_bytes": 122126336, "initial_headroom_bytes": 16015257600, "minimum_headroom_bytes": 15962087424}
+COMPLETE trial-7301-2-24.json
+START verify-7301-2-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "2", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 47.41265961499994, "peak_rss_bytes": 122396672, "initial_headroom_bytes": 16013725696, "minimum_headroom_bytes": 15957692416}
+VERIFIED verify-7301-2-24.json
+START trial-7301-2-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "2", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 26.337570710000364, "peak_rss_bytes": 120569856, "initial_headroom_bytes": 16012341248, "minimum_headroom_bytes": 15958278144}
+COMPLETE trial-7301-2-48.json
+COHORT COMPLETE 7301 2
+START trial-7301-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 34.74572376600008, "peak_rss_bytes": 126222336, "initial_headroom_bytes": 16010477568, "minimum_headroom_bytes": 15911993344}
+COMPLETE trial-7301-3-0.json
+START verify-7301-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 27.93004124899926, "peak_rss_bytes": 133984256, "initial_headroom_bytes": 16007692288, "minimum_headroom_bytes": 15931117568}
+VERIFIED verify-7301-3-0.json
+START trial-7301-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "3", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 32.32358002299952, "peak_rss_bytes": 126935040, "initial_headroom_bytes": 16005644288, "minimum_headroom_bytes": 15946612736}
+COMPLETE trial-7301-3-24.json
+START verify-7301-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "3", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 63.43334518299889, "peak_rss_bytes": 142520320, "initial_headroom_bytes": 16003252224, "minimum_headroom_bytes": 15928647680}
+VERIFIED verify-7301-3-24.json
+START trial-7301-3-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "3", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 37.047599218998585, "peak_rss_bytes": 126226432, "initial_headroom_bytes": 16001015808, "minimum_headroom_bytes": 15942610944}
+COMPLETE trial-7301-3-48.json
+COHORT COMPLETE 7301 3
+START trial-7301-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 37.89148023100097, "peak_rss_bytes": 145854464, "initial_headroom_bytes": 15998205952, "minimum_headroom_bytes": 15926054912}
+COMPLETE trial-7301-4-0.json
+START verify-7301-4-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "4", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 34.72850293200099, "peak_rss_bytes": 146137088, "initial_headroom_bytes": 15995076608, "minimum_headroom_bytes": 15915556864}
+VERIFIED verify-7301-4-0.json
+START trial-7301-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 41.59691375700095, "peak_rss_bytes": 134963200, "initial_headroom_bytes": 15992430592, "minimum_headroom_bytes": 15889584128}
+COMPLETE trial-7301-4-24.json
+START verify-7301-4-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://verify_trial.gd", "--", "7301", "4", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 77.71282659499957, "peak_rss_bytes": 158375936, "initial_headroom_bytes": 15988617216, "minimum_headroom_bytes": 15896981504}
+VERIFIED verify-7301-4-24.json
+START trial-7301-4-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-reductions/work/candidate30", "--script", "res://trial.gd", "--", "7301", "4", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 45.210655429000326, "peak_rss_bytes": 134967296, "initial_headroom_bytes": 15986241536, "minimum_headroom_bytes": 15918092288}
+COMPLETE trial-7301-4-48.json
+COHORT COMPLETE 7301 4
+ALL11 COHORTS COMPLETE; no promotion

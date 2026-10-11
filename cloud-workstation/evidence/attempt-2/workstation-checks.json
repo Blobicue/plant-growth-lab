@@ -1,0 +1,216 @@
+{
+  "adapter": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "catalog_sha256": "abe1cb7e411d85c7f19f52efe920ce2167735a4ed4b5517e340adbdf9184f411",
+  "checks": [
+    {
+      "name": "startup paused, control off, no archive/live hidden resume",
+      "pass": true
+    },
+    {
+      "name": "six exact F1 catalog records",
+      "pass": true
+    },
+    {
+      "name": "wired catalog selection changes model and seed",
+      "pass": true
+    },
+    {
+      "name": "paired whole-world outcomes visible",
+      "pass": true
+    },
+    {
+      "name": "living young grandchild labeled censored with actual budget",
+      "pass": true
+    },
+    {
+      "name": "paired finite-resource partitions at selected common hour",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 0",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 0",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 0",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 0",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 0",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 0",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 1",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 1",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 1",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 1",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 1",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 1",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 2",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 2",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 2",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 2",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 2",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 2",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 3",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 3",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 3",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 3",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 3",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 3",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 4",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 4",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 4",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 4",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 4",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 4",
+      "pass": true
+    },
+    {
+      "name": "actual input loads exact model checkpoint 5",
+      "pass": true
+    },
+    {
+      "name": "wired replay starts 5",
+      "pass": true
+    },
+    {
+      "name": "wired pause halts 5",
+      "pass": true
+    },
+    {
+      "name": "wired step advances archive copy 5",
+      "pass": true
+    },
+    {
+      "name": "96 actual saved-state hourly hashes exact 5",
+      "pass": true
+    },
+    {
+      "name": "archive replay does not change live world 5",
+      "pass": true
+    },
+    {
+      "name": "fixed endpoint inspect-only; cannot extrapolate",
+      "pass": true
+    },
+    {
+      "name": "initial checkpoint restores",
+      "pass": true
+    },
+    {
+      "name": "changed checkpoint rejected before deserialize",
+      "pass": true
+    },
+    {
+      "name": "switching pane pauses archive and revokes live control",
+      "pass": true
+    },
+    {
+      "name": "existing live step operates separately",
+      "pass": true
+    },
+    {
+      "name": "existing live pause preserved",
+      "pass": true
+    },
+    {
+      "name": "existing explicit local control opt-in still available",
+      "pass": true
+    },
+    {
+      "name": "leaving live pane revokes local control",
+      "pass": true
+    },
+    {
+      "name": "archived report visible with status",
+      "pass": true
+    },
+    {
+      "name": "workstation STOP keeps all control off",
+      "pass": true
+    }
+  ],
+  "display": "X11",
+  "reopen": false
+}

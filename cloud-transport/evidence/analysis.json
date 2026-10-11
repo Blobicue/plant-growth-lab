@@ -1,0 +1,1078 @@
+{
+  "registered_primary_cases": 22,
+  "registered_numerical_shadows": 11,
+  "completed_trials": 5,
+  "completed_verifications": 3,
+  "pending": [
+    {
+      "seed": 12011,
+      "id": 3,
+      "mode": 48
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "verification_mode": 24
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "mode": 0
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "mode": 24
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "mode": 48
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "verification_mode": 0
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "verification_mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "mode": 48
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "verification_mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "verification_mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "mode": 48
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "verification_mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "verification_mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "mode": 48
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "verification_mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "verification_mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "mode": 48
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "verification_mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "verification_mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "mode": 24
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "mode": 48
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "verification_mode": 0
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "verification_mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "mode": 48
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "verification_mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "verification_mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "mode": 48
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "verification_mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "verification_mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "mode": 24
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "mode": 48
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "verification_mode": 0
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "verification_mode": 24
+    }
+  ],
+  "cases": [
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "mode": 0,
+      "paid_roots": 6,
+      "connected_roots": 6,
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "leaf_packets": 4,
+      "third_root_age": 6,
+      "all_dead_age": null,
+      "first_unpaid_age": null,
+      "first_tissue_death_age": null,
+      "maturity_age": null,
+      "new_offspring": 0,
+      "expired_proposals": 84,
+      "fixed_C": 0.15988201200000007,
+      "absorbed_light_E": 61.505664,
+      "uptake_N": 0.0017286699999999947,
+      "uptake_W": 0.12054676600000021,
+      "unpaid_C": 0.0,
+      "repair_C": 0.0506158182321785,
+      "operating_C": 0.011439739508349029,
+      "construction_C": 0.0186,
+      "construction_N": 0.0007704,
+      "construction_W": 0.005579999999999999,
+      "first96h_budget": {
+        "actual_demand_C": 0.019463793831073654,
+        "connected_leaves": 384.0,
+        "construction_C": 0.013199999999999998,
+        "construction_N": 0.00044639999999999995,
+        "construction_W": 0.00396,
+        "direct_respired_C": 0.011388753707224667,
+        "fixed_C": 0.019463772,
+        "hydrated_demand_C": 0.031923416000411,
+        "leaf_water_sum": 1.1826633305589143,
+        "light_receipt_E": 7.788672,
+        "operating_C": 0.0021745203425253268,
+        "refused_C": 73.0,
+        "refused_N": 82.0,
+        "refused_W": 0.0,
+        "repair_C": 0.005900497950250004,
+        "turnover_C": 0.005098559688505592,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.04029184290344237,
+        "uptake_N": 0.0003072910000000001,
+        "uptake_W": 0.016767223000000005
+      },
+      "budget": {
+        "actual_demand_C": 0.15988220618555216,
+        "connected_leaves": 3072.0,
+        "construction_C": 0.0186,
+        "construction_N": 0.0007704,
+        "construction_W": 0.005579999999999999,
+        "direct_respired_C": 0.09782645425947256,
+        "fixed_C": 0.15988201200000007,
+        "hydrated_demand_C": 0.252093155065909,
+        "leaf_water_sum": 10.79577017965676,
+        "light_receipt_E": 61.505664,
+        "operating_C": 0.011439739508349029,
+        "refused_C": 1024.0,
+        "refused_N": 279.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0506158182321785,
+        "turnover_C": 0.04440501383202368,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.322334743227539,
+        "uptake_N": 0.0017286699999999947,
+        "uptake_W": 0.12054676600000021
+      },
+      "carbon_stock_closure_max_abs": 1.2235221516498918e-16,
+      "max_world_error": 4.3655745685100555e-11,
+      "max_plant_error": 1.7053025658242404e-13,
+      "maximum_sender_fraction": 0.0,
+      "world_endpoint": [
+        {
+          "connected_roots": 5,
+          "expired": 246,
+          "fixed_C": 0.28147247699999955,
+          "generation": 0,
+          "id": 0,
+          "living": 25,
+          "paid": 54,
+          "paid_roots": 17,
+          "pools": {
+            "c": 0.0005796748218384443,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.008345460388028648,
+            "disconnected_w": 0.30619959506311273,
+            "n": 0.006914668326986413,
+            "w": 0.24798785646766786
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0009364142633500835,
+            "w": 0.018728285267001793
+          }
+        },
+        {
+          "connected_roots": 21,
+          "expired": 267,
+          "fixed_C": 0.5528155859999998,
+          "generation": 0,
+          "id": 1,
+          "living": 59,
+          "paid": 59,
+          "paid_roots": 21,
+          "pools": {
+            "c": 0.014132117618826604,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.032642114,
+            "w": 0.6149709240000003
+          },
+          "reserve": {
+            "c": 0.013134270393967862,
+            "n": 0.002,
+            "w": 0.04
+          }
+        },
+        {
+          "connected_roots": 6,
+          "expired": 84,
+          "fixed_C": 0.15988201200000007,
+          "generation": 1,
+          "id": 2,
+          "living": 16,
+          "paid": 16,
+          "paid_roots": 6,
+          "pools": {
+            "c": 0.02913973950834893,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0022070700000000006,
+            "w": 0.07160576000000005
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "mode": 24,
+      "paid_roots": 6,
+      "connected_roots": 6,
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "leaf_packets": 4,
+      "third_root_age": 5,
+      "all_dead_age": null,
+      "first_unpaid_age": null,
+      "first_tissue_death_age": null,
+      "maturity_age": null,
+      "new_offspring": 0,
+      "expired_proposals": 84,
+      "fixed_C": 0.15997959100000042,
+      "absorbed_light_E": 61.540608000000006,
+      "uptake_N": 0.0017180359999999938,
+      "uptake_W": 0.12160555299999992,
+      "unpaid_C": 0.0,
+      "repair_C": 0.05030751725659104,
+      "operating_C": 0.01241600218073077,
+      "construction_C": 0.0186,
+      "construction_N": 0.0007704,
+      "construction_W": 0.005579999999999999,
+      "first96h_budget": {
+        "actual_demand_C": 0.01953861704571334,
+        "connected_leaves": 384.0,
+        "construction_C": 0.013199999999999998,
+        "construction_N": 0.00044639999999999995,
+        "construction_W": 0.00396,
+        "direct_respired_C": 0.011257535749258335,
+        "fixed_C": 0.019538593000000024,
+        "hydrated_demand_C": 0.03206664091073183,
+        "leaf_water_sum": 1.182658265235745,
+        "light_receipt_E": 7.823616000000001,
+        "operating_C": 0.002451685411314991,
+        "refused_C": 73.0,
+        "refused_N": 81.0,
+        "refused_W": 0.0,
+        "repair_C": 0.005829371839426699,
+        "turnover_C": 0.0050279038649852555,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.04029184290344237,
+        "uptake_N": 0.00030831900000000004,
+        "uptake_W": 0.016826026000000004
+      },
+      "budget": {
+        "actual_demand_C": 0.15997977693210685,
+        "connected_leaves": 3072.0,
+        "construction_C": 0.0186,
+        "construction_N": 0.0007704,
+        "construction_W": 0.005579999999999999,
+        "direct_respired_C": 0.0972560715626786,
+        "fixed_C": 0.15997959100000042,
+        "hydrated_demand_C": 0.2522363799762299,
+        "leaf_water_sum": 10.808688114435531,
+        "light_receipt_E": 61.540608000000006,
+        "operating_C": 0.01241600218073077,
+        "refused_C": 1034.0,
+        "refused_N": 263.0,
+        "refused_W": 0.0,
+        "repair_C": 0.05030751725659104,
+        "turnover_C": 0.044097884687596164,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.322334743227539,
+        "uptake_N": 0.0017180359999999938,
+        "uptake_W": 0.12160555299999992
+      },
+      "carbon_stock_closure_max_abs": 8.1938579185592e-16,
+      "max_world_error": 4.3655745685100555e-11,
+      "max_plant_error": 7.958078640513122e-13,
+      "maximum_sender_fraction": 0.17999999999999997,
+      "world_endpoint": [
+        {
+          "connected_roots": 5,
+          "expired": 244,
+          "fixed_C": 0.28118322200000084,
+          "generation": 0,
+          "id": 0,
+          "living": 24,
+          "paid": 54,
+          "paid_roots": 17,
+          "pools": {
+            "c": 0.0009733091052130361,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.008595575332659687,
+            "disconnected_w": 0.3122364498547265,
+            "n": 0.006646105472708315,
+            "w": 0.23594787024494102
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0009125461830245126,
+            "w": 0.018250923660490213
+          }
+        },
+        {
+          "connected_roots": 21,
+          "expired": 267,
+          "fixed_C": 0.5514421449999996,
+          "generation": 0,
+          "id": 1,
+          "living": 59,
+          "paid": 59,
+          "paid_roots": 21,
+          "pools": {
+            "c": 0.019517738627093016,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.03264634999997356,
+            "w": 0.5972976614994989
+          },
+          "reserve": {
+            "c": 0.005369964065356193,
+            "n": 0.0019999999999999996,
+            "w": 0.039999999999999994
+          }
+        },
+        {
+          "connected_roots": 6,
+          "expired": 84,
+          "fixed_C": 0.15997959100000042,
+          "generation": 1,
+          "id": 2,
+          "living": 16,
+          "paid": 16,
+          "paid_roots": 6,
+          "pools": {
+            "c": 0.03011600218071227,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0021964359999989236,
+            "w": 0.072615757499964
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "mode": 48,
+      "paid_roots": 6,
+      "connected_roots": 6,
+      "paid_nodes": 16,
+      "living_nodes": 16,
+      "leaf_packets": 4,
+      "third_root_age": 5,
+      "all_dead_age": null,
+      "first_unpaid_age": null,
+      "first_tissue_death_age": null,
+      "maturity_age": null,
+      "new_offspring": 0,
+      "expired_proposals": 84,
+      "fixed_C": 0.1600752300000001,
+      "absorbed_light_E": 61.540608000000006,
+      "uptake_N": 0.001719886999999993,
+      "uptake_W": 0.12174203200000021,
+      "unpaid_C": 0.0,
+      "repair_C": 0.05027957377310818,
+      "operating_C": 0.012587036838602107,
+      "construction_C": 0.0186,
+      "construction_N": 0.0007704,
+      "construction_W": 0.005579999999999999,
+      "first96h_budget": {
+        "actual_demand_C": 0.01953720606388556,
+        "connected_leaves": 384.0,
+        "construction_C": 0.010799999999999999,
+        "construction_N": 0.00038879999999999996,
+        "construction_W": 0.00324,
+        "direct_respired_C": 0.011245201022990313,
+        "fixed_C": 0.01953717999999999,
+        "hydrated_demand_C": 0.03206664091073183,
+        "leaf_water_sum": 1.1826844820641924,
+        "light_receipt_E": 7.823616000000001,
+        "operating_C": 0.002469247230536171,
+        "refused_C": 74.0,
+        "refused_N": 78.0,
+        "refused_W": 0.0,
+        "repair_C": 0.005822731746473508,
+        "turnover_C": 0.005021262089302475,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.04029184290344237,
+        "uptake_N": 0.00030831900000000004,
+        "uptake_W": 0.016826013
+      },
+      "budget": {
+        "actual_demand_C": 0.1600754241776196,
+        "connected_leaves": 3072.0,
+        "construction_C": 0.0186,
+        "construction_N": 0.0007704,
+        "construction_W": 0.005579999999999999,
+        "direct_respired_C": 0.09720861938828981,
+        "fixed_C": 0.1600752300000001,
+        "hydrated_demand_C": 0.2522363799762299,
+        "leaf_water_sum": 10.822215502327817,
+        "light_receipt_E": 61.540608000000006,
+        "operating_C": 0.012587036838602107,
+        "refused_C": 1034.0,
+        "refused_N": 264.0,
+        "refused_W": 0.0,
+        "repair_C": 0.05027957377310818,
+        "turnover_C": 0.044072333516771436,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.322334743227539,
+        "uptake_N": 0.001719886999999993,
+        "uptake_W": 0.12174203200000021
+      },
+      "carbon_stock_closure_max_abs": 9.514416164646544e-16,
+      "max_world_error": 4.3655745685100555e-11,
+      "max_plant_error": 1.5063505998114124e-12,
+      "maximum_sender_fraction": 0.08999999999999998,
+      "world_endpoint": [
+        {
+          "connected_roots": 5,
+          "expired": 244,
+          "fixed_C": 0.2811820760000007,
+          "generation": 0,
+          "id": 0,
+          "living": 24,
+          "paid": 54,
+          "paid_roots": 17,
+          "pools": {
+            "c": 0.0009712658943409123,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.008595640504398845,
+            "disconnected_w": 0.31223719128343524,
+            "n": 0.006646250098258548,
+            "w": 0.23595115162929095
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0009124017576185111,
+            "w": 0.018248035152370244
+          }
+        },
+        {
+          "connected_roots": 21,
+          "expired": 267,
+          "fixed_C": 0.5514396079999984,
+          "generation": 0,
+          "id": 1,
+          "living": 59,
+          "paid": 59,
+          "paid_roots": 21,
+          "pools": {
+            "c": 0.019518738450484654,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.032646007999970174,
+            "w": 0.5972944169994365
+          },
+          "reserve": {
+            "c": 0.00536607062069559,
+            "n": 0.0020000000000000018,
+            "w": 0.03999999999999997
+          }
+        },
+        {
+          "connected_roots": 6,
+          "expired": 84,
+          "fixed_C": 0.1600752300000001,
+          "generation": 1,
+          "id": 2,
+          "living": 16,
+          "paid": 16,
+          "paid_roots": 6,
+          "pools": {
+            "c": 0.030287036838583768,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0021982869999989203,
+            "w": 0.07270441699996445
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "mode": 0,
+      "paid_roots": 2,
+      "connected_roots": 2,
+      "paid_nodes": 13,
+      "living_nodes": 13,
+      "leaf_packets": 4,
+      "third_root_age": null,
+      "all_dead_age": null,
+      "first_unpaid_age": null,
+      "first_tissue_death_age": null,
+      "maturity_age": null,
+      "new_offspring": 0,
+      "expired_proposals": 86,
+      "fixed_C": 0.13693829899999996,
+      "absorbed_light_E": 65.86367999999999,
+      "uptake_N": 9.986999999999984e-05,
+      "uptake_W": 0.05751540799999997,
+      "unpaid_C": 0.0,
+      "repair_C": 0.05093977824892459,
+      "operating_C": -0.010852629852201194,
+      "construction_C": 0.013799999999999998,
+      "construction_N": 0.000396,
+      "construction_W": 0.0041400000000000005,
+      "first96h_budget": {
+        "actual_demand_C": 0.01983544451135265,
+        "connected_leaves": 384.0,
+        "construction_C": 0.011399999999999999,
+        "construction_N": 0.0003384,
+        "construction_W": 0.0034200000000000003,
+        "direct_respired_C": 0.010955325114534285,
+        "fixed_C": 0.019835417999999987,
+        "hydrated_demand_C": 0.033744418431633,
+        "leaf_water_sum": 1.1379828962299157,
+        "light_receipt_E": 8.232960000000002,
+        "operating_C": 0.0032040019436075005,
+        "refused_C": 79.0,
+        "refused_N": 103.0,
+        "refused_W": 0.0,
+        "repair_C": 0.005676090941858198,
+        "turnover_C": 0.004865175061672309,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.04029184290344237,
+        "uptake_N": 1.8959000000000016e-05,
+        "uptake_W": 0.008920929
+      },
+      "budget": {
+        "actual_demand_C": 0.13693849167420116,
+        "connected_leaves": 3072.0,
+        "construction_C": 0.013799999999999998,
+        "construction_N": 0.000396,
+        "construction_W": 0.0041400000000000005,
+        "direct_respired_C": 0.09685115060327656,
+        "fixed_C": 0.13693829899999996,
+        "hydrated_demand_C": 0.26995534745306393,
+        "leaf_water_sum": 6.525928259315094,
+        "light_receipt_E": 65.86367999999999,
+        "operating_C": -0.010852629852201194,
+        "refused_C": 904.0,
+        "refused_N": 638.0,
+        "refused_W": 0.0,
+        "repair_C": 0.05093977824892459,
+        "turnover_C": 0.04387985032484123,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.322334743227539,
+        "uptake_N": 9.986999999999984e-05,
+        "uptake_W": 0.05751540799999997
+      },
+      "carbon_stock_closure_max_abs": 8.088148206741863e-17,
+      "max_world_error": 1.7462298274040222e-10,
+      "max_plant_error": 1.5916157281026244e-12,
+      "maximum_sender_fraction": 0.0,
+      "world_endpoint": [
+        {
+          "connected_roots": 2,
+          "expired": 246,
+          "fixed_C": 1.3642509680000043,
+          "generation": 0,
+          "id": 0,
+          "living": 14,
+          "paid": 54,
+          "paid_roots": 17,
+          "pools": {
+            "c": 0.0012613295949025134,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.011677029435067189,
+            "disconnected_w": 0.3826238563622268,
+            "n": 0.004499784342169478,
+            "w": 0.06098094147518608
+          },
+          "reserve": {
+            "c": 0.00014963242038022308,
+            "n": 0.0019999999999999983,
+            "w": 0.04
+          }
+        },
+        {
+          "connected_roots": 17,
+          "expired": 324,
+          "fixed_C": 2.8718037200000133,
+          "generation": 0,
+          "id": 1,
+          "living": 54,
+          "paid": 59,
+          "paid_roots": 21,
+          "pools": {
+            "c": 0.009463808905113037,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0029879129405829294,
+            "disconnected_w": 0.05790838032154827,
+            "n": 0.038201732100058595,
+            "w": 0.5876216446185889
+          },
+          "reserve": {
+            "c": 0.03629261871279189,
+            "n": 0.002,
+            "w": 0.04
+          }
+        },
+        {
+          "connected_roots": 13,
+          "expired": 806,
+          "fixed_C": 1.8296276170000014,
+          "generation": 1,
+          "id": 2,
+          "living": 32,
+          "paid": 32,
+          "paid_roots": 13,
+          "pools": {
+            "c": 0.005170772419499068,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0022921314101253232,
+            "w": 0.26866873670250685
+          },
+          "reserve": {
+            "c": 0.0015615582205645137,
+            "n": 0.0019174715898746583,
+            "w": 0.038349431797493255
+          }
+        },
+        {
+          "connected_roots": 2,
+          "expired": 86,
+          "fixed_C": 0.13693829899999996,
+          "generation": 2,
+          "id": 3,
+          "living": 13,
+          "paid": 13,
+          "paid_roots": 2,
+          "pools": {
+            "c": 0.011647370147798812,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0009526699999999986,
+            "w": 0.021486258499999987
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "mode": 24,
+      "paid_roots": 3,
+      "connected_roots": 3,
+      "paid_nodes": 13,
+      "living_nodes": 13,
+      "leaf_packets": 4,
+      "third_root_age": 5,
+      "all_dead_age": null,
+      "first_unpaid_age": null,
+      "first_tissue_death_age": null,
+      "maturity_age": null,
+      "new_offspring": 0,
+      "expired_proposals": 85,
+      "fixed_C": 0.1523325740000001,
+      "absorbed_light_E": 65.86367999999999,
+      "uptake_N": 0.00013818000000000147,
+      "uptake_W": 0.07617397600000005,
+      "unpaid_C": 0.0,
+      "repair_C": 0.0500492091878787,
+      "operating_C": 0.006381501350012237,
+      "construction_C": 0.013199999999999998,
+      "construction_N": 0.00044639999999999995,
+      "construction_W": 0.00396,
+      "first96h_budget": {
+        "actual_demand_C": 0.0200101492395934,
+        "connected_leaves": 384.0,
+        "construction_C": 0.010799999999999999,
+        "construction_N": 0.00038879999999999996,
+        "construction_W": 0.00324,
+        "direct_respired_C": 0.011345367452267585,
+        "fixed_C": 0.020010121999999998,
+        "hydrated_demand_C": 0.033744418431633,
+        "leaf_water_sum": 1.1375659448198994,
+        "light_receipt_E": 8.232960000000002,
+        "operating_C": 0.002779747111390802,
+        "refused_C": 87.0,
+        "refused_N": 104.0,
+        "refused_W": 0.0,
+        "repair_C": 0.005885007436341609,
+        "turnover_C": 0.0050751978589133155,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.04029184290344237,
+        "uptake_N": 2.736300000000006e-05,
+        "uptake_W": 0.012165075000000003
+      },
+      "budget": {
+        "actual_demand_C": 0.15233277829547337,
+        "connected_leaves": 3072.0,
+        "construction_C": 0.013199999999999998,
+        "construction_N": 0.00044639999999999995,
+        "construction_W": 0.00396,
+        "direct_respired_C": 0.09590186346210916,
+        "fixed_C": 0.1523325740000001,
+        "hydrated_demand_C": 0.26995534745306393,
+        "leaf_water_sum": 8.037503392906586,
+        "light_receipt_E": 65.86367999999999,
+        "operating_C": 0.006381501350012237,
+        "refused_C": 610.0,
+        "refused_N": 641.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0500492091878787,
+        "turnover_C": 0.043368695710366466,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.322334743227539,
+        "uptake_N": 0.00013818000000000147,
+        "uptake_W": 0.07617397600000005
+      },
+      "carbon_stock_closure_max_abs": 6.971419969081794e-16,
+      "max_world_error": 1.7462298274040222e-10,
+      "max_plant_error": 1.8189894035458565e-12,
+      "maximum_sender_fraction": 0.17999999999999997,
+      "world_endpoint": [
+        {
+          "connected_roots": 2,
+          "expired": 246,
+          "fixed_C": 1.3639558530000047,
+          "generation": 0,
+          "id": 0,
+          "living": 13,
+          "paid": 54,
+          "paid_roots": 17,
+          "pools": {
+            "c": 0.0013910274548511582,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.011995681102698098,
+            "disconnected_w": 0.3875456150745174,
+            "n": 0.004177544603256076,
+            "w": 0.055951397220886774
+          },
+          "reserve": {
+            "c": 0.00037683650770372517,
+            "n": 0.0019999999999999983,
+            "w": 0.04
+          }
+        },
+        {
+          "connected_roots": 17,
+          "expired": 324,
+          "fixed_C": 2.8708205340000195,
+          "generation": 0,
+          "id": 1,
+          "living": 54,
+          "paid": 59,
+          "paid_roots": 21,
+          "pools": {
+            "c": 0.01222106796992707,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0029879129405829294,
+            "disconnected_w": 0.05790838032154827,
+            "n": 0.03819670110002666,
+            "w": 0.5763755936181075
+          },
+          "reserve": {
+            "c": 0.031953017364078524,
+            "n": 0.002,
+            "w": 0.04
+          }
+        },
+        {
+          "connected_roots": 13,
+          "expired": 806,
+          "fixed_C": 1.8292050449999995,
+          "generation": 1,
+          "id": 2,
+          "living": 32,
+          "paid": 32,
+          "paid_roots": 13,
+          "pools": {
+            "c": 0.00672904825711034,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.002304222911134078,
+            "w": 0.27103913072249824
+          },
+          "reserve": {
+            "c": 0.00018608567277817736,
+            "n": 0.0019051910888631526,
+            "w": 0.038103821777262896
+          }
+        },
+        {
+          "connected_roots": 3,
+          "expired": 85,
+          "fixed_C": 0.1523325740000001,
+          "generation": 2,
+          "id": 3,
+          "living": 13,
+          "paid": 13,
+          "paid_roots": 3,
+          "pools": {
+            "c": 0.029481501349994377,
+            "disconnected_c": 0.0,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0009405799999994267,
+            "w": 0.032627688999977485
+          },
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "baseline_roots": 6,
+      "T1_roots": 6,
+      "refinement_roots": 6,
+      "root_difference": 0,
+      "baseline_living": 16,
+      "T1_living": 16,
+      "refinement_living": 16,
+      "baseline_third_root_age": 6,
+      "T1_third_root_age": 5,
+      "refinement_third_root_age": 5,
+      "fixed_C_difference": 9.757900000034736e-05,
+      "unpaid_C_difference": 0.0,
+      "repair_C_difference": -0.0003083009755874555,
+      "operating_C_difference": 0.0009762626723817409,
+      "expiry_difference": 0,
+      "refinement_construction_timeline_exact": false,
+      "refinement_discrete_differences": {},
+      "refinement_fixed_C_difference": 9.56389999996754e-05,
+      "non_target_living_difference": -1
+    }
+  ],
+  "max_carbon_closure": 9.514416164646544e-16,
+  "max_world_error": 1.7462298274040222e-10,
+  "max_plant_error": 1.8189894035458565e-12,
+  "exact_hourly_replay_checks": 2304,
+  "canonical_node_field_hourly_checks": 768,
+  "runtime": {
+    "completed_invocations": 12,
+    "wall_seconds": 264.4678126339986,
+    "peak_rss_bytes": 251039744,
+    "minimum_headroom_bytes": 16010383360,
+    "failed_invocations": [
+      [
+        "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+        "--headless",
+        "--path",
+        "/workspace/plant-growth-lab/cloud-transport/work/candidate30",
+        "--script",
+        "res://verify_trial.gd",
+        "--",
+        "12011",
+        "3",
+        "24"
+      ]
+    ]
+  },
+  "interpretation": "Fixed768h matched legacy birth states; all-plant T1; numerical shadows never selected for outcome. No feedback, rate tuning, promotion or sustained-replacement claim."
+}

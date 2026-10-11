@@ -1,0 +1,57 @@
+PREREGISTERED MATCHED-STATE ACCESS MATRIX — BEFORE CONTROL RUNS
+Baseline701d108; diagnostic branch only. Passive analysis and all three ordinary
+observer trajectories are complete, with exact original physical fingerprints.
+No model defect has been established; these are explanatory counterfactuals.
+
+Evidence used: all six gen2 grandchildren build one additional root at age3h, then
+remain at two root packets. At age4h local root N is below0.000108 while local C
+and W exceed their unchanged packet costs. Reproducing gen1 children resolve this
+shortfall and eventually build13roots. First complete seven-day N uptake is
+0.00000434–0.00003104 in gen2 versus0.00024468–0.00054335 in reproducing gen1.
+Five gen2 cohorts already draw down water over that window;4242/id5 additionally
+has lower incident light and starts with a negative operating-carbon budget.
+All eventual gen2 deaths are unpaid-maintenance stress, not the maturity gate.
+The late founder-born gen1 child12011/id4 has the same failure sequence.
+Existing28/29 retention failures remain relevant and are not rerun or overturned.
+
+Primary matrix: first ordinary gen2 grandchild in each seed (12011/id3,
+4242/id4,7301/id3), exact whole-world birth snapshot, same2040h follow-up:
+arm0 unchanged counterfactual baseline;
+arm1 suppress ONLY non-target root nitrogen uptake claims;
+arm2 suppress ONLY non-target root water uptake claims.
+All initial resources, target uptake formula, costs, genes, day cycle, canopy,
+transport,32-node maturity, reserve policy and proposal deadlines remain unchanged.
+No material is moved into the target or added anywhere. Denied uptake remains in
+finite soil. Other plants may suffer; this is NOT an ordinary viability result
+or a proposed production policy. Record their endpoint health/compartments too.
+These arms isolate continuing competition, not preexisting sequestration in old
+plants. A null N-competition result cannot exclude legacy N unavailability.
+
+Necessity matrix: first ordinary gen1 child(id2) in all three seeds, same birth
+snapshot,768h follow-up: arm0 unchanged; arm3 suppress ONLY target N uptake.
+This tests whether early environmental N supply is needed for the root-growth
+advantage. It does not test mortality after768h or full reproductive maturity.
+Total15 runs. All seeds and all outcomes retained; no adaptive dose, gate or rate.
+
+Primary endpoints: paid/connected roots, total paid/living packets, cumulative
+N/W uptake, integrated fixed/direct-respired/repair/construction C, water uptake
+minus photosynthetic consumption, first local N refusal, first unpaid maintenance,
+first tissue death, whole-plant death,32-node maturity and offspring. Compare age-
+aligned24h budgets. Gen0/gen1/gen2/gen3 terminology is explicit in every result.
+Do not interpret living tissue alone as sustained replacement. Compare light
+analytically at the existing birth states with Canopy.trace; no simulated photons
+are assigned by that separate calculation and no light rescue is claimed.
+
+Each origin must match the passive saved-state hash. Unchanged controls cross a
+known original960h or8160h hash; two late controls may continue beyond the2040h
+endpoint solely to reach the existing8160h hash. Outcomes are frozen at2040h.
+All original matter/energy and per-plant invariants remain active. Stop on error,
+censor, script failure or8GiB headroom guard. Engines run serially with600s per
+case, the existing mutex and measured RSS/headroom. No GPU/Windows claim.
+
+Interpretation rule: a N-access change that changes local N shortfalls and paid
+root growth supports the N-delivery mechanism; water-access changes may improve
+carbon maintenance without resolving N construction limits. Neither result alone
+justifies a redesign. Inspect whether any failure violates an existing written
+contract before proposing code correction. Otherwise report ecological/allocation
+tradeoffs first; do not implement a production change.

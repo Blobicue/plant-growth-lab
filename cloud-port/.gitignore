@@ -1,0 +1,9 @@
+/toolchain/Godot*
+/toolchain/godot.zip
+/work/
+/cache/
+/data/
+*.lock
+
+/packages/
+/toolchain/debs/

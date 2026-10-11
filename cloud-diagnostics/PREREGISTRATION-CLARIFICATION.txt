@@ -1,0 +1,8 @@
+Observation wording clarification after tissue-level event census; no matrix change.
+The registered plan's sentence "All eventual gen2 deaths are unpaid-maintenance
+stress" describes the overall carbon-maintenance failure too broadly. Of74 gen2
+packet deaths,73 cross stress>45; one leaf (seed4242/id5/node4, tick10309, age1631)
+reaches solid_C0.000239187565 below its0.00024 minimum mass while stress is36.972.
+Its maintenance/repair carbon is exhausted. The original sentence remains in the
+committed registration rather than being silently corrected after control starts.
+All fifteen registered runs, arms, endpoints and interpretation rules are unchanged.

@@ -1,0 +1,6 @@
+work/
+cache/
+data/
+packages/
+__pycache__/
+evidence/Xorg.log

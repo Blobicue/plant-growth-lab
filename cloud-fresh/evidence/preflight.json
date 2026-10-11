@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "legacy_original_hourly_hashes": 96,
+      "seed": 12011
+    },
+    {
+      "legacy_original_hourly_hashes": 96,
+      "seed": 4242
+    },
+    {
+      "legacy_original_hourly_hashes": 96,
+      "seed": 7301
+    },
+    {
+      "T1_completed_hourly_hashes": 768,
+      "plant": 3,
+      "seed": 12011
+    }
+  ],
+  "new_biology": false,
+  "pass": true
+}

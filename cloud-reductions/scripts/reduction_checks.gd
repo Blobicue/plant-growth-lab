@@ -1,0 +1,50 @@
+extends SceneTree
+const State=preload("res://state.gd")
+const O=preload("res://reduction_order.gd")
+const R=preload("res://relabel.gd")
+func _initialize():call_deferred("run")
+func bits(x:float):return var_to_bytes(x).hex_encode()
+func run():
+ GDExtensionManager.load_extension("res://native/resource_field.gdextension")
+ var w=State.new().restore("/workspace/plant-growth-lab/cloud-diagnostics/evidence/birth-12011-3.bin");var p=w.plant_by_id(3);var original=p.nodes.duplicate(true);var checks=[]
+ var datasets=[[.008964199999999999,0.0,0.0,0.0,0.0,0.0,0.0],[.0089642,0.0,0.0,0.0,0.0,0.0,0.0],[.008964200000000002,0.0,0.0,0.0,0.0,0.0,0.0],[1.0,1e-16,1e-16,1e-16,1e-16,1e-16,1e-16],[0.0,0.0,0.0,0.0,0.0,0.0,0.0],[1e-18,1e-28,1e-32,1e-30,1e-27,1e-31,1e-29]]
+ var permutations=[[0,1,2,3,4,5,6],[0,2,1,6,5,4,3],[0,1,6,5,4,3,2],[6,5,4,3,2,1,0]]
+ for values in datasets:
+  p.nodes=original.duplicate(true);var reference=O.sum_values(p,values);var quantum=int(floor(reference*1e9*.01))
+  for order in permutations:
+   var map={};p.nodes=[];var reordered=[]
+   for i in order.size():map[order[i]]=i
+   for i in order:
+    var n=original[i].duplicate(true);n.parent=map[n.parent] if n.parent>=0 else -1;p.nodes.append(n);reordered.append(values[i])
+   var result=O.sum_values(p,reordered);assert(bits(result)==bits(reference));assert(int(floor(result*1e9*.01))==quantum)
+  checks.append({"values":values,"sum_bits":bits(reference),"floor_water_q":quantum,"permutations_exact":permutations.size()})
+ p.nodes=original.duplicate(true)
+ var collision=original.duplicate(true);collision.append(original[1].duplicate());assert(not O.unique_positions(collision));assert(O.ids(p)==range(7))
+ # Exercise rotating integer remainder ties with reordered identical physical claims.
+ var tie_results=[]
+ for tick in range(1,7):
+  w.tick=tick;var expected=[]
+  for variant in 2:
+   var order=permutations[variant];var map={};p.nodes=[]
+   for i in order.size():map[order[i]]=i
+   for i in order:
+    var n=original[i].duplicate(true);n.parent=map[n.parent] if n.parent>=0 else -1;p.nodes.append(n)
+   var ranks=O.ranks(p);var claims=[]
+   for old_id in [1,2,3]:claims.append({"physical":old_id,"key":ranks[map[old_id]],"want":[1,0]})
+   if variant==1:claims.reverse()
+   claims.sort_custom(func(a,b):return a.key<b.key);var receipts=w.allocate(2,claims,0);var mapped={}
+   for j in claims.size():mapped[claims[j].physical]=receipts[j]
+   if variant==0:expected=receipts;tie_results.append({"tick":tick,"physical_receipts":mapped})
+   else:assert(receipts==expected)
+ p.nodes=original.duplicate(true)
+ # A synthetic construction boundary proves that a quantum is not universally harmless.
+ p.obs_hour={"refused_C":0.0,"refused_N":0.0,"refused_W":0.0}
+ var q={"kind":"root","front":2,"blocked":""};p.nodes[2].c=.01;p.nodes[2].w=.01;p.nodes[2].n=.000108
+ assert(p.payable(q));p.nodes[2].n=.000108-1e-9;assert(not p.payable(q))
+ var plan=JSON.parse_string(FileAccess.get_file_as_string("/workspace/plant-growth-lab/cloud-reductions/protocol.json"));var births=[]
+ for c in plan.cohorts:
+  var world=State.new().restore("/workspace/plant-growth-lab/"+c.file)
+  for plant in world.plants:assert(O.ids(plant)==range(plant.nodes.size()),"canonical order must reconstruct archived append order")
+  births.append({"seed":c.seed,"id":c.id,"all_existing_plants_original_order":true});world.close()
+ var result={"pass":true,"near_floor_profiles":checks,"duplicate_physical_keys_rejected":true,"tie_results":tie_results,"synthetic_one_N_quantum_changes_payment":true,"birth_order_checks":births,"note":"Synthetic threshold example is not an observed survival claim."}
+ var f=FileAccess.open("res://evidence/reduction-checks.json",FileAccess.WRITE);f.store_string(JSON.stringify(result,"  ",true,true));f.close();w.close();print("R1 near-floor, exact-tie, collision and11-birth order checks passed");quit()

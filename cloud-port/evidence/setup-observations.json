@@ -1,0 +1,13 @@
+{
+  "initial_ui_before_harness_refinement": {
+    "wall_seconds": 12.348072961999947,
+    "peak_rss_bytes": 368857088,
+    "minimum_headroom_bytes": 16514174976,
+    "note": "Observed in the first software UI run before adding the replay-completion assertion and Dummy audio flag. Retained here from the tool result; final UI evidence is separate."
+  },
+  "recovered_harness_errors": [
+    "First setup provenance check expected the intentionally omitted Windows DLL; fixed to mark only that DLL unavailable and reject other missing runtime files.",
+    "Initial generic checkpoint helper referenced a diagnostics-only previous property; removed from W27/candidate helper; exact restoration and continuation subsequently passed. Original diagnostic28 checkpoint helper remains unchanged.",
+    "Initial package log filename included an absolute argument path; sanitized argument basenames and rebuilt/tested both packages."
+  ]
+}

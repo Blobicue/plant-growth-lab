@@ -1,0 +1,76 @@
+LINUX RESEARCH WORKSTATION 0.1.0 — LOCAL, UNPROMOTED
+
+Result
+A new evidence workspace extends the existing Godot lab instead of replacing its
+controls. Six F1 runs expose paired world outcomes, common-hour resource partitions,
+all lineage/death/maturity events, per-plant carbon budgets and actual binary
+checkpoint replay. Reproduction commands, source paths and distinct model/check
+statuses are accessible in the app. The existing live lab remains separate and
+starts paused with local control OFF. Switching panes, STOP and close revoke
+control; reopen remembers navigation only, never computation or access permission.
+
+Scope choice
+Full F1 comparisons and replay were prioritized. W27 and original candidate30 have
+explicit model/provenance reports and reproduction instructions; their different
+record schemas are not coerced into the F1 binary adapter. No simulation rules,
+rates, genes, numerical kernels, reproductive gate or Windows W27 default changed.
+The96h mechanism assay was NOT run. UI replays are exact checks of already archived
+trajectories, not new survival experiments. No viable-lineage or promotion claim.
+
+Preservation
+Base assessment commit de28f7bbb30da4427a05ee7b7434bdc53e49083e.
+Branch workstation/evidence-catalog; changes only under cloud-workstation.
+Original189 manifest payloads verify. All50 input evidence digests and53 copied
+runtime/support files (including live lab and native kernel) remain byte-identical.
+Only isolated project settings change main scene, application identity and user
+storage. Additional UI scripts call unchanged runtime APIs. All18 packaged state
+files match their original SHA256. The read-only adapter checks seed, transport,
+hour and fingerprint before restoring. Original states/traces are never written.
+
+Validation
+158 named checks pass in final source/package/native-CPU suites:
+54 workstation interactions +4 fresh-process reopen checks per source/package;
+9 existing live save/replay/UI checks +8 existing restart/access checks each;
+8 native/reference/binary-state CPU checks. The ordinary packaged main-scene
+entrypoint also launches/exits successfully via launch.sh. Tests use actual Godot
+X11/Mesa llvmpipe, including injected mouse input for archive load/replay/step/pause.
+Selection, pane/model switching, changed-checkpoint rejection, frame-driven
+pause, endpoint-only inspection, close/reopen, stale/foreign requests, permission
+revocation and exact live replay are covered. All six saved6144h checkpoints each
+match96 original hourly physical hashes in BOTH source and package:1152 aggregate
+UI replay comparisons. Snapshots are real engine viewport captures, not illustrations.
+
+Final validation/build/launch engine wall total 173.823s.
+Peak engine RSS 436.027MiB; minimum effective headroom
+9.888GiB against unchanged8GiB guard. Engines
+serialized under the shared ownership lock. No final guard failure or timeout.
+Superseded development attempts are retained separately, not counted as final
+passes: initial unsupported Godot formatting, a close-time renderer refresh,
+a layout correction and a test-harness notification constant. Their logs/runtime
+records remain under evidence/attempt-*; no biological evidence was overwritten.
+The retained attempt wall total is 106.703s.
+
+Deliverables
+README.txt: user guide, launch/build/test commands and explicit limits.
+packages/model/: self-contained Linux engine/native/PCK/data/guarded launcher.
+packages/plant-research-workstation-0.1.0-linux-x86_64.tar.gz: private local bundle;
+its eight allowlisted files are hash-verified and exclude caches/user data.
+evidence/package-archive.json and package-manifest.json: exact package digests.
+evidence/adapter-manifest.json and packed-source-manifest.json: source lineage.
+evidence/audit.json: checks, runtime and preservation result.
+evidence/screenshots/: paired-outcomes, lineage-budgets, paired-resources,
+saved-state-geometry, model-status and existing-live-controls PNGs. The latter
+shows the preserved native live UI; other screenshots show the new packaged shell.
+
+Limits and remaining work
+Validated in this saved Linux x86_64 environment using official Godot4.7.2
+ed1daf0bf and software rendering. Hardware GPU/Windows tests remain unavailable,
+not passed. No public hosting, remote-display service, push, merge or deployment.
+A graphical Linux display is needed for interactive use; instructions for the
+existing local software display are included. Each guarded session is bounded to
+600s; save live work before closing. The package includes selected states and
+summary resources, not all raw daily histories. Full provenance paths refer to
+the saved source checkout. W27/candidate30 full cross-schema catalog adapters are
+explicitly outside this first increment. Existing strict archived-JSON failures
+remain recorded independently of exact binary/physical identity. Experimental
+T1+R1 and candidate30 remain unpromoted; nonreplacement stays visible.

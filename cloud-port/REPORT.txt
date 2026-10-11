@@ -1,0 +1,179 @@
+PLANT GROWTH LAB — PRIVATE LINUX CPU MIGRATION
+Measured results and exact per-run commands are retained in evidence/.
+
+Original source: Gaia-0-0-1-1/plant-growth-lab, commit
+c7ec213793fb82817ba66e63e8a0b5b16b784762. The saved environment provided a clean
+'work' branch at this commit; no remote-tracking main ref was supplied. origin
+is the requested repository. Work is confined to migration/linux-cpu.
+190 tracked original files, 189 manifest payload entries verified with no mismatch.
+No AGENTS.md or local .agents/skills instructions were present in the checkout.
+Read README.md, MIGRATION.txt, NATIVE-BUILD.txt, RESUME-STATUS.json, W27/candidate30
+METHOD.txt, coupled-validation11 notes, runtime manifests and relevant harnesses.
+
+ADAPTATION
+Official Godot 4.7.2 Linux x86_64 downloaded from godotengine/godot-builds release
+4.7.2-stable, verified against official SHA512-SUMS.txt. Actual version:
+4.7.2.stable.official.ed1daf0bf, matching the original Windows engine revision.
+The preinstalled 4.6.3 engine is not used. No ABI API renaming or version spoofing.
+C11 extension: only replace Windows export declaration with Linux visibility
+attribute and append linux.x86_64 resource_field.so to extension configuration.
+Build: gcc -O3 -g -std=c11 -fPIC -shared. Original ABI header retained unchanged.
+No numerical kernel, rates, prices, 32-node gate, genes or biological rules changed.
+Only copied candidate UI labels identify Candidate30 as UNPROMOTED. Replay format
+version27 is deliberately retained: its schema is unchanged and scientific
+FIELD_ID already distinguishes W27 from candidate30. Data directories are separate.
+Original source/evidence and Windows DLL provenance are never overwritten.
+12 of13 candidate scientific-runtime manifest entries are present and verified;
+the original Windows DLL is intentionally absent and is NOT reported verified.
+
+ENVIRONMENT
+Linux x86_64, Intel Xeon Platinum8573C;5 visible CPUs,4 CPU-equivalent cgroup quota;
+16GiB cgroup memory limit, no swap. GCC14.2, Python3.12.14. Python helpers use the
+standard library and pass on this interpreter; Windows/Python3.11 helpers were
+not blindly executed. No /dev/dri hardware GPU. Optional display uses existing
+Xorg dummy driver and Mesa llvmpipe software rendering, never hardware GPU parity.
+Engine workloads run serially with flock ownership,600s ownership wait, at least
+8GiB measured available/cgroup headroom before AND throughout each run,100ms memory
+sampling,600s default process timeout (1200s for paired survival extensions). Only owned processes can be terminated.
+Runtime reports include exact commands, elapsed seconds, sampled/HWM peak RSS and
+minimum effective headroom. No other user process was killed.
+
+REPRODUCTION (from repository root; generated work must not already exist)
+python3 verify_snapshot.py
+python3 cloud-port/bootstrap.py
+python3 cloud-port/setup.py
+python3 cloud-port/run.py shared-atmosphere27 tests.gd
+python3 cloud-port/run.py shared-atmosphere27 cpu_checks.gd
+python3 cloud-port/run.py seedling-diagnostics28 birth_checks.gd
+python3 cloud-port/validate.py
+python3 cloud-port/build_package.py
+python3 cloud-port/continue.py
+python3 cloud-port/run.py shared-atmosphere27 numeric_diagnostics.gd
+python3 cloud-port/run.py juvenile-allocation30 numeric_diagnostics.gd
+python3 cloud-port/numeric_analysis.py
+python3 cloud-port/summarize.py
+python3 cloud-port/audit_port.py
+python3 cloud-port/archive_packages.py
+
+validate.py records every exit status. A strict JSON metrics mismatch deliberately
+returns exit1, even if all physical hashes match. Do not relabel these jobs as
+unqualified passes. continue.py requires healthy runs, exact original physical
+hashes and successful conservation/backend/saved-state tests before extending the
+ordinary candidate. It does not require exact equality of the separately archived JSON metrics.
+Completed, healthy 12288h cases are preserved and skipped on continuation reruns.
+Diagnostic scripts are copied into the isolated projects by setup.py. In an existing
+work copy, copy cloud-port/scripts/numeric_diagnostics.gd into each tested project
+before the numeric diagnostic commands. No full8160h matrix is rerun for this probe.
+
+Example individual golden command:
+python3 cloud-port/run.py shared-atmosphere27 golden_cpu.gd 4242 1 8160
+Example allocation-order replay:
+python3 cloud-port/run.py juvenile-allocation30 golden_cpu.gd 4242 1 960 reverse
+Exact-state native/interpreted comparison includes every field cell and full
+biological fingerprints for96hours, plus maximum uniform totals above2^32 and
+signed impulse diffusion. Binary save/restore verifies initial hash and96hours
+of uninterrupted versus restored continuation. Three original diagnostic birth
+states restore their original hashes and continue deterministically for96hours.
+The separate original W27 desktop replay saves mentioned in MIGRATION.txt are
+absent from this reduced repository; these are not claimed tested.
+
+GUI (software-rendered evidence, optional)
+Xorg :99 -config /workspace/plant-growth-lab/cloud-port/toolchain/xorg.conf \
+  -logfile /workspace/plant-growth-lab/cloud-port/evidence/Xorg.log -nolisten tcp -noreset
+python3 cloud-port/run.py juvenile-allocation30 ui_checks.gd --gui
+python3 cloud-port/run.py juvenile-allocation30 snapshot_view.gd 12011 --gui
+Source UI and packaged UI checks exercise actual wired Step/Pause/Stop controls,
+save/load and exact replay. PNGs are real Godot view captures under software GL,
+not illustrative or generated images. No hardware rendering parity is inferred.
+
+BIOLOGY PROTOCOL
+First reproduce all six W27 and three candidate ordinary8160h outcomes against
+original full-state hashes. Candidate policy observations require no new reserve
+deposits below32paid nodes, both founders and descendants; mature savings must
+occur. Then restore independently verified candidate8160h binary endpoints and
+continue unchanged ordinary conditions to the preexisting12288h limit. Pair the
+continuation with reverse allocation order; compare complete hashes every hour.
+Collect daily living/paid tissue, leaves, reserves, lineage, conservation maxima.
+No handfeeding, forced sites, manual architecture, gene/rate/cost changes, removal
+of dead tissue, computational-capacity expansion or reproduction subsidy.
+Historical diagnostics29 negative results and all original checkpoints retained.
+
+VALIDATION RESULTS
+115 named checks pass across12 model, CPU, fixture, saved-state, source UI and
+packaged UI/restart suites. Six original W27 and three candidate8160h endpoints
+match exactly, with every available original first960h fingerprint reproduced.
+Six960h reverse-allocation replays also match exactly. Strict JSON-derived metric
+comparisons fail separately; they have not been relabeled as passing golden jobs.
+Candidate collection was observed unchanged below32paid nodes in founders and
+descendants, with mature savings present in each trial. Original evidence remains
+untouched. W27 maximum observed accounting error was6.98491930961609e-10. Original
+matter/per-plant1e-9 and open-energy1e-7 guards were retained without adjustment.
+
+
+UNCHANGED ORDINARY SURVIVAL TO12288H
+All three continuations restore the exact original8160h endpoint. Forward and
+reverse allocation orders agree at every subsequent hour (4128 comparisons per
+seed). All reach12288h without conservation error or censoring. No generation3
+appears; all six observed grandchildren are dead at the final endpoint. The
+surviving population is founders and first-generation offspring. Sustained
+replacement remains unestablished, and candidate30 remains unpromoted.
+
+Seed12011: original grandchild(id3) never exceeds13paid nodes; last daily positive
+sample8544h, first zero8568h. A later founder-born child(id4, generation1) is born
+10694h, reaches12paid nodes and dies by daily sample11640h. Endpoint living nodes
+by plant id0..4: [0,54,32,0,0]. Paired extension300.925s,149.027MiB peak RSS.
+Seed4242: two additional paid grandchildren are born8678h(id5) and9158h(id6).
+They reach12 and13paid nodes; their first daily zero-living samples are10392h
+and10272h respectively. The earlier grandchild(id4) was already dead at8160h.
+Endpoint living nodes by id0..6: [0,50,28,32,0,0,0]. Paired extension634.612s,
+194.133MiB peak RSS,14.807GiB minimum effective headroom. The earlier600s timeout
+was recoverable and is not counted as biological failure.
+Seed7301: another paid grandchild is born10022h(id4), reaches12paid nodes and is
+first zero-living at daily sample10968h. The earlier grandchild(id3) was already
+dead at8160h. Endpoint living nodes by id0..4: [29,55,32,0,0]. Paired extension
+303.880s,148.438MiB peak RSS. No rates, costs, gates, genes or sites were adjusted.
+Daily zero times bound death intervals to24hours; they are not exact death ticks.
+The observed limitation is juvenile paid growth/survival; these runs do not by
+themselves identify its physiological cause. Further intervention would require
+a separate controlled diagnostic, not promotion or tuning based on this result.
+
+JSON REPORT DIAGNOSIS
+See NUMERICS.txt, numeric_analysis.py and evidence/numeric-analysis.json for the
+independent serializer/parser probe and decimal rounding-interval criterion.
+Strict failures remain intact; physical hashes and original conservation limits
+are separate exact/unchanged gates. Numerical diagnostic status and counts are
+reported there without relabeling strict golden jobs as fully passing.
+
+RECOVERY AND DELIVERY
+Local checkpoint ab4b0f1e455f02d1119857f1280a6deb91c5c845 was preserved. After the
+reported disconnect, the actual saved environment, engine checksum, snapshot
+manifest, ownership lock and absence of active engines were rechecked before
+resuming. The previous4242 stop was an owned600s timeout, not a biological failure
+or a disconnect loss. Its log/runtime remain in evidence/failed-harness/timeout-600s-*.
+Only unfinished4242 and7301 were resumed, serially with1200s bounds;12011 and the
+completed golden matrices were not repeated. Recovery evidence is in
+evidence/recovery-state.json and recovery-queue.log.
+
+Standalone private Linux archives are available in cloud-port/packages/:
+shared-atmosphere27-linux-x86_64.tar.gz
+juvenile-allocation30-linux-x86_64.tar.gz
+Each includes the matching official engine, native extension, project PCK,
+bounded launch.sh/launcher.py, instructions, licenses and a checked manifest.
+Archive SHA256 values and member verification are in evidence/package-archives.json.
+Generated software and archives remain gitignored; no external publication occurred.
+
+LIMITATIONS
+Candidate30 remains unpromoted. Finite-horizon grandchildren or surviving tissue
+alone do not establish indefinite replacement. Hardware GPU/Windows tests and
+original Windows package/shortcut verification are unavailable here, not passed.
+Strict archived-JSON metrics equality is tracked separately from binary full-state
+identity; raw failed comparisons are preserved without increasing tolerances.
+No push, merge, deployment or publication has been performed.
+
+MEASURED RESOURCE SUMMARY
+Latest recorded validation and continuation invocations total 2393.193 seconds
+(excludes the separately preserved600s failed attempt and uninstrumented setup).
+Largest final-suite engine RSS 272.141MiB; minimum measured effective headroom
+14.807GiB against the8GiB guard. Initial superseded setup/UI observation reached
+351.77MiB, retained separately in setup-observations.json. All engine jobs are
+finished and the ownership lock is available.

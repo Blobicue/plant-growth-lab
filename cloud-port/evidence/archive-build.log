@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27-linux-x86_64.tar.gz",
+    "sha256": "630f4f4b143e5a00d1bea1ddde11f5e78f902a37ec95693c1e98fa6a695f7d6a",
+    "bytes": 78118623,
+    "verified_files": 8
+  },
+  {
+    "path": "/workspace/plant-growth-lab/cloud-port/packages/juvenile-allocation30-linux-x86_64.tar.gz",
+    "sha256": "b465e4e0dfe899e7030e54d8e3e4eac5b6fed9cad6cef4b8f4c16caa7a7ace27",
+    "bytes": 78118899,
+    "verified_files": 8
+  }
+]

@@ -1,0 +1,78 @@
+F1 — PREREGISTERED FRESH-FOUNDER TRANSPORT COMPARISON (NOT EXECUTED)
+
+Question
+Does the juvenile budget/accessibility pattern persist when T1+R1 has governed the
+entire world from initial founders, instead of being switched on at a legacy birth?
+This tests dependence on inherited world history/switch timing. It does NOT isolate
+N from W/C, identify a rescue policy, or establish indefinite survival.
+
+Frozen basis
+R1/T1 implementation and completed evidence at
+5d3a8efaf70efaefefaa19329e8d069dfe9b54ee. No new biological code. R1 on both arms;
+mode0 original ordered transport versus mode24 existing synchronous T1 transport.
+No feedback, resource intervention, extra mixing, rate/cost/gene/gate changes,
+prepared nursery, manual birth selection, or resolution search.
+
+One experiment, six trajectories
+Three original seeds12011,4242,7301; two arms each, initialized from tick0 with each
+seed's original juvenile-allocation30/evidence/matrix-SEED-1.json config. Both arms
+must have identical initial full physical hashes/configs, differing only in the
+explicit transport mode. Apply mode24 before the FIRST world step and inherit it
+for every subsequent plant, not only founders or a chosen descendant.
+Each run ends at12288h or a preregistered correctness/resource/capacity stop. This
+matches the earlier ordinary observation horizon; no extension chosen from results.
+Use all seeds and all births, no exclusion based on outcome. Do not pair descendants
+by ID across arms: birth times, parents and occupancy can differ. Report within-seed
+whole-world outcomes and complete lineage-resolved descendant records.
+
+Readouts fixed before execution
+1. For EVERY paid descendant, budget F, direct upkeep/tip respiration, repair input,
+turnover, repair yield loss, construction, net mobile C, W/N uptake, leaf water,
+actual photo demand, same-light fully-hydrated demand, leaf photon receipts, and
+living/connected/root/leaf counts in first0–96 and0–768h, last576–768h when available.
+Only births <=11520 receive a complete768h budget; later births are explicitly
+right-censored, not discarded or counted as successful. Continue observing all
+plants to world12288; exact death time or survival censoring is retained.
+2. Log local C/N/W and simultaneous whole mobile pools for the first third/fourth
+root and first leaf payment/refusal/expiry. Log actual short resources at payment
+and at expiry separately from previous blocked label. Report age4,age16 N-only
+root blocks and leaf N-only blocks, including absent proposals/failed occupancy.
+No intervention or alternate local payment rule is introduced.
+3. Whole-world lineage: every paid birth, maturity32 timing, offspring-producing
+parents by generation, deaths, living generation counts and any generation3 birth;
+founder reserve/deposit timings and other-plant birth tradeoffs. Finite-horizon
+survival or a single later generation is not sustained replacement.
+4. Report daily and cumulative carbon margins; positive cumulative budget with
+negative final192h is classified as deteriorating, not steady-state viability.
+
+Discriminating interpretation, fixed in advance
+Persistence of N-only local shortfalls with sufficient whole pools, no new leaf
+packets, and negative late carbon margins under fresh T1 would support a genuine
+limitation of T1 plus the existing paid-growth/environment rules. A materially
+different fresh-T1 pattern would show that legacy-history switched-birth results
+cannot be generalized. Because the resulting lineages/environments differ, neither
+outcome decomposes adult switch transients from longer historical ecology; this
+experiment answers the necessary external-validity question first. Report mixed
+seed outcomes as mixed; no pooled independence claim, significance threshold or
+post-hoc successful-seed selection. Do not reinstate construction feedback from
+this result alone. No guarantee that any cohort reaches net-positive operation.
+
+Instrumentation and validation
+Use existing observer arithmetic where sufficient; any additional observer writes
+only separate diagnostics. Verify added observation does not change physical hashes
+against existing golden baseline checkpoints and completed comparison checkpoints
+before the long runs. Original binary-state/conservation/positivity/allocation
+residual guards stay unchanged. Reuse existing validated numerical kernels; no
+repeat of all kernel fixtures solely for this experiment. Save each complete day's
+state and hourly hashes. One saved-state restart per arm/seed at tick6144 must
+match uninterrupted continuation for the next96h; these are correctness checks,
+not additional treatment samples. A mismatch stops dependent biological inference.
+
+Bounds and stopping
+Serial official Godot4.7.2 Linux CPU jobs with shared ownership flock,>=8GiB measured
+headroom, and1800s maximum per primary trajectory (six-job maximum3h plus <=5min
+per replay check). These are ceilings, not runtime estimates. If a job hits a bound,
+preserve its state/log, mark incomplete, stop and reassess; do not extend timeout or
+horizon to obtain a desired result. Record per-job RSS/time/headroom and censoring.
+Hardware GPU and Windows remain unavailable, not passed. No push, merge, deployment
+or promotion. This document registers a recommendation; no F1 runs were launched.

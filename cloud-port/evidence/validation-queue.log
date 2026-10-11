@@ -1,0 +1,51 @@
+START juvenile-allocation30 tests.gd []
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://tests.gd"], "exit": 0, "stop_reason": null, "wall_seconds": 25.479912143999996, "peak_rss_bytes": 122728448, "initial_headroom_bytes": 16840065024, "minimum_headroom_bytes": 16784171008}
+FINISHED 0
+START juvenile-allocation30 cpu_checks.gd []
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://cpu_checks.gd"], "exit": 0, "stop_reason": null, "wall_seconds": 4.015864194000017, "peak_rss_bytes": 118947840, "initial_headroom_bytes": 16839503872, "minimum_headroom_bytes": 16757886976}
+FINISHED 0
+START shared-atmosphere27 golden_cpu.gd ['12011', '0', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "12011", "0", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 87.30966703299998, "peak_rss_bytes": 129417216, "initial_headroom_bytes": 16816041984, "minimum_headroom_bytes": 16730812416}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['12011', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "12011", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 79.88017859499996, "peak_rss_bytes": 124596224, "initial_headroom_bytes": 16802693120, "minimum_headroom_bytes": 16585916416}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['12011', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "12011", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 15.655195583000022, "peak_rss_bytes": 119902208, "initial_headroom_bytes": 16775913472, "minimum_headroom_bytes": 16725323776}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['4242', '0', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "4242", "0", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 106.88167576799998, "peak_rss_bytes": 139296768, "initial_headroom_bytes": 16813101056, "minimum_headroom_bytes": 16714944512}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['4242', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "4242", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 106.30113917900007, "peak_rss_bytes": 134127616, "initial_headroom_bytes": 16785166336, "minimum_headroom_bytes": 16718372864}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['4242', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "4242", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 13.15028904099995, "peak_rss_bytes": 120143872, "initial_headroom_bytes": 16786014208, "minimum_headroom_bytes": 16734932992}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['7301', '0', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "7301", "0", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 93.20674926800007, "peak_rss_bytes": 129576960, "initial_headroom_bytes": 16754364416, "minimum_headroom_bytes": 16446664704}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['7301', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "7301", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 86.76424430600002, "peak_rss_bytes": 125681664, "initial_headroom_bytes": 16606167040, "minimum_headroom_bytes": 16537464832}
+FINISHED 1
+START shared-atmosphere27 golden_cpu.gd ['7301', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://golden_cpu.gd", "--", "7301", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 12.785703865999949, "peak_rss_bytes": 119840768, "initial_headroom_bytes": 16605540352, "minimum_headroom_bytes": 16286904320}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['12011', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "12011", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 97.57566220299998, "peak_rss_bytes": 134160384, "initial_headroom_bytes": 16478949376, "minimum_headroom_bytes": 16407842816}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['12011', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "12011", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 12.455674965999947, "peak_rss_bytes": 118022144, "initial_headroom_bytes": 16475713536, "minimum_headroom_bytes": 16286605312}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['4242', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "4242", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 145.3616037469999, "peak_rss_bytes": 154800128, "initial_headroom_bytes": 16474497024, "minimum_headroom_bytes": 16365678592}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['4242', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "4242", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 12.647142970999994, "peak_rss_bytes": 120115200, "initial_headroom_bytes": 16468824064, "minimum_headroom_bytes": 16416997376}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['7301', '1', '8160']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "7301", "1", "8160"], "exit": 1, "stop_reason": null, "wall_seconds": 100.87808171699999, "peak_rss_bytes": 134311936, "initial_headroom_bytes": 16465657856, "minimum_headroom_bytes": 16398716928}
+FINISHED 1
+START juvenile-allocation30 golden_cpu.gd ['7301', '1', '960', 'reverse']
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://golden_cpu.gd", "--", "7301", "1", "960", "reverse"], "exit": 1, "stop_reason": null, "wall_seconds": 12.547533820000126, "peak_rss_bytes": 120291328, "initial_headroom_bytes": 16462983168, "minimum_headroom_bytes": 16273711104}
+FINISHED 1

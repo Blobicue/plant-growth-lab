@@ -1,0 +1,6 @@
+START shared-atmosphere27
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27", "--script", "res://numeric_diagnostics.gd"], "exit": 0, "stop_reason": null, "wall_seconds": 40.179131705000145, "peak_rss_bytes": 120954880, "initial_headroom_bytes": 16286294016, "minimum_headroom_bytes": 16092360704}
+COMPLETE shared-atmosphere27
+START juvenile-allocation30
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://numeric_diagnostics.gd"], "exit": 0, "stop_reason": null, "wall_seconds": 0.7036064440003429, "peak_rss_bytes": 158146560, "initial_headroom_bytes": 16311595008, "minimum_headroom_bytes": 16222248960}
+COMPLETE juvenile-allocation30

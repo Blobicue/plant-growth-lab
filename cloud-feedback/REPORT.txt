@@ -1,0 +1,98 @@
+STOPPED AT PREREGISTERED GATE: BASELINE NODE-ORDER DEPENDENCY
+
+The proposed construction-feedback policy was NOT implemented or run. All11
+registered birth cohorts failed the predeclared representation-sensitivity gate.
+This is a negative correctness-preflight result, not a negative biological result
+for feedback. No alternative policy has been shown to improve survival.
+
+The protocol was committed at8b24d60 before new implementation or results. It
+specified all11 saved births, the22 intended OFF/ON768h cases, effect measures,
+conservation/replay requirements and stopping criteria. The signal specification
+was narrowed to one paid edge/hour, buffered local waves, original deadline leases
+and no instant global invalidation on edge loss. This mechanism remains untested.
+
+WHAT WAS RUN
+All11 births were restored twice to exact archived fingerprints. One copy retained
+original node indices. The other used the deterministic topological permutation
+[0,2,1,6,5,4,3], reversing equal-birth siblings while retaining parent-before-child
+order and the original graph/positions/tissues/resources. Node parents, tip indices,
+occupancy, leaf-energy keys and world occupancy references were remapped. All
+cohorts were newborns with7 nodes, no proposals and no reserve-source history.
+Both copies ran the unchanged ordinary model for96h. This tests representation;
+it is not a root-support policy or another competitor-deprivation control.
+
+All11 pairs had different paid construction by age5: relabeling allowed the third
+root at age5 while the original did not. Their first refusal histories diverged
+by age6. The third root's original payment age and96h root counts are in
+cloud-feedback/evidence/preflight-results.csv. These are preflight diagnostics,
+not the proposed768h treatment endpoints.
+
+At96h, all six gen2 and the late failed gen1 had2 roots under original indexing
+and3 under relabeling. The four formerly reproducing gen1 had3 roots under original
+indexing; relabeled counts were3,4,3,3. This does not demonstrate viability, maturity
+or sustained replacement; no horizon was extended to look for such an outcome.
+
+WHY THIS IS A REAL MODEL-CONTRACT DEPENDENCY
+An inverse-mapped full focal-plant snapshot, other plants and finite soil field
+were checked equal before advancing. A separate transport-only call on each pair
+changed the canonical resource distribution while conserving C/N/W/E. Thus the
+existing sequential in-place three-pass transport alone is sufficient to produce
+representation dependence. Full-world divergence may subsequently involve other
+ordered operations; this preflight does not attribute every later difference solely
+to transport. It also does not prove a violation of the existing W27 written
+contract, which already uses an ordered operator. Insertion order is currently
+part of executable behavior; its biological interpretation needs an explicit decision.
+
+CHECKS AND LIMITS
+- All11 ordinary baseline paid-event sequences through96h exactly match preserved
+  passive evidence. All original189 payloads still verify.
+- No rate, cost, maturity gate, gene, maintenance, uptake, spatial-allocation or
+  transport source/native binary was changed. All copied science sources match
+  the reviewed Linux candidate30; observer methods remain passive.
+- All22 preflight trajectories reproduced every physical fingerprint in reverse
+  plant-evaluation order, including exact save/restore at age48:2112 hourly matches.
+  This supports existing between-plant fairness, not within-plant representation
+  invariance. Both original and relabeled arms received these checks.
+- Existing world/plant/receipt guards remained active; no negative-pool, allocation,
+  error or censor result occurred. Exact residual maxima and runtime/headroom are
+  in evidence/summary.json. Conservation alone does not prove physiological validity.
+- Treatment signaling, maintenance-prefix identity under treatment, policy replay,
+  reduced photosynthesis, bud expiry and later upkeep tradeoffs are NOT tested.
+  There is no treatment to evaluate because the prior gate failed. Prior ordinary
+  survival findings and candidate30's unpromoted status remain unchanged.
+- Hardware GPU and Windows remain unavailable, not passed. Runs were headless;
+  no new GUI screenshot is relevant to this gate.
+
+REMAINING CONTRACT DECISION
+Do not silently fix the transport and then run the same registered feedback
+comparison: that would combine two model changes. The next defensible work is a
+separate transport-contract assessment: either give the ordered operator an explicit
+physical meaning, or select a conservative local representation-independent operator
+and validate its own behavior before returning to allocation feedback. Relabeling
+must not be selected as a favorable root-growth setting. No implementation of either
+choice, model promotion, publication, push or merge was performed here.
+
+REPRODUCTION (repository root, existing verified Linux setup)
+  python3 verify_snapshot.py
+  python3 cloud-feedback/analyze.py
+The second command audits and summarizes existing evidence without a simulation.
+To recreate the isolated work directory when it does NOT already exist:
+  python3 cloud-feedback/setup.py
+Then reproduce the registered preflight and verification:
+  python3 cloud-feedback/preflight_all.py
+  python3 cloud-feedback/verify_preflight.py
+  python3 cloud-feedback/analyze.py
+The queues preserve completed outputs. setup.py refuses to overwrite an existing
+work directory. For fresh reruns, preserve that directory/evidence separately first;
+never delete original evidence. Individual bounded engine command example:
+  python3 cloud-feedback/run.py candidate30 relabel_preflight.gd 12011 2
+  python3 cloud-feedback/run.py candidate30 relabel_verify.gd 12011 2
+Each engine invocation uses the shared flock,600s bound and8GiB headroom guard.
+See each *.runtime.json for exact engine path, input hashes, wall time and peak RSS.
+
+MEASURED EXECUTION SUMMARY
+22 engine invocations; total engine wall time 156.532s;
+peak RSS 218.238MiB; minimum effective headroom
+14.9469GiB. No timeouts, guard breaches or failed retries.
+Maximum world ledger error 4.07453626e-10; maximum plant error
+5.45696821e-12; transport-only ledger residual 3.33066907e-16.

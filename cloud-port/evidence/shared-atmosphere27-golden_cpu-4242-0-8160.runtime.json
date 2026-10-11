@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27",
+    "--script",
+    "res://golden_cpu.gd",
+    "--",
+    "4242",
+    "0",
+    "8160"
+  ],
+  "exit": 1,
+  "stop_reason": null,
+  "wall_seconds": 106.88167576799998,
+  "peak_rss_bytes": 139296768,
+  "initial_headroom_bytes": 16813101056,
+  "minimum_headroom_bytes": 16714944512
+}

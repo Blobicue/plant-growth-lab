@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-10T01:17:14.104332+00:00",
+  "callback_reported_utc": "2026-10-10T01:15:55+00:00",
+  "executor_available": true,
+  "migration_commit": "701d108642fe61cb051d9360d81eaf40258b30de",
+  "diagnostic_result_commit": "08eabe0bb98d5e3375984b2c322f0e05b4947d29",
+  "official_engine_hash_verified": "8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+  "original_snapshot": {
+    "checked": 189,
+    "mismatches": []
+  },
+  "primary_cases_complete": 15,
+  "followup_cases_complete": 9,
+  "last_followup_runtime_written_utc": "2026-10-10T01:15:00.013337+00:00",
+  "all_control_exit_codes_zero": true,
+  "active_owned_engine_jobs": 0,
+  "lab_lock_available": true,
+  "cases_restarted_after_callback": 0,
+  "results_lost": false,
+  "unfinished_replications": 0,
+  "disconnect_blocked_replications": false
+}

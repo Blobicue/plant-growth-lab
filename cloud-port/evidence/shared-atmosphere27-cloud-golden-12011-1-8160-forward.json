@@ -1,0 +1,4163 @@
+{
+  "allocation_policy": {
+    "juvenile_no_new_deposits": true,
+    "mature_deposit_hours": 0,
+    "observed_hours": {
+      "descendant": 0,
+      "founder": 0
+    }
+  },
+  "censored": "",
+  "checkpoints": [
+    {
+      "match": true,
+      "tick": 96
+    },
+    {
+      "match": true,
+      "tick": 240
+    },
+    {
+      "match": false,
+      "tick": 480
+    },
+    {
+      "match": false,
+      "tick": 720
+    },
+    {
+      "match": true,
+      "tick": 960
+    },
+    {
+      "match": false,
+      "tick": 2040
+    },
+    {
+      "match": false,
+      "tick": 4080
+    },
+    {
+      "match": false,
+      "tick": 8160
+    }
+  ],
+  "checks": {
+    "endpoint": true,
+    "healthy": true,
+    "hourly_and_metrics": false
+  },
+  "end": {
+    "air": {
+      "allocation": "physiological demand bounded, proportional integer shares, rotating residual ties",
+      "external_C_imports": 0.0,
+      "hour": [
+        {
+          "plant": 0,
+          "received_q": 0,
+          "requested_q": 0
+        },
+        {
+          "plant": 1,
+          "received_q": 0,
+          "requested_q": 0
+        },
+        {
+          "plant": 2,
+          "received_q": 0,
+          "requested_q": 0
+        },
+        {
+          "plant": 3,
+          "received_q": 0,
+          "requested_q": 0
+        }
+      ],
+      "mode": 1,
+      "plants": [
+        {
+          "account_error": 0.00000000000147792889038101,
+          "plant": 0,
+          "private_buffer_C": 0.0,
+          "received_C": 1.397808508,
+          "returned_C": 6.57127848116117
+        },
+        {
+          "account_error": 0.000000000000227373675443232,
+          "plant": 1,
+          "private_buffer_C": 0.0,
+          "received_C": 2.89450866100001,
+          "returned_C": 7.75611576841212
+        },
+        {
+          "account_error": 0.000000000000397903932025656,
+          "plant": 2,
+          "private_buffer_C": 0.0,
+          "received_C": 0.371654372,
+          "returned_C": 0.400600583683884
+        },
+        {
+          "account_error": 0.000000000000042632564145606,
+          "plant": 3,
+          "private_buffer_C": 0.0,
+          "received_C": 0.150299722,
+          "returned_C": 0.151032329740599
+        }
+      ],
+      "quantum_C": 0.000000001,
+      "received_by_plants_C": 4.814271263,
+      "recent": [
+        {
+          "C": 0.000192732328543051,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8149
+        },
+        {
+          "C": 0.000328623588416771,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8149
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8149
+        },
+        {
+          "C": 0.000188535803696216,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8149
+        },
+        {
+          "C": 0.000192533396779383,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8150
+        },
+        {
+          "C": 0.000328583623672542,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8150
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8150
+        },
+        {
+          "C": 0.000188332622560961,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8150
+        },
+        {
+          "C": 0.000186416417327344,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8151
+        },
+        {
+          "C": 0.000328551491552462,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8151
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8151
+        },
+        {
+          "C": 0.000188168240347514,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8151
+        },
+        {
+          "C": 0.00018069392524361,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8152
+        },
+        {
+          "C": 0.000328523303609773,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8152
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8152
+        },
+        {
+          "C": 0.000188027189558373,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8152
+        },
+        {
+          "C": 0.000176293523096501,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8153
+        },
+        {
+          "C": 0.000328497319388419,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8153
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8153
+        },
+        {
+          "C": 0.000187901695493847,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8153
+        },
+        {
+          "C": 0.000174748593673643,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8154
+        },
+        {
+          "C": 0.000328472676840922,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8154
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8154
+        },
+        {
+          "C": 0.000187787123416545,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8154
+        },
+        {
+          "C": 0.000171251924973259,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8155
+        },
+        {
+          "C": 0.000328448933223829,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8155
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8155
+        },
+        {
+          "C": 0.000187679385991781,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8155
+        },
+        {
+          "C": 0.000167796045297229,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8156
+        },
+        {
+          "C": 0.000328425851336026,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8156
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8156
+        },
+        {
+          "C": 0.000187578329808593,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8156
+        },
+        {
+          "C": 0.000163851625366436,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8157
+        },
+        {
+          "C": 0.000328403300068331,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8157
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8157
+        },
+        {
+          "C": 0.000187480433516138,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8157
+        },
+        {
+          "C": 0.000154486732678774,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8158
+        },
+        {
+          "C": 0.000328381200208429,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8158
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8158
+        },
+        {
+          "C": 0.000187385614265413,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8158
+        },
+        {
+          "C": 0.000111807637540581,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8159
+        },
+        {
+          "C": 0.000328359502333432,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8159
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8159
+        },
+        {
+          "C": 0.000187293097344395,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8159
+        },
+        {
+          "C": 0.0000922285971628913,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 8160
+        },
+        {
+          "C": 0.00032833817237819,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 8160
+        },
+        {
+          "C": 0.000000002,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 8160
+        },
+        {
+          "C": 0.000187202333327198,
+          "plant": 3,
+          "reason": "respiration and mineralization",
+          "tick": 8160
+        }
+      ],
+      "returned_C": 14.8836271629981,
+      "shared_C": 10.069355899998,
+      "sources": {
+        "0": 6.57127848116117,
+        "1": 7.75611576841212,
+        "2": 0.400600583683884,
+        "3": 0.151032329740599,
+        "seed": 0.0046
+      }
+    },
+    "allocation_residual": 0,
+    "budget_error": 0.000000000582076609134674,
+    "censored": "",
+    "contested_cell_ticks": 0,
+    "decomposition": {
+      "associated_N_W": "already mobilized by unchanged turnover; zero additional return",
+      "cap_C_per_plant_hour": 0.0001,
+      "enabled": 1,
+      "excluded_detritus": {
+        "C": 0.0,
+        "N": 0.002,
+        "W": 0.04
+      },
+      "heat_released": 28.69783328,
+      "litter": 0.266302351974547,
+      "rate": 0.002,
+      "returned_C": 1.434891664,
+      "sources": [
+        {
+          "atmosphere": 0.0,
+          "heat_released": 9.99470126,
+          "litter": 0.0293670871884908,
+          "plant": 0,
+          "returned_C": 0.499735063
+        },
+        {
+          "atmosphere": 0.0,
+          "heat_released": 15.68622812,
+          "litter": 0.212830868111609,
+          "plant": 1,
+          "returned_C": 0.784311406
+        },
+        {
+          "atmosphere": 0.0,
+          "heat_released": 2.46366032,
+          "litter": 0.00000102761282003089,
+          "plant": 2,
+          "returned_C": 0.123183016
+        },
+        {
+          "atmosphere": 0.0,
+          "heat_released": 0.55324358,
+          "litter": 0.0241033690616269,
+          "plant": 3,
+          "returned_C": 0.027662179
+        }
+      ],
+      "this_hour_C": 0.000207156
+    },
+    "detritus": {
+      "C": 0.0,
+      "N": 0.002,
+      "W": 0.04
+    },
+    "error": "",
+    "field": [
+      1022872407,
+      3819154,
+      0,
+      0,
+      667351,
+      2542
+    ],
+    "hydrology": {
+      "cloud": 0.000313549,
+      "condensed_this_hour": 0.000313549,
+      "condensed_total": 2.376094054,
+      "connected_mobile": 0.74229520276114,
+      "disconnected_mobile": 0.401849289058573,
+      "enabled": 1,
+      "heat": 0.0327268169454957,
+      "latent_released": 4.752188108,
+      "radiated": 4.7194612910545,
+      "rain_cells": 273,
+      "rain_this_hour": 0.000316717,
+      "rain_total": 2.375780505,
+      "sources_q": {
+        "0": 691311415,
+        "1": 1430650836,
+        "2": 185827087,
+        "3": 68304716
+      },
+      "vapor": 0.0310415774999999,
+      "water_limited_cell_hours": 115774,
+      "water_received": 3.752908159,
+      "water_requested": 84.497662849
+    },
+    "intercepted": [
+      425377651104,
+      844368710400,
+      175631155554,
+      78213120000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "life_atmos": 0.0,
+    "life_events": [
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 96
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 128
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 128
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 160
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 160
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 192
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 192
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 224
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 224
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 256
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 256
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 288
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 288
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 320
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 320
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 352
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 352
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 384
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 384
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 416
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 416
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 448
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 448
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 480
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 480
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 512
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 512
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 544
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 544
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 576
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 576
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 608
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 608
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 640
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 640
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 672
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 672
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 704
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 704
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 736
+      },
+      {
+        "message": "Parent B funded escrow #0",
+        "tick": 736
+      },
+      {
+        "message": "Propagule #0 released / dormant",
+        "tick": 738
+      },
+      {
+        "message": "Paid germination: child C / copied genotype / mutation OFF",
+        "tick": 742
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 768
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 768
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 800
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 800
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 832
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 832
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 864
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 864
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 896
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 896
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 928
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 928
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 960
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 960
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 992
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 992
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1024
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1024
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1056
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1056
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1088
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1088
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1120
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1120
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1152
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1152
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1184
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1184
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1216
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1216
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1248
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1248
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1280
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1280
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1312
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1312
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1344
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1344
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1376
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1376
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1408
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1408
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1440
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1440
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1472
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1472
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1504
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1504
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1536
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1536
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1568
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1568
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1600
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1600
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1632
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1632
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1664
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1664
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1696
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1696
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1728
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1728
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1760
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1760
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1792
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1792
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1824
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1824
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1856
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1856
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1888
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1888
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1920
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1920
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1952
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 1952
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1984
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 1984
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2016
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2016
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2048
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2048
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2080
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2080
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2112
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2112
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2144
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2144
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2176
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2176
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2208
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2208
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2240
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2240
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2272
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2272
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2304
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2304
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2336
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2336
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2368
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2368
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2400
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2400
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2432
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2432
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2464
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2464
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2496
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2496
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2528
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2528
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2560
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2560
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2592
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2592
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2624
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2624
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2656
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2656
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2688
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2688
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2720
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2720
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2752
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2752
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2784
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2784
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2816
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2816
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2848
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2848
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2880
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2880
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2912
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 2912
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2944
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2944
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2976
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 2976
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3008
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3008
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3040
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3040
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3072
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3072
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3104
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3104
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3136
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3136
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3168
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3168
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3200
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3200
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3232
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3232
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3264
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3264
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3296
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3296
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3328
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3328
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3360
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3360
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3392
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3392
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3424
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3424
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3456
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3456
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3488
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3488
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3520
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3520
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3552
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3552
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3584
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3584
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3616
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3616
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3648
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3648
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3680
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3680
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3712
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3712
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3744
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3744
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3776
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3776
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3808
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3808
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3840
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3840
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3872
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3872
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3904
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3904
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3936
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 3936
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3968
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 3968
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4000
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4000
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4032
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4032
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4064
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4064
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4096
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4096
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4128
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4128
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4160
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4160
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4192
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4192
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4224
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4224
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4256
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4256
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4288
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4288
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4320
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4320
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4352
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4352
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4384
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4384
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4416
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4416
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4448
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4448
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4480
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4480
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4512
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4512
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4544
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4544
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4576
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4576
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4608
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4608
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4640
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4640
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4672
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4672
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4704
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4704
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4736
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4736
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4768
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4768
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4800
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4800
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4832
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4832
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4864
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4864
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4896
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4896
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4928
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 4928
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4960
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4960
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4992
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 4992
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5024
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5024
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5056
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5056
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5088
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5088
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5120
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5120
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5152
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5152
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5184
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5184
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5216
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5216
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5248
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5248
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5280
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5280
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5312
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5312
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5344
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5344
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5376
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5376
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5408
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5408
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5440
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5440
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5472
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5472
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5504
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5504
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5536
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5536
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5568
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5568
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5600
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5600
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5632
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5632
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5664
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5664
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5696
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5696
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5728
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5728
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5760
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5760
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5792
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5792
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5824
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5824
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5856
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5856
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5888
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5888
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5920
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5920
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5952
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 5952
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5984
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 5984
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6016
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6016
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6048
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6048
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6080
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6080
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6112
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6112
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6144
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6144
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6176
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6176
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6208
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6208
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6240
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6240
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6272
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6272
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6304
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6304
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6336
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6336
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6368
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6368
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6400
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6400
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6432
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6432
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6464
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6464
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6496
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6496
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6528
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6528
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6560
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6560
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6592
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6592
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6624
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6624
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6656
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6656
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6688
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6688
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6720
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6720
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6752
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6752
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6784
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6784
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6816
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6816
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6848
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6848
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6880
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6880
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6912
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6912
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6944
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 6944
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6976
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 6976
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7008
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7008
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7040
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7040
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7072
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7072
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7104
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7104
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7136
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7136
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7168
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7168
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7200
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7200
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7232
+      },
+      {
+        "message": "Parent B funded escrow #1",
+        "tick": 7232
+      },
+      {
+        "message": "Propagule #1 released / dormant",
+        "tick": 7234
+      },
+      {
+        "message": "Paid germination: child D / copied genotype / mutation OFF",
+        "tick": 7238
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7264
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7264
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7296
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7296
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7328
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7328
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7360
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7360
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7392
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7392
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7424
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7424
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7456
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7456
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7488
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7488
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7520
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7520
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7552
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7552
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7584
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7584
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7616
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7616
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7648
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7648
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7680
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7680
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7712
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7712
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7744
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7744
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7776
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7776
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7808
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7808
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7840
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7840
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7872
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7872
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7904
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 7904
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7936
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7936
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7968
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 7968
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 8000
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 8000
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8032
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8032
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8064
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8064
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 8096
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 8096
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8128
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8128
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8160
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 8160
+      }
+    ],
+    "life_heat": 0.000000000366171656564775,
+    "limited_cell_ticks": 198005,
+    "lineage": [
+      {
+        "birth_tick": 742,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 7238,
+        "child": 3,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 1
+      }
+    ],
+    "matter": {
+      "C": {
+        "atmosphere": 10.069355899998,
+        "detritus": 0.0,
+        "litter": 0.266302351974547,
+        "mobile": 0.00693101612689563,
+        "reserves": 0.0116503352905859,
+        "seed_gas": 0.0,
+        "seed_organic": 0.0,
+        "structure": 0.268560396610269
+      },
+      "N": {
+        "detritus": 0.002,
+        "mobile": 0.0601070588097437,
+        "reserves": 0.00499296233528508,
+        "seeds": 0.0,
+        "soil": 0.003819154,
+        "structure": 0.0106032648549711
+      },
+      "W": {
+        "bound": 0.0805681189830806,
+        "cloud": 0.000313549,
+        "detritus": 0.04,
+        "mobile": 1.14414449181971,
+        "reserves": 0.089899916697206,
+        "seeds": 0.0,
+        "soil": 1.022872407,
+        "vapor": 0.0310415774999999
+      },
+      "boundary_exports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      },
+      "boundary_imports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    "plants": [
+      {
+        "data": {
+          "error": 0.00000000000147792889038101,
+          "hydro": true,
+          "leaves": 4,
+          "living": 22,
+          "nodes": 53,
+          "offset": false,
+          "pending": 0,
+          "photo": true,
+          "root_centroid_x": -2.98294794786981,
+          "root_tip_x": -7,
+          "root_tip_y": -8,
+          "seed": 12011,
+          "shoot_centroid_x": -0.154578835710696,
+          "shoot_tip_x": 1,
+          "shoot_tip_y": 22,
+          "side": false,
+          "tick": 8160,
+          "totals": {
+            "built_c": 0.1008,
+            "completed": 7,
+            "expired": 248,
+            "fixed_c": 1.397808508,
+            "photons": 425.377651103957,
+            "respired_c": 1.07154341816119,
+            "uptake_n": 0.0225058509999999,
+            "uptake_w": 1.24368032700001
+          }
+        },
+        "generation": 0,
+        "id": 0,
+        "reserve": {
+          "balance": {
+            "c": 0.0,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.215964791927843,
+            "n": 0.002,
+            "w": 0.0400223011302051
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": -0.0000128770394807317,
+              "node": 16,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": -0.000015720236234118,
+              "node": 17,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": -0.00000847989196506242,
+              "node": 18,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": 0.0000200182820865681,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": 0.0000154565739033743,
+              "node": 5,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": 0.0000242481288078933,
+              "node": 6,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": 0.00000290445928418159,
+              "node": 9,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8147
+            },
+            {
+              "amount": -0.00000616178573289746,
+              "node": 8,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.000000746936301422026,
+              "node": 14,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.00000817834127548571,
+              "node": 15,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.00000971947912792377,
+              "node": 16,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.0000130229708128117,
+              "node": 17,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.0000152792078706159,
+              "node": 18,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.00000951872296086073,
+              "node": 19,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": 0.0000167538492159833,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": 0.0000134690330723261,
+              "node": 5,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": 0.0000200920931131187,
+              "node": 6,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": 0.00000413837973439353,
+              "node": 9,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 8148
+            },
+            {
+              "amount": -0.00000373914012621203,
+              "node": 8,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            },
+            {
+              "amount": -0.0000068952156619501,
+              "node": 15,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            },
+            {
+              "amount": -0.00000877814517415123,
+              "node": 16,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            },
+            {
+              "amount": -0.0000108544301503125,
+              "node": 17,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            },
+            {
+              "amount": -0.0000132138727899948,
+              "node": 18,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            },
+            {
+              "amount": -0.000010972551233201,
+              "node": 19,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8149
+            }
+          ],
+          "refunded": {
+            "c": 0.21596479192784,
+            "n": 0.0,
+            "w": 0.0000223011302050956
+          },
+          "released": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "sources": {
+            "0:c": 0.0017701519589537,
+            "0:n": 0.000083709334458955,
+            "0:w": 0.00180094332546784,
+            "10:c": 0.000486980198427594,
+            "10:n": 0.0000779416194249425,
+            "10:w": 0.00158126482164971,
+            "11:c": 0.000341162690611832,
+            "11:n": 0.0000764877708522567,
+            "11:w": 0.00154149653927202,
+            "12:c": 0.000279243050609601,
+            "12:n": 0.0000752126307199643,
+            "12:w": 0.00150842746405966,
+            "13:c": -0.0000821651061656533,
+            "13:n": 0.0000740183795141558,
+            "13:w": 0.0014822773694327,
+            "14:c": -0.00239158646570252,
+            "14:n": 0.0000729219940222893,
+            "14:w": 0.00145967308417661,
+            "15:c": -0.00841916367876078,
+            "15:n": 0.0000719120483005303,
+            "15:w": 0.00141871087391873,
+            "16:c": -0.014507372850481,
+            "16:n": 0.0000716912523148946,
+            "16:w": 0.00143966708966991,
+            "17:c": -0.0165418558010344,
+            "17:n": 0.0000712256316247508,
+            "17:w": 0.00143182211461808,
+            "18:c": -0.0206864877085355,
+            "18:n": 0.0000713080206609236,
+            "18:w": 0.00143622941189239,
+            "19:c": -0.0226699394560205,
+            "19:n": 0.0000711433460919475,
+            "19:w": 0.00143372043339926,
+            "1:c": 0.0514312674116088,
+            "1:n": 0.0000810228530984708,
+            "1:w": 0.00167180735556936,
+            "20:c": -0.00281559732602792,
+            "20:n": 0.0000700669597681341,
+            "20:w": 0.00141123868746905,
+            "21:c": -0.0199626843536312,
+            "21:n": 0.0000707155014429858,
+            "21:w": 0.00142379399130779,
+            "22:c": -0.00263470867446676,
+            "22:n": 0.0000703260541789017,
+            "22:w": 0.00141788340311889,
+            "23:c": -0.0005003739154092,
+            "23:n": 0.0000126979039833124,
+            "23:w": 0.00023730238812551,
+            "24:c": -0.000299717550469148,
+            "24:n": 0.0000119162730568901,
+            "24:w": 0.000222006623245977,
+            "25:c": -0.000225739835367187,
+            "25:n": 0.00000919612662114418,
+            "25:w": 0.000168234113431956,
+            "26:c": -0.000195533846304146,
+            "26:n": 0.00000745222515830893,
+            "26:w": 0.000133956958968921,
+            "27:c": -0.000171806592754452,
+            "27:n": 0.00000653373544915146,
+            "27:w": 0.000117842920159119,
+            "28:c": -0.000127297375407485,
+            "28:n": 0.00000511983108238372,
+            "28:w": 0.0000914305658653341,
+            "29:c": -0.000113532507340383,
+            "29:n": 0.00000502212021105436,
+            "29:w": 0.0000904934700387367,
+            "2:c": -0.00337466027123582,
+            "2:n": 0.0000827401649101164,
+            "2:w": 0.00188764485978324,
+            "30:c": -0.000108012466122785,
+            "30:n": 0.00000429283527985218,
+            "30:w": 0.0000786227040235062,
+            "31:c": -0.000088593339493683,
+            "31:n": 0.00000373370674832204,
+            "31:w": 0.0000680494628943621,
+            "32:c": -0.0222251187442178,
+            "32:n": 0.0000694883535478512,
+            "32:w": 0.00152085260785441,
+            "33:c": -0.000111370606485033,
+            "33:n": 0.00000355895365710947,
+            "33:w": 0.0000678359434162875,
+            "34:c": -0.0042233777403856,
+            "34:n": 0.0000690176574224524,
+            "34:w": 0.00150808155837596,
+            "35:c": -0.0000565484598656738,
+            "35:n": 0.00000674647875483912,
+            "35:w": 0.000149256958403034,
+            "36:c": -0.000168790746794414,
+            "36:n": 0.00000333863393060291,
+            "36:w": 0.0000651482578938684,
+            "37:c": -0.0000659311304047475,
+            "37:n": 0.00000519733497047602,
+            "37:w": 0.00011507262544961,
+            "38:c": -0.000145025778053085,
+            "38:n": 0.00000412447811135618,
+            "38:w": 0.0000906342383259217,
+            "39:c": -0.000424272959942896,
+            "39:n": 0.00000312083521584476,
+            "39:w": 0.0000683009353228278,
+            "3:c": -0.0110210607078429,
+            "3:n": 0.000077373395676792,
+            "3:w": 0.00125041125959704,
+            "40:c": -0.000811769964181884,
+            "40:n": 0.00000306300241696518,
+            "40:w": 0.0000669293351527088,
+            "41:c": 0.0000119465342701003,
+            "41:n": 0.00000264712020973763,
+            "41:w": 0.000052088273885434,
+            "42:c": -0.000431691184827228,
+            "42:n": 0.0000019761874173938,
+            "42:w": 0.0000428334847236899,
+            "43:c": -0.000370033606077052,
+            "43:n": 0.000000677957975289598,
+            "43:w": 0.0000144915757807749,
+            "44:c": 0.0000106531848426264,
+            "44:n": 0.00000244057426873014,
+            "44:w": 0.0000481684300578683,
+            "45:c": -0.000326952069006361,
+            "45:n": 0.00000125412925125717,
+            "45:w": 0.0000270051952067124,
+            "46:c": -0.000765144729216438,
+            "46:n": 0.000000645664282021969,
+            "46:w": 0.0000138472209514891,
+            "47:c": 0.00000978826562253373,
+            "47:n": 0.00000187247389055043,
+            "47:w": 0.000036893428624232,
+            "48:c": -0.00068756444083011,
+            "48:n": 0.000000402482658589088,
+            "48:w": 0.00000856884097370831,
+            "49:c": 0.00000908190493862857,
+            "49:n": 0.00000187106469390306,
+            "49:w": 0.0000368607423183056,
+            "4:c": -0.0125210813733167,
+            "4:n": 0.0000773450666222568,
+            "4:w": 0.00125023978507988,
+            "50:c": -0.00109476502464805,
+            "50:n": 0.000000403387031308018,
+            "50:w": 0.00000856989266783574,
+            "51:c": -0.00137932423099462,
+            "51:n": 0.000000403789107063402,
+            "51:w": 0.00000857031636211586,
+            "52:c": 0.00000795742587477649,
+            "52:n": 0.00000187049124568025,
+            "52:w": 0.0000368474249567249,
+            "5:c": 0.0497404672283876,
+            "5:n": 0.0000773159534583608,
+            "5:w": 0.0012182313327647,
+            "6:c": 0.0822130319799918,
+            "6:n": 0.0000772872965422769,
+            "6:w": 0.00121274737176014,
+            "7:c": -0.00779440046224531,
+            "7:n": 0.0000840669168029306,
+            "7:w": 0.00193984765818635,
+            "8:c": -0.015590399931412,
+            "8:n": 0.000084650490074542,
+            "8:w": 0.00196253468137483,
+            "9:c": 0.0098197211773389,
+            "9:n": 0.0000794315117891876,
+            "9:w": 0.00162459059297488
+          },
+          "surplus": 0.610007409130452
+        }
+      },
+      {
+        "data": {
+          "error": 0.000000000000227373675443232,
+          "hydro": true,
+          "leaves": 5,
+          "living": 53,
+          "nodes": 58,
+          "offset": false,
+          "pending": 0,
+          "photo": true,
+          "root_centroid_x": 0.727138754347205,
+          "root_tip_x": -2,
+          "root_tip_y": -8,
+          "seed": 19930,
+          "shoot_centroid_x": 4.09869500718714,
+          "shoot_tip_x": 4,
+          "shoot_tip_y": 20,
+          "side": false,
+          "tick": 8160,
+          "totals": {
+            "built_c": 0.1098,
+            "completed": 7,
+            "expired": 311,
+            "fixed_c": 2.89450866100001,
+            "photons": 844.36871040007,
+            "respired_c": 1.97180436241212,
+            "uptake_n": 0.0510320530000016,
+            "uptake_w": 2.23608197400001
+          }
+        },
+        "generation": 0,
+        "id": 1,
+        "reserve": {
+          "balance": {
+            "c": 0.00935299602383755,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.699409370020139,
+            "n": 0.00600000000000004,
+            "w": 0.120279823420483
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": -0.00000777104706554209,
+              "node": 44,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000081851193391476,
+              "node": 45,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000824697473857228,
+              "node": 46,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000281864087713647,
+              "node": 47,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000838924090752045,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000838185227023477,
+              "node": 49,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000320647675562493,
+              "node": 50,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000844513124506497,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000331781976506899,
+              "node": 53,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.000000998214468413235,
+              "node": 36,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000171376369837466,
+              "node": 38,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000106249111825716,
+              "node": 40,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000645371417345768,
+              "node": 41,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000216479691591737,
+              "node": 42,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000758502599351308,
+              "node": 43,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000777486457785488,
+              "node": 44,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000818657722523048,
+              "node": 45,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000824811447617939,
+              "node": 46,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000280030386131953,
+              "node": 47,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000838966718198041,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000083823009875842,
+              "node": 49,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000319964658011209,
+              "node": 50,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000844529595624978,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000331458128490146,
+              "node": 53,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            }
+          ],
+          "refunded": {
+            "c": 0.588056373996293,
+            "n": 0.0,
+            "w": 0.000279823420483832
+          },
+          "released": {
+            "c": 0.102,
+            "n": 0.004,
+            "w": 0.08
+          },
+          "sources": {
+            "0:c": 0.0419869799343865,
+            "0:n": 0.000128659055045319,
+            "0:w": 0.00279696943534252,
+            "10:c": 0.00188237368121366,
+            "10:n": 0.000139624313597175,
+            "10:w": 0.00328218454176789,
+            "11:c": 0.0519894990619269,
+            "11:n": 0.00011936262174875,
+            "11:w": 0.00239247003831885,
+            "12:c": 0.0451998470151189,
+            "12:n": 0.000115803482448865,
+            "12:w": 0.0022658588859273,
+            "13:c": 0.00163300163583079,
+            "13:n": 0.000139718247730622,
+            "13:w": 0.00330691016288683,
+            "14:c": 0.0420755195160761,
+            "14:n": 0.00011235504916046,
+            "14:w": 0.00214196552770644,
+            "15:c": 0.0409599356206544,
+            "15:n": 0.000109093150479514,
+            "15:w": 0.00202497217262948,
+            "16:c": 0.0255931586788253,
+            "16:n": 0.000106215316911948,
+            "16:w": 0.00195467602206497,
+            "17:c": 0.0155658285724307,
+            "17:n": 0.000103424054573392,
+            "17:w": 0.00187555315787462,
+            "18:c": 0.00670891540848253,
+            "18:n": 0.000100762610395515,
+            "18:w": 0.00177379379174518,
+            "19:c": 0.0450039793869744,
+            "19:n": 0.000105616924112198,
+            "19:w": 0.00135150708336729,
+            "1:c": 0.0615855403250391,
+            "1:n": 0.000123051379129729,
+            "1:w": 0.00252304447900887,
+            "20:c": 0.00395409216433069,
+            "20:n": 0.000100075607146013,
+            "20:w": 0.0017312834050007,
+            "21:c": 0.00309866355209144,
+            "21:n": 0.0000992468884666586,
+            "21:w": 0.00177443861388407,
+            "22:c": 0.00267695654253089,
+            "22:n": 0.0000990147900797867,
+            "22:w": 0.00169926997175179,
+            "23:c": 0.00242969619742899,
+            "23:n": 0.0000981857996053699,
+            "23:w": 0.00171407162715133,
+            "24:c": 0.00230397389151843,
+            "24:n": 0.0000974763304193877,
+            "24:w": 0.00170196958007764,
+            "25:c": 0.00236070025125936,
+            "25:n": 0.0000979716035534184,
+            "25:w": 0.00174453011367205,
+            "26:c": 0.00211885061973842,
+            "26:n": 0.0000968120844801155,
+            "26:w": 0.00171952436776464,
+            "27:c": 0.00220669810641004,
+            "27:n": 0.0000967930990512904,
+            "27:w": 0.00167838463350356,
+            "28:c": 0.00194479808120275,
+            "28:n": 0.000095691832088365,
+            "28:w": 0.00169670458899357,
+            "29:c": 0.00213050175899923,
+            "29:n": 0.0000961609806732206,
+            "29:w": 0.00171230420917355,
+            "2:c": 0.0205764074679068,
+            "2:n": 0.000130531062973715,
+            "2:w": 0.00297510967799241,
+            "30:c": 0.00181016417251165,
+            "30:n": 0.0000947549920635552,
+            "30:w": 0.00167751034333665,
+            "31:c": 0.00207485988010378,
+            "31:n": 0.0000956537220938082,
+            "31:w": 0.00170501377080004,
+            "32:c": 0.00169029061732413,
+            "32:n": 0.0000936577618871974,
+            "32:w": 0.00166125538070647,
+            "33:c": 0.00159485981051629,
+            "33:n": 0.0000927916984536061,
+            "33:w": 0.00164786190391038,
+            "34:c": 0.00203040264634604,
+            "34:n": 0.0000950828661555623,
+            "34:w": 0.00170065377832342,
+            "35:c": 0.00145778876376555,
+            "35:n": 0.0000918871247618548,
+            "35:w": 0.00163644744003944,
+            "36:c": -0.0035296879085464,
+            "36:n": 0.0000943766081310298,
+            "36:w": 0.00169812513553986,
+            "37:c": 0.000941381301026866,
+            "37:n": 0.000109575025344376,
+            "37:w": 0.00264366872257868,
+            "38:c": -0.00783490869434688,
+            "38:n": 0.0000912410518234415,
+            "38:w": 0.00162685435473522,
+            "39:c": 0.000798442406305931,
+            "39:n": 0.000109293508002346,
+            "39:w": 0.00265396201943166,
+            "3:c": 0.0632416190799363,
+            "3:n": 0.000121040056685961,
+            "3:w": 0.00185268158505283,
+            "40:c": -0.0110499241965566,
+            "40:n": 0.00010900088711674,
+            "40:w": 0.0026572936694851,
+            "41:c": -0.0409318201692058,
+            "41:n": 0.00010843023776838,
+            "41:w": 0.00264553289104244,
+            "42:c": -0.00974708254383255,
+            "42:n": 0.0000940196523161925,
+            "42:w": 0.00169703023855647,
+            "43:c": -0.0486824347105517,
+            "43:n": 0.000107855663333481,
+            "43:w": 0.00262738820881333,
+            "44:c": -0.0502119235829987,
+            "44:n": 0.000107685108091074,
+            "44:w": 0.00261275587755622,
+            "45:c": -0.0538184760931423,
+            "45:n": 0.000107286399325054,
+            "45:w": 0.00260609723320399,
+            "46:c": -0.0546058668033149,
+            "46:n": 0.000107589804592808,
+            "46:w": 0.00260663074617446,
+            "47:c": -0.0153524819526372,
+            "47:n": 0.0000903166390554664,
+            "47:w": 0.00161904244738036,
+            "48:c": -0.0563252403447511,
+            "48:n": 0.000106543947080839,
+            "48:w": 0.00257686294075396,
+            "49:c": -0.0567712790649055,
+            "49:n": 0.000106812306377325,
+            "49:w": 0.00257082776442697,
+            "4:c": 0.0287751180074447,
+            "4:n": 0.000121002464924925,
+            "4:w": 0.0018910526489061,
+            "50:c": -0.0187696887517648,
+            "50:n": 0.0000894135374604572,
+            "50:w": 0.00161183225726259,
+            "51:c": -0.0570113928785946,
+            "51:n": 0.000106099461520858,
+            "51:w": 0.00255893397376684,
+            "52:c": -0.0135178323899539,
+            "52:n": 0.0000684918414811189,
+            "52:w": 0.00168058814525206,
+            "53:c": -0.0207570418772554,
+            "53:n": 0.0000886076731982384,
+            "53:w": 0.00160541513185086,
+            "54:c": -0.0171208887742764,
+            "54:n": 0.0000666823378159446,
+            "54:w": 0.00161142782556559,
+            "55:c": -0.00579630885475941,
+            "55:n": 0.0000493880592667064,
+            "55:w": 0.000866580679237101,
+            "56:c": -0.0201375076365735,
+            "56:n": 0.0000653256084038506,
+            "56:w": 0.00156437143912667,
+            "57:c": -0.00806197585497366,
+            "57:n": 0.0000471734803051823,
+            "57:w": 0.000844661928755385,
+            "5:c": 0.0653039369166489,
+            "5:n": 0.000120964251058977,
+            "5:w": 0.00184386466205212,
+            "6:c": 0.0688272247613861,
+            "6:n": 0.000120925386869084,
+            "6:w": 0.00183596007582237,
+            "7:c": 0.0109868923493871,
+            "7:n": 0.000134023270965895,
+            "7:w": 0.00309961789127847,
+            "8:c": 0.00363418277778195,
+            "8:n": 0.000136749820325454,
+            "8:w": 0.00318339465806014,
+            "9:c": 0.0022336781459167,
+            "9:n": 0.000138611462072401,
+            "9:w": 0.00324130614361024
+          },
+          "surplus": 1.40741416818796
+        }
+      },
+      {
+        "data": {
+          "error": 0.000000000000397903932025656,
+          "hydro": true,
+          "leaves": 4,
+          "living": 0,
+          "nodes": 12,
+          "offset": false,
+          "pending": 0,
+          "photo": true,
+          "root_centroid_x": 2.9999998742524,
+          "root_tip_x": 3,
+          "root_tip_y": -3,
+          "seed": 19930,
+          "shoot_centroid_x": 3.34425324178458,
+          "shoot_tip_x": 4,
+          "shoot_tip_y": 3,
+          "side": false,
+          "tick": 8160,
+          "totals": {
+            "built_c": 0.0108,
+            "completed": 0,
+            "expired": 213,
+            "fixed_c": 0.371654372000001,
+            "photons": 175.631155553998,
+            "respired_c": 0.277417567683887,
+            "uptake_n": 0.00248914100000001,
+            "uptake_w": 0.205700324
+          }
+        },
+        "generation": 1,
+        "id": 2,
+        "reserve": {
+          "balance": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.0402720910265942,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "last_surplus": 0.0,
+          "reason": "disconnected account released to detritus",
+          "recent": [
+            {
+              "amount": -0.00000432122297950293,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2485
+            },
+            {
+              "amount": -0.00000197098214765063,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2490
+            },
+            {
+              "amount": -0.00000263551193229918,
+              "node": 2,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2491
+            },
+            {
+              "amount": -0.0000165515626335579,
+              "node": 3,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2491
+            },
+            {
+              "amount": -0.0000175571309477725,
+              "node": 4,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2491
+            },
+            {
+              "amount": 0.0000137611759342838,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 2507
+            },
+            {
+              "amount": -0.0000137611759342838,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2508
+            },
+            {
+              "amount": 0.0000267276907568969,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 2508
+            },
+            {
+              "amount": -0.0000074814347048889,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2509
+            },
+            {
+              "amount": -0.00000179052691790142,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2510
+            },
+            {
+              "amount": -0.000000256346558697252,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2511
+            },
+            {
+              "amount": -0.00000259227323080605,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2512
+            },
+            {
+              "amount": -0.00000299830114719107,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2513
+            },
+            {
+              "amount": -0.000000551801709343699,
+              "node": 2,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2514
+            },
+            {
+              "amount": -0.00000235770168085333,
+              "node": 3,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2514
+            },
+            {
+              "amount": -0.00000421443594587866,
+              "node": 4,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2514
+            },
+            {
+              "amount": -0.00000448486886133651,
+              "node": 5,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2514
+            },
+            {
+              "amount": 0.00000343565151302748,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 2531
+            },
+            {
+              "amount": -0.00000343565151302748,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2532
+            },
+            {
+              "amount": 0.0000177785696422718,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 2532
+            },
+            {
+              "amount": -0.0000145558259649137,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2533
+            },
+            {
+              "amount": -0.00000322274367735808,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2534
+            },
+            {
+              "amount": 0.00000815924331276792,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 2556
+            },
+            {
+              "amount": -0.00000815924331276792,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 2557
+            }
+          ],
+          "refunded": {
+            "c": 0.0402720910265942,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "released": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "sources": {
+            "0:c": 0.00265252842836865,
+            "0:n": 0.000191305542162717,
+            "0:w": 0.0048877536945377,
+            "10:c": -0.00823931088950554,
+            "10:n": 0.000163694328996819,
+            "10:w": 0.00811544563113701,
+            "11:c": 0.00172779932442767,
+            "11:n": 0.000177901807596196,
+            "11:w": 0.00312346892199612,
+            "1:c": 0.0136756141524516,
+            "1:n": 0.000187104969004731,
+            "1:w": 0.00333660561159666,
+            "2:c": -0.000902688370364627,
+            "2:n": 0.00016533177660656,
+            "2:w": 0.00647171805998802,
+            "3:c": -0.00223252578839139,
+            "3:n": 0.000146635134861657,
+            "3:w": 0.0000155525007338359,
+            "4:c": -0.00366497669067949,
+            "4:n": 0.000146610036024824,
+            "4:w": 0.0000144522141719669,
+            "5:c": -0.00244610183002861,
+            "5:n": 0.000146550238019059,
+            "5:w": 0.00000905666253979542,
+            "6:c": -0.00247165341670425,
+            "6:n": 0.000146457224406614,
+            "6:w": 0.00000380295902607105,
+            "7:c": -0.0042445375575114,
+            "7:n": 0.000164667850137071,
+            "7:w": 0.00765353935845444,
+            "8:c": 0.00377536023879656,
+            "8:n": 0.000183207681338621,
+            "8:w": 0.00321001717423075,
+            "9:c": 0.00237049239914071,
+            "9:n": 0.000180533410845129,
+            "9:w": 0.00315858721158777
+          },
+          "surplus": 0.15216068830732
+        }
+      },
+      {
+        "data": {
+          "error": 0.000000000000042632564145606,
+          "hydro": true,
+          "leaves": 4,
+          "living": 11,
+          "nodes": 11,
+          "offset": false,
+          "pending": 2,
+          "photo": true,
+          "root_centroid_x": -3.00000007781718,
+          "root_tip_x": -3,
+          "root_tip_y": -2,
+          "seed": 19930,
+          "shoot_centroid_x": -2.99999978215922,
+          "shoot_tip_x": -3,
+          "shoot_tip_y": 4,
+          "side": false,
+          "tick": 8160,
+          "totals": {
+            "built_c": 0.009,
+            "completed": 1,
+            "expired": 103,
+            "fixed_c": 0.150299722,
+            "photons": 78.2131200000003,
+            "respired_c": 0.123370150740596,
+            "uptake_n": 0.000153841,
+            "uptake_w": 0.067445534
+          }
+        },
+        "generation": 1,
+        "id": 3,
+        "reserve": {
+          "balance": {
+            "c": 0.00229733926674838,
+            "n": 0.000992962335285081,
+            "w": 0.009899916697206
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.0223649058228012,
+            "n": 0.000992962335285081,
+            "w": 0.009899916697206
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": -0.0000190859501341242,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8158
+            },
+            {
+              "amount": -0.000000496759087177139,
+              "node": 8,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8158
+            },
+            {
+              "amount": -0.00000411454737221279,
+              "node": 9,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8158
+            },
+            {
+              "amount": -0.00000666719489752006,
+              "node": 10,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8158
+            },
+            {
+              "amount": -0.00000310751195918858,
+              "node": 0,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000175048104319143,
+              "node": 2,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000344749720643086,
+              "node": 3,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000338948374820699,
+              "node": 4,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.000033399463634659,
+              "node": 5,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000329805946095786,
+              "node": 6,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000192350038923072,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000036910030043711,
+              "node": 8,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000770846944785254,
+              "node": 9,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.0000101877774810143,
+              "node": 10,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8159
+            },
+            {
+              "amount": -0.00000328868652875908,
+              "node": 0,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000175958558395412,
+              "node": 2,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000346935089576831,
+              "node": 3,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000340807268282059,
+              "node": 4,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000335547711436355,
+              "node": 5,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000331080136176482,
+              "node": 6,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000192861883035561,
+              "node": 7,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000377727373143476,
+              "node": 8,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.00000774416140303011,
+              "node": 9,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            },
+            {
+              "amount": -0.0000102046529752331,
+              "node": 10,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 8160
+            }
+          ],
+          "refunded": {
+            "c": 0.0200675665560528,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "released": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "sources": {
+            "0:c": 0.00195918355754508,
+            "0:n": 0.000153697659066934,
+            "0:w": 0.00149769103729555,
+            "10:c": 0.00122733377148662,
+            "10:n": 0.000118605715841865,
+            "10:w": 0.00100316108156198,
+            "1:c": 0.00363839666601973,
+            "1:n": 0.000136238211295056,
+            "1:w": 0.00105469993118209,
+            "2:c": -0.000590855746709057,
+            "2:n": 0.0000662716034803551,
+            "2:w": 0.00194419486596381,
+            "3:c": -0.00139729972430594,
+            "3:n": 0.0000509912122311742,
+            "4:c": -0.00165302993369702,
+            "4:n": 0.0000510754131657908,
+            "5:c": -0.00145785854456532,
+            "5:n": 0.0000511620315364328,
+            "6:c": -0.00146093763287928,
+            "6:n": 0.0000512520523508578,
+            "7:c": -0.00173209389939178,
+            "7:n": 0.0000666114338024433,
+            "7:w": 0.00236589953925966,
+            "8:c": 0.00209104560819916,
+            "8:n": 0.000126335482596346,
+            "8:w": 0.00102856123648041,
+            "9:c": 0.00167345514504619,
+            "9:n": 0.000120721519917825,
+            "9:w": 0.00100570900546249
+          },
+          "surplus": 0.0634191545394625
+        }
+      }
+    ],
+    "propagules": [
+      {
+        "birth": 736,
+        "c": 0.0,
+        "child": 2,
+        "deadline": 754,
+        "failure": "",
+        "gas": 0.0,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "id": 0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(3, 0, 3)",
+        "release": 738,
+        "respired": 0.0011,
+        "stage": "juvenile",
+        "w": 0.0
+      },
+      {
+        "birth": 7232,
+        "c": 0.0,
+        "child": 3,
+        "deadline": 7250,
+        "failure": "",
+        "gas": 0.0,
+        "genotype": {
+          "branch_seed": 19930,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "id": 1,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(-3, 0, -3)",
+        "release": 7234,
+        "respired": 0.0011,
+        "stage": "juvenile",
+        "w": 0.0
+      }
+    ],
+    "radiation": {
+      "canopy_flux": 0.0,
+      "day_energy": 1073.28,
+      "energy_error": -0.000000000582076609134674,
+      "heat_inside": 96.3640586904533,
+      "hour": 23,
+      "input_this_tick": 0.0,
+      "input_total": 364915.2,
+      "leaf_prompt_out": 988.67160783578,
+      "mode": 2,
+      "output_total": 364820.160976154,
+      "source_remaining": 0.0,
+      "stored_inside": 107.495023845462,
+      "thermal_out": 15881.3794376622,
+      "transmitted_out": 347950.109930656,
+      "units": "E model units; one tick = one model hour;24 ticks/day"
+    },
+    "shadow_loss": [
+      710108932000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sky_emitted": 364915200000000,
+    "sky_escaped": 347950109930656,
+    "sky_remaining": 0,
+    "sky_wood": 15441499432286,
+    "space_conflicts": 1751,
+    "tick": 8160
+  },
+  "error": "",
+  "fingerprint": "d6f7f4631d8b56b8d88299d8f35f49674dce83b40e2abd33501278eee26fe6e3",
+  "horizon": 8160,
+  "lineage": [
+    {
+      "birth_tick": 742,
+      "child": 2,
+      "generation": 1,
+      "genotype": {
+        "branch_seed": 19930,
+        "physiology": "paid-v8",
+        "version": 1
+      },
+      "mutation": false,
+      "parent": 1,
+      "propagule": 0
+    },
+    {
+      "birth_tick": 7238,
+      "child": 3,
+      "generation": 1,
+      "genotype": {
+        "branch_seed": 19930,
+        "physiology": "paid-v8",
+        "version": 1
+      },
+      "mutation": false,
+      "parent": 1,
+      "propagule": 1
+    }
+  ],
+  "max_error": 0.000000000698491930961609,
+  "max_plant_error": 0.00000000000272848410531878,
+  "mismatch": [
+    {
+      "kind": "metrics",
+      "tick": 480
+    },
+    {
+      "kind": "metrics",
+      "tick": 720
+    },
+    {
+      "kind": "metrics",
+      "tick": 2040
+    },
+    {
+      "kind": "metrics",
+      "tick": 4080
+    },
+    {
+      "kind": "metrics",
+      "tick": 8160
+    }
+  ],
+  "mode": 1,
+  "reverse": false,
+  "seed": 12011
+}

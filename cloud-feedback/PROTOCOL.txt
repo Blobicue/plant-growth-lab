@@ -1,0 +1,97 @@
+PREREGISTRATION: LOCAL CONSTRUCTION FEEDBACK, VERSION1
+Frozen before implementation or new engine results. Basis: cloud-design/DESIGN.txt
+at93aac33022d3f9ea69490ea04d3732d0a74f83dd (copied as DESIGN-frozen.txt).
+Alternative contract only. No production promotion, tuning, publication or push.
+
+Cohorts and comparison
+Use all11 binary descendant births listed with hashes in protocol.json. Focal policy
+OFF/ON, each768 model hours after birth:22 intended biological cases. All other
+plants remain unchanged. Origins must exactly match archived birth fingerprints.
+No case exclusion, selected-seed optimization, horizon extension or resource rescue.
+No further competitor-deprivation experiments. Preserve every failed run separately.
+
+Local signal: narrow implementation resolution
+Sample connected developing root proposals after maintenance/reserve collection
+and ordinary proposal preparation, before any construction payment. Freeze inputs
+across plants. D=1 iff front N<.000108, C>=.0018 and W>=.00054. Otherwise D=0.
+The source is the current paid front, not an unbuilt path or a whole-plant pool.
+Each signal is tagged with source proposal ID, source front, emission tick, unchanged
+proposal deadline, value and traversed paid-edge path. At the source it is visible
+immediately. A double-buffered wave moves exactly one active connected edge per
+hour; it cannot revisit a vertex. Each node selects the newest emission per source
+proposal among waves received THIS hour. It never retains an old received signal
+as an indefinite cache; the forwarding buffer and local inhibition are separate.
+Newer D=0 takes precedence over older D=1 for the same source. Different source
+proposals combine by Boolean OR. Old-source-front waves can arrive after a front
+moves: this is intentional delayed information, not knowledge of its present state.
+
+Use current local endpoints to reject propagation across a dead/disconnected edge.
+A severed edge does not cause an instantaneous remote purge: already downstream
+waves can finish traveling, constrained by no revisits and the ORIGINAL deadline.
+A proposal's failure/expiry stops source emission; expiry is also carried as a lease
+and checked at every receiver (tick>=deadline invalid). This clarifies DESIGN's
+'invalidate messages through severed edges' without introducing a global oracle.
+Late or stale signals are a stated tradeoff, logged explicitly. No signal crosses
+between plants. Propagation occurs once/hour even if there are three material passes.
+
+Only optional stem/leaf construction at a receiving front is withheld. Root payment,
+transport, uptake, maintenance, repair, reserve protection/collection, creation and
+14h proposal expiry remain the original rules. Never earmark or withdraw resources.
+Do not change rate constants, costs,32-node/64h maturity, genotype, spatial allocation
+or proposal lifetimes. Information has no separately resolved material/energy cost,
+as explicitly acknowledged in DESIGN; no free material transfer is introduced.
+All signal buffers and configuration are serialized and included in a separate
+full experimental state fingerprint. Physical fingerprints remain comparable to
+old baselines. Instrumentation must not affect scientific state.
+
+Correctness preflight and stopping rules
+1. Read-only identity/source/evidence checks and189-original-payload verification.
+2. BEFORE the treatment implementation/biological matrix, run both ordinary baseline
+and representation-preserving topological relabeling from ALL11 births through96h.
+Use deterministic sibling order reversal within the same birth tick, preserving
+parent-before-child topology and remapping every node reference. This is a baseline
+representation-sensitivity diagnostic, not an intervention in allocation rates.
+Compare canonical physical fields, first growth-resource refusal predicates,
+construction event(kind, position, age), and ledgers. If the first constraint or
+payment timing/outcome changes before a proposal deadline, STOP the construction-
+feedback biological inference and matrix. Preserve results and report that a
+transport/representation contract decision is needed; do not silently rewrite the
+operator or weaken this gate. No policy benefit can be claimed in that event.
+3. If gate2 passes: exact OFF baseline replay, one-hop/no-multihop/false-clear/lease/
+edge-cut signal tests, no direct ledger delta at signaling, maintenance-prefix
+identity before first policy payment, original bill/claim invariants, and synchronous
+request freezing. Replay must include save/resume across live signal buffers.
+4. Run each biological case in forward plant order and audit reverse order and
+save/resume determinism against every-hour physical and full experimental hashes.
+These verification executions do not add biological samples or extend768h. Retain
+original world1e-9 matter/plant checks and original energy checks; shared integer
+allocation residual must be0. Stop matrix on correctness failure and repair only
+implementation defects, preserving prior artifacts. Changes to the hypothesis or
+signal semantics require a documented protocol amendment BEFORE further results.
+Hardware GPU/Windows unavailable, not passed.
+
+Outcomes and interpretation
+Primary: ON-minus-OFF cumulative paid root packets at768h, time to third paid root
+(censor at768 if absent). Report all11 pairs and three seed families separately;
+the descendants are not independent worlds. Secondary: living roots/nodes, death,
+maturity, any offspring, C fixation/absorbed light, unpaid upkeep, repair, construction
+C/N/W, proposal expiry, all-plant health and environmental receipts. Record hourly
+mechanism traces through96h and daily summaries to768h, including root-front pools,
+per-edge N flux, signal emission/arrival/deadline, withheld nonroot spending and
+N-only versus joint constraints. Reconcile integrated C/N/W and reserve transfers.
+
+Signal arrival without greater front N/root payment refutes this mechanism under
+this protocol. More N without a root identifies another binding limit. Survival
+without extra roots does not confirm root investment. Reduced photosynthesis,
+expired buds, later upkeep deficits or harmed competitors count as costs and must
+not be hidden in a favorable pooled mean. Positive findings remain mechanism-level
+only; no sustained-replacement, generalization or promotion claim. No retuning,
+follow-up rescue arm, automatic extension or selected exclusions.
+
+Execution bounds
+Use isolated cloud-feedback/work only, serial CPU via existing per-user flock.
+Require >=8GiB measured effective free memory,600s maximum per engine invocation.
+Record each invocation's command, input hashes, wall time, peak RSS and minimum
+headroom. Stop on correctness failure, OOM or bound breach. Recover syntax/setup
+errors without changing the frozen scientific policy; log every retry. Any necessary
+bound revision must be recorded before retry. No original or prior evidence edits.

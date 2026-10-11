@@ -1,0 +1,67 @@
+{
+  "migration_branch_unchanged": "701d108642fe61cb051d9360d81eaf40258b30de",
+  "original_snapshot_verified": true,
+  "all_changes_under": "cloud-diagnostics",
+  "unchanged_science": [
+    {
+      "path": "world.gd",
+      "unchanged": true,
+      "sha256": "8b7457629f5b449d1d2c2c5c44a30422987b13c2d85e89a767718c255f147fce"
+    },
+    {
+      "path": "legacy/model.gd",
+      "unchanged": true,
+      "sha256": "5f1c014516cb23cc0ba03cea9f65a0419eec171dab47165022590a6ba0883233"
+    },
+    {
+      "path": "canopy.gd",
+      "unchanged": true,
+      "sha256": "cc502c19e75127abeff6cf35e0d40d782df58c19a4d29b4f11274e305227c75d"
+    },
+    {
+      "path": "atmosphere.gd",
+      "unchanged": true,
+      "sha256": "606debc29a800dc5884deb4cd20f02a5f05b0a7b405cdd00f4dd6dab2529b639"
+    },
+    {
+      "path": "reserve.gd",
+      "unchanged": true,
+      "sha256": "0f60f3d50b11de2b48750f64c82e8a83055d54e6e5a2e9417dd70ef43b33ed3b"
+    },
+    {
+      "path": "decomposition.gd",
+      "unchanged": true,
+      "sha256": "a243f91db03c4bd2ff11b239a5aa958484015000e5f07ae39a800c358cb4e431"
+    },
+    {
+      "path": "hydrology.gd",
+      "unchanged": true,
+      "sha256": "0f2e1be59e47849a2fbf58d14f707ca343450d1318825277a6a3e2b7cf9018c4"
+    },
+    {
+      "path": "field.gd",
+      "unchanged": true,
+      "sha256": "76d4ef08839ee491241d413e073feef0d20b21f4aff38877da4c9e8f39f6f771"
+    },
+    {
+      "path": "native/resource_field.c",
+      "unchanged": true,
+      "sha256": "9a5a1d33c1db9c04dde92ec2600367467cb2f0e8cc3000967070dc24aceffe49"
+    },
+    {
+      "path": "native/resource_field.so",
+      "unchanged": true,
+      "sha256": "061f31f814abab39ff32d320434d6d2a51b386752996400cecd4dd5585e65dc4"
+    },
+    {
+      "path": "native/gdextension_interface.h",
+      "unchanged": true,
+      "sha256": "640b48188708ba0016f8d7ace9e0e1d3279a41fa1226c59ff3193b15538bd254"
+    }
+  ],
+  "base_plant_unchanged": true,
+  "preregistration_hash_unchanged": true,
+  "followup_registration_and_frozen_primary_analysis_unchanged": true,
+  "native_binary_reused_without_changes": true,
+  "production_model_correction_performed": false
+}

@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "name": "native registration",
+      "pass": true
+    },
+    {
+      "name": "native versus interpreted CPU exact full field and biology every hour96",
+      "pass": true
+    },
+    {
+      "name": "saved binary state restores exact full fingerprint",
+      "pass": true
+    },
+    {
+      "name": "saved binary continuation matches uninterrupted full state96h",
+      "pass": true
+    },
+    {
+      "name": "exact conservative native/reference wide totals >2^32",
+      "pass": true
+    },
+    {
+      "name": "exact conservative native/reference signed impulse diffusion",
+      "pass": true
+    },
+    {
+      "name": "existing native replay schema roundtrip",
+      "pass": true
+    },
+    {
+      "name": "replay rejects foreign scientific identity",
+      "pass": true
+    }
+  ]
+}

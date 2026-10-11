@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[{"name":"fresh process starts paused at zero; no restored control or hidden resume","pass":true},{"name":"previous process native saved record validates","pass":true},{"name":"previous process saved record replays exactly","pass":true},{"name":"new session control explicitly enabled","pass":true},{"name":"current session status allowed","pass":true},{"name":"foreign session rejected","pass":true},{"name":"stale mutation rejected without advancing","pass":true},{"name":"Stop disables further commands","pass":true}]

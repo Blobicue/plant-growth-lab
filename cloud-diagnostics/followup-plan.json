@@ -1,0 +1,71 @@
+{
+  "registration_file": "FOLLOWUP-PLAN.txt",
+  "registered_utc": "2026-10-10T01:06:03.254944+00:00",
+  "cases": [
+    {
+      "seed": 4242,
+      "id": 5,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    }
+  ],
+  "preregistration_sha256": "38bc0d8fbb84c0d4004c58e07727830ea48cf1806f6e3d544a6b82a1055bc1b5",
+  "completed_primary_analysis_sha256": "a5023dfedfaca170bd7796cdffd5649aba568c20207f98bdfe596ca34242fa39"
+}

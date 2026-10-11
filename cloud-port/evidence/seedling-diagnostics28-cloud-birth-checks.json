@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "name": "original birth checkpoint full hash 12011",
+      "pass": true,
+      "tick": 742
+    },
+    {
+      "fingerprint": "4444357fa5edb3030209b5140e0aff06eaa28aa804a3aad714283c86236f1094",
+      "name": "original birth checkpoint deterministic continuation96h 12011",
+      "pass": true
+    },
+    {
+      "name": "original birth checkpoint full hash 4242",
+      "pass": true,
+      "tick": 710
+    },
+    {
+      "fingerprint": "d8d2123706e7f1bb004b477487eea9a81d5ef3cb4bf6ebc2a423239ebf068088",
+      "name": "original birth checkpoint deterministic continuation96h 4242",
+      "pass": true
+    },
+    {
+      "name": "original birth checkpoint full hash 7301",
+      "pass": true,
+      "tick": 742
+    },
+    {
+      "fingerprint": "558cbe53798fee5e828f7fcf1ef4b5e8ed9d54ae942685797093937ae4c41056",
+      "name": "original birth checkpoint deterministic continuation96h 7301",
+      "pass": true
+    }
+  ]
+}

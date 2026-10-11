@@ -1,0 +1,11 @@
+{
+  "isolated_root": "/tmp/plant-port-repro-m20lg8ks",
+  "exit": 0,
+  "stdout": "Built isolated W27 and candidate30; runtime provenance verified\n",
+  "stderr": "",
+  "projects": [
+    "seedling-diagnostics28",
+    "juvenile-allocation30",
+    "shared-atmosphere27"
+  ]
+}

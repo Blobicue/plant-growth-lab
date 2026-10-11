@@ -1,0 +1,297 @@
+[
+  {
+    "seed": 12011,
+    "id": 2,
+    "gen": 1,
+    "root_N_only_first": {
+      "age": 4,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 7,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 841,
+          "bound_w": 0.00054,
+          "c": 0.0024882406253705826,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.599954963928018e-05,
+          "parent": 2,
+          "pos": "(3, -2, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.0034049115221614938
+        },
+        "pools": {
+          "c": 0.03260820259410483,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0011192730000000003,
+          "w": 0.036260808000000005
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      "event": "refusal_root_[\"n\"]",
+      "tick": 842
+    },
+    "first_death": null,
+    "all_dead": null,
+    "root_birth_ages": [
+      3,
+      6,
+      219,
+      381,
+      669,
+      905,
+      1120,
+      1340,
+      2042,
+      2876,
+      3986,
+      5570
+    ]
+  },
+  {
+    "seed": 12011,
+    "id": 3,
+    "gen": 2,
+    "root_N_only_first": {
+      "age": 4,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 7,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 7337,
+          "bound_w": 0.00054,
+          "c": 0.002485052192643523,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.602532007948958e-05,
+          "parent": 2,
+          "pos": "(-3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.0032815908577483468
+        },
+        "pools": {
+          "c": 0.03154489308841794,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.001086223,
+          "w": 0.036380772
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      "event": "refusal_root_[\"n\"]",
+      "tick": 7338
+    },
+    "first_death": {
+      "age": 1048,
+      "data": {
+        "after": {
+          "active": false,
+          "birth": 7529,
+          "bound_w": 0.0006880955635902668,
+          "c": 0.0,
+          "connected": true,
+          "kind": "stem",
+          "light": 1.0,
+          "light_receipt": 0,
+          "n": 7.905477426698566e-05,
+          "parent": 11,
+          "pos": "(-3, 6, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.002293651878634226,
+          "solid_n": 5.5047645087221274e-05,
+          "stress": 45.14697832741365,
+          "w": 0.0015458622859342741
+        },
+        "before": {
+          "active": true,
+          "birth": 7529,
+          "bound_w": 0.0006886298970311991,
+          "c": 3.560296093873887e-07,
+          "connected": true,
+          "kind": "stem",
+          "light": 1.0,
+          "light_receipt": 0,
+          "n": 7.901202759171107e-05,
+          "parent": 11,
+          "pos": "(-3, 6, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.002295432990104,
+          "solid_n": 5.509039176249586e-05,
+          "stress": 44.25461238314902,
+          "w": 0.0015453279524933418
+        },
+        "kind": "stem",
+        "mass_threshold": false,
+        "node": 12,
+        "stress_threshold": true
+      },
+      "event": "death_node_12",
+      "tick": 8382
+    },
+    "all_dead": {
+      "age": 1224,
+      "data": {
+        "nodes": 13,
+        "pools": {
+          "c": 0.0,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.001249297676031879,
+          "disconnected_w": 0.014897338541374679,
+          "n": 0.0,
+          "w": 0.0
+        }
+      },
+      "event": "all_tissue_dead",
+      "tick": 8558
+    },
+    "root_birth_ages": [
+      3
+    ]
+  },
+  {
+    "seed": 12011,
+    "id": 4,
+    "gen": 1,
+    "root_N_only_first": {
+      "age": 4,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 7,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 10697,
+          "bound_w": 0.00054,
+          "c": 0.002484985365194857,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.535900754105404e-05,
+          "parent": 2,
+          "pos": "(3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.0032163363760627506
+        },
+        "pools": {
+          "c": 0.031544565022076705,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0010840440000000002,
+          "w": 0.036155065
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      "event": "refusal_root_[\"n\"]",
+      "tick": 10698
+    },
+    "first_death": {
+      "age": 848,
+      "data": {
+        "after": {
+          "active": false,
+          "birth": 10697,
+          "bound_w": 0.0004682543039046756,
+          "c": 0.0,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.584512926448242e-05,
+          "parent": 2,
+          "pos": "(3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.001560847679682254,
+          "solid_n": 9.365086078093511e-05,
+          "stress": 45.419246329973035,
+          "w": 0.0013175018497624009
+        },
+        "before": {
+          "active": true,
+          "birth": 10697,
+          "bound_w": 0.0004695395823382965,
+          "c": 0.0,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.558807357775825e-05,
+          "parent": 2,
+          "pos": "(3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.001565131941127657,
+          "solid_n": 9.390791646765928e-05,
+          "stress": 44.419246329973035,
+          "w": 0.00131621657132878
+        },
+        "kind": "root",
+        "mass_threshold": false,
+        "node": 7,
+        "stress_threshold": true
+      },
+      "event": "death_node_7",
+      "tick": 11542
+    },
+    "all_dead": {
+      "age": 935,
+      "data": {
+        "nodes": 12,
+        "pools": {
+          "c": 0.0,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0011871628858208545,
+          "disconnected_w": 0.012202052888098712,
+          "n": 0.0,
+          "w": 0.0
+        }
+      },
+      "event": "all_tissue_dead",
+      "tick": 11629
+    },
+    "root_birth_ages": [
+      3
+    ]
+  }
+]

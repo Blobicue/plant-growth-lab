@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: unsupported format character in operator '%'.
+          at: run (res://reduction_checks.gd:20)
+          GDScript backtrace (most recent call first):
+              [0] run (res://reduction_checks.gd:20)

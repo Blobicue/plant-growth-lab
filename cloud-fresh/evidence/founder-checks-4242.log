@@ -1,0 +1,2 @@
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-fresh/work/model", "--script", "res://verify_f1.gd", "--", "4242", "24", "founder_canonical"], "exit": 0, "stop_reason": null, "wall_seconds": 2.5120477290001872, "peak_rss_bytes": 120590336, "initial_headroom_bytes": 11873341440, "minimum_headroom_bytes": 11818610688}
+VERIFIED verify-4242-24-founder_canonical.json

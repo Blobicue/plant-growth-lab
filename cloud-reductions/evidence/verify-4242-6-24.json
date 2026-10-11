@@ -1,0 +1,16 @@
+{
+  "canonical_endpoint_checked": true,
+  "canonical_node_and_field_hours_checked": 768,
+  "exact_canonical_nodes": true,
+  "id": 6,
+  "max_canonical_numeric_difference": 0.0,
+  "max_plant_error": 5.4569682106375694e-12,
+  "max_world_error": 2.3283064365386963e-10,
+  "mode": 24,
+  "numerical_contract": "R1",
+  "original_chronological_order_preserved": true,
+  "pass": true,
+  "restart_age": 384,
+  "reverse_saved_replay_hours_exact": 768,
+  "seed": 4242
+}

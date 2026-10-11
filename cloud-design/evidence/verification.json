@@ -1,0 +1,25 @@
+{
+  "assessment": "design only; experiment not run",
+  "basis_commit": "7cb5a51e30171c9770f52d47810d8da5b8b1b5b9",
+  "preserved_branches": {
+    "migration/linux-cpu": "701d108642fe61cb051d9360d81eaf40258b30de",
+    "diagnostic/gen2-survival-causality": "7cb5a51e30171c9770f52d47810d8da5b8b1b5b9"
+  },
+  "evidence_sha256": {
+    "cloud-diagnostics/evidence/observer-12011-12288.json": "b3bb41addc4dd8e5b6306320fbc09bb83e7b5f68befcbfb62a83aba90b27c6bb",
+    "cloud-diagnostics/evidence/observer-4242-12288.json": "401e992864f70ac3129210456abf1962a58df913f0abb1370f14b626d398de86",
+    "cloud-diagnostics/evidence/observer-7301-12288.json": "28ef56af88a82c534a73477ea26a15600bf1bd0fae1f03f19b2d8fcfeb06da62"
+  },
+  "original_snapshot_check": {
+    "checked": 189,
+    "mismatches": []
+  },
+  "new_engine_invocations": 0,
+  "runtime_peak_memory": "No new engine measurements; prior results preserved in cloud-diagnostics/REPORT.txt",
+  "production_changes": false,
+  "push_merge_deploy": false,
+  "reproduction_commands": [
+    "python3 verify_snapshot.py",
+    "python3 cloud-design/reproduce_accounting.py"
+  ]
+}

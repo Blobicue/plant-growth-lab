@@ -1,0 +1,46 @@
+PLANT RESEARCH WORKSTATION 0.1.0 — QUICK GUIDE
+
+This Linux candidate adds a read-only evidence workspace to the existing lab.
+It does not change simulation biology, promote a model, or replace Windows W27.
+
+Use
+• Evidence catalog: select one of three seeds and either legacy+R1 or T1/24+R1.
+  Compare births, deaths and living tissue from identical initial worlds.
+• Lineage & budgets: select a plant for maturity, death age and carbon accounting.
+  A living endpoint is right-censored, not proof of sustained replacement.
+• Paired resources: compare both arms at the same daily model hour.
+• Saved-state replay: choose hour 0, 6144 or 12288, then Load saved state.
+  Replay checks the next 96 hourly physical hashes against the archived run.
+  Hour 12288 is inspection-only. Right-drag to orbit; wheel to zoom.
+• Live lab is separate. Existing Step/Run/Pause/Stop and save/replay remain.
+  Switching panes or closing pauses computation and revokes local control.
+  Reopening retains navigation only; it never resumes a run or permission.
+• Provenance & commands and Models & reports expose exact source paths,
+  reproduction commands, model contracts and unavailable/unrun checks.
+
+What the screenshots show
+paired-outcomes.png: the actual seed 4242 comparison, including fewer T1 births.
+saved-state-geometry.png: actual seed 4242 T1 tissue restored at hour 12288.
+These are unaltered Godot screenshots using software rendering.
+
+Results and validation
+No generation 3 appeared in any F1 run. The living T1 grandchild at age 1018
+has 12 paid nodes and no offspring. Sustained replacement is unestablished.
+158 source/package/native-CPU checks passed, plus normal package launch.
+Each source/package UI reproduced six 96-hour archive windows exactly.
+All 18 selected checkpoint digests and original evidence verified unchanged.
+Final validation/build/launch: 173.823 seconds; peak RSS 436.03 MiB;
+minimum effective memory headroom 9.89 GiB. GPU/Windows tests are unavailable,
+not passed. W27/candidate30 have provenance reports; cross-format state adapters
+are outside this first increment. Historical strict JSON metric failures remain
+separate from exact physical-state replay. No mechanism assay was run.
+
+Launch
+On graphical Linux, extract the separately retained local package and run
+./launch.sh inside its directory. Each guarded session is limited to 600 seconds.
+The large Linux package is NOT included in these small attachments.
+Full guide in the saved checkout: cloud-workstation/README.txt
+Validation details: cloud-workstation/REPORT.txt
+Branch: workstation/evidence-catalog
+Commit: 1078c3bf914a3e1a38dea1d519502b43f5b7068f
+No push, public hosting, deployment or promotion occurred.

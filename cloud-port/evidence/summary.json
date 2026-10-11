@@ -1,0 +1,1970 @@
+{
+  "baseline_commit": "c7ec213793fb82817ba66e63e8a0b5b16b784762",
+  "promoted": false,
+  "checks": [
+    {
+      "source": "juvenile-allocation30-cloud-cpu-checks.json",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "source": "juvenile-allocation30-cloud-ui-checks.json",
+      "passed": 9,
+      "total": 9
+    },
+    {
+      "source": "juvenile-allocation30-fixture-tests.json",
+      "passed": 5,
+      "total": 5
+    },
+    {
+      "source": "juvenile-allocation30-model-tests.json",
+      "passed": 20,
+      "total": 20
+    },
+    {
+      "source": "juvenile-allocation30-package-cloud-restart-checks.json",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "source": "juvenile-allocation30-package-cloud-ui-checks.json",
+      "passed": 9,
+      "total": 9
+    },
+    {
+      "source": "seedling-diagnostics28-cloud-birth-checks.json",
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "source": "shared-atmosphere27-cloud-cpu-checks.json",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "source": "shared-atmosphere27-fixture-tests.json",
+      "passed": 5,
+      "total": 5
+    },
+    {
+      "source": "shared-atmosphere27-model-tests.json",
+      "passed": 20,
+      "total": 20
+    },
+    {
+      "source": "shared-atmosphere27-package-cloud-restart-checks.json",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "source": "shared-atmosphere27-package-cloud-ui-checks.json",
+      "passed": 9,
+      "total": 9
+    }
+  ],
+  "golden": [
+    {
+      "source": "juvenile-allocation30-cloud-golden-12011-1-8160-forward.json",
+      "seed": 12011,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 1.0061396160665481e-16,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 1.70530256582424e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 7695,
+        "observed_hours": {
+          "descendant": 6417,
+          "founder": 192
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 838,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 7334,
+          "child": 3,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 1
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 54,
+          "living_nodes": 14,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 54,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 32,
+          "living_nodes": 32,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 3,
+          "generation": 2,
+          "paid_nodes": 13,
+          "living_nodes": 13,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "juvenile-allocation30-cloud-golden-12011-1-960-reverse.json",
+      "seed": 12011,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.71445146547012e-17,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 1.70530256582424e-13,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 504,
+        "observed_hours": {
+          "descendant": 122,
+          "founder": 192
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 838,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 54,
+          "living_nodes": 51,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 59,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 13,
+          "living_nodes": 13,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "juvenile-allocation30-cloud-golden-4242-1-8160-forward.json",
+      "seed": 4242,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 1.0061396160665481e-16,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 2.95585778076202e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 8872,
+        "observed_hours": {
+          "descendant": 13594,
+          "founder": 165
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 678,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 1286,
+          "child": 3,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 1
+        },
+        {
+          "birth_tick": 5318,
+          "child": 4,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 2
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 11,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 6
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 32,
+          "living_nodes": 32,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 3,
+          "generation": 1,
+          "paid_nodes": 30,
+          "living_nodes": 30,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 4,
+          "generation": 2,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "juvenile-allocation30-cloud-golden-4242-1-960-reverse.json",
+      "seed": 4242,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.969577789183115e-18,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 2.41584530158434e-13,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 768,
+        "observed_hours": {
+          "descendant": 282,
+          "founder": 165
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 678,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 57,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 59,
+          "leaf_nodes_including_dead": 6
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 15,
+          "living_nodes": 15,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "juvenile-allocation30-cloud-golden-7301-1-8160-forward.json",
+      "seed": 7301,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 1.1102230246251565e-16,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 2.8421709430404e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 9334,
+        "observed_hours": {
+          "descendant": 6517,
+          "founder": 153
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 806,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 5510,
+          "child": 3,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 1
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 29,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 55,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 32,
+          "living_nodes": 32,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 3,
+          "generation": 2,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "juvenile-allocation30-cloud-golden-7301-1-960-reverse.json",
+      "seed": 7301,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.974659986866641e-18,
+      "nonnumeric_differences": [],
+      "max_error": 2.18278728425503e-11,
+      "max_plant_error": 9.9475983006414e-14,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 801,
+        "observed_hours": {
+          "descendant": 154,
+          "founder": 153
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 806,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 59,
+          "living_nodes": 59,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 13,
+          "living_nodes": 13,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-12011-0-8160-forward.json",
+      "seed": 12011,
+      "mode": 0,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": null,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 5.45785638905727e-12,
+      "allocation_policy": null,
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 53,
+          "living_nodes": 24,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 55,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 12,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-12011-1-8160-forward.json",
+      "seed": 12011,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": null,
+      "nonnumeric_differences": [],
+      "max_error": 6.98491930961609e-10,
+      "max_plant_error": 2.72848410531878e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 7238,
+          "child": 3,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 1
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 53,
+          "living_nodes": 22,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 53,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 3,
+          "generation": 1,
+          "paid_nodes": 11,
+          "living_nodes": 11,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-12011-1-960-reverse.json",
+      "seed": 12011,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 1.0408340855860843e-17,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 2.27373675443232e-13,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 53,
+          "living_nodes": 53,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 58,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 12,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-4242-0-8160-forward.json",
+      "seed": 4242,
+      "mode": 0,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 1.0408340855860843e-17,
+      "nonnumeric_differences": [],
+      "max_error": 3.49245965480804e-10,
+      "max_plant_error": 9.48308098713824e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 7526,
+          "child": 3,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 4242,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 0,
+          "propagule": 1
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 29,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 52,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 4,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 3,
+          "generation": 1,
+          "paid_nodes": 11,
+          "living_nodes": 11,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-4242-1-8160-forward.json",
+      "seed": 4242,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.974659986866641e-18,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 3.75166564481333e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 30,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 51,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-4242-1-960-forward.json",
+      "seed": 4242,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": null,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 1.49213974509621e-13,
+      "allocation_policy": null,
+      "lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 57,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 12,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-4242-1-960-reverse.json",
+      "seed": 4242,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.974659986866641e-18,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 1.49213974509621e-13,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 710,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 57,
+          "living_nodes": 57,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 12,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-7301-0-8160-forward.json",
+      "seed": 7301,
+      "mode": 0,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.71445146547012e-17,
+      "nonnumeric_differences": [],
+      "max_error": 2.91038304567337e-10,
+      "max_plant_error": 5.84243764478742e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 31,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-7301-1-8160-forward.json",
+      "seed": 7301,
+      "mode": 1,
+      "horizon": 8160,
+      "reverse": false,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.992007221626409e-16,
+      "nonnumeric_differences": [],
+      "max_error": 1.74622982740402e-10,
+      "max_plant_error": 2.8421709430404e-12,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 31,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 55,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 0,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    },
+    {
+      "source": "shared-atmosphere27-cloud-golden-7301-1-960-reverse.json",
+      "seed": 7301,
+      "mode": 1,
+      "horizon": 960,
+      "reverse": true,
+      "hourly_hash_mismatches": 0,
+      "endpoint_exact": true,
+      "healthy": true,
+      "strict_json_metrics_exact": false,
+      "max_recorded_metric_difference": 9.992007221626409e-16,
+      "nonnumeric_differences": [],
+      "max_error": 1.45519152283669e-11,
+      "max_plant_error": 2.27373675443232e-13,
+      "allocation_policy": {
+        "juvenile_no_new_deposits": true,
+        "mature_deposit_hours": 0,
+        "observed_hours": {
+          "descendant": 0,
+          "founder": 0
+        }
+      },
+      "lineage": [
+        {
+          "birth_tick": 742,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "paid_nodes": 56,
+          "living_nodes": 56,
+          "leaf_nodes_including_dead": 4
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "paid_nodes": 58,
+          "living_nodes": 58,
+          "leaf_nodes_including_dead": 5
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "paid_nodes": 12,
+          "living_nodes": 12,
+          "leaf_nodes_including_dead": 4
+        }
+      ]
+    }
+  ],
+  "survival": [
+    {
+      "source": "juvenile-allocation30-cloud-survival-12011.json",
+      "seed": 12011,
+      "horizon": 12288,
+      "origin_exact": true,
+      "allocation_order_exact_every_hour": true,
+      "new_births": [
+        {
+          "birth_tick": 10694,
+          "child": 4,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 2
+        }
+      ],
+      "lineage": [
+        {
+          "birth_tick": 838,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 7334,
+          "child": 3,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 1
+        },
+        {
+          "birth_tick": 10694,
+          "child": 4,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 19930,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 2
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "initial_paid_nodes": 54,
+          "initial_living_nodes": 14,
+          "final_paid_nodes": 54,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 54,
+          "first_daily_zero_living": 9624
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "initial_paid_nodes": 59,
+          "initial_living_nodes": 54,
+          "final_paid_nodes": 59,
+          "final_living_nodes": 54,
+          "final_leaf_nodes_including_dead": 5,
+          "max_daily_paid_nodes": 59,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "initial_paid_nodes": 32,
+          "initial_living_nodes": 32,
+          "final_paid_nodes": 32,
+          "final_living_nodes": 32,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 32,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 3,
+          "generation": 2,
+          "initial_paid_nodes": 13,
+          "initial_living_nodes": 13,
+          "final_paid_nodes": 13,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 13,
+          "first_daily_zero_living": 8568
+        },
+        {
+          "id": 4,
+          "generation": 1,
+          "initial_paid_nodes": null,
+          "initial_living_nodes": null,
+          "final_paid_nodes": 12,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 12,
+          "first_daily_zero_living": 11640
+        }
+      ],
+      "max_error": 2.91038304567337e-10,
+      "max_plant_error": 6.3664629124105e-12,
+      "error": "",
+      "censored": ""
+    },
+    {
+      "source": "juvenile-allocation30-cloud-survival-4242.json",
+      "seed": 4242,
+      "horizon": 12288,
+      "origin_exact": true,
+      "allocation_order_exact_every_hour": true,
+      "new_births": [
+        {
+          "birth_tick": 8678,
+          "child": 5,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 3
+        },
+        {
+          "birth_tick": 9158,
+          "child": 6,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 3,
+          "propagule": 4
+        }
+      ],
+      "lineage": [
+        {
+          "birth_tick": 678,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 1286,
+          "child": 3,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 1
+        },
+        {
+          "birth_tick": 5318,
+          "child": 4,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 2
+        },
+        {
+          "birth_tick": 8678,
+          "child": 5,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 3
+        },
+        {
+          "birth_tick": 9158,
+          "child": 6,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 12161,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 3,
+          "propagule": 4
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "initial_paid_nodes": 57,
+          "initial_living_nodes": 11,
+          "final_paid_nodes": 57,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 57,
+          "first_daily_zero_living": 8568
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "initial_paid_nodes": 59,
+          "initial_living_nodes": 56,
+          "final_paid_nodes": 59,
+          "final_living_nodes": 50,
+          "final_leaf_nodes_including_dead": 6,
+          "max_daily_paid_nodes": 59,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "initial_paid_nodes": 32,
+          "initial_living_nodes": 32,
+          "final_paid_nodes": 32,
+          "final_living_nodes": 28,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 32,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 3,
+          "generation": 1,
+          "initial_paid_nodes": 30,
+          "initial_living_nodes": 30,
+          "final_paid_nodes": 32,
+          "final_living_nodes": 32,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 32,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 4,
+          "generation": 2,
+          "initial_paid_nodes": 12,
+          "initial_living_nodes": 0,
+          "final_paid_nodes": 12,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 12,
+          "first_daily_zero_living": 8184
+        },
+        {
+          "id": 5,
+          "generation": 2,
+          "initial_paid_nodes": null,
+          "initial_living_nodes": null,
+          "final_paid_nodes": 12,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 12,
+          "first_daily_zero_living": 10392
+        },
+        {
+          "id": 6,
+          "generation": 2,
+          "initial_paid_nodes": null,
+          "initial_living_nodes": null,
+          "final_paid_nodes": 13,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 13,
+          "first_daily_zero_living": 10272
+        }
+      ],
+      "max_error": 4.65661287307739e-10,
+      "max_plant_error": 9.32232069317251e-12,
+      "error": "",
+      "censored": ""
+    },
+    {
+      "source": "juvenile-allocation30-cloud-survival-7301.json",
+      "seed": 7301,
+      "horizon": 12288,
+      "origin_exact": true,
+      "allocation_order_exact_every_hour": true,
+      "new_births": [
+        {
+          "birth_tick": 10022,
+          "child": 4,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 2
+        }
+      ],
+      "lineage": [
+        {
+          "birth_tick": 806,
+          "child": 2,
+          "generation": 1,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 1,
+          "propagule": 0
+        },
+        {
+          "birth_tick": 5510,
+          "child": 3,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 1
+        },
+        {
+          "birth_tick": 10022,
+          "child": 4,
+          "generation": 2,
+          "genotype": {
+            "branch_seed": 15220,
+            "physiology": "paid-v8",
+            "version": 1
+          },
+          "mutation": false,
+          "parent": 2,
+          "propagule": 2
+        }
+      ],
+      "plants": [
+        {
+          "id": 0,
+          "generation": 0,
+          "initial_paid_nodes": 56,
+          "initial_living_nodes": 29,
+          "final_paid_nodes": 56,
+          "final_living_nodes": 29,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 56,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "initial_paid_nodes": 59,
+          "initial_living_nodes": 55,
+          "final_paid_nodes": 59,
+          "final_living_nodes": 55,
+          "final_leaf_nodes_including_dead": 5,
+          "max_daily_paid_nodes": 59,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 2,
+          "generation": 1,
+          "initial_paid_nodes": 32,
+          "initial_living_nodes": 32,
+          "final_paid_nodes": 32,
+          "final_living_nodes": 32,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 32,
+          "first_daily_zero_living": null
+        },
+        {
+          "id": 3,
+          "generation": 2,
+          "initial_paid_nodes": 12,
+          "initial_living_nodes": 0,
+          "final_paid_nodes": 12,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 12,
+          "first_daily_zero_living": 8184
+        },
+        {
+          "id": 4,
+          "generation": 2,
+          "initial_paid_nodes": null,
+          "initial_living_nodes": null,
+          "final_paid_nodes": 12,
+          "final_living_nodes": 0,
+          "final_leaf_nodes_including_dead": 4,
+          "max_daily_paid_nodes": 12,
+          "first_daily_zero_living": 10968
+        }
+      ],
+      "max_error": 6.98491930961609e-10,
+      "max_plant_error": 6.13908923696727e-12,
+      "error": "",
+      "censored": ""
+    }
+  ],
+  "packages": [
+    {
+      "project": "shared-atmosphere27",
+      "files": 7,
+      "mismatches": []
+    },
+    {
+      "project": "juvenile-allocation30",
+      "files": 7,
+      "mismatches": []
+    }
+  ],
+  "runtimes": [
+    {
+      "source": "juvenile-allocation30-golden_cpu-12011-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 12.455674965999947,
+      "peak_rss_bytes": 118022144,
+      "minimum_headroom_bytes": 16286605312
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-12011-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 15.655195583000022,
+      "peak_rss_bytes": 119902208,
+      "minimum_headroom_bytes": 16725323776
+    },
+    {
+      "source": "seedling-diagnostics28-birth_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 10.536457277000011,
+      "peak_rss_bytes": 122302464,
+      "minimum_headroom_bytes": 16730116096
+    },
+    {
+      "source": "juvenile-allocation30-golden_cpu-7301-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 12.547533820000126,
+      "peak_rss_bytes": 120291328,
+      "minimum_headroom_bytes": 16273711104
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-4242-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 13.15028904099995,
+      "peak_rss_bytes": 120143872,
+      "minimum_headroom_bytes": 16734932992
+    },
+    {
+      "source": "shared-atmosphere27-cpu_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 4.215167495000003,
+      "peak_rss_bytes": 118763520,
+      "minimum_headroom_bytes": 16734388224
+    },
+    {
+      "source": "juvenile-allocation30-golden_cpu-7301-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 100.87808171699999,
+      "peak_rss_bytes": 134311936,
+      "minimum_headroom_bytes": 16398716928
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-7301-0-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 93.20674926800007,
+      "peak_rss_bytes": 129576960,
+      "minimum_headroom_bytes": 16446664704
+    },
+    {
+      "source": "juvenile-allocation30-package-restart_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.1058426480001344,
+      "peak_rss_bytes": 126648320,
+      "minimum_headroom_bytes": 16436232192
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-4242-0-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 106.88167576799998,
+      "peak_rss_bytes": 139296768,
+      "minimum_headroom_bytes": 16714944512
+    },
+    {
+      "source": "juvenile-allocation30-continue_survival-7301.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 303.880006029,
+      "peak_rss_bytes": 155648000,
+      "minimum_headroom_bytes": 16188764160
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-4242-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 106.30113917900007,
+      "peak_rss_bytes": 134127616,
+      "minimum_headroom_bytes": 16718372864
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-7301-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 12.785703865999949,
+      "peak_rss_bytes": 119840768,
+      "minimum_headroom_bytes": 16286904320
+    },
+    {
+      "source": "shared-atmosphere27-package-ui_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.206381294000039,
+      "peak_rss_bytes": 123232256,
+      "minimum_headroom_bytes": 16415277056
+    },
+    {
+      "source": "shared-atmosphere27-package-restart_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.1045567700000447,
+      "peak_rss_bytes": 126640128,
+      "minimum_headroom_bytes": 16413745152
+    },
+    {
+      "source": "juvenile-allocation30-continue_survival-4242.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 634.6115962170002,
+      "peak_rss_bytes": 203563008,
+      "minimum_headroom_bytes": 15898480640
+    },
+    {
+      "source": "juvenile-allocation30-golden_cpu-4242-1-960-reverse.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 12.647142970999994,
+      "peak_rss_bytes": 120115200,
+      "minimum_headroom_bytes": 16416997376
+    },
+    {
+      "source": "juvenile-allocation30-ui_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 13.766124518999959,
+      "peak_rss_bytes": 278179840,
+      "minimum_headroom_bytes": 16285855744
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-12011-0-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 87.30966703299998,
+      "peak_rss_bytes": 129417216,
+      "minimum_headroom_bytes": 16730812416
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-12011-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 79.88017859499996,
+      "peak_rss_bytes": 124596224,
+      "minimum_headroom_bytes": 16585916416
+    },
+    {
+      "source": "juvenile-allocation30-numeric_diagnostics.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.7036064440003429,
+      "peak_rss_bytes": 158146560,
+      "minimum_headroom_bytes": 16222248960
+    },
+    {
+      "source": "juvenile-allocation30-tests.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 25.479912143999996,
+      "peak_rss_bytes": 122728448,
+      "minimum_headroom_bytes": 16784171008
+    },
+    {
+      "source": "shared-atmosphere27-standalone-launch.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.0043166670000119,
+      "peak_rss_bytes": 117989376,
+      "minimum_headroom_bytes": 16441978880
+    },
+    {
+      "source": "shared-atmosphere27-fixture.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 4.9276999740000065,
+      "peak_rss_bytes": 118145024,
+      "minimum_headroom_bytes": 16561229824
+    },
+    {
+      "source": "shared-atmosphere27-tests.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 25.68379209400001,
+      "peak_rss_bytes": 124469248,
+      "minimum_headroom_bytes": 16798531584
+    },
+    {
+      "source": "shared-atmosphere27-package-smoke.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.7033235930000501,
+      "peak_rss_bytes": 116137984,
+      "minimum_headroom_bytes": 16427503616
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-7301-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 86.76424430600002,
+      "peak_rss_bytes": 125681664,
+      "minimum_headroom_bytes": 16537464832
+    },
+    {
+      "source": "juvenile-allocation30-snapshot_view-12011.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 12.347361780000028,
+      "peak_rss_bytes": 285360128,
+      "minimum_headroom_bytes": 16280166400
+    },
+    {
+      "source": "juvenile-allocation30-package-smoke.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.7030159480000293,
+      "peak_rss_bytes": 116273152,
+      "minimum_headroom_bytes": 16415469568
+    },
+    {
+      "source": "juvenile-allocation30-fixture.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 6.430914011000027,
+      "peak_rss_bytes": 117895168,
+      "minimum_headroom_bytes": 16558620672
+    },
+    {
+      "source": "shared-atmosphere27-numeric_diagnostics.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 40.179131705000145,
+      "peak_rss_bytes": 120954880,
+      "minimum_headroom_bytes": 16092360704
+    },
+    {
+      "source": "juvenile-allocation30-golden_cpu-12011-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 97.57566220299998,
+      "peak_rss_bytes": 134160384,
+      "minimum_headroom_bytes": 16407842816
+    },
+    {
+      "source": "shared-atmosphere27-json_roundtrip.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.30205313099997966,
+      "peak_rss_bytes": 117145600,
+      "minimum_headroom_bytes": 16557903872
+    },
+    {
+      "source": "juvenile-allocation30-golden_cpu-4242-1-8160.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 145.3616037469999,
+      "peak_rss_bytes": 154800128,
+      "minimum_headroom_bytes": 16365678592
+    },
+    {
+      "source": "shared-atmosphere27-pack_linux-lab.pck.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.30320662600001924,
+      "peak_rss_bytes": 102465536,
+      "minimum_headroom_bytes": 16443113472
+    },
+    {
+      "source": "juvenile-allocation30-json_roundtrip.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.40420583499997065,
+      "peak_rss_bytes": 117014528,
+      "minimum_headroom_bytes": 16405475328
+    },
+    {
+      "source": "juvenile-allocation30-standalone-launch.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.0032097089999752,
+      "peak_rss_bytes": 117850112,
+      "minimum_headroom_bytes": 16440721408
+    },
+    {
+      "source": "juvenile-allocation30-package-ui_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.204711542000041,
+      "peak_rss_bytes": 123248640,
+      "minimum_headroom_bytes": 16439668736
+    },
+    {
+      "source": "juvenile-allocation30-pack_linux-lab.pck.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.20156622700005755,
+      "peak_rss_bytes": 102445056,
+      "minimum_headroom_bytes": 16432947200
+    },
+    {
+      "source": "juvenile-allocation30-continue_survival-12011.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 300.924883313,
+      "peak_rss_bytes": 156266496,
+      "minimum_headroom_bytes": 16247193600
+    },
+    {
+      "source": "juvenile-allocation30-cpu_checks.runtime.json",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 4.015864194000017,
+      "peak_rss_bytes": 118947840,
+      "minimum_headroom_bytes": 16757886976
+    },
+    {
+      "source": "shared-atmosphere27-golden_cpu-4242-1-960.runtime.json",
+      "exit": 1,
+      "stop_reason": null,
+      "wall_seconds": 12.843713578000006,
+      "peak_rss_bytes": 119910400,
+      "minimum_headroom_bytes": 16816390144
+    }
+  ],
+  "recorded_final_run_wall_seconds_sum": 2393.193162827001,
+  "recorded_final_run_peak_rss_bytes": 285360128,
+  "minimum_observed_headroom_bytes": 15898480640,
+  "unavailable": [
+    "hardware GPU parity",
+    "Windows runtime/native package/shortcut checks",
+    "two original W27 desktop replay records omitted from reduced snapshot"
+  ],
+  "remaining_failure": "Strict archived JSON metrics equality; binary full-state hashes are assessed separately.",
+  "numeric_report_diagnostics": {
+    "criterion": "Diagnostic report agreement: exact integer/count/string/structure checks and full-state hashes remain mandatory. For raw binary floating metrics versus archived decimal, require membership in the archive formatter rounding interval: abs(raw - decimal) <= 0.5*10^max(-32,floor(log10(abs(decimal)))-14) + one binary64 ulp. This is not a conservation tolerance and does not turn strict equality failures into passes. Known default JSON parser truncation must be diagnosed separately; new diagnostic reports preserve full-precision strings and raw float bits.",
+    "results": [
+      {
+        "project": "shared-atmosphere27",
+        "checkpoints": 30,
+        "all_state_checkpoints_exact": true,
+        "strict_scalar_mismatches": 13,
+        "canonical_report_matches": 0,
+        "raw_within_archive_rounding_interval": 13,
+        "residual_rounding_boundary_cases": 13,
+        "residual_half_up_emulation_matches": 13
+      },
+      {
+        "project": "juvenile-allocation30",
+        "checkpoints": 3,
+        "all_state_checkpoints_exact": true,
+        "strict_scalar_mismatches": 617,
+        "canonical_report_matches": 613,
+        "raw_within_archive_rounding_interval": 617,
+        "residual_rounding_boundary_cases": 4,
+        "residual_half_up_emulation_matches": 4
+      }
+    ],
+    "strict_failures_retained": true
+  }
+}

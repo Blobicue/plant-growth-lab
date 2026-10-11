@@ -1,0 +1,20 @@
+--- unchanged_world.gd
++++ control_world.gd
+@@ -1,4 +1,6 @@
+ extends RefCounted
++var diagnostic_arm=0
++var diagnostic_target=-1
+ const FIELD_ID="juvenile-allocation30-cnw-q1e-9"
+ const Air=preload("res://atmosphere.gd")
+ const MAX_RECORDS=32 # computational bound: censor the WHOLE experiment
+@@ -98,6 +100,10 @@
+    var index:int=p.soil_index(node.pos)
+    if index<0:continue
+    var want=[int(floor(minf(node.solid_c*.7,maxf(0,.012-node.w))*field.scale)),int(floor(minf(node.solid_c*.1,maxf(0,.003-node.n))*field.scale))]
++   # Diagnostic access gates only. No transfer, rate/cost/gene edits or added resource.
++   if diagnostic_arm==1 and p.plant_id!=diagnostic_target:want[1]=0
++   if diagnostic_arm==2 and p.plant_id!=diagnostic_target:want[0]=0
++   if diagnostic_arm==3 and p.plant_id==diagnostic_target:want[1]=0
+    if not demands.has(index):demands[index]=[]
+    demands[index].append({"plant":p.plant_id,"node":id,"key":p.plant_id*512+id,"want":want})
+    queries[index]=true

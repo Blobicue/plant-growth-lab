@@ -1,0 +1,2432 @@
+{
+  "baseline_error": "",
+  "baseline_events": [
+    {
+      "age": 3,
+      "kind": "root",
+      "position": "(3, -2, -3)",
+      "proposal": 1
+    },
+    {
+      "age": 3,
+      "kind": "stem",
+      "position": "(3, 2, -3)",
+      "proposal": 0
+    },
+    {
+      "age": 5,
+      "kind": "stem",
+      "position": "(3, 3, -3)",
+      "proposal": 0
+    },
+    {
+      "age": 10,
+      "kind": "stem",
+      "position": "(3, 4, -3)",
+      "proposal": 0
+    },
+    {
+      "age": 24,
+      "kind": "stem",
+      "position": "(3, 5, -3)",
+      "proposal": 4
+    }
+  ],
+  "baseline_refusals": [
+    {
+      "age": 4,
+      "cost": {
+        "c": 0.0018,
+        "n": 0.000108,
+        "w": 0.00054
+      },
+      "front_position": "(3, -2, -3)",
+      "kind": "root",
+      "local": {
+        "active": true,
+        "birth": 10025,
+        "bound_w": 0.00054,
+        "c": 0.0024849778283099083,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 7.531538746383317e-05,
+        "parent": 2,
+        "pos": "(3, -2, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0018,
+        "solid_n": 0.000108,
+        "stress": 0.0,
+        "w": 0.0032081795272425216
+      },
+      "proposal": 1,
+      "short": [
+        "n"
+      ]
+    },
+    {
+      "age": 4,
+      "cost": {
+        "c": 0.0024,
+        "n": 5.76e-05,
+        "w": 0.0007199999999999999
+      },
+      "front_position": "(3, 2, -3)",
+      "kind": "stem",
+      "local": {
+        "active": true,
+        "birth": 10025,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0021774320854688932,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 7.833476016401177e-05,
+        "parent": 1,
+        "pos": "(3, 2, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.002438192130423016
+      },
+      "proposal": 0,
+      "short": [
+        "c"
+      ]
+    },
+    {
+      "age": 6,
+      "cost": {
+        "c": 0.0024,
+        "n": 5.76e-05,
+        "w": 0.0007199999999999999
+      },
+      "front_position": "(3, 3, -3)",
+      "kind": "stem",
+      "local": {
+        "active": true,
+        "birth": 10027,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0009177188412470872,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 4.037068863351678e-05,
+        "parent": 8,
+        "pos": "(3, 3, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.001570042566376354
+      },
+      "proposal": 0,
+      "short": [
+        "c",
+        "n"
+      ]
+    },
+    {
+      "age": 11,
+      "cost": {
+        "c": 0.0014999999999999998,
+        "n": 0.00013199999999999998,
+        "w": 0.00035999999999999997
+      },
+      "front_position": "(3, 4, -3)",
+      "kind": "leaf",
+      "local": {
+        "active": true,
+        "birth": 10032,
+        "bound_w": 0.0007199999999999998,
+        "c": 0.0004963433038692028,
+        "connected": true,
+        "kind": "stem",
+        "light": 1.0,
+        "light_receipt": 0,
+        "n": 2.8095390494669526e-05,
+        "parent": 9,
+        "pos": "(3, 4, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.759999999999999e-05,
+        "stress": 0.0,
+        "w": 0.0013219443161521082
+      },
+      "proposal": 2,
+      "short": [
+        "c",
+        "n"
+      ]
+    },
+    {
+      "age": 15,
+      "cost": {
+        "c": 0.0014999999999999998,
+        "n": 0.00013199999999999998,
+        "w": 0.00035999999999999997
+      },
+      "front_position": "(3, 4, -3)",
+      "kind": "leaf",
+      "local": {
+        "active": true,
+        "birth": 10032,
+        "bound_w": 0.0007199999999999998,
+        "c": 0.0016316199515017875,
+        "connected": true,
+        "kind": "stem",
+        "light": 1.0,
+        "light_receipt": 0,
+        "n": 6.568580621971716e-05,
+        "parent": 9,
+        "pos": "(3, 4, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.7599999999999984e-05,
+        "stress": 0.0,
+        "w": 0.002483900254144505
+      },
+      "proposal": 2,
+      "short": [
+        "n"
+      ]
+    }
+  ],
+  "birth_tick": 10022,
+  "first_constraint_difference": {
+    "age": 6,
+    "baseline": [
+      {
+        "age": 4,
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front_position": "(3, -2, -3)",
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 10025,
+          "bound_w": 0.00054,
+          "c": 0.0024849778283099083,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.531538746383317e-05,
+          "parent": 2,
+          "pos": "(3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.0032081795272425216
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      {
+        "age": 4,
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front_position": "(3, 2, -3)",
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 10025,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0021774320854688932,
+          "connected": true,
+          "kind": "stem",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.833476016401177e-05,
+          "parent": 1,
+          "pos": "(3, 2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.76e-05,
+          "stress": 0.0,
+          "w": 0.002438192130423016
+        },
+        "proposal": 0,
+        "short": [
+          "c"
+        ]
+      },
+      {
+        "age": 6,
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front_position": "(3, 3, -3)",
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 10027,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0009177188412470872,
+          "connected": true,
+          "kind": "stem",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 4.037068863351678e-05,
+          "parent": 8,
+          "pos": "(3, 3, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.76e-05,
+          "stress": 0.0,
+          "w": 0.001570042566376354
+        },
+        "proposal": 0,
+        "short": [
+          "c",
+          "n"
+        ]
+      }
+    ],
+    "relabelled": [
+      {
+        "age": 4,
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front_position": "(3, -2, -3)",
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 10025,
+          "bound_w": 0.0005399999999999999,
+          "c": 0.002960687227026386,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 9.131734009737366e-05,
+          "parent": 1,
+          "pos": "(3, -2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.00010799999999999998,
+          "stress": 0.0,
+          "w": 0.0036666524799972237
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      {
+        "age": 4,
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front_position": "(3, 2, -3)",
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 10025,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0020562773695050655,
+          "connected": true,
+          "kind": "stem",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.38809457281875e-05,
+          "parent": 2,
+          "pos": "(3, 2, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.759999999999999e-05,
+          "stress": 0.0,
+          "w": 0.0023271199705892647
+        },
+        "proposal": 0,
+        "short": [
+          "c"
+        ]
+      },
+      {
+        "age": 6,
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front_position": "(3, -3, -3)",
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 10027,
+          "bound_w": 0.00054,
+          "c": 0.001106460950032262,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 2.2546883099107977e-05,
+          "parent": 7,
+          "pos": "(3, -3, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.001991395415172235
+        },
+        "proposal": 1,
+        "short": [
+          "c",
+          "n"
+        ]
+      },
+      {
+        "age": 6,
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front_position": "(3, 3, -3)",
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 10027,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0008485324398229135,
+          "connected": true,
+          "kind": "stem",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 3.786163137975894e-05,
+          "parent": 8,
+          "pos": "(3, 3, -3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.759999999999999e-05,
+          "stress": 0.0,
+          "w": 0.0015063704433215222
+        },
+        "proposal": 0,
+        "short": [
+          "c",
+          "n"
+        ]
+      }
+    ]
+  },
+  "first_payment_difference": {
+    "age": 5,
+    "baseline": [
+      {
+        "age": 3,
+        "kind": "root",
+        "position": "(3, -2, -3)",
+        "proposal": 1
+      },
+      {
+        "age": 3,
+        "kind": "stem",
+        "position": "(3, 2, -3)",
+        "proposal": 0
+      },
+      {
+        "age": 5,
+        "kind": "stem",
+        "position": "(3, 3, -3)",
+        "proposal": 0
+      }
+    ],
+    "relabelled": [
+      {
+        "age": 3,
+        "kind": "root",
+        "position": "(3, -2, -3)",
+        "proposal": 1
+      },
+      {
+        "age": 3,
+        "kind": "stem",
+        "position": "(3, 2, -3)",
+        "proposal": 0
+      },
+      {
+        "age": 5,
+        "kind": "root",
+        "position": "(3, -3, -3)",
+        "proposal": 1
+      },
+      {
+        "age": 5,
+        "kind": "stem",
+        "position": "(3, 3, -3)",
+        "proposal": 0
+      }
+    ]
+  },
+  "first_physical_difference": {
+    "age": 1,
+    "baseline": [
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00036,
+        "c": 0.003259346432201807,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00011300996579767933,
+        "parent": "(3, 1, -3)",
+        "pos": "(2, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.000132,
+        "stress": 0.0,
+        "w": 0.0033193199281961972
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00054,
+        "c": 0.009624712618737074,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00033192529875932517,
+        "parent": "(3, 0, -3)",
+        "pos": "(3, -1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0018,
+        "solid_n": 0.000108,
+        "stress": 0.0,
+        "w": 0.009910926150791042
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.010982777026275644,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00037805382618087636,
+        "parent": "(999, 999, 999)",
+        "pos": "(3, 0, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.7600000000000004e-05,
+        "stress": 0.0,
+        "w": 0.011193566223029373
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.002691914450463834,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 9.352983176829708e-05,
+        "parent": "(3, 1, -3)",
+        "pos": "(3, 1, -2)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.002746755119021252
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0034631183994695575,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00011964447401091108,
+        "parent": "(3, 0, -3)",
+        "pos": "(3, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.759999999999999e-05,
+        "stress": 0.0,
+        "w": 0.003517515446681263
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0022122617615187444,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 7.707216158435788e-05,
+        "parent": "(3, 1, -3)",
+        "pos": "(3, 1, -4)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.0022631414060013608
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.003925199737214032,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00013587944189855314,
+        "parent": "(3, 1, -3)",
+        "pos": "(4, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.003991692726279514
+      }
+    ],
+    "relabelled": [
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0022122807921637457,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 7.707767844797352e-05,
+        "parent": "(3, 1, -3)",
+        "pos": "(2, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999996,
+        "stress": 0.0,
+        "w": 0.0022694974808991413
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00054,
+        "c": 0.012253115855920784,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.0004223353961100893,
+        "parent": "(3, 0, -3)",
+        "pos": "(3, -1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0018,
+        "solid_n": 0.00010800000000000001,
+        "stress": 0.0,
+        "w": 0.012559229610985592
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.010982775588870742,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00037803102094331585,
+        "parent": "(999, 999, 999)",
+        "pos": "(3, 0, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.011167291910649291
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00035999999999999997,
+        "c": 0.0026919329523000584,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 9.35364820673291e-05,
+        "parent": "(3, 1, -3)",
+        "pos": "(3, 1, -2)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.002754417044652347
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00072,
+        "c": 0.002945481403332708,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00010184722812035583,
+        "parent": "(3, 0, -3)",
+        "pos": "(3, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.7600000000000004e-05,
+        "stress": 0.0,
+        "w": 0.003001238253451349
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.00036,
+        "c": 0.003259364096908611,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 0.00011301794024071595,
+        "parent": "(3, 1, -3)",
+        "pos": "(3, 1, -4)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.000132,
+        "stress": 0.0,
+        "w": 0.003328507423255028
+      },
+      {
+        "active": true,
+        "birth": 10022,
+        "bound_w": 0.0003599999999999999,
+        "c": 0.0018096138289680822,
+        "connected": true,
+        "kind": "leaf",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 6.326925407022035e-05,
+        "parent": "(3, 1, -3)",
+        "pos": "(4, 1, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0012,
+        "solid_n": 0.00013199999999999998,
+        "stress": 0.0,
+        "w": 0.001862735276107255
+      }
+    ]
+  },
+  "gate_pass": false,
+  "generation": 2,
+  "hourly": [
+    {
+      "age": 1,
+      "baseline_nodes": 7,
+      "baseline_physical_hash": "c5301b319fd03624af26a5004a1144a63772e0e15ce47123e6077314c2141cf5",
+      "baseline_roots": 1,
+      "relabelled_nodes": 7,
+      "relabelled_physical_hash": "04813dce23d8efcfd23d15f0a5db9c64498620ee8cc2045ac2b35f7656f881a9",
+      "relabelled_roots": 1,
+      "world_ledger_difference": {
+        "C": -1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 2,
+      "baseline_nodes": 7,
+      "baseline_physical_hash": "81d03419b73c1e09d487640a958986409d855bcb3a5b709c0712ccd6de2a7d87",
+      "baseline_roots": 1,
+      "relabelled_nodes": 7,
+      "relabelled_physical_hash": "bd96873cd7d50a58a18c6525e9e198482dda43c297cd2e016ef9ad99c29603c1",
+      "relabelled_roots": 1,
+      "world_ledger_difference": {
+        "C": 0.0,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 3,
+      "baseline_nodes": 9,
+      "baseline_physical_hash": "8b32ffaee686334e6b5e519d0944f22bf11690bd0bbf48e0e1138f1ae7193caf",
+      "baseline_roots": 2,
+      "relabelled_nodes": 9,
+      "relabelled_physical_hash": "1401916420cc9c550a7fe20b08c43f9f78dd68142d58937e5039ce94d05a37e3",
+      "relabelled_roots": 2,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 4,
+      "baseline_nodes": 9,
+      "baseline_physical_hash": "81b8d85b50123bf11614505eabc0926e6d468cf554e098894c6c3c46dfd8c825",
+      "baseline_roots": 2,
+      "relabelled_nodes": 9,
+      "relabelled_physical_hash": "26e00817d3e2b531502f8ae93d53dda92681192cfd54ab43e72b396764d2e7ce",
+      "relabelled_roots": 2,
+      "world_ledger_difference": {
+        "C": 0.0,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 5,
+      "baseline_nodes": 10,
+      "baseline_physical_hash": "36077cbd157cb766f3a084f442c14dbd46278650d99f0754beb36d2a3e107651",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "faebc87402494ae2ff5285a945253eb4a0afd647fb44af9d169ce9272c26717d",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 6,
+      "baseline_nodes": 10,
+      "baseline_physical_hash": "296d5bb9ab834dae0dec2ddcff11fb8f0bea0a66fcf7222f724a9a5b3731456e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "43397b12e10e1d0c97acb36c046af6cba9b8559636aad35f865a02785a1e04d1",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 7,
+      "baseline_nodes": 10,
+      "baseline_physical_hash": "3d7a37e0d8160d4455158133f8cca194ad8821cf187a5354506ff147fd94597f",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "e911462ea3b1467e0d0ea6b95308ff5537bc20928f33166ceed00e9e5be33b11",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 8,
+      "baseline_nodes": 10,
+      "baseline_physical_hash": "c6e5197346233dc7afc042f065a95ef13f33a1607268df7c347c862baa4918d7",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "605de3c9977f27681c6e2de3d7104c18c8c6576de884560bba23fadf294ea179",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 9,
+      "baseline_nodes": 10,
+      "baseline_physical_hash": "d1c6db010c7445716e7e7bdc655f8134398e770c4a2af2c25805793ceeeee66d",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "4778fa4d5eaf615d188152de85c74f9bd18b1182d0e9c15ba6522bb114573515",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 10,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "b061ba1043163db3b662e8835850de77f82f8e3bc408cb34de2184237eae4552",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "0935316d6b6863415ba310541e4a34561e8271c76739c38df22d81ef20e6cb53",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 11,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "3cb2ead16ad9a9b2da09cb2e5c0bad7443ad7276a1680167e6d4eecfb17a9f83",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "6789451f525cfda7d6891ed45de357e6feb713740bb8352bfd5bf52513835dfb",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 12,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "96e6fca393c4e3631b35311a912efbefc93fb5f62c859817f2607db01d12aab0",
+      "baseline_roots": 2,
+      "relabelled_nodes": 11,
+      "relabelled_physical_hash": "8f772e79aa689a2d0acfc18bec81b8a5a40a06d8c6b267cc8e0b7c023795cdde",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 13,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "c7eeee758194667cf9386e6b9d12fc29cd6830219c85266071e1d3a46eb14982",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "eefaf7ebc9efd24c84d61f8ac2cb7078b08f34629e3c208cbdebeedcf689fb0a",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 14,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "094749fee47654daeee1c2a2f0d1c1a0c42dca3c119dfba7626a45c2b6727537",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "f62d1f7f377d4d8decae66ba10693e52ff29d4c353c6d92b38e38ba4c535fb3e",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 15,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "04f37fe10a0277337a0294ec4fb666dc5136b47e47a9fcfa69c8a36ba5cc578c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "86d7e840a2ce28e6785d92fb55a3e810419ee2802c25f024a2a866495ec687f5",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 16,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "3cb02a4e0aea1dd1d43f8c7aa13247bf68a7e937056efe58c090618dac2a8803",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "7da5d373b686e220bc815723785aa985ead4917ea9af1e8ac37e81581f9f7bb7",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 17,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "60785f467fb38ff74d94c523831010d2d4d597eaa80cb8b5fca0e12b1ad8a4be",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e8388cf59a0bcd3b4b39d8f4326da3135612142e9ddc83b885c3b956f06b256d",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 18,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "0d58930616fa5dae17d21a4eb38883b928c1593332ca4ca2ab0162696fd0c564",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "eeaa857ca4cae0ab1444eb697266662750880fbb51dab0cd7428883e50b8a2a9",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 19,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "5891b2c7056dc1e32a7873ca4f532853e615579aa368fc4d0fb847564d26be18",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "764913db587257dd1c96d28a783d31cdc6034f98b9a01f84e308313f72e313c4",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 20,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "19a23508fccb8533f23cac8c9f5bb6253eaecd7f5640fa76dff59fe66665a0e1",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "db719ddc2ade7b5115a6b69448be49b454971e41836f7cf9bef795476ac4a41c",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 21,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "fab2b4e58f567f5527f14660cffcee43e79e49833d277d7c9229a9f9781542e2",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2ae96e042650bebe223cea337a0c5e1fa8cbdac8f24faccef9a0be87cdc56b99",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 22,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "d4041572bd04e92fcefcc779bc27e38aebb742917d730d3e2b6d54ab9007cb9c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "97865ca73a1960b8366331815040443030881daf4677787bf9dcc68f88bfe124",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 23,
+      "baseline_nodes": 11,
+      "baseline_physical_hash": "27e645bb90a13b83c49463d9fa19e813652d5fb14fbab8bb3893a978ef2be61b",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "5e5f2886b4ba1149f9ceb5a56d2f62742979b89eb08da7ddbc3f0c4e2d57fc70",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 24,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "4c032df966b0c9c6d366befb7f65c2c8e191277c5805af42fc98a72888e7d66f",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2437bafc60ff77305f72493d800913669766216855ffaaaff3f0bf40041a65a5",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 25,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "219e6a63689e9d7b8c4ec5b27eb64fc86f0defc4d23f7a088f99ad0abcadb8a3",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "19850e5cc9821d1f73f418d21a8fa9285c408b6cbe367a469f1501428288783d",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 26,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "22029dfaefb6c02df2327ae7d822a48f28f687f7a62ef427349e1d598ef7ae23",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "6d6953535281e8a7cbcf9340b073d19ec7df8575c7c9bc861f85d06ab26bb825",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 27,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "24052c102bb7f572490278dca7817b06acdc72c175c797da4e7a60b64a287da5",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2945c8f9e646651915b288e08128522a4b3d06f0a796793e921397b8ae23883e",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 28,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "c7b3f8e30361a9c3bd5f32f76b2cc9a2545442e41b5138a6f7891ea185f4d08c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "6742c02e24e5b49a7f8c9dfc38a4e65868e515c861b7046988deea3d72a11a34",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 29,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "c88857953886a4928bdd3f24444ca9394750943c355b547ef91b540f376e85c5",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "29c3c1b730721ced67ecc51d767ca2a465fa54c92dc2facbc7edf01f07d023ae",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 30,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e462f6f875fce2c0f8212a2704d6b803c148d37a8e8daf036a1c13cdbcbcb980",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2273a22c36b9954e3e77a30cfec7d87db5f4d6b3a5ee1c74373283e87b17578f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 31,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "f1b8503acc11ae77311eaed0ed71628964ccc2088d37d33af23e5d5acf610fe0",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "94125978d9cac4a0fe75b065382df4c144a89fa6ff92f497cc13ad2560b2af2f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 32,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "3923bb01c9ce2e6c33f9b3e15796cbb7391c52f64c39b38d113c9f142299848e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e0abfda697d9aaccc100e0da5dd3735ccbd32931889eeb45d6b34c360f2cf6dc",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 33,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "2e17328746e8d3c340690e1af7b45c9f4097d99a5423aa1065222c3a47096c81",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "7552ab7b69e88048f3f063fdfc084dbb7b9000910fff34b6cd32064f601ffec9",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 34,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "7c56ca250bcc8482304ccb212fb63abd0f06b20e64982d3813eed003ce633f2b",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "3b69db1c9eff69c58f59a11491eb840babe7f6d4bff7879330eb5f175fdd6cbb",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 35,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "0d34ffcced6317da35fd5987cfe42a912729d2a289d56cf82cd619f7855e2d02",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "3b2d8a66b3b478184235bcbec84ff0f1bcb201e11017221ab037281f2ba96afd",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 36,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "930a3756450cfd0eeee700053064bfb55b601971293598592d521a5cd6a178f2",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2a4bd7577efd291310420ba6a6fdfeea4c1e49d1cdab95943ab926cc95049cfa",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 37,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "81407605bd93c2330bf6d5f483427cf123dd9ae86e73d5a198f2280881c882fa",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "6a3048bdab1e37d744d4f45fc43d2b10d7e87fd4abebb93e54ec06890ad94319",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 38,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "1cb71d52ccd3829983f96c7c9f1243723467c6af6ac395559d15bdb62f562553",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "48e1f295b5ddb8c04e507f9dc20354eef8cec090ec40cf0299c9b73e3f3db17a",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": -2.7755575615628914e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 39,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "ba0ba48cc7d147fda27bff8f21dd578f27ffe5a367244b26266269290066c297",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "9e05ee5d76f08ca3a418d3fbe02108cc08b1cdeeb5f225cee0951d653825028d",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.0658141036401503e-14,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 40,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "af16b58720e372cc22ad3a3dedfd692249f6139d778f6111f2a785705dc12658",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2614382c8079af87d644b1fd659a5f8e7e52b7ae0ff45379a84494520ae51e8e",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.0658141036401503e-14,
+        "E": 5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 41,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "6900c0d3d5274c5b8d8286ee78f15c3ef466c78ae6d2849f04c9119688617c8e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "9604f533217957fe62fe0cfc93bf99ed3154c54d7a9bcae5d638fd1d4f411cd1",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.0658141036401503e-14,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 42,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e674c893dc3b5edcf8ee2013e00aa475752574bb61b42bfa297e3cc5509adc14",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "d76cb9cfbec0f2fdc1585cccb97bc9463f0598a7d0cd5bc8f3b1ca652908bdf6",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 43,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "404a1f15c7d4652e454b0b9fad8bba9118419f44550a614c6be3d601f5a5b906",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "182e06d3304abc2b8cfe040a09fc1e0dfd603c4b4770a49ba2e660d058bcc1a5",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -8.881784197001252e-16
+      }
+    },
+    {
+      "age": 44,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "0b30fbe20e1240a162ab0c0397785c4a18894c9a00aec36ccf2c291ca94192f1",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "006677851199e1b1913d62b20c16d396b518dcf8623e0c1f6034007379a7ce6d",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 45,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "688a07197f3d61a49f3c316726553f61e4b5d1d5f7f926dcb22ff88f32ebd9c3",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "5386aed7c54e0623632913863a4d8d63dd1fa744e76732b4b3cf1e035f1c9f74",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 46,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "995ade824891c29e3b9ea98a222ee9d250b0b49cc2ec3b4d284abed16b8d48ad",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "cebb163ba85596a66c2dccff58678279b39177505053bfbed6b183343e3efda8",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 47,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "990745d834057706810d8cd577ea963c2842751ebcc196cc39ff13d75c84364e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "965466eaf2c66811241fab20c70d90daa0fe13002720cf0713ae3a41c1c222dd",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 48,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "a4d977587ea0116d8be187783f734c7a36842e91319c41815b24b417ebcc2df5",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "8f262ba8ef89628605f8ed7c669bc5459c402a7c53283db33817c5f5550e6b16",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 49,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "2a14b9b4f3f5dd99d3b011e1384c1c639d4d735af344eb5103cc4dbd969e1739",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "b83dd625fd30cda71b6959dc7ad037d0bb445a4741e23bfba9e1163a5d6a4efe",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 50,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "9d330491c3c312e4cf9effcabcb515722fb2f44976138c6033492d5edc966472",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "84a35c230cd74041e304d688c17ba20064eb4ebadf7ac92395175665c241da8b",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 51,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "36393e71c108c8d878f069ffca901b721a8905c2d9b28b37dc2ce98f8a2ce4ac",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e67038738c7d33822855c6ad75eafa070f216ebc22c717e46294df43277d1a30",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 52,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "4808669e2bd24e96b8d6baccb0e49d775d26d40c5128143db6f79c6a753c21bb",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "c07c6be5c24055aae36e05383cdf24b4bd180afadb5ed345c59cfab31a56032e",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 53,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "b35e15e376bcbf3f214175605faf2adb7564a80ef3ea5392331d775ba84c0d99",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "0ef21434ee8b90a0c1a5ddca881f86ac1184d06d5f1af16128b469249ed883de",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 54,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "17079b4fa26df0fb1a815564f6c27756c1afe9ef5a6cec048cbc85a01b666634",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e265f7197207d2e7a51b47632fa06e9e17289746f645649fad002dc7a824a100",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 55,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e17d0395a23e641618e9417835a26e8e12f14baadd05b0511c4858845306777b",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "f636a8070a757cce82af7d65ca5daa647db6e87ef5292500b4a39773082b6f04",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -1.1641532182693481e-10,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 56,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e5b3e3e5d3d349c6722ca01eb64b021cd8c33986f8f7a75cc4ce1c7df09a70a4",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "13be89be9750eb8acd48a5f52fe94d06306af7737a46d393a2589e1478499674",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 57,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "5872140cd5a7232e13c75f5d25ba0018e50bc4b4b6bb6670e9864d928f76fe2e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "7265cebcd16b5c2a7048f327d77436368f97adebf7ac152d12cf369064f53330",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 58,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "18a06db2b9f51b6d61ecea29c683636366350c90f4290e29a0a4937c2e58f0c1",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "ff9ec16813f7c313489909a4b9628258adf816c8a202ec3fa18b1054f865fc69",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 59,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e772db2657c5117734f244a2c271406d44fd73c8eaecfc0c06ce7a163d1bb631",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "ce08b828af86bc93aa671ddcded0c9427d5d8820d21465ff06e0505adfe0e78f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 60,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "ea4a15ad1b5b19a306460834c0b42d10219e8d639dafa1490414a435995ef3a9",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "811c961571cb848ac322e697fb489a4b36ab9b1e57be0822f40848fc80a27dde",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 61,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "e865f5579503075e26ddbfe35b2a8a72fd6d5f622929d6cbad12f744cf0d1c38",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "9395d4ee9d91ce6700166e885b5f4057967c3cf96d9aab403f0f6f230e442626",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.2434497875801753e-14,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 62,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "5a8f330cafb937a9d7f1e76027f2836c94a2247c424b78170602466932aa1b0b",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "ae6caba5b1985582b0d904d8e157e8458a685136296ea933410d84337f665a60",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.0658141036401503e-14,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 63,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "ea68e9c8eac572daa52e0804db44038200f4f73bf420d8eb84c7b36595da9c74",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "c6b8a3f2fd9707e7f6804bb65883a406675d0ebed69cb1a3ee8ca2ac17fd14f4",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 64,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "0212eab1514e79a730170213cc112c3e07d1eb8cbb63b674d62e94c850f73f36",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "b807eb6fa6239bbfd7f67c06f4a828572abdaef405428233b9d6d3fcbfa50518",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.0658141036401503e-14,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 65,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "0ca313c2c5830b1bbe1d6a072b67b5903a166479cb88097fe26f9d5bc94c0c61",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "b0ddfe845fd9018a5162d28980ec5a946adb67bc7b133b3cb1af54802e600704",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 66,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "86a79fcf71898463a86a0e61896cdda383a670ffbc6402551ba2e96923d70ba0",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e2ec5c330e5ea0082be56e24887877bb4265d565c20cf689fc5c05e597799ac7",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 67,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "3e9145964c344d692ed8f5e86491cc015445039c5f8d04c8f4adae101458cfdb",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "a557ffd6dd8057cffd00e588b60299e452a3aafb08b3902cc30c3023457d7a72",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 68,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "253cfd711b27010a358909db589c6779e45eb31b27cac46518c5cd0e3b9f2925",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "d4b7ec43d6ad4ce6d433747bd33f87e66584e8b08c59b7e330916f54de0312ae",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 69,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "a5c1e532d1491366806b5a87f117962fc7ccbf09c8947b6d70273e495bb2ea22",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "ac2311769a720219670819f15050d2d31b38f7d201acb3d1622c9e6fb9eb7a5e",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 70,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "3250ace272b79940d09edc716c1c1ade5b0602d700e76c74ea1d32ad331d7e02",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "c4ffa43ec7d0ddf272d714f20600e9f6c53ef255e5dfbde378d6eea48a6641d4",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 1.3877787807814457e-17,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 71,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "4e497b5c304ec4f56f796bc2d5db3c443e99ef268e31ed419c57229ac4f0ec9f",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "96648aca72062fc13072b58121ef9b37cc1f26284a4fc5c2391458e905614add",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.2434497875801753e-14,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 72,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "1d0abf2bc0c2bf46675e322049343ead064abe727a4b043cce0f2ed6fc988c4e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "89f780d45c67a508599eee146ad2a74ce240e76187026f58efedb1ff95c4ef57",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 73,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "c44c122c9774896afe78fa3dbdea1810f21a687bb3352c5fb96c5d91dde9470c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "6efc750366df06ff6f66fda7727dc3f198d522e42e5752442b41177d894a9c70",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 74,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "463d19e08c0f05624acde4bae1455a7315baafd33c8818cc7ac9784def2d4f0c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "73a52e8ff59b7e5cfdbfc8843b1f0d9fce8f9edc5930f2243fcc016b7fff4abb",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 5.820766091346741e-11,
+        "N": 2.7755575615628914e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 75,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "3edcc01677705c1ec74e30ac8df9714505963b10d7a6b8ae350941cc4048f340",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "9dd6e74da9b0c006612688b2cc1fd5f4c136a94767bdda1a952e4b38db51a2db",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 5.820766091346741e-11,
+        "N": -2.7755575615628914e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 76,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "2cbe41560681de98bfdb2cbea66c1704e31a73d71f85fcaa0499341df1762c50",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "e1b79bc8af3772d4fee86425c612c14271ca7f9738ef8fc466573413fc58037b",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 77,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "f1a7972e882811e1375f1a6e849ad94bd2367c4a9f1af9e4fe4bcc9d7e6310d7",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "69363d36ea5394146141c27202bf73fef63d6e4302479959609cd9a4570fd616",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 78,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "3924a0b95c3eed5075e23b4646cbfbd1b55a8ef133422f3b2a93bb165e475906",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "6dd977e62c01b1b7c3edf744203a54212a76dc6c034975579c6b4f561016e990",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 79,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "8a69048f4a491b88ba6a7a76209b7c1e430fa0807a55aa7e96f39f11435d67ab",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "02cc28b316e73bc35a93e868f7a01dee9f1099cf774682e9b538db6809c1df07",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 80,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "5bbde72ab1616a3b57cd3f428d8fb7a984ad1b3424b09c3684bf4d676faf0a41",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "b5839cd4f6480c937c09e2904463ce7ae9a9a674cdcdcbcd12e3a176a9db0d50",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 3.552713678800501e-15,
+        "E": 5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 81,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "6be29067dbbd12c650f7a53f354078dfee9c680b3396a03127819c08e2647a27",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "5928f6b89680f0047bd166e10f9a52bd9ec0b3cc4eb48f6ea09e33b5ae0d3d7a",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 7.105427357601002e-15,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 82,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "fb0fb9ffbcdeb7904b24b9bdf616e019f1bb4f3b0721f269c7c2a9c7e1c1b831",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "c464b60592c4c1ab0c29f943c6f8e6cd5da781546f17c1da1f3490098ee56548",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.2434497875801753e-14,
+        "E": 5.820766091346741e-11,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 83,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "96ad4ab7d7aad460e61ebb026bb348cd348d28bdac7ba20c19b8134d37d21b5d",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "37a8d5f9460a0a647b736e3c6c4ac62b04c1d785507de14111844cc7a2178d67",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 84,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "ceccb97a93381bbabf5f1c25fbdc377a5c17dcae103990df77f8313a593a6f6c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "072209f526cfbc6994a064e0dd06e4b1d1192605d6db41fa7ef923d9453e000f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 85,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "663af0c56a73a2e435043858005092f83b62160e5341035dc3d18dabe3bf09a4",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "41b7db47e303572f1ecac58ed3834430971db148a88383749e81dbbaff7e9a29",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 86,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "fea927963fe7e427535f827ede8ad757045e3652d7bc6318bad08bc6f234bf6d",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "2734d3cc4827829435fec1f9e075c0383fa688133571bb5ca305b2430647800f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 87,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "f08e60eb7841662e28ec50b44595d266920b357d918d0a1f278e074027ed4a4c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "c5b9ecad77474ba862c33e75bcfca000ce91e6ff4c2f931650411ff998c837e6",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 88,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "54fd4a0c13db386537c6ba60d91d5b0a06ac026709abffe16251ff20482def31",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "9663d2546ff8d6c8732cd7d591276dad8f3ce7c8a48673b967a2d7d1ce6c721f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 8.881784197001252e-15,
+        "E": 0.0,
+        "N": 0.0,
+        "W": -8.881784197001252e-16
+      }
+    },
+    {
+      "age": 89,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "26dc176ca5ce6839b7a8a481991933353e6da957e95cb2121e629ef4eabd2a8e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "4d4d9cba397742153f057ea72e9a0c97c8427b24fb6b9554336e20c89fc192bb",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 1.7763568394002505e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 90,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "da145b5c74b0a4cc72c9725d73f6b74160d72900c85a93e2765770c9df11509e",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "64d8fc32f4c307d155c802f6831d82809ad693f46f8b753b699bc419df9de3fb",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 8.881784197001252e-16
+      }
+    },
+    {
+      "age": 91,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "1f63c704d50760e243a4891c894a9bdfd75aa805c70afe059f72ecad0a7bef8a",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "d708a9e1eb00bd2b7e46b663660d5301f1c497ddb90832326222ad22a5b7f671",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": -3.552713678800501e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 92,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "b02ac134d0935e0c6412c9fc80de12c2bdd0b8f8d6143552bb65399ea8f334cc",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "014c4b5f0e83863b571d8dcdded0b88d7a7c385ac3f8b9fdb326496aed0be0b8",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": -3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 93,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "972c68e43b231143fb1626a1cc6be447dcc9fb7651eff2bb52abce44fbe5304c",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "79f3be67bbdb95f0192c9a974dad17e89dfbaa3af29222f2cdc35994a11ca74c",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": -3.552713678800501e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": -4.440892098500626e-16
+      }
+    },
+    {
+      "age": 94,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "a62693981c3c21a22eeb04104fedd36a20928063156302aceca9ed1cbfe11b2a",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "4394b50fda91571755b4cbddafa1a118be87a3af577cd33d3c1d7f7a4729f2d6",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": 0.0,
+        "E": -5.820766091346741e-11,
+        "N": 0.0,
+        "W": 4.440892098500626e-16
+      }
+    },
+    {
+      "age": 95,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "65c713994fdd2ea055784548b69c74dc51164b80a528397d8ec47796b2fbcda5",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "d839c2d7741c50d24c97f7307a376e5240d9bca8c07efda2c1c7ab35856e241f",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": -5.3290705182007514e-15,
+        "E": 0.0,
+        "N": -1.3877787807814457e-17,
+        "W": 0.0
+      }
+    },
+    {
+      "age": 96,
+      "baseline_nodes": 12,
+      "baseline_physical_hash": "b8926da4f4d52d8e58ddf1100cf0e5a67f719064957671e0c9929bfaece04938",
+      "baseline_roots": 2,
+      "relabelled_nodes": 12,
+      "relabelled_physical_hash": "4f906dcd8c5835a2a5773ac0ca013955742a68750aeea12656ae9d97969a4ffe",
+      "relabelled_roots": 3,
+      "world_ledger_difference": {
+        "C": -3.552713678800501e-15,
+        "E": -5.820766091346741e-11,
+        "N": 1.3877787807814457e-17,
+        "W": 4.440892098500626e-16
+      }
+    }
+  ],
+  "id": 4,
+  "initial_canonical_state_exact": true,
+  "max_between_world_ledger_difference": 1.1641532182693481e-10,
+  "max_plant_error": 5.002220859751105e-12,
+  "max_world_error": 4.0745362639427185e-10,
+  "origin_fingerprint": "34b08051d1aa9db9bc649041bf4f3104b7b36ebadffcb98d49861e7015e83c1c",
+  "permutation_new_to_old": [
+    0,
+    2,
+    1,
+    6,
+    5,
+    4,
+    3
+  ],
+  "relabelled_error": "",
+  "relabelled_events": [
+    {
+      "age": 3,
+      "kind": "root",
+      "position": "(3, -2, -3)",
+      "proposal": 1
+    },
+    {
+      "age": 3,
+      "kind": "stem",
+      "position": "(3, 2, -3)",
+      "proposal": 0
+    },
+    {
+      "age": 5,
+      "kind": "root",
+      "position": "(3, -3, -3)",
+      "proposal": 1
+    },
+    {
+      "age": 5,
+      "kind": "stem",
+      "position": "(3, 3, -3)",
+      "proposal": 0
+    },
+    {
+      "age": 13,
+      "kind": "stem",
+      "position": "(3, 4, -3)",
+      "proposal": 0
+    }
+  ],
+  "relabelled_refusals": [
+    {
+      "age": 4,
+      "cost": {
+        "c": 0.0018,
+        "n": 0.000108,
+        "w": 0.00054
+      },
+      "front_position": "(3, -2, -3)",
+      "kind": "root",
+      "local": {
+        "active": true,
+        "birth": 10025,
+        "bound_w": 0.0005399999999999999,
+        "c": 0.002960687227026386,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 9.131734009737366e-05,
+        "parent": 1,
+        "pos": "(3, -2, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0018,
+        "solid_n": 0.00010799999999999998,
+        "stress": 0.0,
+        "w": 0.0036666524799972237
+      },
+      "proposal": 1,
+      "short": [
+        "n"
+      ]
+    },
+    {
+      "age": 4,
+      "cost": {
+        "c": 0.0024,
+        "n": 5.76e-05,
+        "w": 0.0007199999999999999
+      },
+      "front_position": "(3, 2, -3)",
+      "kind": "stem",
+      "local": {
+        "active": true,
+        "birth": 10025,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0020562773695050655,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 7.38809457281875e-05,
+        "parent": 2,
+        "pos": "(3, 2, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.759999999999999e-05,
+        "stress": 0.0,
+        "w": 0.0023271199705892647
+      },
+      "proposal": 0,
+      "short": [
+        "c"
+      ]
+    },
+    {
+      "age": 6,
+      "cost": {
+        "c": 0.0018,
+        "n": 0.000108,
+        "w": 0.00054
+      },
+      "front_position": "(3, -3, -3)",
+      "kind": "root",
+      "local": {
+        "active": true,
+        "birth": 10027,
+        "bound_w": 0.00054,
+        "c": 0.001106460950032262,
+        "connected": true,
+        "kind": "root",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 2.2546883099107977e-05,
+        "parent": 7,
+        "pos": "(3, -3, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0018,
+        "solid_n": 0.000108,
+        "stress": 0.0,
+        "w": 0.001991395415172235
+      },
+      "proposal": 1,
+      "short": [
+        "c",
+        "n"
+      ]
+    },
+    {
+      "age": 6,
+      "cost": {
+        "c": 0.0024,
+        "n": 5.76e-05,
+        "w": 0.0007199999999999999
+      },
+      "front_position": "(3, 3, -3)",
+      "kind": "stem",
+      "local": {
+        "active": true,
+        "birth": 10027,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0008485324398229135,
+        "connected": true,
+        "kind": "stem",
+        "light": 0.0,
+        "light_receipt": 0,
+        "n": 3.786163137975894e-05,
+        "parent": 8,
+        "pos": "(3, 3, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.759999999999999e-05,
+        "stress": 0.0,
+        "w": 0.0015063704433215222
+      },
+      "proposal": 0,
+      "short": [
+        "c",
+        "n"
+      ]
+    },
+    {
+      "age": 14,
+      "cost": {
+        "c": 0.0014999999999999998,
+        "n": 0.00013199999999999998,
+        "w": 0.00035999999999999997
+      },
+      "front_position": "(3, 4, -3)",
+      "kind": "leaf",
+      "local": {
+        "active": true,
+        "birth": 10035,
+        "bound_w": 0.0007199999999999999,
+        "c": 0.0004668830001867472,
+        "connected": true,
+        "kind": "stem",
+        "light": 1.0,
+        "light_receipt": 0,
+        "n": 2.5079305510586635e-05,
+        "parent": 10,
+        "pos": "(3, 4, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.7600000000000004e-05,
+        "stress": 0.0,
+        "w": 0.0012944309769275604
+      },
+      "proposal": 2,
+      "short": [
+        "c",
+        "n"
+      ]
+    },
+    {
+      "age": 19,
+      "cost": {
+        "c": 0.0014999999999999998,
+        "n": 0.00013199999999999998,
+        "w": 0.00035999999999999997
+      },
+      "front_position": "(3, 4, -3)",
+      "kind": "leaf",
+      "local": {
+        "active": true,
+        "birth": 10035,
+        "bound_w": 0.0007199999999999998,
+        "c": 0.0016125190354335207,
+        "connected": true,
+        "kind": "stem",
+        "light": 1.0,
+        "light_receipt": 0,
+        "n": 5.9101778963232515e-05,
+        "parent": 10,
+        "pos": "(3, 4, -3)",
+        "shadow_owner": -1,
+        "solid_c": 0.0024,
+        "solid_n": 5.76e-05,
+        "stress": 0.0,
+        "w": 0.0023854877115413245
+      },
+      "proposal": 2,
+      "short": [
+        "n"
+      ]
+    }
+  ],
+  "seed": 7301
+}

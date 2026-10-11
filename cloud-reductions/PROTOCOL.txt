@@ -1,0 +1,89 @@
+R1 DETERMINISTIC REDUCTIONS — REGISTERED BEFORE REPAIR/NEW RESULTS
+Basis5456dfe73d92c33c3cabf716fbaca0e8c6f2f0fa. Retain all T1 protocols, failed
+exact-field evidence, prior numerical/biological results and branch tips unchanged.
+No tolerance relaxation, feedback, rate/cost/gene/maturity change or increased mixing.
+
+Numerical contract
+Physically identical node/edge-permuted inputs must give bit-identical reductions
+and integer/floor decisions after canonical mapping. Use the SAME binary64 additions
+and per-node formulas in a fixed physical order, not epsilon-adjusted floors,
+rounded stocks, compensated extra matter or new physiological priorities.
+The order key is (birth tick, deterministic within-birth rank). Initial7 seed nodes
+use the ORIGINAL written seed_shape order relative to their collar: collar,up,down,
++x,-x,+z,-z around the upper stem. Later nodes use the ORIGINAL world.resolve_growth
+spatial order (y+8)*273+(z+6)*21+x+10. These keys are derived from physical geometry
+and birth timestamps, never arbitrary IDs. They reconstruct original append order
+for valid unrenumbered shared-world histories. This is a reproducible tie convention,
+not a claim that seed assembly order measures biological age or maturity.
+
+Physical coordinates are unique paid occupancy. Duplicate physical keys/positions
+are invalid and rejected; there is no fallback to node ID. Caller must preserve
+collar identity, graph links and ages when testing engine permutations. Arbitrary
+isomorphic graph tests remain at the T1 kernel level; plant record/ancestry IDs are
+not renamed. Existing plant-evaluation reversal remains a separate test.
+
+Apply canonical order to photo-claim summation and photosynthetic gain/vapor/heat
+accumulation; maintenance/litter/respiration accumulation; reserve mobile/available
+reductions and existing protect/collect traversal; ledger/report reductions; and
+physical root-claim ordering before integer remainder ties. Preserve original
+causal traversal for valid histories, including reserve priority; no redistribution
+algorithm changes. Audit canopy, atmosphere, hydro/rain and decomposition paths:
+leave integer arithmetic and already deterministic plant/spatial order untouched.
+Do not alter either T1 kernel or the original sequential transport operator.
+The reduction-only baseline retains legacy ordered transport; full permutation
+invariance is claimed only for T1+R1, not for the intrinsically ordered legacy law.
+
+Error interpretation
+Canonical binary64 summation is reproducible, not exact real arithmetic. For m
+terms its standard forward-error bound is gamma_m*sum(abs(x)), gamma_m=m*u/(1-m*u),
+u=2^-53, provided m*u<1. Long-lived accumulators include all additions over their
+history. Near an integer boundary even a tiny error can change a floor; R1 makes
+that error representation-independent instead of changing the threshold. Existing
+conservation/positivity/receipt checks remain unchanged and no mass correction is
+introduced. Platform-wide bitwise equivalence is not claimed without testing.
+
+Preflight, bounded scope
+1. Preserve original source/branch/birth hashes. Confirm canonical keys reproduce
+actual unpermuted append order on11 births and all generated histories exercised.
+2. Adversarial adjacent-to-floor sums/vapor claims, heterogeneous magnitudes, zero
+stocks and exact remainder ties under node permutations; require equal raw binary64
+reductions before floor and identical quanta. Reject duplicate physical keys.
+Include local growth N=.000108 versus .000108-1e-9 as a SYNTHETIC threshold example;
+do not confuse it with observed ordinary biological consequences.
+3. Reproduce the previously failing12011/id3 T1 trajectory with R1; require original
+unpermuted hourly hashes unchanged, exact canonical node amounts/field, identical
+construction/expiry/death/reproduction decisions under node permutation, and saved
+replay at384. No weakening of old exact-field gate. Retain failed attempts if any.
+4. Related reductions in all completed cases must be bit-identical to archived
+unpermuted results before reusing them. If not, document precisely why and recompute
+only affected baseline/treatment comparisons, before making transport attribution.
+
+Frozen biological comparison and reuse
+Same11 births,768h, all-plant transport as T1 protocol. Primary comparison now
+R1+legacy versus R1+T1/24, with fixed R1+T1/48 numerical shadows. No extra treatment,
+seed selection, horizon extension or numerical-resolution selection. Outcomes,
+budgets, conservation and interpretation remain those registered for T1.
+Five completed old trajectories may be reused ONLY after R1 reproduces all768
+hourly hashes. These are compatibility/replay validations, not new samples or
+replacement evidence. Reuse provenance records identify the original files/hashes.
+Resume only the28 unfinished trajectories. Completed comparisons remain preserved.
+Previously completed replay results are preserved; new R1 whole-model permutation
+checks must still certify the repaired numerical contract. Every primary case gets
+reverse-plant/saved replay, and every T1/24 case gets whole-model canonical node/
+field permutations at the unchanged tolerances (exact field; no relaxed threshold).
+
+Does the old quantum discrepancy affect biological decisions?
+A separate diagnostic continuation of the ALREADY failed old numeric12011/id3
+T1/24 pair may run to the SAME768h. Compare actual paid construction(kind,position,
+birth time), expiry, tissue death timing and reproduction/lineage decisions. Record
+first quantum divergence and any first biological divergence. This diagnostic is
+not an accepted model, new treatment arm or waiver of its failed exact-field gate.
+It answers the requested observed-case question; it cannot prove that every possible
+one-quantum perturbation is harmless. Keep the original numerical code for this test.
+
+Stops/resources
+Stop on correctness failure; repair pure implementation errors with preserved logs,
+never fit outcomes. No endless expansion: only this identified reduction path,
+related shared-resource ordering, fixed11-cohort matrix and named diagnostic.
+Serial engines, shared flock,600s bound, >=8GiB effective headroom. Record wall/RSS.
+No public publication, push, merge or promotion. GPU/Windows remain unavailable.

@@ -1,0 +1,16 @@
+{
+  "births": [],
+  "censored": "",
+  "error": "",
+  "fingerprints": [
+    {
+      "exact": true,
+      "tick": 96
+    }
+  ],
+  "horizon": 96,
+  "max_error": 9.094947017729282e-13,
+  "max_plant_error": 7.105427357601002e-15,
+  "plants": [],
+  "seed": 12011
+}

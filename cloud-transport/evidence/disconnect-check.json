@@ -1,0 +1,11 @@
+{
+  "callback_utc": "2026-10-10 01:44:28",
+  "checked_utc": "2026-10-10 01:45:00",
+  "executor_healthy": true,
+  "running_owned_pid": 5006,
+  "running_script": "birth_preflight.gd",
+  "protocol_commit": "17e0f0031ba2590eb09ee0e71881d6262aca08ee",
+  "duplicate_runs_started": false,
+  "fixtures_passed": 70,
+  "permutation_checks_passed": 420
+}

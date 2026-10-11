@@ -1,0 +1,220 @@
+LOCAL NITROGEN CONTRACT — DESIGN ASSESSMENT, NOT IMPLEMENTATION
+
+Decision
+Recommend one isolated test of maintenance-first construction feedback: a local
+root nitrogen shortfall can temporarily inhibit optional stem/leaf construction.
+Do not add a directed nitrogen pump, larger seed, uptake bonus, longer bud lifetime,
+or recycling simultaneously. This is a new allocation policy requiring a new
+experimental contract, not a correction to W27 or a promotion of candidate30.
+No simulation or production change was made for this assessment.
+
+Evidence and scope
+Source: diagnostic/gen2-survival-causality at
+7cb5a51e30171c9770f52d47810d8da5b8b1b5b9; migration/linux-cpu remains
+701d108642fe61cb051d9360d81eaf40258b30de. Original snapshot remains c7ec213.
+See cloud-diagnostics/REPORT.txt and evidence/ordinary-cohorts.csv for measured
+outcomes and qualifications. All six ordinary grandchildren died; no gen3 was
+observed by hour12288. Candidate30 remains unpromoted. Completed deprivation
+controls are evidence, not candidate policies, and are not repeated here.
+
+Every grandchild paid for a second root at age3 and then remained at two roots.
+At age4, the next root front had enough C and W but only ~0.000075–0.000076 N,
+below its 0.000108 N construction bill. Whole-plant connected mobile N was about
+0.001086. Gen1 also initially encountered N-only refusals; successful gen1 later
+escaped them. Thus an early refusal alone does not diagnose inevitable death.
+Late competitor-N suppression did not rescue root investment; competitor-W
+suppression prolonged survival but left roots at two and damaged competitors.
+Retaining pending growth alone was previously negative. None of these results
+establish that reallocating N will help, or that maintenance can be ignored.
+
+Existing executable contract and units
+Locations: juvenile-allocation30/legacy/model.gd (transport_pools, maintain,
+growth payment), world.gd (step and shared uptake/allocation), reserve.gd.
+Amounts below are model C, N and W mass units; they are not measured grams.
+One tick is one model hour. A tissue packet contains solid C m; NR is N/C.
+
+  kind       PACK[C]   NR[N/C]  UPKEEP[1/hour]  yield[C solid/C paid]
+  stem       .0024     .024     .0011          1
+  root       .0018     .060     .00375         1
+  leaf       .0012     .110     .0116          .8
+
+Construction debits at the proposal's existing paid front are exactly
+  (C,N,W) = (PACK/yield, PACK*NR, .3*PACK).
+Root bill = (.0018,.000108,.00054); stem N bill = .0000576.
+No withdrawal from a whole-plant pool pays a front's bill. Leaf conversion loss
+is respired to atmosphere with heat, not erased.
+
+Only active connected paid parent–child edges transport material. Three sequential
+in-place passes per hour use, separately for X in {C,N,W},
+  k_ij=.24*min(m_i/PACK_i,m_j/PACK_j), F_ij=k_ij*(X_i-X_j),
+  X_i <- X_i-F_ij; X_j <- X_j+F_ij.
+F is mass transferred per pass; k is dimensionless per pass. This equalizes
+AMOUNTS, not concentrations in defined volumes. The implementation is not a
+calibrated physical diffusion law. There is no demand signal, new unbuilt edge,
+or explicit active-pump energy charge. Sequential node order can matter; prior
+whole-plant reversal checks do not prove invariance to equivalent graph relabeling.
+
+Connected roots request finite shared-soil receipts:
+  W_request=floor(min(.7*m,max(0,.012-W))*1e9),
+  N_request=floor(min(.1*m,max(0,.003-N))*1e9).
+Requests/receipts are integer quanta (1e-9 mass). Existing proportional allocation,
+sorted claims and rotating remainder ties govern competing plants. These caps are
+per hourly request, not extra resources. No proposed policy may bypass receipts.
+
+Per-node hourly maintenance demand is
+  d=m*UPKEEP*(1+1.8*(1-W/(W+.002))).
+Turnover consumes up to .35*d solid C into litter, releasing associated bound N/W
+locally. The remaining .65*d is paid from mobile C; unpaid demand adds stress.
+Fully paid tissue can spend additional C recovering stress. Active connected tissue
+then repairs by r=min(missing,C*yield,N/NR,W/.3), debiting r/yield C, r*NR N,
+.3*r W. Living tips also respire .00001 C/hour. Death occurs above stress45 or
+below20% packet mass. Repair and upkeep already precede optional construction.
+Maintenance is not an unlimited guarantee: each node must actually pay.
+
+Hour order: soil receipts, light, transport, shared-air allocation/photosynthesis,
+reserve protection, maintenance/repair, connection update, eligible reserve
+collection, growth resolution, lifecycle, hydrology/decomposition, air collection.
+Candidate30 defers new reproductive collection below32 paid nodes; reserve
+maintenance refunds remain intact. Reserve protection uses existing local floors;
+it does not earmark construction N. Reproduction still requires32 paid nodes and
+age64. Growth deadlines remain14h. Decomposition currently mineralizes carbon;
+there is no general soil-N recycling contract to silently assume.
+
+Derived budget: why a decision experiment is plausible
+For seed12011/id3 at its first N-only refusal, total connected mobile N=.001086223
+across9 packets. A frozen equal-amount calculation gives .000120691 per packet,
+above the root bill. Paying one hypothetical stem and creating a tenth compartment
+gives (.001086223-.0000576)/10=.000102862, below that bill.
+The accompanying frozen-pool-accounting.json covers all11 cohorts. This arithmetic
+ignores ongoing maintenance, uptake, graph distances and deadlines: it is NOT a
+counterfactual trajectory or proof that the root can receive that N. It identifies
+an avoidable expenditure/dilution hypothesis worth separating from transport.
+N allocated into growth is unavailable for later upkeep/repair; even a policy that
+preserves payment priority can worsen future maintenance indirectly.
+
+Competing hypotheses and discriminating evidence
+A. Construction feedback (recommended): finite N is spent on cheaper shoot packets
+before a root front accumulates its bill. Predict less early nonroot N expenditure,
+then greater front N and paid root construction, before any survival difference.
+Costs: less new leaf area, delayed stems, lost buds and continued tip respiration.
+An outcome-only survival improvement does not establish this mechanism.
+
+B. Transport/geometry: slow local mixing or the equal-amount compartment model,
+rather than investment choice, causes the front deficit. Connected tissue does
+not imply rapid access; no broken early connection was observed. A future volume-
+based or simultaneous flux operator would change the transport contract and need
+its own conservation, nonnegativity and ordering assessment. Increasing k or passes
+now would conflate capacity with decision-making.
+
+C. Active root-directed routing: add antisymmetric edge flow u_ij to existing F_N,
+limited by donor availability after maintenance/repair. It must never teleport N.
+A proposed energy budget would require E_act=epsilon_N*sum_edges(abs(u_ij)),
+C_respired=E_act/20, with corresponding atmospheric C and heat. epsilon_N has units
+model energy/model N. The generic N pool has no chemical species or electrochemical
+potential from which to identify epsilon_N. A zero-cost pump or a fitted coefficient
+would therefore add an unjustified advantage; donor floors also change allocation.
+Reject this as the first experiment, not as a claim that plants lack active transport.
+
+D. Uptake sensing: change acquisition according to whole-plant demand. This acts at
+the soil boundary, unlike internal allocation. Late suppression of competitors'
+uptake cannot release their legacy N stores (about72–75% of world N at first-gen2
+births). Earlier regulation could change history, but requires a separate assay;
+the completed late control does not falsify all acquisition feedback.
+
+E. Germination/endowment: larger reserves, a different initial root/shoot structure,
+or delayed germination could change establishment. All descendants received the
+same paid start; this is not a payment bug. Any larger endowment must be charged to
+the parent, with fewer/delayed offspring as a possible consequence. Changing seed
+strategy would confound the internal-allocation hypothesis.
+
+F. Environment: spatial soil N/W, competition, shade and limited recycling can
+restrict establishment even with ideal allocation. One gen2 was shaded at birth;
+shade also lowers water demand, so removing shade is not an established net benefit.
+Changing site selection, resource fields or recycling belongs in distinct models.
+Do not remove competitors or replenish fields to demonstrate this policy's success.
+
+Biological interpretation: primary research only
+[1] Ruffel et al. (2011), PNAS, doi:10.1073/pnas.1108684108.
+https://pubmed.ncbi.nlm.nih.gov/22025711/
+Split-root experiments distinguish local and systemic N-supply/demand signaling
+in root foraging. This supports investigating status-dependent decisions, not
+our Boolean rule, transport speed, cost constants or a guaranteed benefit.
+[2] Ota et al. (2020), Nature Communications, doi:10.1038/s41467-020-14440-8.
+https://www.nature.com/articles/s41467-020-14440-8
+Arabidopsis experiments identify shoot-status signaling through CEPDL2 affecting
+root nitrate acquisition/transport. Acquisition signaling is not evidence for a
+free internal bulk-N pump or a calibrated coefficient in this generic model.
+[3] Krouk et al. (2010), Developmental Cell, doi:10.1016/j.devcel.2010.05.008.
+https://pubmed.ncbi.nlm.nih.gov/20627075/
+NRT1.1 links nitrate and auxin transport; the authors propose repression of lateral
+root growth under low nitrate. This cautions against a universal “low N means
+more roots” rule. The recommended controller is a falsifiable abstraction of
+allocation feedback, not a reproduction of these molecular mechanisms.
+
+ONE next experiment — preregistered design, NOT RUN
+Treatment: after existing maintenance and reserve collection, freeze all proposal
+payment predicates. A connected live root proposal q emits D_q=1 exactly when
+N_front<PACK_root*NR_root AND C_front>=PACK_root AND W_front>=.3*PACK_root.
+It emits D_q=0 otherwise. Signals originate at existing paid fronts. Propagate
+source-tagged, timestamped states over existing active connected edges, synchronously
+at one edge per model hour. This new timing is an explicit model assumption, not
+a measured biological rate; do not sweep it. Use newest source timestamps, expire
+messages at the unchanged proposal deadline, propagate clears identically, and
+invalidate messages through severed edges. Newly generated state can affect its
+source front immediately; other fronts first see it on a later hourly step.
+A front receiving any unexpired D=1 defers only stem/leaf construction. Roots still
+must pay the original local bill. Normal creation, occupancy checks and14h expiry
+continue; no retained buds, refunds, N reservation or extra transport. State and
+buffers must be serialized and fingerprinted. No ancestry/seed/age-specific rule.
+
+This introduces signaling as information-only within the existing coarse sensing
+abstraction; it has no separately resolved molecular signaling cost. That is a
+limitation, not a claim that biological signaling is free. It transports no C/N/W
+and cannot supply a construction bill. A later detailed signaling-energy model
+would be a separate contract, not an extra adjustable cost in this experiment.
+
+Cohort and bounds: all11 archived descendant birth states, each with policy OFF
+and ON applied only to the focal descendant:22 cases,768h each. These comprise
+six gen2, four reproducing gen1 and one late failed gen1 across three seed families.
+Keep every other plant's policy and all environmental dynamics unchanged. This is
+a focal causal assay, not an all-plant deployment. Use the existing768h horizon;
+do not extend or exclude cases based on results. Report families separately;
+11 descendants are not11 independent worlds. No coefficients are fitted here.
+
+Preflight gates before interpreting biology:
+- OFF must reproduce matched original physical hashes. Originals remain immutable.
+- Check baseline sensitivity to representation-preserving within-plant relabeling
+  of equivalent graphs (remap all references; compare canonical physical state).
+  If the existing in-place solver changes the first limitation/payment outcome,
+  stop this inference and resolve that operator contract separately. Do not hide
+  the issue by changing transport and controller together.
+- Exercise local message delay, expiry, dead edges, save/resume, nonnegative pools,
+  unchanged integer shared receipts, reversed plant evaluation and frozen request
+  decisions. No global immediate signal or donor-pool debit is permitted.
+- Retain existing conservation/native/CPU checks without weakened tolerances.
+  Hardware GPU and Windows checks remain unavailable, not passed.
+
+Primary endpoint: paired difference in cumulative paid root packets at768h, with
+time to third paid root (no event by768 is censored). Report all11 pairs and all
+three families, not just a pooled favorable mean. Log the first96h at hourly
+resolution: signal arrival/expiry; withheld nonroot C/N/W expenditure; root-front
+N and each edge's N flux; changes from N-only to joint limitation; maintenance,
+repair, tip costs, photosynthetic C and absorbed light. Continue daily budgets and
+all-plant health through768h; retain deaths and lost buds in the results.
+
+Falsification/decision: signal receipt without increased front N and root payment
+refutes this proposed pathway under the fixed protocol. More front N without paid
+roots identifies another binding constraint. Survival without added roots does
+not confirm the root-investment hypothesis. Root gains with lower C fixation,
+more unpaid maintenance or harmed competitors must be reported as tradeoffs; they
+cannot be erased by averaging. Even favorable root outcomes are mechanistic
+support only: no claim of sustained replacement, no automatic promotion, and no
+rescue tuning. A distinct preregistered all-plant holdout study would be required
+before any broader viability claim.
+
+Execution budget if later authorized: serial CPU cases under the existing flock,
+>=8GiB measured effective headroom and600s timeout per invocation; stop on a
+correctness failure, OOM or bound breach. Record wall time, peak RSS, headroom and
+all raw outputs. Any necessary resource-bound revision is documented before retry.
+This assessment changes only cloud-design; it makes no new runtime/biological
+measurement and does not repeat completed competitor-deprivation controls.

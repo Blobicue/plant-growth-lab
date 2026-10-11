@@ -1,0 +1,17 @@
+{
+  "name": "F1 fresh-founder transport comparison",
+  "status": "preregistered, not executed",
+  "basis_commit": "5d3a8efaf70efaefefaa19329e8d069dfe9b54ee",
+  "protocol_sha256": "55145bc0da71e3c160690c93203c09fb7d773c04fd8f41d53e86d9992f47c0c4",
+  "seeds": [
+    12011,
+    4242,
+    7301
+  ],
+  "modes": [
+    0,
+    24
+  ],
+  "horizon": 12288,
+  "primary_trajectories": 6
+}

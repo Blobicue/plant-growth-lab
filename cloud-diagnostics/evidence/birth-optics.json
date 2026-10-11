@@ -1,0 +1,552 @@
+[
+  {
+    "birth": 838,
+    "generation": 1,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 2,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, 3)",
+    "seed": 12011,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 7334,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 3,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(-3, 0, -3)",
+    "seed": 12011,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 10694,
+    "generation": 1,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 4,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, -3)",
+    "seed": 12011,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 678,
+    "generation": 1,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 2,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, 3)",
+    "seed": 4242,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 1286,
+    "generation": 1,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 3,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(-3, 0, -3)",
+    "seed": 4242,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 5318,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 4,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, -3)",
+    "seed": 4242,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 8678,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 5,
+    "leaf_records": [
+      {
+        "blocker": 2,
+        "incident": 160000000,
+        "incoming": 56000000,
+        "node": 3,
+        "plant": 5,
+        "receipt": 17920000,
+        "shadow_loss": 104000000
+      },
+      {
+        "blocker": 2,
+        "incident": 160000000,
+        "incoming": 56000000,
+        "node": 4,
+        "plant": 5,
+        "receipt": 17920000,
+        "shadow_loss": 104000000
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 5,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 5,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(-7, 0, 3)",
+    "seed": 4242,
+    "shared_received_q": 138240000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 9158,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 6,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 6,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 6,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 6,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 6,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(7, 0, 3)",
+    "seed": 4242,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 806,
+    "generation": 1,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 2,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 2,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, 3)",
+    "seed": 7301,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 5510,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 3,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 3,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(-3, 0, -3)",
+    "seed": 7301,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  },
+  {
+    "birth": 10022,
+    "generation": 2,
+    "hypothetical_daytime_emission_q": 89440000000,
+    "id": 4,
+    "leaf_records": [
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 3,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 4,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 5,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      },
+      {
+        "blocker": -1,
+        "incident": 160000000,
+        "incoming": 160000000,
+        "node": 6,
+        "plant": 4,
+        "receipt": 51200000,
+        "shadow_loss": 0
+      }
+    ],
+    "note": "Static daytime ray calculation only. No light or resource is assigned to the simulation; no survival inference from this alone.",
+    "position": "(3, 0, -3)",
+    "seed": 7301,
+    "shared_received_q": 204800000,
+    "target_alone_received_q": 204800000,
+    "unchanged_state": true
+  }
+]

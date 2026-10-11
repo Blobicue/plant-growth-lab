@@ -1,0 +1,54 @@
+[
+  {
+    "path": "world.gd",
+    "pass": true
+  },
+  {
+    "path": "plant.gd",
+    "pass": true
+  },
+  {
+    "path": "reserve.gd",
+    "pass": true
+  },
+  {
+    "path": "atmosphere.gd",
+    "pass": true
+  },
+  {
+    "path": "canopy.gd",
+    "pass": true
+  },
+  {
+    "path": "hydrology.gd",
+    "pass": true
+  },
+  {
+    "path": "decomposition.gd",
+    "pass": true
+  },
+  {
+    "path": "field.gd",
+    "pass": true
+  },
+  {
+    "path": "field.compute.txt",
+    "pass": true
+  },
+  {
+    "path": "serial.compute.txt",
+    "pass": true
+  },
+  {
+    "path": "legacy/model.gd",
+    "pass": true
+  },
+  {
+    "path": "native/resource_field.dll",
+    "unavailable": "omitted original Windows binary"
+  },
+  {
+    "path": "native/resource_field.gdextension",
+    "pass": true
+  }
+]

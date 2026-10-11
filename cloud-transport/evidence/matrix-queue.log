@@ -1,0 +1,35 @@
+START trial-12011-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://trial.gd", "--", "12011", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 13.850121769999532, "peak_rss_bytes": 122187776, "initial_headroom_bytes": 16184483840, "minimum_headroom_bytes": 16131022848}
+COMPLETE trial-12011-2-0.json
+START verify-12011-2-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "2", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 13.551215337999565, "peak_rss_bytes": 122798080, "initial_headroom_bytes": 16181207040, "minimum_headroom_bytes": 16126922752}
+COMPLETE verify-12011-2-0.json
+PRESERVED trial-12011-2-24.json
+COMPLETE trial-12011-2-24.json
+PRESERVED verify-12011-2-24.json
+COMPLETE verify-12011-2-24.json
+START trial-12011-2-48.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://trial.gd", "--", "12011", "2", "48"], "exit": 0, "stop_reason": null, "wall_seconds": 20.88167627599978, "peak_rss_bytes": 122400768, "initial_headroom_bytes": 16177324032, "minimum_headroom_bytes": 16122544128}
+COMPLETE trial-12011-2-48.json
+COHORT COMPLETE 12011 2
+START trial-12011-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://trial.gd", "--", "12011", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 24.203528048999942, "peak_rss_bytes": 134434816, "initial_headroom_bytes": 16174993408, "minimum_headroom_bytes": 16108376064}
+COMPLETE trial-12011-3-0.json
+START verify-12011-3-0.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "3", "0"], "exit": 0, "stop_reason": null, "wall_seconds": 23.091845029999604, "peak_rss_bytes": 142389248, "initial_headroom_bytes": 16171843584, "minimum_headroom_bytes": 16087601152}
+COMPLETE verify-12011-3-0.json
+START trial-12011-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://trial.gd", "--", "12011", "3", "24"], "exit": 0, "stop_reason": null, "wall_seconds": 28.22272792700005, "peak_rss_bytes": 128876544, "initial_headroom_bytes": 16169586688, "minimum_headroom_bytes": 16108662784}
+COMPLETE trial-12011-3-24.json
+START verify-12011-3-24.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-transport/work/candidate30", "--script", "res://verify_trial.gd", "--", "12011", "3", "24"], "exit": -15, "stop_reason": "script error", "wall_seconds": 19.686541144999865, "peak_rss_bytes": 136785920, "initial_headroom_bytes": 16167022592, "minimum_headroom_bytes": 16097337344}
+Traceback (most recent call last):
+  File "/workspace/plant-growth-lab/cloud-transport/run_matrix.py", line 23, in <module>
+    if mode in [0,24]:run('verify_trial.gd',c,mode,f'verify-{c["seed"]}-{c["id"]}-{mode}.json')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/plant-growth-lab/cloud-transport/run_matrix.py", line 13, in run
+    print('START',name,flush=True);subprocess.run(['python3',str(P/'run.py'),'candidate30',script,str(c['seed']),str(c['id']),str(mode)],check=True)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/workspace/plant-growth-lab/cloud-transport/run.py', 'candidate30', 'verify_trial.gd', '12011', '3', '24']' returned non-zero exit status 241.

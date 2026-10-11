@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27/godot",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27/lab.pck",
+    "--rendering-method",
+    "gl_compatibility",
+    "--audio-driver",
+    "Dummy",
+    "--headless",
+    "--script",
+    "res://smoke.gd"
+  ],
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 1.0043166670000119,
+  "peak_rss_bytes": 117989376,
+  "minimum_headroom_bytes": 16441978880
+}

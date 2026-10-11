@@ -1,0 +1,18 @@
+{
+  "status": "matrix stopped at registered permutation gate",
+  "failed_case": {
+    "seed": 12011,
+    "id": 3,
+    "mode": 24
+  },
+  "failure": "canonical exact finite field mismatch in verify_trial.gd",
+  "original_failure_preserved": "candidate30-verify_trial-12011-3-24.log",
+  "remaining_cases": "not run; see analysis.json pending",
+  "no_automatic_resume": true,
+  "allocation_feedback": "OFF",
+  "cause_localization": "One W quantum at age298: unchanged vapor condensation floor differs at age297 after floating accumulation; bounded diagnostic complete",
+  "diagnostic_file": "permutation-failure-diagnosis.json",
+  "transport_kernel_permutation_checks_passed": 420,
+  "whole_model_permutation_pass": false,
+  "biological_materiality_of_quantum_difference": "not established"
+}

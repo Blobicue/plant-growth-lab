@@ -1,0 +1,47 @@
+PLANT GROWTH LAB — PRIVATE CLOUD BACKUP, 2026-10-11
+
+This separate backup branch snapshots the completed tracked cloud work from
+1078c3bf914a3e1a38dea1d519502b43f5b7068f (workstation/evidence-catalog), with the
+user-facing quick guide added. Its parent is the original main snapshot
+c7ec213793fb82817ba66e63e8a0b5b16b784762. Main and Windows W27 are unchanged.
+This is a backup, not a model promotion or deployed application.
+
+START HERE
+cloud-workstation/QUICK-GUIDE.txt — short user-facing guide and validation summary
+cloud-workstation/README.txt — Linux launch/build/test instructions
+cloud-workstation/REPORT.txt — workstation scope and validation limits
+cloud-workstation/evidence/screenshots/ — actual software-rendered screenshots
+cloud-port/REPORT.txt — matching Linux runtime migration and golden checks
+cloud-fresh/REPORT.txt — all six ordinary F1 runs and honest survival outcomes
+cloud-fresh/SYNTHESIS.txt — scientific interpretation and next-step assessment
+
+BACKED UP
+Original source/evidence; Linux adaptation and build scripts; original and failed
+validation records; causal controls; transport/reduction experiments and negative
+results; F1 daily compressed traces, summaries, selected exact binary checkpoints,
+state digests and source manifests; research workstation code, tests, screenshots,
+usage guide and package manifests. No data were tuned to force a viable lineage.
+No sustained replacement is established; candidate30 and T1 remain unpromoted.
+Hardware GPU/Windows checks remain unavailable, not passed.
+
+PRESERVATION AND EXCLUSIONS
+This clean snapshot intentionally does not attach the intervening local commit
+history, because that history contains operational handoff notes. Only three
+tracked handoff/checkpoint text files are omitted from its source tree:
+cloud-port/CHECKPOINT.txt, cloud-reductions/CHECKPOINT.txt,
+cloud-fresh/CHECKPOINT.txt. Scientific reports and experimental evidence remain.
+The original local branches and all26 cloud commits are preserved unchanged.
+Their original commit IDs in reports remain provenance identifiers; these local
+historical commits/branch refs are not newly uploaded with this snapshot.
+
+Ignored engine executables, compiled libraries, standalone packages, caches,
+generated working directories/full daily working-state binaries, temporary
+helpers and Library transfer diagnostics are not part of this source/evidence
+backup. Selected committed binary states and their complete recorded digests ARE
+included. Rebuilding requires the documented official toolchain and prior setup
+stages; this is not an image of the entire saved cloud environment. Historical
+reports may refer to local commits, generated files or fixed workspace paths.
+No credentials, internal assistant notes or unrelated private files are included.
+
+BACKUP-MANIFEST.json records exact included source-file SHA256 values and sizes,
+source commit, scope and scan summary. It does not hash itself or this overview.

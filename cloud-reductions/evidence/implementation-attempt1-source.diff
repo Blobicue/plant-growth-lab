@@ -1,0 +1,166 @@
+--- T1/legacy/model.gd
++++ R1/legacy/model.gd
+@@ -1,4 +1,5 @@
+ extends RefCounted
++const NumericalOrder=preload("res://reduction_order.gd")
+ ## Bounded vegetative, paid-voxel prototype. Not a backend or calibrated species.
+ const ID="v8-funded-skeleton-1"
+ const DEADLINE=14
+@@ -137,7 +138,8 @@
+ func respire(node:Dictionary,amount:float)->float:
+  var paid:float=minf(node.c,maxf(0,amount));node.c-=paid;atmosphere+=paid;heat+=paid*CHEM;totals.respired_c+=paid;return paid
+ func maintain()->void:
+- for node in nodes:
++ for canonical_id in NumericalOrder.ids(self):
++  var node=nodes[canonical_id]
+   if not node.active:continue
+   var demand:float=node.solid_c*UPKEEP[node.kind]*(1.0+1.8*(1.0-node.w/(node.w+.002)))
+   var fraction:float=minf(1,demand*.35/node.solid_c)
+@@ -267,7 +269,8 @@
+  var c:float=atmosphere+litter;var n:float=0;var w:float=vapor;var chemical:float=litter*CHEM
+  for v in water:w+=v
+  for v in nitrogen:n+=v
+- for node in nodes:
++ for canonical_id in NumericalOrder.ids(self):
++  var node=nodes[canonical_id]
+   c+=node.c+node.solid_c;n+=node.n+node.solid_n;w+=node.w+node.bound_w
+   chemical+=(node.c+node.solid_c)*CHEM
+  return {"C":c,"N":n,"W":w,"E":chemical+sunlight+heat+radiated+vapor*LATENT}
+@@ -277,7 +280,8 @@
+  return error
+ func metrics()->Dictionary:
+  var shoot=Vector3.ZERO;var root=Vector3.ZERO;var sc:float=0;var rc:float=0;var leaf:int=0;var active:int=0;var pending:int=0
+- for n in nodes:
++ for canonical_id in NumericalOrder.ids(self):
++  var n=nodes[canonical_id]
+   if n.kind=="root":root+=Vector3(n.pos)*n.solid_c;rc+=n.solid_c
+   else:shoot+=Vector3(n.pos)*n.solid_c;sc+=n.solid_c
+   if n.kind=="leaf":leaf+=1
+--- T1/base_plant.gd
++++ R1/base_plant.gd
+@@ -58,13 +58,13 @@
+   wants.append(want)
+  return wants
+ func photo_claim()->float:
+- var total=0.0
+- for want in photo_demands():total+=want
++ var total=0.0;var wants=photo_demands()
++ for i in NumericalOrder.ids(self):total+=wants[i]
+  return total
+ func photosynthesize()->void:
+  var wants=photo_demands();var total=photo_claim();var photons=sunlight;sunlight=0.0;totals.photons+=photons
+  var factor=minf(1.0,atmosphere/total) if total>0 else 0.0;var absorbed=0.0
+- for i in nodes.size():
++ for i in NumericalOrder.ids(self):
+   var gain:float=wants[i]*factor
+   if gain<=0:continue
+   var node=nodes[i];var moisture=gain*.5;var energy=gain*CHEM/.18
+--- T1/reserve.gd
++++ R1/reserve.gd
+@@ -1,9 +1,11 @@
+ extends RefCounted
++const NumericalOrder=preload("res://reduction_order.gd")
+ # Explicit bounded vascular allocation approximation; no change to tissue transport.
+ const CAP={"c":.051,"n":.002,"w":.04}
+ static func mobile(p)->float:
+  var value=0.0
+- for n in p.nodes:
++ for canonical_id in NumericalOrder.ids(p):
++  var n=p.nodes[canonical_id]
+   if n.connected:value+=n.c
+  return value
+ static func floor_c(p,n)->float:
+@@ -21,7 +23,7 @@
+  if p.reserve_recent.size()>24:p.reserve_recent.pop_front()
+ static func protect(p)->float:
+  var carbon=0.0
+- for i in p.nodes.size():
++ for i in NumericalOrder.ids(p):
+   var n=p.nodes[i]
+   if not n.connected:continue
+   for key in CAP:
+@@ -37,7 +39,8 @@
+  if net<=0:p.reserve_reason="no new surplus after maintenance";return
+  var fraction=.5*net/CAP.c
+  var available={"c":0.0,"n":0.0,"w":0.0}
+- for n in p.nodes:
++ for canonical_id in NumericalOrder.ids(p):
++  var n=p.nodes[canonical_id]
+   if not n.connected:continue
+   for key in CAP:available[key]+=maxf(0,float(n[key])-floor_value(p,n,key))
+  var collected=false
+@@ -45,7 +48,7 @@
+   var total:float=minf(fraction*CAP[key],minf(available[key],CAP[key]-float(p.reserve[key])));var left=total
+   if total<=1e-15:continue
+   collected=true
+-  for i in p.nodes.size():
++  for i in NumericalOrder.ids(p):
+    var n=p.nodes[i]
+    if not n.connected:continue
+    var excess=maxf(0,float(n[key])-floor_value(p,n,key))
+--- T1/world.gd
++++ R1/world.gd
+@@ -1,4 +1,5 @@
+ extends RefCounted
++const NumericalOrder=preload("res://reduction_order.gd")
+ var transport_substeps=0
+ const FIELD_ID="juvenile-allocation30-cnw-q1e-9"
+ const Air=preload("res://atmosphere.gd")
+@@ -92,7 +93,7 @@
+  var begin=Time.get_ticks_usec();tick+=1;var demands:Dictionary={};var queries:Dictionary={};var order=plants.duplicate()
+  if reverse:order.reverse()
+  for p in order:
+-  p.tick=tick;p._connections()
++  p.tick=tick;p._connections();var stable_ranks=NumericalOrder.ranks(p)
+   for id in p.nodes.size():
+    var node:Dictionary=p.nodes[id]
+    if node.kind!="root" or not node.connected:continue
+@@ -100,7 +101,7 @@
+    if index<0:continue
+    var want=[int(floor(minf(node.solid_c*.7,maxf(0,.012-node.w))*field.scale)),int(floor(minf(node.solid_c*.1,maxf(0,.003-node.n))*field.scale))]
+    if not demands.has(index):demands[index]=[]
+-   demands[index].append({"plant":p.plant_id,"node":id,"key":p.plant_id*512+id,"want":want})
++   demands[index].append({"plant":p.plant_id,"node":id,"key":p.plant_id*512+stable_ranks[id],"want":want})
+    queries[index]=true
+    for v in [Vector3i.RIGHT,Vector3i.LEFT,Vector3i.UP,Vector3i.DOWN,Vector3i.FORWARD,Vector3i.BACK]:
+     var q:int=p.soil_index(node.pos+v)
+@@ -254,7 +255,8 @@
+  nodes=[];proposals=[]
+  for p in plants:
+   var offset=nodes.size()
+-  for n in p.nodes:
++  for canonical_id in NumericalOrder.ids(p):
++   var n=p.nodes[canonical_id]
+    var copy=n.duplicate(true);copy.plant=p.plant_id
+    if copy.parent>=0:copy.parent+=offset
+    nodes.append(copy)
+@@ -383,7 +385,8 @@
+  if not audit_enabled or tick not in [64,96,128,192,256,384,512,768,1024]:return
+  for p in plants:
+   var mobile={"C":0.0,"N":0.0,"W":0.0};var connected={"C":0.0,"N":0.0,"W":0.0};var by_kind:Dictionary={};var required_c=0.0
+-  for n in p.nodes:
++  for canonical_id in NumericalOrder.ids(p):
++   var n=p.nodes[canonical_id]
+    if not by_kind.has(n.kind):by_kind[n.kind]={"C":0.0,"N":0.0,"W":0.0}
+    for pair in [["C","c"],["N","n"],["W","w"]]:
+     mobile[pair[0]]+=n[pair[1]];by_kind[n.kind][pair[0]]+=n[pair[1]]
+@@ -403,7 +406,8 @@
+  var w={"cloud":hydro_cloud/1e9,"soil":field.summary[0]/1e9,"mobile":0.0,"bound":0.0,"vapor":0.0,"reserves":0.0,"seeds":0.0,"detritus":detritus.W}
+  for p in plants:
+   c.atmosphere+=p.atmosphere;c.litter+=p.litter;c.reserves+=p.reserve.c;n.reserves+=p.reserve.n;w.reserves+=p.reserve.w;w.vapor+=p.vapor
+-  for node in p.nodes:c.mobile+=node.c;c.structure+=node.solid_c;n.mobile+=node.n;n.structure+=node.solid_n;w.mobile+=node.w;w.bound+=node.bound_w
++  for canonical_id in NumericalOrder.ids(p):
++   var node=p.nodes[canonical_id];c.mobile+=node.c;c.structure+=node.solid_c;n.mobile+=node.n;n.structure+=node.solid_n;w.mobile+=node.w;w.bound+=node.bound_w
+  for pod in propagules:c.seed_organic+=pod.c;c.seed_gas+=pod.gas;n.seeds+=pod.n;w.seeds+=pod.w
+  return {"C":c,"N":n,"W":w,"boundary_imports":{"C":0.0,"N":0.0,"W":0.0},"boundary_exports":{"C":0.0,"N":0.0,"W":0.0}}
+ func boundary_balanced()->bool:
+@@ -419,7 +423,8 @@
+  var active=0.0;var disconnected=0.0;var vapor=0.0
+  for p in plants:
+   vapor+=p.vapor
+-  for n in p.nodes:
++  for canonical_id in NumericalOrder.ids(p):
++   var n=p.nodes[canonical_id]
+    if n.connected:active+=n.w
+    else:disconnected+=n.w
+  return {"enabled":config.recycling,"cloud":hydro_cloud/1e9,"vapor":vapor,"connected_mobile":active,"disconnected_mobile":disconnected,"condensed_total":hydro_condensed/1e9,"rain_total":hydro_rained/1e9,"condensed_this_hour":hydro_last_condensed/1e9,"rain_this_hour":hydro_last_rain/1e9,"latent_released":hydro_condensed/1e9*2.0,"heat":hydro_heat,"radiated":hydro_radiated,"sources_q":hydro_sources.duplicate(),"rain_cells":hydro_rain_cells.size(),"water_requested":water_requested/1e9,"water_received":water_received/1e9,"water_limited_cell_hours":water_limited}

@@ -1,0 +1,215 @@
+GEN2 SURVIVAL: CAUSAL DIAGNOSTIC, NOT A PROMOTED MODEL
+
+Main finding: the ordinary grandchildren encounter a developmental N-delivery
+constraint followed by a water/maintenance constraint. The32-paid-node gate
+explains why they cannot reproduce but is not what kills them. No implementation
+error against the existing written model contract has been demonstrated. The
+verified migration and ordinary candidate remain unchanged and unpromoted.
+
+Cohort terminology: founder=gen0, child=gen1, grandchild=gen2, next generation=gen3.
+All ordinary evidence is distinct from the diagnostic resource-access controls.
+
+PRESERVATION AND METHODS
+Base701d108642fe61cb051d9360d81eaf40258b30de remains the tip of migration/linux-cpu.
+Work is on diagnostic/gen2-survival-causality. All changes are under cloud-diagnostics.
+Original189 payloads verify; no push/merge/deploy/publication. Native binary, rates,
+costs, genes, maturity gate, proposal deadlines, canopy and finite-field kernels
+are unchanged. GPU and Windows validation remain unavailable, not passed.
+
+Saved8160/12288h binaries and existing event/resource evidence were inspected first.
+Compaction had removed ordinary daily histories, and endpoints do not retain first
+maintenance/growth failures. Passive observers therefore recovered all11 descendant
+birth states and daily budgets, first shortfalls, paid construction and tissue
+failure events in the three unchanged ordinary trajectories. Each observer calls
+the original scientific methods exactly once. Every seed matches original hashes
+at96,240,480,720,960,8160,12288:21 exact physical checkpoints. This filled a missing
+causal history; the migration validation suites were not rerun.
+
+1. SAME PAID START, DIFFERENT ENVIRONMENT
+Every descendant starts with7 paid packets (2stem,1root,4leaf), mobile C0.0363,
+N0.0012488,W0.03658, with identical copied genotype along its lineage. No mutation
+or generation-dependent price/access change occurs. The late founder-born gen1
+child12011/id4 also dies with the same small-root morphology: generation label
+alone is not the cause.
+
+All six gen2 grandchildren build one additional root at age3h, then remain at2
+root packets. At age4h the next root packet requires C0.0018,N0.000108,W0.00054.
+The local front has about C0.002485,N0.0000752–0.0000760,W0.00322–0.00332: N alone
+is short. Whole-plant mobile N is still about0.001086, so local transport/delivery
+matters as well as total stock. Reproducing gen1 children initially encounter the
+same type of shortfall but resolve it and eventually reach13 roots and32 packets.
+Their four original leaves persist; no newly paid leaves explain the advantage.
+
+At successful gen1 births, soil N is0.020674–0.029137; at gen2 births it is only
+0.0006046–0.0036108. The world still contains0.08152244 total N. At the first gen2
+birth in each seed, OTHER plants alone hold0.058775–0.061050 mobile N (72–75% of
+the entire inventory), while soil has only3.3–4.4%. N is largely unavailable in
+soil, not missing from the conservation ledger. The present model does not return
+all old/dead mobile N to soil; its decomposition module explicitly handles carbon-
+only turnover litter, and dead paid tissue remains real matter/occupancy.
+
+In the first seven complete daily intervals, gen2 N uptake is0.00000434–0.00003104,
+versus0.00024468–0.00054335 in reproducing gen1 children. Five gen2 cohorts already
+use more water in fixation than they acquire. Construction water payment itself
+is not the initial blocker: hydration limits carbon fixation and increases upkeep.
+Shared atmospheric C satisfies >99.9998% of measured physiological demand in
+these early windows; the tiny gap is integer quantization. Thus atmospheric C
+scarcity is distinct from the later exhaustion of the plant's mobile carbon.
+
+The additional cohort4242/id5 has a different light constraint. Its initial
+four-leaf canopy receives67.5% of the energy it would receive without other
+plants; two leaves are shaded by its gen1 parent(id2). Other descendant birth
+canopies have no external shading in this static calculation. Its first complete
+seven-day operating-C margin is-0.002832, despite a positive uptake-minus-fixation
+water balance. This is not proof that removing shade would improve long-term
+survival: shade also reduces water consumption. No photons were assigned in the
+pure Canopy.trace comparison, and no light-rescue claim is made.
+
+2. CARBON MAINTENANCE FAILURE AND OBSERVED DEATHS
+Operating C = fixation minus direct respiration minus full tissue-repair C cost,
+before new construction and reproductive transfers. An independent storage check
+reconciles delta(all mobile C + reserve C + cumulative release/disposal C) plus
+new construction C against this operating margin; maximum ordinary discrepancy
+is3.02e-15, below unchanged1e-9 matter/plant guards. Energy-boundary accounting
+remains unchanged. These are integrated budgets, not nighttime extrapolations.
+
+Ordinary gen2 offspring spend C0.0114 or0.0138 on additional construction and
+exhaust the remaining initial mobile C0.0249 or0.0225 through accumulated negative
+operating margins. Root/stem maintenance becomes unpaid, connectivity fails,
+and the remaining leaves lose support. Across74 gen2 packet deaths,73 cross the
+stress>45 threshold; one shaded leaf reaches the20%-mass floor first. The separate
+PREREGISTRATION-CLARIFICATION.txt preserves the correction to an overly broad
+initial description; the registered cases were not changed.
+
+seed   gen2 id  birth tick  paid roots/packets  first unpaid age  all-dead tick
+12011     3       7334             2/13                 969          8558
+4242      4       5318             2/12                 898          6391
+4242      5       8678             2/12                1045         10386
+4242      6       9158             2/13                 895         10260
+7301      3       5510             2/12                 970          6669
+7301      4      10022             2/12                 776         10950
+These are now exact hourly events, consistent with previously reported daily bounds.
+Late gen1 child12011/id4 is completely dead at11629h. All gen2 reserve collection
+stays deferred below32paid packets; savings competition is not draining these
+juveniles. Age64 is long past when they die; maturity32 remains unmet.
+
+3. MATCHED-STATE COUNTERFACTUALS
+Primary15-case registration was committed as96a600c before control starts. Exact
+whole-world birth snapshots are cloned for each arm. No C/N/W or energy is added,
+no store is moved into a target, and all original ledger checks remain active.
+Denied uptake remains in finite soil. These deprivation controls can hurt other
+plants and must NEVER be presented as an ordinary candidate improvement.
+
+For the first gen2 grandchild in each seed, follow2040h:
+arm0 unchanged; arm1 suppress only OTHER plants' N uptake claims;
+arm2 suppress only OTHER plants' W uptake claims.
+All three ordinary controls die. Arm1 leaves paid root count, C/W trajectory and
+death time unchanged despite slightly more N uptake. Arm2 preserves13 living
+packets at the endpoint in all three seeds, but still only2 roots, no32-node
+maturity, no offspring and no gen3. It separates maintenance survival from
+reproductive replacement. Removing continuing N uptake cannot release the large
+stock already sequestered in other plants, so its null result does NOT refute
+N limitation.
+
+At12011/id3, cumulative2040h water uptake rises from0.080185 to0.192406 in arm2,
+and fixation from0.197409 to0.384200. At equal early192h, hydrated/light capacity
+is identical, while water uptake/fixation increase and maintenance cost declines.
+The full-interval totals include longer survival and are not claimed rate changes.
+
+Necessity controls for the first gen1 child(id2) in all seeds follow768h:
+unchanged roots are6/7/7 (seeds12011/4242/7301); suppressing only target N uptake
+reduces them to2/2/2. Paid packets change16/17/17 ->13/14/13. Every target is still
+alive at768h. This establishes that early environmental N access is needed for
+the root-development advantage; it does not establish mortality or maturity at
+that short endpoint.
+
+The primary results were committed as5c0e7e0. A separately registered nine-case
+replication then applies the same0/1/2 arms and2040h endpoint to ALL three later
+gen2 cohorts(4242/id5,id6;7301/id4). This stage is explicitly post-primary, not
+retrospectively claimed part of the first registration. See FOLLOWUP-PLAN.txt,
+evidence/primary-control-analysis.json and evidence/control-analysis.json.
+
+4. CONTRACT AUDIT AND CORRECTION PROPOSAL
+No fix is justified as an existing-contract bug. Seeds are paid equally, genes
+are copied, resources are conserved, original fingerprints reproduce, and local
+construction/maintenance behave as written. The32-node gate blocks gen3 because
+juveniles never build the required structure; lowering it would hide the problem.
+The14h proposal expiry and passive transport are unchanged. Earlier diagnostics28/29
+found retention alone did not restore paid growth; none of that negative evidence
+has been overwritten or used to justify another retention change.
+
+The narrowest justified next DESIGN QUESTION is whether a juvenile may direct
+its already-owned mobile N toward an active root-construction sink through its
+existing connected transport graph. At the first refusal there is enough N in
+the plant as a whole but not at the paying front. This is a proposed single-policy
+allocation experiment, NOT an approved correction and NOT a promise of success.
+It would trade root acquisition against other tissue's maintenance/leaf/bud N;
+any active transport work/capacity must be specified and paid rather than silently
+made free. W27 deliberately excludes experimental growth allocators, so this
+requires an explicit revised model contract before implementation. No such policy
+has been implemented here.
+
+Longer-term N/W recycling is a separate ecological design question. Returning
+old/dead pools could improve availability, but would add a release/transport law
+and may alter occupancy and competition; existing carbon-only decomposition is
+not a complete nutrient-cycle model. Do not combine this with root allocation or
+change uptake constants, seed budgets,32-node maturity or genes to force success.
+The resource-exclusion controls are explanations, not proposed production rules.
+
+REPRODUCTION
+Existing saved environment (completed controllers skip healthy completed outputs):
+python3 cloud-diagnostics/observe_all.py
+python3 cloud-diagnostics/analyze_observation.py
+python3 cloud-diagnostics/run.py candidate30 birth_optics.gd
+python3 cloud-diagnostics/controls.py
+python3 cloud-diagnostics/controls.py followup-plan.json
+python3 cloud-diagnostics/analyze_controls.py
+python3 cloud-diagnostics/audit.py
+
+Fresh isolated diagnostic project after the migration setup:
+python3 cloud-diagnostics/setup.py
+Then run observe_all.py to generate the required birth states before controls.
+Individual examples:
+python3 cloud-diagnostics/run.py candidate30 observe.gd 12011 12288 --timeout 900
+python3 cloud-diagnostics/run.py candidate30 control.gd 12011 3 2 2040
+Exact engine invocations, input-file hashes, wall times, peak RSS and measured
+headroom are in evidence/*.runtime.json. Primary and followup plans are immutable
+with recorded hashes. Interpretation must retain stage, cohort and arm labels.
+
+FINAL MEASURED RESULTS
+All24 registered controls are complete (15primary +9separately registered late
+replications). Every matched origin is exact and all nine unchanged controls
+match a known original endpoint. No error, censor, headroom stop or timeout.
+
+Gen2 living packets at age2040h:
+seed    id    unchanged    other N uptake off    other W uptake off
+12011    3        0                  0                    13
+ 4242    4        0                  0                    13
+ 4242    5        0                  0                    12
+ 4242    6        0                  0                    12
+ 7301    3        0                  0                    13
+ 7301    4        0                  0                    12
+All six unchanged and N-exclusion controls die at the same cohort-specific age.
+All six W-exclusion targets remain alive through2040h, with only2 paid roots and
+12–13living packets; none reaches32 or produces gen3.4242/id6 loses one stem even
+under W exclusion. Its endpoint mobile C is only0.0011903 and its last seven-day
+operating margin is slightly negative, so do not extrapolate indefinite survival.
+The shaded4242/id5 ends with C0.00446775; its last seven-day operating margin is
+positive, but maturity/replacement is still absent.
+
+The intervention's cost to competitors is real. For4242/id6 with other-W uptake
+suppressed, all non-target plants combined retain only one connected root at the
+endpoint. This is a total causal effect of changing resource access, including
+downstream feedback and competitor decline; it is not a target-water subsidy with
+unchanged surrounding plants. No exclusion policy is proposed for production.
+
+The preexisting first local N constraint and the replicated W-access survival
+effect therefore distinguish development from later maintenance. They do not
+prove that internal N routing alone would solve ordinary replacement or the
+long-term nutrient-cycle/finite-occupancy problem. Any such design remains pending
+an explicit scientific decision and a separate paid/conservative contract.
+
+Engine invocations total 1541.726s; largest engine RSS 180.578MiB; minimum effective
+headroom 15.025GiB (guard8GiB). Maximum passive accounting error 6.985e-10; maximum
+control error 9.313e-10 and per-plant error 1e-11. Maximum independent C-storage
+closure discrepancy: passive 3.017e-15, controls 3.078e-16. Original thresholds unchanged.

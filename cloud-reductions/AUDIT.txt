@@ -1,0 +1,95 @@
+R1 SYSTEMATIC REDUCTION AUDIT
+
+Scope: node/edge representation permutations with physical geometry, graph, stored
+birth times, genotype and plant/ancestry identity preserved. Reversing plant
+EVALUATION is tested independently; renaming lineage records is not in scope.
+R1 has no persisted numerical state or cache, so saved replay recomputes the same
+physical order. No physics tolerance, floor, packet bill, rate or transport mixing
+coefficient changes.
+
+Canonical physical chronology
+Initial seed_shape creates collar, upper stem, root, +x leaf, -x leaf, +z leaf,
+-z leaf at the SAME stored birth tick. That exact written order is used as a stable
+physical tie convention, not an inferred age difference. Later paid cells are
+committed in world.resolve_growth's existing sorted spatial-position order within
+each tick. Sorting by birth then those physical ranks reconstructs append order
+on unpermuted valid shared-world histories. Current births AND every subsequent
+hour of new trials/replays assert that reconstruction. Thus existing control
+addition order/reserve traversal is preserved, not replaced by a new allocation
+preference. Physically duplicate coordinates/keys are rejected, never ordered by ID.
+The seed-specific constructor ordering is deliberately retained for compatibility;
+it is not proposed as universal plant biology.
+
+Operation / dependency / action
+1. plant.photo_claim: floating sum of per-node wants before Air.allocate floors
+   the shared atmospheric claim. Iterate the same wants in physical chronology.
+2. plant.photosynthesize: per-node gain, atmosphere subtraction, vapor and heat,
+   absorbed energy and fixed-C accumulation. Canonical traversal keeps identical
+   per-node formulas and makes both totals and node updates representation-stable.
+3. legacy.maintain: node-local upkeep/turnover/repair plus accumulated litter,
+   atmosphere, heat and respiration totals. Canonical traversal; equations and
+   tip traversal unchanged. Tips/proposals have causal creation identities, remapped
+   node references, and are not re-enumerated by node permutation.
+4. reserve.mobile/collect: floating mobile/excess sums affect surplus and receipt
+   fractions. Canonical traversal. protect/collect donor traversal uses the same
+   reconstructed order, preserving old valid-history maintenance priority and
+   residual handling. No new floors, reserved pools, redistribution or funds.
+5. world.step root claims: each local demand still uses its original floor. Demand
+   aggregation is integer. Sort ties by physical chronological rank instead of raw
+   node index; rotating integer residual rules and plant IDs remain unchanged.
+6. canopy.trace: fixed ray/spatial order; same-height projected-position ties imply
+   duplicate actual occupancy, already invalid. Interceptions/receipts are integer;
+   node-index-sorted records only assign per-node lookup values. No repair needed.
+7. atmosphere.allocate/collect: plant claims ordered by existing plant identity;
+   plant records themselves are not permuted by reverse evaluation. Integer shares
+   unchanged. Fixed node-derived claims/respiration from items1–3 close this path.
+8. hydrology.condense/rain: old floor(vapor*1e9*.01), caps, integer cloud balance,
+   rotating rain cells and integer sharing retained byte-for-byte. Canonical vapor
+   accumulation fixes the identified boundary without moving or smoothing it.
+9. decomposition: old floor(litter*1e9*.002), caps and returns retained byte-for-byte.
+   Canonical maintenance accumulation fixes its node-order input dependence.
+10. plant ledger/metrics and world matter/hydrology/audit reductions: canonical
+    node traversal makes numerical reports/account checks reproducible. World-level
+    plant reduction order is already the same causal record order. Derived visual
+    node arrays retain their original indexing; no parent reference reinterpretation.
+11. integer field/native diffusion and T1 transport.gd: byte-identical to T1. T1
+    already freezes transfers and sorts physical edges for deterministic sums.
+    Legacy transport remains its original sequential operator in the control;
+    R1 does not conceal that operator's intrinsic representation sensitivity.
+
+Arithmetic guarantee and bounds
+The same operands/formulas, added in the same physical sequence, yield identical
+binary64 reductions for equivalent inputs on this tested runtime. This is not
+mathematically exact summation or an across-platform guarantee. Standard finite
+sum error bound gamma_m*sum(abs(x)), gamma_m=m*u/(1-m*u), u=2^-53; long-lived stocks
+include their whole addition history. Near a discontinuity this error may matter;
+R1 does not add epsilon or change the discontinuity. All conservation/positivity
+checks stay enabled. Floats are never clamped or repaired to force a ledger match.
+
+Adversarial evidence
+The targeted boundary fixture has a large contribution just below .0089642 and two
+half-ulp contributions. Raw forward versus reverse sums floor to89641 versus89642
+water quanta. R1 original and permuted sums have identical serialized binary64
+bits and retain the original89641 result. Other magnitude/zero/near-boundary profiles,
+rotating exact integer ties, collision rejection and all11 archived physical-order
+checks pass. A synthetic root front at N=.000108 is payable; subtracting1e-9 makes
+it unpayable with unchanged C/W. That is a fixture, not an ordinary survival finding.
+
+Observed old failure, diagnostic continuation only
+The old T1 numeric pair for12011/id3 was followed to the fixed768h without accepting
+its failed gate. Original hashes matched its archived trajectory every hour.
+Condensation first differed at297, soil at298. Field traces differed for471 hours;
+maximum summed absolute field discrepancy was47 quanta. Maximum node resource
+difference was5.909659311388593e-10. Every construction, expiry, active/dead or
+connected tissue state, reproduction stage and lineage decision matched every hour
+across ALL plants. No biological decision changed in this observed pair/window.
+This is not proof that every quantum is harmless, nor an isolated single-quantum
+injection experiment: it follows the actual old numerical representation paths.
+
+Repair validation and reuse
+The previously failing T1 case now passes768 exact canonical node/field comparisons,
+canonical endpoint and reverse/saved replay while preserving all archived original
+hourly hashes. Five old completed trajectories are reused only after their R1
+replays match all768 archived hashes, with source paths/digests recorded separately.
+The remaining28 trajectories are new executions of the already frozen matrix.
+No previous evidence is overwritten or relabeled as a new observation.

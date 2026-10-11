@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27",
+    "--script",
+    "res://ui_checks.gd",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27/lab.pck"
+  ],
+  "input_sha256": {
+    "lab.pck": "33685fae4d1a2826ecf227bdc0c4f137b5f56bf22fdacf7cca1fda243d70468d",
+    "native/resource_field.so": "821c80ac2c13c1b24fb45d99692263270da0248dd7feff220d250568fe97220d"
+  },
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 1.206381294000039,
+  "peak_rss_bytes": 123232256,
+  "initial_headroom_bytes": 16448512000,
+  "minimum_headroom_bytes": 16415277056
+}

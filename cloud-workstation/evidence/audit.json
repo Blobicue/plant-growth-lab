@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "original_payloads": 189,
+  "source_inputs": 50,
+  "unchanged_copied_modules": 53,
+  "archive_states_sha256": 18,
+  "checks": {
+    "source-workstation-checks.json": 54,
+    "source-workstation-reopen.json": 4,
+    "source-cloud-ui-checks.json": 9,
+    "source-cloud-restart-checks.json": 8,
+    "package-workstation-checks.json": 54,
+    "package-workstation-reopen.json": 4,
+    "package-cloud-ui-checks.json": 9,
+    "package-cloud-restart-checks.json": 8,
+    "native-CPU": 8
+  },
+  "normal_package_entrypoint_pass": true,
+  "selected_replay_hours_per_source_and_package": 576,
+  "runtime_seconds": 173.82262074100072,
+  "peak_rss_bytes": 457207808,
+  "minimum_headroom_bytes": 10617102336,
+  "scope": "F1 comparison and replay, baseline reports; no W27/candidate binary coercion",
+  "new_biology_or_long_trials": false,
+  "rendering": "Mesa llvmpipe software; hardware GPU and Windows unavailable",
+  "publication": false
+}

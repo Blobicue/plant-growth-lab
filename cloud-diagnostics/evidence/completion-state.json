@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-10T01:16:08.326775+00:00",
+  "executor_available": true,
+  "active_owned_engine_jobs": 0,
+  "lab_lock_available": true,
+  "passive_trajectories": 3,
+  "passive_exact_checkpoints": 21,
+  "control_cases_completed": 24,
+  "remaining_queued_cases": 0,
+  "migration_commit_preserved": "701d108642fe61cb051d9360d81eaf40258b30de",
+  "production_model_correction": false,
+  "pushed": false,
+  "remaining_scientific_decision": "Root-demand allocation or nutrient-cycle redesign would change the explicit model contract; no existing-contract bug established."
+}

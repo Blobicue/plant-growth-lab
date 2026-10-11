@@ -1,0 +1,138 @@
+F1 SYNTHESIS AND DESIGN REVIEW — ASSESSMENT ONLY
+Basis: experiment/fresh-founder-f1 at5b92effb1b20e290d9fcbfdc24c55d7f2bbb80f8.
+No new simulation, mechanism, coefficient change or promotion.
+
+Recommendation
+Prioritize a usable, version-explicit research workstation and retain the negative
+ordinary results. Do not restart the old root-feedback matrix or extend runs until
+a surviving grandchild reproduces. Nonreplacement under this genotype/environment
+is a legitimate model outcome; conservation and faithful execution do not require
+reproduction. It is not proof of impossibility for every environment or genotype.
+
+What the repository actually asks for
+shared-atmosphere27/METHOD.txt defines a paid founder-child-grandchild chain as its
+ordinary endpoint, explicitly retains negative results, forbids coefficient tuning,
+and separates prepared lifecycle fixtures from ordinary viability. Indefinite
+replacement is a stronger investigation, not an implementation acceptance test.
+The existing lab.gd exposes inspected local resources, timing, Step/Pause/Stop,
+save/load and exact replay. This supports prioritizing reproducible experiments
+and honest inspection over a default that always survives. This is an inference
+from the available project contract/UI, not a claim to recover omitted design notes.
+The Linux source/package UI already passed its migration checks; useful next
+product work is making baseline versus experimental model identity, lineage age,
+resource budgets and censored/failed outcomes readily accessible together. No UI
+work or deployment is authorized or performed by this assessment.
+
+Why births are later/fewer: measured budgets, then interpretation
+F1 births were legacy3/5/3 versus T1 1/4/1; no generation3 in either arm. T1 is a
+new simultaneous transport contract, not simply a bug fix preserving physiology.
+It changes local C/N/W access, architecture and the subsequent shared environment.
+All six T1 founders reached32 paid nodes by hour165, versus69–118 in controls.
+This modest gate delay cannot alone explain first births8198/998/7238 versus
+838/678/806. Mature savings can still be refunded for maintenance; gross reserve
+deposits are not seed output, nor is total mobile C immediately spendable reserve.
+
+Founder1 is the informative paired loss in all three worlds: T1 leaf counts are
+4/5/4 versus5/6/5, light receipts983/1286/983 versus1272/1601/1296 model E,
+and lifetime fixation3.394/4.348/3.396 versus4.361/5.237/4.435 model C.
+Its N uptake is higher in all three T1 arms, so these reproductive losses cannot
+be labeled whole-founder N starvation. T1 operating C is more negative despite
+lower maintenance/repair expenditure. In seed12011,0.799 C was deposited into
+reserve but0.774 refunded, with no seed release; control deposits1.060/refunds0.951
+supported two0.051 C releases. This connects less realized carbon income and
+maintenance competition to reduced reproductive funding. These are coupled observed
+budgets, not isolated causal proof that the missing leaf alone causes the change.
+Negative lifetime operation also spends initial endowment; it is not proof of a
+negative current rate (several final192h margins are positive).
+
+T1 preserves founder0 in12011/4242 and shifts first parentage to founder0 in
+12011/7301. Their first children arrive8198/7238 and reach only13 paid nodes;
+the7301 child dies age2880 and the12011 child remains immature at age4090, with
+only about0.000001 C operating surplus in its final192h. In controls, four gen1
+children mature and reproduce; only one does under T1. Seed4242's T1 child is born
+998, matures5068 and produces three grandchildren; its control counterpart is
+born678, matures4556 and produces two, plus a second control gen1 supplies another
+lineage. Thus fewer founder births remove reproductive branches as well as time.
+Descendants differ in parent, site, birth environment and sometimes inherited
+branch seed; matching IDs across arms would give a false individual comparison.
+
+Censoring versus sustainability
+T1's older4242 grandchildren die at ages2274 and1519. Its youngest is alive at
+age1018,12 paid nodes, no offspring; its recent operating margin is positive.
+That is real short-term maintenance evidence, but neither inevitable death nor
+sustained replacement follows. Its siblings and the7301 child show that positive
+early budgets can precede death. Three seed families, unequal offspring exposure
+and a finite12288h window limit inference; descendants are not independent trials.
+The late survivor is not evidence that longer running will solve maturation.
+
+Reassessing the one allocation alternative
+The earlier proposed local construction-feedback policy was NEVER implemented:
+its original preflight stopped on ordered transport's representation dependence.
+R1/T1 resolved the tested ordering problems separately. Under T1, the old third-
+root stall clears at age5 in all11 switched-birth cohorts, yet the fourth-root
+front is N-only blocked at age16. F1 also records age16 N-only blocks in all six
+new descendants, five leaf N-only refusals and no newly paid leaf packets. These
+observations confirm local access constraints, not that more root priority helps.
+
+The minimally defensible alternative remains the previously specified local,
+expiring signal that defers optional stem/leaf payments while a reachable root
+front lacks only N. Maintenance stays first, transport/bills/deadlines stay fixed,
+and no N is pumped, reserved, created or taken from other plants. Withholding a
+stem payment can preserve N and avoid another compartment; it only indirectly
+addresses the root bill, and may arrive too late or find nothing useful to defer.
+Suppressing already-unaffordable leaves saves nothing. Suppressing affordable
+shoot growth risks less future light capture, lost buds and continued tip costs;
+adding roots adds construction/maintenance costs. Those risks matter more after
+F1's founder carbon/light loss, not less. A whole-world application to founders
+could worsen the very birth deficit it is intended to cure.
+
+Earlier causal evidence separates constraints: target N deprivation reduced gen1
+root development; removing competitors' W uptake kept all six old gen2 targets
+alive2040h but none mature, at real cost to competitors. Removing only competitors'
+late N uptake did not rescue roots or death; it did not release their stored N.
+The switched T1 cohort study improved roots in9/11 but left five operating deficits,
+all persisting in the final192h. More roots alone is therefore not a fitness result.
+Neither that evidence nor local stock arithmetic establishes a free allocation
+improvement. Keeping the existing model and documenting lack of replacement is
+currently better supported than implementing a rescue policy.
+
+One conditional, high-information test — proposed only, not authorized or run
+If allocation mechanism remains a research priority after workstation review,
+replace (do not silently resume) the old registration with ONE short matched
+96h OFF/ON focal-policy assay at all six actual F1 T1 descendant births. Freeze
+T1/24+R1 and the previous local signal semantics; leave every other plant unchanged.
+This tests the current fourth-root bottleneck, not the already-resolved third root.
+Before biology, require exact OFF replay, canonical/reverse/save-state agreement,
+message delay/expiry/dead-edge checks and unchanged resource guards. Keep existing
+serial ownership,8GiB headroom and600s per-invocation bounds; no horizon extension.
+Read out the causal sequence: reachable signal -> withheld nonroot N payment ->
+more N at the blocked front -> an additional locally paid root by96h. Record
+light/fixation, operating C, unpaid upkeep and expired proposals as costs.
+Stop on any correctness failure. If no cohort completes that chain, reject this
+policy for this early bottleneck; do not tune or lengthen the run. If gains entail
+lower operating C or more unpaid upkeep in any cohort, retain the tradeoff and
+stop escalation toward a survival claim. A complete chain with no such observed
+cost supports mechanism review only, never automatic longer trials or promotion.
+A negative result does not exclude every possible allocation law. This assay is
+higher information than another survival extension because it tests the missing
+mechanistic link before accepting the added policy complexity.
+
+User-facing version limits
+W27 is the preserved reviewed baseline. Candidate30 changes savings timing only
+and remains unpromoted; T1+R1 is a separate experimental numerical/model contract.
+The amounts are model units, not calibrated plant measurements. Mutation is off;
+N transport equalizes packet amounts rather than defined concentrations; toy
+carbon mineralization is not a complete nutrient cycle, oxygen is absent, and
+old/dead stores and tissue can retain N and occupy space. Current genes, finite
+soil, architecture and competition need not support replacement. Numerical parity
+is not biological validation. Selected canonical windows are not universal proofs;
+24/48-substep cohort agreement is not exact trajectory convergence. CPU/native
+and exact physical replay evidence is strong; historical strict JSON metric
+failures remain separately recorded. Hardware GPU/Windows checks remain unavailable.
+
+Evidence (all existing; unchanged)
+cloud-fresh/REPORT.txt and evidence/{paired-founders,plants,lineage-events}.csv
+cloud-budget/REPORT.txt; cloud-reductions/REPORT.txt
+cloud-diagnostics/REPORT.txt; cloud-feedback/REPORT.txt and PROTOCOL.txt
+cloud-design/DESIGN.txt; shared-atmosphere27/METHOD.txt and lab.gd
+cloud-port/REPORT.txt; README.md; MIGRATION.txt

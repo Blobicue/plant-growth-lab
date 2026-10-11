@@ -1,0 +1,499 @@
+{
+  "checks": [
+    {
+      "effective_steps": 24,
+      "fixture": "star1-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.03
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star1-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star1-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.03
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star1-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.007998548099335652
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star1-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.005153400853118862
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star2-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star2-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.014575439159647837
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star2-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star2-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.029116718888289626
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star2-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.021372103436004597
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star4-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.12
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star4-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.04712413799595704
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star4-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.12
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star4-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.05086016442838887
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star4-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.045542845281701334
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star6-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.17999999999999997
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star6-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06906267712387913
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star6-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.17999999999999997
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star6-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.11675754063530765
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star6-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.07321949514860589
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star16-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.48000000000000004
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star16-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.17298223608350782
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star16-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.48000000000000004
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star16-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.16597148890876748
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star16-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.21443913326358297
+    },
+    {
+      "effective_steps": 47,
+      "fixture": "star64-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.9804255319148928
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star64-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.8525689653477447
+    },
+    {
+      "effective_steps": 47,
+      "fixture": "star64-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.9804255319148928
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star64-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.3801090062683516
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "star64-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.8650591590392924
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain3-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain3-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0202855030735455
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain3-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain3-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.008022529605665627
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain3-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.020525563997781316
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle3-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle3-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.01629247799186888
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle3-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle3-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.020712450349449647
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle3-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.034650457968956175
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain7-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain7-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.014154314599910504
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain7-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain7-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.04794434808715376
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain7-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.021208767372197648
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle7-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle7-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0446816630532467
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle7-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle7-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.029120910795038424
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle7-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.022978240447397005
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain20-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain20-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.04384408943461123
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain20-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain20-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.040788857081235114
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "chain20-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.04616545178326511
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle20-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle20-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.03718750843215976
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle20-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle20-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.05248071120523973
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "cycle20-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.028529502528965772
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "disconnected-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "disconnected-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.02039196532516425
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "disconnected-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.06
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "disconnected-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.04362840750397051
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "disconnected-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.027830095298581863
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "isolated-depleted",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "isolated-heterogeneous",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "isolated-uniform",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "isolated-tiny",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    },
+    {
+      "effective_steps": 24,
+      "fixture": "isolated-zero",
+      "pass": true,
+      "permutations_exact": 6,
+      "sender_fraction": 0.0
+    }
+  ],
+  "fixture_count": 70,
+  "max_conservation_relative_error": 3.1086244689504383e-15,
+  "max_reference_relative_error": 5.48478746080902e-16,
+  "pass": true,
+  "permutation_checks": 420
+}

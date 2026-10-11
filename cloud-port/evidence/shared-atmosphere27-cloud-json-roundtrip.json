@@ -1,0 +1,14 @@
+[
+  {
+    "non_idempotent_json_sample_ticks": [],
+    "seed": 12011
+  },
+  {
+    "non_idempotent_json_sample_ticks": [],
+    "seed": 4242
+  },
+  {
+    "non_idempotent_json_sample_ticks": [],
+    "seed": 7301
+  }
+]

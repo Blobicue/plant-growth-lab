@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/plant-growth-lab/cloud-port/run.py", line 29, in <module>
+    with open(P/'evidence'/f'{tag}.log','w') as log:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/plant-growth-lab/cloud-port/evidence/shared-atmosphere27-pack_linux-/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27/lab.pck.log'
+Traceback (most recent call last):
+  File "/workspace/plant-growth-lab/cloud-port/build_package.py", line 6, in <module>
+    subprocess.run(['python3',str(P/'run.py'),name,'pack_linux.gd',str(dst/'lab.pck')],check=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/workspace/plant-growth-lab/cloud-port/run.py', 'shared-atmosphere27', 'pack_linux.gd', '/workspace/plant-growth-lab/cloud-port/packages/shared-atmosphere27/lab.pck']' returned non-zero exit status 1.

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-port/work/shared-atmosphere27",
+    "--script",
+    "res://fixture.gd"
+  ],
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 4.9276999740000065,
+  "peak_rss_bytes": 118145024,
+  "initial_headroom_bytes": 16608604160,
+  "minimum_headroom_bytes": 16561229824
+}

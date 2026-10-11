@@ -1,0 +1,426 @@
+{
+  "fingerprints": [
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 12011,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 12011,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 12011,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 12011,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 12011,
+      "tick": 960
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 12011,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 12011,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 12011,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 12011,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 12011,
+      "tick": 960
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 4242,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 4242,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 4242,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 4242,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 4242,
+      "tick": 960
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 4242,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 4242,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 4242,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 4242,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 4242,
+      "tick": 960
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 7301,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 7301,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 7301,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 7301,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 0,
+      "seed": 7301,
+      "tick": 960
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 7301,
+      "tick": 96
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 7301,
+      "tick": 240
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 7301,
+      "tick": 480
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 7301,
+      "tick": 720
+    },
+    {
+      "exact": true,
+      "mode": 1,
+      "seed": 7301,
+      "tick": 960
+    }
+  ],
+  "note": "String fields preserve full_precision output and binary bits; no physics or archive changes.",
+  "parser_probes": [
+    {
+      "default": "0.0000000000000071",
+      "input": "0.000000000000007105427357601",
+      "parsed_bits": "cd387420bef9ff3c",
+      "parsed_full": "7.1e-15",
+      "second_parse_full": "7.1e-15"
+    },
+    {
+      "default": "0.000000000000007105427357601",
+      "input": "7.105427357601e-15",
+      "parsed_bits": "feffffffffffff3c",
+      "parsed_full": "7.105427357601e-15",
+      "second_parse_full": "7.1e-15"
+    },
+    {
+      "default": "0.00007759660510527",
+      "input": "0.0000775966051052753",
+      "parsed_bits": "cf535b866b57143f",
+      "parsed_full": "7.759660510527e-05",
+      "second_parse_full": "7.759660510527e-05"
+    },
+    {
+      "default": "0.0000775966051052753",
+      "input": "7.75966051052753e-5",
+      "parsed_bits": "56555b866b57143f",
+      "parsed_full": "7.75966051052753e-05",
+      "second_parse_full": "7.759660510527e-05"
+    },
+    {
+      "default": "0.008928",
+      "input": "0.008928",
+      "parsed_bits": "e54526e0d748823f",
+      "parsed_full": "0.008928",
+      "second_parse_full": "0.008928"
+    },
+    {
+      "default": "0.00892799999999999",
+      "input": "0.00892799999999999",
+      "parsed_bits": "df4526e0d748823f",
+      "parsed_full": "0.00892799999999999",
+      "second_parse_full": "0.00892799999999999"
+    }
+  ],
+  "rows": [
+    {
+      "actual_bits": "7170dd87308c673f",
+      "actual_full": "0.00287446478516356",
+      "expected_bits": "8970dd87308c673f",
+      "expected_default": "0.00287446478516357",
+      "expected_full": "0.00287446478516357",
+      "expected_roundtrip_full": "0.00287446478516357",
+      "mode": 0,
+      "path": "/plants/0/reserve/balance/c",
+      "raw_bits": "7d70dd87308c673f",
+      "raw_default": "0.00287446478516356",
+      "raw_full": "0.002874464785163565",
+      "seed": 12011,
+      "tick": 96
+    },
+    {
+      "actual_bits": "7170dd87308c673f",
+      "actual_full": "0.00287446478516356",
+      "expected_bits": "8970dd87308c673f",
+      "expected_default": "0.00287446478516357",
+      "expected_full": "0.00287446478516357",
+      "expected_roundtrip_full": "0.00287446478516357",
+      "mode": 0,
+      "path": "/plants/0/reserve/deposited/c",
+      "raw_bits": "7d70dd87308c673f",
+      "raw_default": "0.00287446478516356",
+      "raw_full": "0.002874464785163565",
+      "seed": 12011,
+      "tick": 96
+    },
+    {
+      "actual_bits": "df4526e0d748823f",
+      "actual_full": "0.00892799999999999",
+      "expected_bits": "e54526e0d748823f",
+      "expected_default": "0.008928",
+      "expected_full": "0.008928",
+      "expected_roundtrip_full": "0.008928",
+      "mode": 1,
+      "path": "/matter/N/structure",
+      "raw_bits": "e24526e0d748823f",
+      "raw_default": "0.00892799999999999",
+      "raw_full": "0.008927999999999995",
+      "seed": 12011,
+      "tick": 480
+    },
+    {
+      "actual_bits": "3e274e07d2a9553f",
+      "actual_full": "0.00132222662543531",
+      "expected_bits": "6c274e07d2a9553f",
+      "expected_default": "0.00132222662543532",
+      "expected_full": "0.00132222662543532",
+      "expected_roundtrip_full": "0.00132222662543532",
+      "mode": 1,
+      "path": "/plants/1/reserve/sources/8:c",
+      "raw_bits": "55274e07d2a9553f",
+      "raw_default": "0.00132222662543531",
+      "raw_full": "0.001322226625435315",
+      "seed": 12011,
+      "tick": 720
+    },
+    {
+      "actual_bits": "23609d89eec9513f",
+      "actual_full": "0.00108574194606171",
+      "expected_bits": "51609d89eec9513f",
+      "expected_default": "0.00108574194606172",
+      "expected_full": "0.00108574194606172",
+      "expected_roundtrip_full": "0.00108574194606172",
+      "mode": 0,
+      "path": "/plants/1/reserve/sources/8:c",
+      "raw_bits": "3a609d89eec9513f",
+      "raw_default": "0.00108574194606171",
+      "raw_full": "0.001085741946061715",
+      "seed": 4242,
+      "tick": 480
+    },
+    {
+      "actual_bits": "d20a4e77f4bf573f",
+      "actual_full": "0.00144957421909513",
+      "expected_bits": "000b4e77f4bf573f",
+      "expected_default": "0.00144957421909514",
+      "expected_full": "0.00144957421909514",
+      "expected_roundtrip_full": "0.00144957421909514",
+      "mode": 1,
+      "path": "/plants/1/reserve/sources/24:c",
+      "raw_bits": "e90a4e77f4bf573f",
+      "raw_default": "0.00144957421909513",
+      "raw_full": "0.001449574219095135",
+      "seed": 4242,
+      "tick": 960
+    },
+    {
+      "actual_bits": "44087bc38bf7943f",
+      "actual_full": "0.0204755628644835",
+      "expected_bits": "60087bc38bf7943f",
+      "expected_default": "0.0204755628644836",
+      "expected_full": "0.0204755628644836",
+      "expected_roundtrip_full": "0.0204755628644836",
+      "mode": 0,
+      "path": "/decomposition/sources/1/litter",
+      "raw_bits": "52087bc38bf7943f",
+      "raw_default": "0.0204755628644835",
+      "raw_full": "0.02047556286448355",
+      "seed": 7301,
+      "tick": 240
+    },
+    {
+      "actual_bits": "9281e967dd3cd73f",
+      "actual_full": "0.363089896656697",
+      "expected_bits": "a481e967dd3cd73f",
+      "expected_default": "0.363089896656698",
+      "expected_full": "0.363089896656698",
+      "expected_roundtrip_full": "0.363089896656698",
+      "mode": 1,
+      "path": "/hydrology/connected_mobile",
+      "raw_bits": "9b81e967dd3cd73f",
+      "raw_default": "0.363089896656697",
+      "raw_full": "0.3630898966566975",
+      "seed": 7301,
+      "tick": 96
+    },
+    {
+      "actual_bits": "9281e967dd3cd73f",
+      "actual_full": "0.363089896656697",
+      "expected_bits": "a481e967dd3cd73f",
+      "expected_default": "0.363089896656698",
+      "expected_full": "0.363089896656698",
+      "expected_roundtrip_full": "0.363089896656698",
+      "mode": 1,
+      "path": "/matter/W/mobile",
+      "raw_bits": "9b81e967dd3cd73f",
+      "raw_default": "0.363089896656697",
+      "raw_full": "0.3630898966566975",
+      "seed": 7301,
+      "tick": 96
+    },
+    {
+      "actual_bits": "99e11b5a1b19963f",
+      "actual_full": "0.0215801500080218",
+      "expected_bits": "b5e11b5a1b19963f",
+      "expected_default": "0.0215801500080219",
+      "expected_full": "0.0215801500080219",
+      "expected_roundtrip_full": "0.0215801500080219",
+      "mode": 1,
+      "path": "/hydrology/heat",
+      "raw_bits": "a7e11b5a1b19963f",
+      "raw_default": "0.0215801500080218",
+      "raw_full": "0.02158015000802185",
+      "seed": 7301,
+      "tick": 240
+    },
+    {
+      "actual_bits": "07bd93938e9c9e3f",
+      "actual_full": "0.029894092328445",
+      "expected_bits": "24bd93938e9c9e3f",
+      "expected_default": "0.0298940923284451",
+      "expected_full": "0.0298940923284451",
+      "expected_roundtrip_full": "0.0298940923284451",
+      "mode": 1,
+      "path": "/air/plants/2/returned_C",
+      "raw_bits": "15bd93938e9c9e3f",
+      "raw_default": "0.029894092328445",
+      "raw_full": "0.02989409232844505",
+      "seed": 7301,
+      "tick": 960
+    },
+    {
+      "actual_bits": "07bd93938e9c9e3f",
+      "actual_full": "0.029894092328445",
+      "expected_bits": "24bd93938e9c9e3f",
+      "expected_default": "0.0298940923284451",
+      "expected_full": "0.0298940923284451",
+      "expected_roundtrip_full": "0.0298940923284451",
+      "mode": 1,
+      "path": "/air/sources/2",
+      "raw_bits": "15bd93938e9c9e3f",
+      "raw_default": "0.029894092328445",
+      "raw_full": "0.02989409232844505",
+      "seed": 7301,
+      "tick": 960
+    },
+    {
+      "actual_bits": "101091232440523f",
+      "actual_full": "0.00111392525856591",
+      "expected_bits": "3e1091232440523f",
+      "expected_default": "0.00111392525856592",
+      "expected_full": "0.00111392525856592",
+      "expected_roundtrip_full": "0.00111392525856592",
+      "mode": 1,
+      "path": "/plants/1/reserve/sources/48:w",
+      "raw_bits": "271091232440523f",
+      "raw_default": "0.00111392525856591",
+      "raw_full": "0.001113925258565915",
+      "seed": 7301,
+      "tick": 960
+    }
+  ]
+}

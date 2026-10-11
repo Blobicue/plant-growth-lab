@@ -1,0 +1,159 @@
+{
+  "checks": [
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 2.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 12011.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 3.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 12011.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 4.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 12011.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 2.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 4242.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 3.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 4242.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 4.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 4242.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 5.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 4242.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 6.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 4242.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 2.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 7301.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 3.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 7301.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    },
+    {
+      "N24_vs_N48_normalized_l1": {
+        "c": 0.008217023283967262,
+        "n": 0.008217023283966986,
+        "w": 0.008217023283966632
+      },
+      "OFF_hours_exact": 96,
+      "all_node_births_equal": true,
+      "canonical_permutation_exact": true,
+      "id": 4.0,
+      "maximum_sender_fraction": 0.15,
+      "seed": 7301.0,
+      "transport_ledger_residual": 1.2212453270876722e-15
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,2 @@
+Attempt1 unit reporting used unsupported Godot %e formatting; removed display-only text, retaining exact binary64 hex. Failure log/source preserved.
+Initial broad source replacement also touched derived _visual traversal; restored original visual indexing before further runs to preserve parent references. Scientific reductions unchanged; first successful768h verification evidence retained with its exact source manifest.

@@ -1,0 +1,6 @@
+START RECOVERY 4242
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://continue_survival.gd", "--", "4242"], "exit": 0, "stop_reason": null, "wall_seconds": 634.6115962170002, "peak_rss_bytes": 203563008, "initial_headroom_bytes": 16489238528, "minimum_headroom_bytes": 15898480640}
+COMPLETE 4242
+START RECOVERY 7301
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://continue_survival.gd", "--", "7301"], "exit": 0, "stop_reason": null, "wall_seconds": 303.880006029, "peak_rss_bytes": 155648000, "initial_headroom_bytes": 16314077184, "minimum_headroom_bytes": 16188764160}
+COMPLETE 7301

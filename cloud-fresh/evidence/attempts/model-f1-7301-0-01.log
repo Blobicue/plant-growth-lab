@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+{"max_plant_error":0.000000000000099475983006414,"max_world_error":0.0000000000109139364212751,"mode":0,"plants":2,"seed":7301,"tick":768}
+{"max_plant_error":0.000000000000596855898038484,"max_world_error":0.0000000000291038304567337,"mode":0,"plants":3,"seed":7301,"tick":1536}
+{"max_plant_error":0.000000000000682121026329696,"max_world_error":0.0000000000436557456851006,"mode":0,"plants":3,"seed":7301,"tick":2304}
+{"max_plant_error":0.00000000000130739863379858,"max_world_error":0.0000000000582076609134674,"mode":0,"plants":3,"seed":7301,"tick":3072}
+{"max_plant_error":0.00000000000244426701101474,"max_world_error":0.0000000000582076609134674,"mode":0,"plants":3,"seed":7301,"tick":3840}
+{"max_plant_error":0.00000000000272848410531878,"max_world_error":0.0000000000873114913702011,"mode":0,"plants":3,"seed":7301,"tick":4608}
+{"max_plant_error":0.0000000000028421709430404,"max_world_error":0.0000000000873114913702011,"mode":0,"plants":3,"seed":7301,"tick":5376}
+{"max_plant_error":0.0000000000028421709430404,"max_world_error":0.000000000116415321826935,"mode":0,"plants":4,"seed":7301,"tick":6144}
+{"max_plant_error":0.0000000000028421709430404,"max_world_error":0.000000000174622982740402,"mode":0,"plants":4,"seed":7301,"tick":6912}
+{"max_plant_error":0.0000000000028421709430404,"max_world_error":0.000000000174622982740402,"mode":0,"plants":4,"seed":7301,"tick":7680}
+{"max_plant_error":0.0000000000028421709430404,"max_world_error":0.000000000174622982740402,"mode":0,"plants":4,"seed":7301,"tick":8448}
+{"max_plant_error":0.00000000000363797880709171,"max_world_error":0.00000000023283064365387,"mode":0,"plants":4,"seed":7301,"tick":9216}
+{"max_plant_error":0.00000000000454747350886464,"max_world_error":0.000000000349245965480804,"mode":0,"plants":4,"seed":7301,"tick":9984}
+{"max_plant_error":0.00000000000613908923696727,"max_world_error":0.000000000523868948221207,"mode":0,"plants":5,"seed":7301,"tick":10752}
+{"max_plant_error":0.00000000000613908923696727,"max_world_error":0.000000000582076609134674,"mode":0,"plants":5,"seed":7301,"tick":11520}
+{"max_plant_error":0.00000000000613908923696727,"max_world_error":0.000000000698491930961609,"mode":0,"plants":5,"seed":7301,"tick":12288}

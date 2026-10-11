@@ -1,0 +1,85 @@
+T1 CONTRACT AUDIT AND DERIVATION
+
+Source-backed identity audit
+juvenile-allocation30/legacy/model.gd:_insert appends a node, stores parent index,
+position, kind and explicit birth=tick. _connections requires parent before child;
+the collar at index0 also has explicit lifecycle/reserve meaning. Thus arbitrary
+permutation without reference remapping/topology preservation is NOT an engine
+symmetry. transport_pools never reads birth or uses a physiological age priority.
+At all11 archived births the7 nodes share a birth tick. Swapping equal-age siblings
+and their indices while preserving collar0, parents, physical coordinates, tissues,
+resources and tip references is representation-only. Earlier growth, links, spatial
+competition or real birth times are not rewritten by this test.
+
+The generic T1 kernel is tested under arbitrary isomorphic graph permutations,
+including cycles. The engine still supports its original paid parent trees; the
+integration test uses a valid topological permutation only. Plant-loop reversal
+is an additional separate check. The source/audit does not claim all other engine
+subsystems are independent of arbitrary node numbering.
+
+From ordered transfer to simultaneous diffusion
+Original: each of3 sequential passes/hour evaluates F=.24*a*(Xi-Xj) on values
+already modified by earlier edges. a=min(fractional solid mass of endpoints).
+No concentration volume, donor priority, resource-demand signal or transport-energy
+cost appears in the source. Its literal finite-step behavior is part of the old
+contract, retained unchanged in the baseline and every old branch.
+
+T1 defines a NEW time-discretization interpretation of that local law. Let g=.72*a
+per hour, equal to .24*a per1/3hour in the nominal first-order approximation. Let L
+be the weighted graph Laplacian on existing connected paid edges. For frozen graph
+and masses during the transport stage, dX/dt=-L X; no maintenance or growth is
+interleaved within this stage. Integrate exactly1 model hour using N simultaneous
+explicit steps M=I-L/N. Primary requested N=24; numerical shadow N=48. On unusually
+high-degree test graphs N_eff=max(N,1+floor(max row sum of g)). The real plant tree
+has much lower degree, but the bound is enforced rather than assumed.
+
+For each node, retain (1-sum_j g_ij/N_eff)*Xi and send g_ij*Xi/N_eff to each neighbor,
+all computed from the SAME frozen substep amounts. This paired counterflow has net
+edge flux g_ij*(Xi-Xj)/N_eff, so it implements the original amount-gradient intent.
+Both outgoing and incoming terms are nonnegative. No incoming receipt is re-spent
+until the next substep. Strict row sum/N_eff<1 bounds every sender's total outgoing
+stock and makes each output a convex combination of the previous component values.
+Isolated/disconnected tissue retains its amount. No resource clamping or mass
+repair is used. Symmetric rates give unit column sums as well as row sums: each C,
+N,W pool is conserved, including its corresponding chemical energy in mobile C.
+
+For an isomorphism/permutation P, L'=P L P^T, hence
+ M' P X = P M X and (M')^N P X = P M^N X.
+This is the equivariance guarantee in exact arithmetic. Code sorts edges by their
+physical endpoint keys only to make floating-point summation reproducible. Sorting
+does not select earlier recipients because all sends read frozen amounts. Fixture
+checks compare exact canonical values after independent node and edge permutations;
+engine comparisons remap node references to physical positions and apply unchanged
+scientific tolerances, not raw ID-dependent hashes.
+
+Rate versus finite-step response
+Keeping .72/hour does not keep the old3-step finite response. For a full-strength
+two-node edge, D=X1-X2 obeys:
+ old3 ordered passes: D(1h)/D(0)=(1-2*.24)^3=.140608;
+ T1 at N steps: (1-1.44/N)^N; continuous limit exp(-1.44).
+Thus T1 is not an increased nominal rate or extra hour, but it is a different
+finite-time operator. Matching the old multiplier with an exact continuous edge
+law would require a DIFFERENT conductance, -1.5*ln(.52), which was not adopted.
+No claim is made that .72 is a uniquely measured biological conductance. The
+choice is justified as a transparent, conservative first-order interpretation of
+the existing local exchange intent, not as an exact restoration of unknown biology.
+On networks neither operator is uniformly 'faster' at every particular recipient.
+
+Numerical evidence
+fixtures.py independently builds the symmetric L, computes its eigensolution at1h,
+and compares N=3,6,12,24,48,96 with total time and g fixed. Automatic CFL substeps
+are recorded, including the high-degree64 star.70 profiles cover stars, chains,
+cycles, disconnected/isolated vertices, zero edges, uneven tissue fractions,
+empty stores, heterogeneous stocks, uniform equilibrium and1e-18 stocks. The fixed
+N24 normalized L1 error limit is2% of total pool; convergence at24/48/96 is checked.
+Godot is compared with independent Python transfer arithmetic and checks budgets,
+conservation, positivity, maximum principle and420 exact canonical permutations.
+These tests precede biological results and do not use seed success to choose N.
+
+The same11 biological origins receive both primary24 and fixed refinement48 for
+768h. A change in discrete root/survival conclusions under refinement will be
+reported as numerical uncertainty, not resolved by selecting the better run.
+Material C,N,W all follow T1, so any biological effect cannot be assigned uniquely
+to N delivery. Applying T1 to all plants at a legacy birth checkpoint also allows
+changes in competitors and parents; results are conditional model comparisons,
+not a target-only root manipulation or ordinary T1 population history.

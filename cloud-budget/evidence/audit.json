@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "basis_commit": "5d3a8efaf70efaefefaa19329e8d069dfe9b54ee",
+  "preserved_branches": {
+    "experiment/deterministic-reductions": "5d3a8efaf70efaefefaa19329e8d069dfe9b54ee",
+    "migration/linux-cpu": "701d108642fe61cb051d9360d81eaf40258b30de",
+    "diagnostic/gen2-survival-causality": "7cb5a51e30171c9770f52d47810d8da5b8b1b5b9",
+    "design/local-nitrogen-contract": "93aac33022d3f9ea69490ea04d3732d0a74f83dd",
+    "experiment/local-construction-feedback": "db7f2d1aae27961ffefb5734de45b29bad4af449",
+    "experiment/synchronous-local-transport": "5456dfe73d92c33c3cabf716fbaca0e8c6f2f0fa"
+  },
+  "original_payloads_verified": 189,
+  "only_changed_directory": "cloud-budget",
+  "source_hashes_verified": 47,
+  "deterministic_analysis_outputs_verified": 5,
+  "analysis_wall_seconds": 0.15251770699978806,
+  "new_engine_runs": 0,
+  "new_biological_instrumentation": false,
+  "simulation_or_biology_source_changes": false,
+  "F1_executed": false,
+  "push_merge_deploy_promotion": false
+}

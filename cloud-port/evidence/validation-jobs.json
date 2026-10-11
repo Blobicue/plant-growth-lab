@@ -1,0 +1,170 @@
+[
+  {
+    "project": "juvenile-allocation30",
+    "script": "tests.gd",
+    "args": [],
+    "exit": 0
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "cpu_checks.gd",
+    "args": [],
+    "exit": 0
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "12011",
+      "0",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "12011",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "12011",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "4242",
+      "0",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "4242",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "4242",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "7301",
+      "0",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "7301",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "shared-atmosphere27",
+    "script": "golden_cpu.gd",
+    "args": [
+      "7301",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "12011",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "12011",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "4242",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "4242",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "7301",
+      "1",
+      "8160"
+    ],
+    "exit": 1
+  },
+  {
+    "project": "juvenile-allocation30",
+    "script": "golden_cpu.gd",
+    "args": [
+      "7301",
+      "1",
+      "960",
+      "reverse"
+    ],
+    "exit": 1
+  }
+]

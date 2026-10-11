@@ -1,0 +1,82 @@
+{
+  "registration_time_utc": "2026-10-10T03:05:54.411264+00:00",
+  "basis_commit": "911a2066ec807700e4d143c7b634c1153e9fd501",
+  "model_commit": "5d3a8efaf70efaefefaa19329e8d069dfe9b54ee",
+  "frozen_protocol_sha256": "55145bc0da71e3c160690c93203c09fb7d773c04fd8f41d53e86d9992f47c0c4",
+  "seeds": [
+    12011,
+    4242,
+    7301
+  ],
+  "modes": [
+    0,
+    24
+  ],
+  "horizon": 12288,
+  "configs": {
+    "12011": {
+      "config": {
+        "backend": 0,
+        "carbon_access": 1,
+        "decomposition": 1,
+        "flux": 0.08,
+        "lifecycle": 3,
+        "light": 32768.0,
+        "nitrogen": 0.01,
+        "radiation": 2,
+        "recycling": 1,
+        "scenario": 3,
+        "seed": 12011,
+        "slant": 1,
+        "water": 0.3
+      },
+      "source": "juvenile-allocation30/evidence/matrix-12011-1.json",
+      "sha256": "3ef91bceb79b7401d563ac81f81c1ecbfd8eccaaf360c200ede83e4408c89ed0"
+    },
+    "4242": {
+      "config": {
+        "backend": 0,
+        "carbon_access": 1,
+        "decomposition": 1,
+        "flux": 0.08,
+        "lifecycle": 3,
+        "light": 32768.0,
+        "nitrogen": 0.01,
+        "radiation": 2,
+        "recycling": 1,
+        "scenario": 3,
+        "seed": 4242,
+        "slant": 1,
+        "water": 0.3
+      },
+      "source": "juvenile-allocation30/evidence/matrix-4242-1.json",
+      "sha256": "7f9c11f1b333249cca2aa4fe22ed1298d1de0782e7774a20a602e7d6545d42e4"
+    },
+    "7301": {
+      "config": {
+        "backend": 0,
+        "carbon_access": 1,
+        "decomposition": 1,
+        "flux": 0.08,
+        "lifecycle": 3,
+        "light": 32768.0,
+        "nitrogen": 0.01,
+        "radiation": 2,
+        "recycling": 1,
+        "scenario": 3,
+        "seed": 7301,
+        "slant": 1,
+        "water": 0.3
+      },
+      "source": "juvenile-allocation30/evidence/matrix-7301-1.json",
+      "sha256": "771d7d673ccb5b8b5e403bf275616261abcdc0e883a60d2652534dc8704228cc"
+    }
+  },
+  "reuse": "none; prior T1 starts at legacy births, and prior legacy results lack this complete R1 from-founder observer/restart contract; old hashes retained as exact references",
+  "selected_canonical": "first paid descendant (id2) birth per T1 seed,96h or available horizon, collar/topology-preserving node permutation; no legacy invariance claim",
+  "restart": "tick6144 next96h each arm/seed, reverse plant evaluation",
+  "checkpoint": "atomic day JSON, binary state, then latest pointer every24h; all daily state files retained",
+  "recovery": "resume only verified completed-day checkpoint on interruption/timeout with forward progress and cumulative primary engine wall<1800s; no numerical failure bypass; no biological horizon change",
+  "publication": "local only, no push",
+  "additional_selected_canonical": "Both founders simultaneously permuted at tick0 for96h, every T1 seed; always-available correctness coverage independent of whether descendants are born. No primary trajectory change."
+}

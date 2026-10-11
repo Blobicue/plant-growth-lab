@@ -1,0 +1,168 @@
+T1 SIMULTANEOUS TRANSPORT: IMPLEMENTED, NUMERICALLY CHECKED, PARTIAL SWEEP STOPPED
+
+Outcome
+A defensible isolated simultaneous local transport alternative is implemented.
+Its kernel passes permutation, sender-budget, conservation, positivity and timestep
+checks. The11-birth768h sweep remains INCOMPLETE because the unchanged surrounding
+model fails exact integer-field permutation equality. No feedback policy was added,
+no rates/costs/genes/maturity were tuned, and no model was promoted or pushed.
+
+This second failure is materially different from the old sequential transport
+finding: it is one water quantum from floating-point accumulation followed by an
+existing floor operation. It does not establish a biologically meaningful change
+in survival. Conversely, exact whole-model permutation invariance cannot be called
+passed. The remaining cases were stopped, not selectively discarded or called null.
+
+Contract and identity audit
+See CONTRACT.txt for source locations, derivation and limitations. Birth timestamps
+are explicit. Node IDs also carry executable references/collar/topological ordering,
+so arbitrary engine renumbering is invalid. The tested equal-birth sibling
+permutation preserves collar0, geometry, ages, ancestry and actual developmental
+history. The old transport operator never reads age; its sibling-order effect is
+representation dependence, not evidence of physiological age priority.
+
+T1 holds the existing paid adjacency and solid-mass conductivity fixed during each
+hour's transport stage. It integrates simultaneous local amount diffusion at nominal
+g=.72*min(solid_fraction_i,solid_fraction_j) per hour, from the old .24/pass over
+three passes/hour. Frozen sends and nonnegative retained fractions bound sender
+budgets. Primary24 substeps and shadow48 each cover exactly1 hour; unusually high
+fixture degree triggers a recorded CFL substep minimum. Nothing flows through an
+unbuilt edge. C,N,W all use the same operator; there is no demand routing or pump.
+
+This changes finite-step mixing, not just array implementation. For a full-strength
+two-node pair, the hourly difference multiplier is .140608 under old3 passes,
+.2265001461 at T1/24, .2317625416 at T1/48, and exp(-1.44)=.2369277587 in the
+continuous limit. No upward rate calibration was performed to reproduce the old
+finite response. T1 preserves the nominal first-order conductance; it does not
+claim a uniquely calibrated biological transport rate or exact W27 equivalence.
+
+Registration and checks
+Protocol17e0f0031ba2590eb09ee0e71881d6262aca08ee preceded implementation/results.
+Implementation/checkpoint ad68782 preceded the biological sweep. Planned comparison:
+all11 archived births, legacy baseline versus T1/24 for768h, plus fixed T1/48
+numerical shadows. The alternative applies to ALL plants, including new offspring,
+from the matched legacy birth state. It is not a target-only intervention or a
+from-seed T1 population history. Allocation feedback remains stopped.
+
+-70 fixture profiles: stars(degrees1,2,4,6,16,64), chains, cycles, disconnected and
+ isolated nodes; empty/uneven/uniform/tiny stores, weak and zero conductance.
+-420 canonical vertex/edge permutation checks were exact. Positivity, maximum
+ principle, sender budgets and conservation passed. No clamping/mass repair.
+-Godot matched independent Python transfer arithmetic. Against a symmetric-Laplacian
+ eigensolution at fixed1h, maximum primary normalized L1 error was1.6418%, below
+ the preregistered2% limit. Error decreased at24/48/96; high-degree effective step
+ counts are retained. Resolution was not selected from biological outcomes.
+-All11 actual birth graphs passed exact canonical T1 transport permutation checks.
+ All11 baseline wrappers reproduced96 original hourly fingerprints, and all7 birth
+ nodes in each cohort were verified the same age.
+-Three completed768h replay jobs supplied2304 exact hourly hashes, including
+ saved restart at384 and reversed PLANT evaluation. One completed T1 job also
+ passed768 hourly NODE-renumbering comparisons and canonical endpoint checks.
+ These are distinct tests. The second T1 node-permutation job failed as below.
+
+Localized remaining failure (seed12011/id3)
+The original failed verification log is retained; it was stopped by the script-error
+guard, not an OOM, timeout, disconnect or ledger failure. A bounded passive diagnostic
+reproduced the original T1 trajectory's hashes through the first field mismatch.
+Its phase snapshots and both exact failure states are retained.
+
+An exact scalar comparison first noticed a photo_claim summation difference at
+age11 while canonical node amounts were still equal. The first canonical node
+amount difference appeared after the combined photosynthesis/maintenance phase
+at age61: leaf W differed by4.336808689942018e-19. Transport-only fixtures remained
+exact under the same relabeling. These observations locate the remaining numerical
+path outside the transport summation; they do not identify every intervening
+floating-point operation as independently causal.
+
+At age297 the focal plant's serialized vapor values were approximately
+ .008964199999999999 versus .0089642.
+The unchanged hydrology expression floor(vapor*1e9*.01) produced89641 versus89642
+water quanta. The cloud consequently differed by1 quantum. At age298 rainfall
+produced the first finite-field mismatch: cell1976 W=621345 versus621346 quanta,
+a difference of1e-9 model W. Root request quanta at that boundary matched.
+No error/censor or mass leak occurred. This is an accumulation/quantization boundary,
+not the earlier order-dependent multi-node transport cascade.
+
+Partial biological evidence — not a completed matrix
+Cohort       mode     roots at768   paid/living   third-root age
+12011/id2    legacy       6           16/16           6
+12011/id2    T1/24        6           16/16           5
+12011/id2    T1/48        6           16/16           5
+12011/id3    legacy       2           13/13         absent
+12011/id3    T1/24        3           13/13           5
+
+Only the first cohort has completed numerical/refinement/permutation verification.
+Its detailed construction timing differed between24 and48 despite matching listed
+endpoint counts; report timing sensitivity, not exact resolution independence.
+It had84 expired proposals and no unpaid C in all three modes. T1/24 increased
+focal fixed C by.000097579 and operating C by.000976263, while non-target living
+tissue was one packet lower than baseline. Thus even this small comparison has a
+competitor tradeoff; it is not an unqualified improvement.
+
+The second cohort's completed primary trajectory had more paid roots, unchanged
+living count, fixed C .136938299 -> .152332574 and operating C
+-.010852630 -> +.006381501. Expiries86 ->85; both had zero unpaid C during this
+window. These are provisional conditional outputs, NOT a verified general benefit:
+its permutation job failed and its48-step shadow was not run. All five completed
+trial endpoints were alive and produced no focal offspring by768h. They establish
+neither later survival nor sustained replacement. No remaining cohort was inferred.
+All-plant changes prevent assigning these effects uniquely to internal N delivery.
+
+Resource and preservation results
+Five of33 planned primary/shadow trajectories completed:4 primary and1 shadow.
+Three of22 replay/permutation jobs completed; the fourth stopped at the gate.
+All189 original payloads,11 birth binaries, old branch tips and prior negative
+results are unchanged. The original native binary and all biology source except
+transport dispatch remain byte-identical in the isolated work copy. No source
+outside cloud-transport changed. Original W27/candidate30 behavior remains available.
+Hardware GPU/Windows remain unavailable, not passed. Runs are headless; no new UI
+or relevant screenshot was created. Exact runtime/ledger summaries are in
+cloud-transport/evidence/analysis.json; isolation audit is separate.
+
+Remaining decision before resuming
+Do not silently relax the integer-field equality test or fold unrelated changes
+into T1. Two explicit options remain:
+1. Recommended: a separate deterministic-reduction contract for remaining floating-
+ point aggregation/quantization boundaries, with canonical arithmetic and its own
+ old/new evidence. This can change one-quantum decisions despite unchanged symbolic
+ biological formulas; it requires a new registration, not an invisible transport fix.
+2. Define an explicitly approximate whole-model permutation acceptance criterion,
+ retain exact kernel equivariance, and preregister how bounded quantization
+ differences and discrete biological divergence will be assessed. Choosing the
+ tolerance from favorable growth outcomes would be invalid.
+No such choice was implemented. The matrix STOP marker prevents accidental resume.
+The transport alternative itself is supported as an isolated mathematical contract;
+its full biological assessment and broader model permutation guarantee are pending.
+
+Executor status
+The01:44:28UTC disconnect callback did NOT interrupt this work. At01:45:00UTC the
+same owned preflight process was healthy; no duplicate/restart was launched.
+The later stop is the documented scientific verification gate, not connectivity.
+
+Reproduction, from repository root
+Read-only audits/summaries:
+  python3 verify_snapshot.py
+  python3 cloud-transport/audit.py
+  python3 cloud-transport/analyze.py
+Fresh isolated setup requires the existing verified Linux diagnostic project and
+must not overwrite cloud-transport/work:
+  python3 cloud-transport/fixtures.py
+  python3 cloud-transport/setup.py
+Bounded checks (exact engine paths/input hashes appear in *.runtime.json):
+  python3 cloud-transport/run.py candidate30 kernel_checks.gd
+  python3 cloud-transport/run.py candidate30 birth_preflight.gd
+The preserved queue was launched with:
+  python3 cloud-transport/run_matrix.py
+It now refuses automatic execution because evidence/STOP.json exists. Do not remove
+that marker without resolving/re-registering the contract decision. Failed-point
+localization was run with:
+  python3 cloud-transport/run.py candidate30 diagnose_permutation.gd
+Preserve prior log/output paths before any deliberate rerun. The runner enforces
+the shared flock,600s bound and8GiB effective headroom; no safety limit was weakened.
+
+MEASURED TOTALS
+12 engine invocations, including the retained failing verification;
+264.468s summed engine wall time, 239.410MiB peak RSS,
+14.9108GiB minimum effective headroom. No timeout/OOM.
+Completed trial maximum world error 1.74622983e-10, plant error
+1.8189894e-12, mobile/reserve carbon closure 9.51441616e-16.

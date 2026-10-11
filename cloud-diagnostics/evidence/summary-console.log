@@ -1,0 +1,169 @@
+{
+  "parent_commit": "701d108642fe61cb051d9360d81eaf40258b30de",
+  "branch": "diagnostic/gen2-survival-causality",
+  "primary_preregistration_commit": "96a600c",
+  "followup_preregistration_commit": "5c0e7e0",
+  "passive_trajectories": 3,
+  "passive_exact_checkpoints": 21,
+  "saved_descendant_births": 11,
+  "primary_control_cases": 15,
+  "separately_registered_followup_cases": 9,
+  "matched_control_origins_exact": 24,
+  "unchanged_controls_known_hash_checks": 9,
+  "all_runs_healthy": true,
+  "gen2_comparisons": [
+    {
+      "seed": 12011,
+      "gen2_id": 3,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 13,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 13,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 13,
+        "living_nodes": 13,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    },
+    {
+      "seed": 4242,
+      "gen2_id": 4,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 13,
+        "living_nodes": 13,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    },
+    {
+      "seed": 4242,
+      "gen2_id": 5,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 12,
+        "living_nodes": 12,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    },
+    {
+      "seed": 4242,
+      "gen2_id": 6,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 13,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 13,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 13,
+        "living_nodes": 12,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    },
+    {
+      "seed": 7301,
+      "gen2_id": 3,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 13,
+        "living_nodes": 13,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    },
+    {
+      "seed": 7301,
+      "gen2_id": 4,
+      "duration": 2040,
+      "baseline": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_N_off": {
+        "paid_nodes": 12,
+        "living_nodes": 0,
+        "paid_roots": 2
+      },
+      "other_W_off": {
+        "paid_nodes": 12,
+        "living_nodes": 12,
+        "paid_roots": 2
+      },
+      "N_off_death_age_unchanged": true,
+      "W_off_maturity": null,
+      "W_off_target_offspring": []
+    }
+  ],
+  "max_passive_carbon_stock_closure": 3.016575704506419e-15,
+  "max_control_carbon_stock_closure": 3.078049967686347e-16,
+  "max_passive_error": 6.984919309616089e-10,
+  "max_control_error": 9.313225746154785e-10,
+  "max_control_plant_error": 1.000444171950221e-11,
+  "total_engine_wall_seconds": 1541.7256284739992,
+  "peak_engine_rss_bytes": 189349888,
+  "minimum_effective_headroom_bytes": 16132804608,
+  "production_model_correction": false,
+  "promoted": false,
+  "publication_performed": false,
+  "unavailable": [
+    "hardware GPU",
+    "Windows runtime and packages"
+  ]
+}

@@ -1,0 +1,106 @@
+--- R1/plant.gd
++++ F1/plant.gd
+@@ -1,11 +1,21 @@
+ extends "res://base_plant.gd"
+ var obs_hour={}
++var f1_total={}
++var f1_windows={"0_96":{},"0_768":{},"576_768":{}}
++var f1_fronts=[]
++var f1_calls=[]
++var f1_record=false
+ var obs_day={}
+ var obs_events=[]
+ var obs_seen={}
+ var obs_last_totals={"uptake_w":0.0,"uptake_n":0.0}
+ func event_once(key:String,data:Dictionary):
+  if obs_seen.has(key):return
++ if data.has("local"):
++  var kind=data.get("kind",data.get("before",{}).get("kind",""));var cost={"c":PACK[kind]/(.8 if kind=="leaf" else 1.0),"n":PACK[kind]*NR[kind],"w":PACK[kind]*.3};var short=[]
++  for k in cost:
++   if data.local[k]<cost[k]:short.append(k)
++  data["actual_short_at_record"]=short;data["cost_at_record"]=cost
+  obs_seen[key]=true;obs_events.append({"tick":tick,"age":tick-birth_tick,"event":key,"data":data.duplicate(true)})
+ func pools()->Dictionary:
+  var x={"c":0.0,"n":0.0,"w":0.0,"disconnected_c":0.0,"disconnected_n":0.0,"disconnected_w":0.0}
+@@ -16,7 +26,7 @@
+  obs_hour={"uptake_W":totals.uptake_w-obs_last_totals.uptake_w,"uptake_N":totals.uptake_n-obs_last_totals.uptake_n,"fixed_C":0.0,"direct_respired_C":0.0,"repair_C":0.0,"turnover_C":0.0,"unpaid_C":0.0,"construction_C":0.0,"construction_N":0.0,"construction_W":0.0,"actual_demand_C":0.0,"hydrated_demand_C":0.0,"unshaded_hydrated_C":0.0,"leaf_water_sum":0.0,"connected_leaves":0.0,"light_receipt_E":0.0,"refused_C":0.0,"refused_N":0.0,"refused_W":0.0}
+  super.transport_pools()
+ func photosynthesize():
+- if generation>0:
++ if true:
+   var sun=.35+.65*absf(sun_direction().y)
+   for i in nodes.size():
+    var n=nodes[i]
+@@ -29,10 +39,24 @@
+  var before=totals.fixed_c;super.photosynthesize();obs_hour.fixed_C=totals.fixed_c-before
+ func respire(n:Dictionary,amount:float)->float:
+  var paid=super.respire(n,amount)
++ if f1_record:f1_calls.append({"position":n.pos,"paid":paid})
+  if not obs_hour.is_empty():obs_hour.direct_respired_C+=paid
+  return paid
+ func maintain():
+- var before=nodes.duplicate(true) if generation>0 else [];super.maintain()
++ var before=nodes.duplicate(true);f1_calls=[];f1_record=true;super.maintain();f1_record=false
++ var cursor=0;var upkeep=0.0;var recovery=0.0
++ for i in NumericalOrder.ids(self):
++  var old=before[i]
++  if not old.active:continue
++  var demand=old.solid_c*UPKEEP[old.kind]*(1+1.8*(1-old.w/(old.w+.002)));var required=demand*.65
++  assert(f1_calls[cursor].position==old.pos);var paid=float(f1_calls[cursor].paid);upkeep+=paid;cursor+=1
++  var damage=(required-paid)/required if required>0 else 0.0
++  if damage<1e-10 and old.stress+damage>0 and required>0:
++   assert(f1_calls[cursor].position==old.pos);recovery+=float(f1_calls[cursor].paid);cursor+=1
++ var tip=0.0
++ for i in range(cursor,f1_calls.size()):tip+=float(f1_calls[i].paid)
++ obs_hour.upkeep_respired_C=upkeep;obs_hour.stress_recovery_C=recovery;obs_hour.tip_respired_C=tip
++ assert(absf(upkeep+recovery+tip-obs_hour.direct_respired_C)<1e-12)
+  for i in before.size():
+   var old=before[i];var n=nodes[i]
+   if not old.active:continue
+@@ -44,7 +68,7 @@
+   if not n.active:event_once("death_node_%d"%i,{"node":i,"kind":old.kind,"before":old,"after":n,"stress_threshold":n.stress>45,"mass_threshold":n.solid_c<PACK[n.kind]*.2})
+ func prepare_growth()->Array:
+  var before=[]
+- if generation>0:
++ if true:
+   for i in proposals.size():
+    if proposals[i].state=="developing":before.append({"id":i,"data":proposals[i].duplicate(true)})
+  var result=super.prepare_growth()
+@@ -54,21 +78,31 @@
+  return result
+ func payable(p:Dictionary)->bool:
+  var ok=super.payable(p)
+- if generation>0 and not ok:
++ if not ok:
+   var cost={"c":PACK[p.kind]/(.8 if p.kind=="leaf" else 1.0),"n":PACK[p.kind]*NR[p.kind],"w":PACK[p.kind]*.3};var n=nodes[p.front];var short=[]
+   for k in cost:
+    if n[k]<cost[k]:short.append(k);obs_hour[{"c":"refused_C","n":"refused_N","w":"refused_W"}[k]]+=1
+   event_once("refusal_"+p.kind+"_"+str(short),{"kind":p.kind,"proposal":proposals.find(p),"front":p.front,"cost":cost,"local":n,"pools":pools(),"short":short})
+  return ok
+ func commit_growth(p:Dictionary):
+- if generation>0:
++ if true:
+   obs_hour.construction_C+=PACK[p.kind]/(.8 if p.kind=="leaf" else 1.0);obs_hour.construction_N+=PACK[p.kind]*NR[p.kind];obs_hour.construction_W+=PACK[p.kind]*.3
+-  event_once("built_node_%d"%nodes.size(),{"kind":p.kind,"proposal":proposals.find(p),"front":p.front,"position":p.path[p.cursor],"cursor":p.cursor,"path_size":p.path.size()})
++  event_once("built_node_%d"%nodes.size(),{"kind":p.kind,"proposal":proposals.find(p),"front":p.front,"position":p.path[p.cursor],"cursor":p.cursor,"path_size":p.path.size(),"payment_local":nodes[p.front].duplicate(true),"pools":pools()})
+  super.commit_growth(p)
+ func finish_observation():
+  if obs_hour.is_empty():return
+  obs_hour.operating_C=obs_hour.fixed_C-obs_hour.direct_respired_C-obs_hour.repair_C
+- for k in obs_hour:obs_day[k]=float(obs_day.get(k,0.0))+obs_hour[k]
++ for k in obs_hour:
++  obs_day[k]=float(obs_day.get(k,0.0))+obs_hour[k];f1_total[k]=float(f1_total.get(k,0.0))+obs_hour[k]
++  var age=tick-birth_tick
++  for window in f1_windows:
++   var limits=window.split("_")
++   if age>int(limits[0]) and age<=int(limits[1]):f1_windows[window][k]=float(f1_windows[window].get(k,0.0))+obs_hour[k]
++ if generation>0 and tick-birth_tick in [4,16]:
++  var fs=[]
++  for q in proposals:
++   if q.state=="developing":fs.append({"kind":q.kind,"front":nodes[q.front].duplicate(true),"blocked_previous":q.blocked,"deadline":q.deadline,"pools":pools()})
++  f1_fronts.append({"age":tick-birth_tick,"fronts":fs})
+  obs_last_totals={"uptake_w":totals.uptake_w,"uptake_n":totals.uptake_n}
+- if generation>0 and nodes.size()>=32:event_once("maturity32",{"pools":pools(),"reserve":reserve_state()})
+- if generation>0 and metrics().living==0:event_once("all_tissue_dead",{"nodes":nodes.size(),"pools":pools()})
++ if nodes.size()>=32:event_once("maturity32",{"pools":pools(),"reserve":reserve_state()})
++ if metrics().living==0:event_once("all_tissue_dead",{"nodes":nodes.size(),"pools":pools()})

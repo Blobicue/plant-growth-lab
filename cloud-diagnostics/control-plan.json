@@ -1,0 +1,113 @@
+{
+  "registered_utc": "2026-10-10T00:56:26.098764+00:00",
+  "cases": [
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "generation": 2,
+      "arm": 0,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "generation": 2,
+      "arm": 1,
+      "duration": 2040
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "generation": 2,
+      "arm": 2,
+      "duration": 2040
+    },
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "arm": 0,
+      "duration": 768
+    },
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "arm": 3,
+      "duration": 768
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "generation": 1,
+      "arm": 0,
+      "duration": 768
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "generation": 1,
+      "arm": 3,
+      "duration": 768
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "generation": 1,
+      "arm": 0,
+      "duration": 768
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "generation": 1,
+      "arm": 3,
+      "duration": 768
+    }
+  ],
+  "control_runs_started": false,
+  "preregistration_sha256": "b456ae2a4d78a87cbc65533b53255ea259e18795c45680154db5c65796908608",
+  "passive_analysis_sha256": "1ff7f5697ae876423e84a206557dff6f196a7508894f528fa9809505ec0562a5"
+}

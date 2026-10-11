@@ -1,0 +1,150 @@
+R1/T1 CAUSAL BUDGET ASSESSMENT — NO NEW ENGINE RUNS
+Basis: preserved5d3a8efaf70efaefefaa19329e8d069dfe9b54ee.
+Decision: numerical correction improved water-supported fixation and paid roots,
+but it did not remove local construction bottlenecks or establish self-supporting
+juveniles. Do not reinstate construction feedback. The discriminating next step is
+one fixed fresh-founder comparison, preregistered separately and NOT executed.
+
+Accounting and the five negative cases
+All carbon tables below use milli-model-C (1000*C), not grams. The window is0–768h.
+F=fixation; U=paid upkeep respiration; tip respiration T=15.360 in EVERY arm;
+Q=mobile C spent on tissue repair; V=structural turnover to litter; G=construction.
+Operating O=F-U-T-Q; net mobile change O-G. Turnover V is not subtracted again:
+Q already pays to replace it. Total respired C=U+T+(Q-V), because no new leaf packets
+were constructed (so new-construction yield loss is zero). Q-V is repair yield
+respiration, already inside Q. All33 histories close these identities, have zero
+unpaid upkeep, and restore the full turnover mass. This separates successful
+maintenance funded from seed stores from self-supporting operation.
+
+ cohort  baselineO    T1 F      T1 U      T1 Q      T1 V     T1 G      T1 O
+12011/4   -21.901   138.741    84.257    52.386    45.369  13.200   -13.262
+ 4242/4   -14.557   142.014    83.502    51.899    44.963  13.200    -8.747
+ 4242/5   -15.611   127.153    72.900    45.433    39.254  10.800    -6.540
+ 7301/3   -10.961   146.203    82.311    51.154    44.321  13.200    -2.621
+ 7301/4   -23.009   140.150    82.213    51.251    44.269  10.800    -8.675
+
+All five improve versus baseline; all five keep the same negative sign at48 steps.
+Construction is already separate, so removing it from the accounting does not
+remove the operating deficit. Preventing growth prospectively could change later
+tissue bills; that counterfactual was not tested. Turnover is not an additional
+unexplained carbon loss. Extra roots/stems can raise upkeep and repair while the plant still
+has only its original four leaves. No arm constructed an additional leaf in768h.
+
+Compare the six positive cumulative T1 cases (same units for carbon):
+ cohort  baselineO      T1 O  roots  W uptake  mean leafW  net mobileC
+12011/2    11.440    12.416   6 0.121606 0.003518    -6.184
+12011/3   -10.853     6.382   3 0.076174 0.002616    -6.818
+ 4242/2    18.840    23.542   8 0.163582 0.004481    -1.058
+ 4242/3     5.512     7.124   4 0.087598 0.002736    -7.876
+ 4242/6   -13.924     0.362   3 0.070166 0.002470   -12.838
+ 7301/2    19.737    24.717   8 0.151292 0.003921     0.117
+
+Only7301/2 has positive growth-inclusive mobile balance, a small+0.1166mC.
+4242/6's+0.3619mC cumulative operating margin hides a-2.7783mC final192h margin;
+it is deteriorating. Positive0–768h is not a steady-state or replacement result.
+All cohorts started with36.3mC mobile seed carbon, so continued survival while
+spending that endowment is expected. The five deficit endpoints retain9.838–20.479mC.
+
+Mechanism: water access plus a distinct shaded case
+For four negative cases other than4242/5, light receipts are65.86368 model-E and
+same-light fully-hydrated demand H=.269955347C. Their mean leaf water is.002172–
+.002399, and W uptake.057844–.068431; positive three-root comparators12011/3 and
+4242/6 have mean leafW.002616/.002470 and uptake.076174/.070166. More roots alone
+therefore do not separate positive from negative cases. The observed equation
+reduces leaf demand by w/(w+.002), also caps it by available leaf water, and increases
+upkeep by1+1.8*(1-w/(w+.002)). Water shortage depresses income while raising cost.
+
+The five negative cohorts have identical aggregate photon receipts and H in their
+paired baseline/T1 runs. T1 raises fixation by.008683–.013561C and raises mean leaf
+water and W uptake in every one. Algebraically, the gain comes from a smaller gap
+between H and actual water-limited demand; the atmosphere-claim/fixation gap is
+only about2e-7C over768h. This supports water accessibility as the immediate budget
+mechanism. It does not isolate how much came from changed graph transport, the
+extra root, or changed surrounding plants/soil; all-plant T1 changes allC/N/W.
+
+4242/5 is different: photons48.611328E and H=.199243163C,26.2% below the common
+65.86368E/.269955347C pair. Its mean leafW.003557 is better than the other four
+negative cases, but shading reduces income. Its smaller tissue bill helps, yet
+fixation.127153C remains below operating cost.133693C. Do not label every deficit
+as shading: four share the same light totals as positive cases. The recorded
+'unshaded_hydrated_C' is a diagnostic expression conditional on observed positive
+light, NOT a complete remove-neighbors experiment. No shading intervention is
+needed or inferred here; prior shadow evidence and current receipts are preserved.
+
+Does root-only N still bind?
+Yes locally, but the OLD third-root stall is gone: all11 T1 third roots are paid
+at age5. The age4 N-only delay lasts one hour. By age16 every T1 cohort's next
+root front again has C>=.0018 and W>=.00054 but N<.000108. That fourth-root segment
+expires at17h. Archived expiry states have localN=.000073734–.000094045 against
+.000108 required, while whole connected mobileN=.000861264–.000983138. Whole-plant
+C/N/W could cover one packet arithmetically; those pools are not instantly available
+at the front under the transport law. This is direct local-access evidence, not
+proof that redirecting N is free or that a feedback policy would help.
+Eight cohorts also have an observed leaf N-only refusal at23h and expiry at30h:
+localN at expiry.000066535–.000074376 versus leaf bill.000132, despite sufficient
+whole pools. All eleven retain four leaves. Other fronts have mixed C/N or C-only
+blocks. Positive cases also show N-only blocks, so this is not a sufficient
+explanation of which budgets turn negative. At later times C becomes more limiting.
+Event labels store only first occurrences, and daily refusal counters count calls,
+not independent episodes. The expiry 'blocked' string is from the prior hour;
+analysis separately checks the current local values and the age16 live-front log.
+These distinctions prevent stale labels or overlapping counters from inflating
+claims. No feedback or donor intervention is justified by stock arithmetic alone.
+
+Quantitative break-even bounds (fixed observed tissue/environment costs)
+For net-positive operation, F must exceed C*=U+T+Q. For nondepleting mobile stores
+while paying the observed construction, F must exceed C*+G. The first threshold
+is necessary for operating surplus; neither ensures local bills or reproduction.
+
+ cohort     C* (model C)   additional F   increase      F/H -> C*/H   net mobile mC
+12011/4 0.152003185 0.013262152  9.559% 0.5139->0.5631   -26.462
+ 4242/4 0.150760852 0.008746549  6.159% 0.5261->0.5585   -21.947
+ 4242/5 0.133693144 0.006540303  5.144% 0.6382->0.6710   -17.340
+ 7301/3 0.148824396 0.002621171  1.793% 0.5416->0.5513   -15.821
+ 7301/4 0.148824656 0.008674665  6.190% 0.5192->0.5513   -19.475
+
+Thus1.793–9.559% more realized fixation at unchanged costs would close the five
+operating gaps. This is an accounting requirement, not proposed tuning. Relative
+to the recorded same-light hydrated envelope, only a.0097–.0491 increase in F/H is
+needed. H exceeds observed operating cost by.06555–.12113C in all five, so photon
+capacity alone is not a hard impossibility bound. H removes the leaf-water
+limitation diagnostically while retaining observed tissue/light; reaching it would
+consume finite water and change costs/competition. It is not a feasible promised
+rescue, and F/H is a weighted realization ratio, not a directly measured uniform
+hydration fraction. No rates/costs are changed to meet these thresholds.
+
+Snapshot/transient assessment
+ cohort   O first96  O96–768  O final192 (mC)
+12011/4     2.299   -15.561    -8.474
+ 4242/4     2.430   -11.176    -6.196
+ 4242/5    -1.862    -4.678    -0.455
+ 7301/3     2.550    -5.171    -3.513
+ 7301/4     2.222   -10.897    -6.995
+
+All five stay negative after96h and in the final192h. Four start positive and then
+worsen; the shaded case starts negative and improves while remaining negative.
+A brief switching cost cannot account for that pattern. Moreover, the focal
+plants are newborn at the snapshot: all7 nodes have birth equal to snapshot tick,
+zero stress, and identical mobile endowment confined to collar0. None experienced
+legacy transport before T1 was applied. This rejects an inherited focal gradient
+as the explanation of the early age4/16 bottlenecks.
+However, adults, soil, canopy, birth times and sites WERE generated under legacy
+transport. Switching all adults can have lasting ecological/developmental effects;
+late persistence does not rule those out. These conditional switched-birth results
+cannot be advertised as ordinary fresh-founder T1 outcomes. F1 removes that history
+mismatch without adding a rescue mechanism. It compares three original seeds,
+R1+legacy versus R1+T1/24 from tick0 to12288h, with every birth included and explicit
+censoring; it does not pair altered descendants by ID. NEXT-EXPERIMENT.txt contains
+fixed readouts, unchanged controls, correctness gates, time/memory limits and
+interpretation rules. No F1 runs have been launched.
+
+Evidence/reproduction
+python3 cloud-budget/analyze.py
+python3 cloud-budget/audit.py
+Read evidence/cohort-budgets.csv (all33), period-budgets.csv, early-root-fronts.csv,
+front-events.json and analysis.json. SHA256 inputs include original birth reports,
+trial histories, observer/source equations and the prior analysis. No new engine
+instrumentation, replay, simulation, biology edit or external software was needed.
+CPU-only Python arithmetic; original R1/T156 engine runs are NOT counted as new
+work. All earlier branches and5d3a8ef are preserved. No push/promotion/publication.
+GPU/Windows remain unavailable and are irrelevant to this evidence-only arithmetic.

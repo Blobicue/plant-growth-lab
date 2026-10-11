@@ -1,0 +1,45 @@
+START control-12011-3-0-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "12011", "3", "0", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 30.2406631799995, "peak_rss_bytes": 140664832, "initial_headroom_bytes": 16257310720, "minimum_headroom_bytes": 16190783488}
+COMPLETE control-12011-3-0-2040.json
+START control-12011-3-1-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "12011", "3", "1", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 30.113636095999937, "peak_rss_bytes": 136003584, "initial_headroom_bytes": 16256999424, "minimum_headroom_bytes": 16181444608}
+COMPLETE control-12011-3-1-2040.json
+START control-12011-3-2-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "12011", "3", "2", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 28.32576755700029, "peak_rss_bytes": 135634944, "initial_headroom_bytes": 16256655360, "minimum_headroom_bytes": 16195129344}
+COMPLETE control-12011-3-2-2040.json
+START control-4242-4-0-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "4242", "4", "0", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 61.64174701799948, "peak_rss_bytes": 160595968, "initial_headroom_bytes": 16256122880, "minimum_headroom_bytes": 16164069376}
+COMPLETE control-4242-4-0-2040.json
+START control-4242-4-1-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "4242", "4", "1", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 43.699913323000146, "peak_rss_bytes": 154992640, "initial_headroom_bytes": 16255709184, "minimum_headroom_bytes": 16179290112}
+COMPLETE control-4242-4-1-2040.json
+START control-4242-4-2-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "4242", "4", "2", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 39.8509352380006, "peak_rss_bytes": 152367104, "initial_headroom_bytes": 16254750720, "minimum_headroom_bytes": 16170696704}
+COMPLETE control-4242-4-2-2040.json
+START control-7301-3-0-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "7301", "3", "0", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 38.070132707000084, "peak_rss_bytes": 136785920, "initial_headroom_bytes": 16254218240, "minimum_headroom_bytes": 16186662912}
+COMPLETE control-7301-3-0-2040.json
+START control-7301-3-1-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "7301", "3", "1", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 29.209041151999372, "peak_rss_bytes": 133615616, "initial_headroom_bytes": 16253808640, "minimum_headroom_bytes": 16183177216}
+COMPLETE control-7301-3-1-2040.json
+START control-7301-3-2-2040.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "7301", "3", "2", "2040"], "exit": 0, "stop_reason": null, "wall_seconds": 27.22174636999989, "peak_rss_bytes": 133197824, "initial_headroom_bytes": 16253464576, "minimum_headroom_bytes": 16193249280}
+COMPLETE control-7301-3-2-2040.json
+START control-12011-2-0-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "12011", "2", "0", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 8.43259729700003, "peak_rss_bytes": 124018688, "initial_headroom_bytes": 16252772352, "minimum_headroom_bytes": 16199274496}
+COMPLETE control-12011-2-0-768.json
+START control-12011-2-3-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "12011", "2", "3", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 7.62728531599987, "peak_rss_bytes": 122224640, "initial_headroom_bytes": 16253161472, "minimum_headroom_bytes": 16181248000}
+COMPLETE control-12011-2-3-768.json
+START control-4242-2-0-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "4242", "2", "0", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 8.137166153999715, "peak_rss_bytes": 124858368, "initial_headroom_bytes": 16252858368, "minimum_headroom_bytes": 16198008832}
+COMPLETE control-4242-2-0-768.json
+START control-4242-2-3-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "4242", "2", "3", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 7.930213794999872, "peak_rss_bytes": 123990016, "initial_headroom_bytes": 16252067840, "minimum_headroom_bytes": 16199127040}
+COMPLETE control-4242-2-3-768.json
+START control-7301-2-0-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "7301", "2", "0", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 7.829386563000298, "peak_rss_bytes": 123940864, "initial_headroom_bytes": 16252309504, "minimum_headroom_bytes": 16198217728}
+COMPLETE control-7301-2-0-768.json
+START control-7301-2-3-768.json
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-diagnostics/work/candidate30", "--script", "res://control.gd", "--", "7301", "2", "3", "768"], "exit": 0, "stop_reason": null, "wall_seconds": 7.835924085000443, "peak_rss_bytes": 121548800, "initial_headroom_bytes": 16252100608, "minimum_headroom_bytes": 16185475072}
+COMPLETE control-7301-2-3-768.json

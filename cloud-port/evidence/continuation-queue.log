@@ -1,0 +1,9 @@
+Mandatory full-state reproduction and conservation gates pass. Strict JSON-text-derived metric differences remain separately recorded.
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://continue_survival.gd", "--", "12011"], "exit": 0, "stop_reason": null, "wall_seconds": 300.924883313, "peak_rss_bytes": 156266496, "initial_headroom_bytes": 16518565888, "minimum_headroom_bytes": 16247193600}
+{"command": ["/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64", "--headless", "--path", "/workspace/plant-growth-lab/cloud-port/work/juvenile-allocation30", "--script", "res://continue_survival.gd", "--", "4242"], "exit": -15, "stop_reason": "timeout", "wall_seconds": 600.0262000179998, "peak_rss_bytes": 200863744, "initial_headroom_bytes": 16513720320, "minimum_headroom_bytes": 16327946240}
+Traceback (most recent call last):
+  File "/workspace/plant-growth-lab/cloud-port/continue.py", line 20, in <module>
+    subprocess.run(['python3',str(P/'run.py'),'juvenile-allocation30','continue_survival.gd',str(seed)],check=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/workspace/plant-growth-lab/cloud-port/run.py', 'juvenile-allocation30', 'continue_survival.gd', '4242']' returned non-zero exit status 241.

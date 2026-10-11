@@ -1,0 +1,114 @@
+{
+  "version": "T1",
+  "basis_commit": "db7f2d1aae27961ffefb5734de45b29bad4af449",
+  "registration_sha256": "7451961a6dc368a94aa8879b0b7350a1e13365a1746bee6d3ff52098a4f9e7f5",
+  "cohorts": [
+    {
+      "seed": 12011,
+      "id": 2,
+      "generation": 1,
+      "birth_tick": 838,
+      "file": "cloud-diagnostics/evidence/birth-12011-2.bin",
+      "sha256": "f95c694f9d7773fc108a56e54149803112c5f66be0ccad9fdf37ae953f552668",
+      "fingerprint": "d51506cc217a2c933b74c9cb8764c29738a579c291876c88aee02fa126cd705d"
+    },
+    {
+      "seed": 12011,
+      "id": 3,
+      "generation": 2,
+      "birth_tick": 7334,
+      "file": "cloud-diagnostics/evidence/birth-12011-3.bin",
+      "sha256": "1e7c3bb3722e2356b2703020c958f897aff6b4fb37058cc8a0029ab94eab0727",
+      "fingerprint": "6b2d5b6b1b5f19d117ca65a62e8a3506a75b00d4e0af4d94b7ae602fc4f62ce6"
+    },
+    {
+      "seed": 12011,
+      "id": 4,
+      "generation": 1,
+      "birth_tick": 10694,
+      "file": "cloud-diagnostics/evidence/birth-12011-4.bin",
+      "sha256": "5db5ae84bf86b0e70c279f7cccd9dd6863c06db9af18a6888bc6b7bb4be440d7",
+      "fingerprint": "bf98867d744d801808adf6c88de086c4b8ff98205f5f3c0508371dca6c3c4363"
+    },
+    {
+      "seed": 4242,
+      "id": 2,
+      "generation": 1,
+      "birth_tick": 678,
+      "file": "cloud-diagnostics/evidence/birth-4242-2.bin",
+      "sha256": "1fd03f050dd1d27989d9670ea15625dc40af40feec4775ad58ebf53022657421",
+      "fingerprint": "71c8b69ba682f4da7e5be37a7cb42e459b55a2ceecda6187828de5672aa069d7"
+    },
+    {
+      "seed": 4242,
+      "id": 3,
+      "generation": 1,
+      "birth_tick": 1286,
+      "file": "cloud-diagnostics/evidence/birth-4242-3.bin",
+      "sha256": "3e14f16f86f0af4a6335f96515cc221d71370af928e78d7369fae52d21f42a24",
+      "fingerprint": "ba34caeca854fae51a59f3f15363c08a4beb010bbf05a5af4722ba41309ef9d7"
+    },
+    {
+      "seed": 4242,
+      "id": 4,
+      "generation": 2,
+      "birth_tick": 5318,
+      "file": "cloud-diagnostics/evidence/birth-4242-4.bin",
+      "sha256": "13a2592f76ca47d379cebd432a3ea9e242c359f9848836dda70fdade468dd772",
+      "fingerprint": "cdf1b5be6b78d35c48b3ea2d2025bde6e10afefd8b7ba0ea28a229cc84d20eb2"
+    },
+    {
+      "seed": 4242,
+      "id": 5,
+      "generation": 2,
+      "birth_tick": 8678,
+      "file": "cloud-diagnostics/evidence/birth-4242-5.bin",
+      "sha256": "8e7d14170284c83dba5cbcfc6a843a8bd9a90fcf0cedbec47cea11e56c606512",
+      "fingerprint": "528211e929e8779fa159e7798badd84828fed5de2526df3d571465c6243023a4"
+    },
+    {
+      "seed": 4242,
+      "id": 6,
+      "generation": 2,
+      "birth_tick": 9158,
+      "file": "cloud-diagnostics/evidence/birth-4242-6.bin",
+      "sha256": "2b6f86e6b4d9ca9bdf871776741ab2b00f79a4f05c2cb6dd9df47bde755e3496",
+      "fingerprint": "156b4a43ae173ecc679d483675e1c6e4d55c9eaff420251f04eabb2b8682929b"
+    },
+    {
+      "seed": 7301,
+      "id": 2,
+      "generation": 1,
+      "birth_tick": 806,
+      "file": "cloud-diagnostics/evidence/birth-7301-2.bin",
+      "sha256": "0891631af906ba85ab2b2bfa1db667ce14cf04f3ef9490bcdebdd903f465ad18",
+      "fingerprint": "9610bb5856b566d12e5775a44f99d567a3fd8310c108104dacee5bcae37f208b"
+    },
+    {
+      "seed": 7301,
+      "id": 3,
+      "generation": 2,
+      "birth_tick": 5510,
+      "file": "cloud-diagnostics/evidence/birth-7301-3.bin",
+      "sha256": "c3c04e65bcb70f2424b0e284f5df0439ab00c6d2fa7153751c2349efed764f6d",
+      "fingerprint": "d39280c9e7caa21e06184f1aa42fe9d1ad6659fa04344317450ee0e219301eae"
+    },
+    {
+      "seed": 7301,
+      "id": 4,
+      "generation": 2,
+      "birth_tick": 10022,
+      "file": "cloud-diagnostics/evidence/birth-7301-4.bin",
+      "sha256": "e12d98100be8d70e7557ec81d521e49769a8ac031627e485a2418d4a6b89fae0",
+      "fingerprint": "34b08051d1aa9db9bc649041bf4f3104b7b36ebadffcb98d49861e7015e83c1c"
+    }
+  ],
+  "duration_hours": 768,
+  "primary_steps": 24,
+  "refinement_steps": 48,
+  "primary_cases": 22,
+  "numerical_shadow_cases": 11,
+  "all_plants_use_alternative": true,
+  "feedback": false,
+  "status": "registered before implementation/results"
+}

@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+{"births":3,"error":"","order_exact_so_far":true,"progress_seed":4242,"tick":8640}
+{"births":5,"error":"","order_exact_so_far":true,"progress_seed":4242,"tick":9600}
+{"births":5,"error":"","order_exact_so_far":true,"progress_seed":4242,"tick":10560}
+{"births":5,"error":"","order_exact_so_far":true,"progress_seed":4242,"tick":11520}
+{"censored":"","error":"","lineage":[{"birth_tick":678,"child":2,"generation":1,"genotype":{"branch_seed":12161,"physiology":"paid-v8","version":1},"mutation":false,"parent":1,"propagule":0},{"birth_tick":1286,"child":3,"generation":1,"genotype":{"branch_seed":12161,"physiology":"paid-v8","version":1},"mutation":false,"parent":1,"propagule":1},{"birth_tick":5318,"child":4,"generation":2,"genotype":{"branch_seed":12161,"physiology":"paid-v8","version":1},"mutation":false,"parent":2,"propagule":2},{"birth_tick":8678,"child":5,"generation":2,"genotype":{"branch_seed":12161,"physiology":"paid-v8","version":1},"mutation":false,"parent":2,"propagule":3},{"birth_tick":9158,"child":6,"generation":2,"genotype":{"branch_seed":12161,"physiology":"paid-v8","version":1},"mutation":false,"parent":3,"propagule":4}],"seed":4242,"tick":12288}

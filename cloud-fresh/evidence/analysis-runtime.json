@@ -1,0 +1,9 @@
+{
+  "command": [
+    "python3",
+    "cloud-fresh/analyze.py"
+  ],
+  "exit": 0,
+  "wall_seconds": 9.36733191300118,
+  "peak_rss_bytes": 64401408
+}

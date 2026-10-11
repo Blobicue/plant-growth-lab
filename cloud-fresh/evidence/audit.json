@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "frozen_protocol_sha256": "55145bc0da71e3c160690c93203c09fb7d773c04fd8f41d53e86d9992f47c0c4",
+  "only_changed_directory": "cloud-fresh",
+  "preserved_branches": {
+    "experiment/deterministic-reductions": "5d3a8efaf70efaefefaa19329e8d069dfe9b54ee",
+    "analysis/r1-t1-carbon-budget": "911a2066ec807700e4d143c7b634c1153e9fd501",
+    "migration/linux-cpu": "701d108642fe61cb051d9360d81eaf40258b30de",
+    "diagnostic/gen2-survival-causality": "7cb5a51e30171c9770f52d47810d8da5b8b1b5b9",
+    "design/local-nitrogen-contract": "93aac33022d3f9ea69490ea04d3732d0a74f83dd",
+    "experiment/local-construction-feedback": "db7f2d1aae27961ffefb5734de45b29bad4af449",
+    "experiment/synchronous-local-transport": "5456dfe73d92c33c3cabf716fbaca0e8c6f2f0fa"
+  },
+  "unchanged_scientific_and_reference_modules": 51,
+  "original_payloads_verified": 189,
+  "paired_initial_states_exact": 3,
+  "daily_checkpoints_verified": 3072,
+  "all_state_files_verified": 3095,
+  "new_feedback_or_tuning": false,
+  "hardware_GPU": "unavailable, not passed",
+  "Windows": "unavailable, not passed",
+  "push_merge_deploy_promotion": false
+}

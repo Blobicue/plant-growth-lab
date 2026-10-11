@@ -1,0 +1,2 @@
+seed,id,generation,baseline_roots,T1_roots,refinement_roots,root_difference,baseline_living,T1_living,refinement_living,baseline_third_root_age,T1_third_root_age,refinement_third_root_age,fixed_C_difference,unpaid_C_difference,repair_C_difference,operating_C_difference,expiry_difference,refinement_construction_timeline_exact,refinement_fixed_C_difference,non_target_living_difference
+12011,2,1,6,6,6,0,16,16,16,6,5,5,9.757900000034736e-05,0.0,-0.0003083009755874555,0.0009762626723817409,0,False,9.56389999996754e-05,-1

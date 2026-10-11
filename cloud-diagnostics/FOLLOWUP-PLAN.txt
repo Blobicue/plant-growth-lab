@@ -1,0 +1,17 @@
+LATE GEN2 REPLICATION — REGISTERED AFTER PRIMARY15 CASES, BEFORE FOLLOWUP
+The complete primary matrix found identical gen2 death times after competitor N
+uptake suppression, and survival without maturity after competitor W uptake
+suppression, in all three first-gen2 cohorts. Gen1 N-access removal reduced roots
+to two in all three seeds. These results do not experimentally cover later gen2.
+
+Apply the SAME three arms and SAME2040h duration to ALL remaining gen2 cohorts:
+4242/id5,4242/id6,7301/id4, each arms0/1/2. Nine followup runs, no selected outcome,
+new dose, parameter, resource transfer or production change. In particular id5
+has external shade; this replication tests whether its total water-access response
+matches the first cohorts, without assuming its different carbon history does.
+Do not pool or disguise this as preregistered before the first15; report both stages.
+All origin hashes, finite ledgers, headroom/mutex/600s rules and endpoints from
+CONTROL-PLAN.txt remain. Late unchanged baselines freeze their2040h endpoint, then
+continue only for exact validation against the existing12288h fingerprint. That
+validation tail is not part of the experimental endpoint or its budget.
+No further factors or extensions are planned. Interpret death/maturity separately.

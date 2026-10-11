@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:372)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+[{"name":"native UI loads with local control off","pass":true},{"name":"wired Step button advances one hour","pass":true},{"name":"wired Pause button pauses","pass":true},{"name":"native UI saves exact replay record","pass":true},{"name":"saved record reload through native UI","pass":true},{"name":"native UI exact replay96h","pass":true},{"name":"native UI rejects different scientific policy","pass":true},{"name":"session local control enable","pass":true},{"name":"wired Stop revokes control","pass":true}]

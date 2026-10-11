@@ -1,0 +1,32 @@
+[
+  {
+    "file": "cloud-workstation/evidence/attempt-4/model-workstation_checks.runtime.json",
+    "seconds": 9.34057356500125,
+    "exit": -15,
+    "reason": "script error"
+  },
+  {
+    "file": "cloud-workstation/evidence/attempt-4/model-workstation_checks-reopen.runtime.json",
+    "seconds": 9.34299536799881,
+    "exit": -15,
+    "reason": "script error"
+  },
+  {
+    "file": "cloud-workstation/evidence/attempt-2/model-workstation_checks.runtime.json",
+    "seconds": 37.6770313220004,
+    "exit": 0,
+    "reason": null
+  },
+  {
+    "file": "cloud-workstation/evidence/attempt-1/model-workstation_checks.runtime.json",
+    "seconds": 13.475824277000356,
+    "exit": -15,
+    "reason": "script error"
+  },
+  {
+    "file": "cloud-workstation/evidence/attempt-3/model-workstation_checks.runtime.json",
+    "seconds": 36.8661749180028,
+    "exit": 0,
+    "reason": null
+  }
+]

@@ -1,0 +1,2058 @@
+{
+  "allocation_policy": {
+    "juvenile_no_new_deposits": true,
+    "mature_deposit_hours": 0,
+    "observed_hours": {
+      "descendant": 0,
+      "founder": 0
+    }
+  },
+  "censored": "",
+  "checkpoints": [
+    {
+      "match": false,
+      "tick": 96
+    },
+    {
+      "match": false,
+      "tick": 240
+    },
+    {
+      "match": true,
+      "tick": 480
+    },
+    {
+      "match": true,
+      "tick": 720
+    },
+    {
+      "match": false,
+      "tick": 960
+    }
+  ],
+  "checks": {
+    "endpoint": true,
+    "healthy": true,
+    "hourly_and_metrics": false
+  },
+  "end": {
+    "air": {
+      "allocation": "physiological demand bounded, proportional integer shares, rotating residual ties",
+      "external_C_imports": 0.0,
+      "hour": [
+        {
+          "plant": 0,
+          "received_q": 0,
+          "requested_q": 0
+        },
+        {
+          "plant": 1,
+          "received_q": 0,
+          "requested_q": 0
+        },
+        {
+          "plant": 2,
+          "received_q": 0,
+          "requested_q": 0
+        }
+      ],
+      "mode": 1,
+      "plants": [
+        {
+          "account_error": 0.000000000000099475983006414,
+          "plant": 0,
+          "private_buffer_C": 0.0,
+          "received_C": 0.190742611,
+          "returned_C": 5.29370400315129
+        },
+        {
+          "account_error": 0.000000000000127897692436818,
+          "plant": 1,
+          "private_buffer_C": 0.0,
+          "received_C": 0.329922329,
+          "returned_C": 5.32802319317998
+        },
+        {
+          "account_error": 0.0000000000000248689957516035,
+          "plant": 2,
+          "private_buffer_C": 0.0,
+          "received_C": 0.042937336,
+          "returned_C": 0.029894092328445
+        }
+      ],
+      "quantum_C": 0.000000001,
+      "received_by_plants_C": 0.563602276,
+      "recent": [
+        {
+          "C": -0.000412479,
+          "plant": 0,
+          "reason": "finite fair assimilation access",
+          "tick": 947
+        },
+        {
+          "C": -0.000713654,
+          "plant": 1,
+          "reason": "finite fair assimilation access",
+          "tick": 947
+        },
+        {
+          "C": -0.000388429,
+          "plant": 2,
+          "reason": "finite fair assimilation access",
+          "tick": 947
+        },
+        {
+          "C": 0.000353987690291396,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 947
+        },
+        {
+          "C": 0.000384049751164023,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 947
+        },
+        {
+          "C": 0.000146268694320781,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 947
+        },
+        {
+          "C": -0.000412423,
+          "plant": 0,
+          "reason": "finite fair assimilation access",
+          "tick": 948
+        },
+        {
+          "C": -0.000713485,
+          "plant": 1,
+          "reason": "finite fair assimilation access",
+          "tick": 948
+        },
+        {
+          "C": -0.000387735,
+          "plant": 2,
+          "reason": "finite fair assimilation access",
+          "tick": 948
+        },
+        {
+          "C": 0.000354029285599704,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 948
+        },
+        {
+          "C": 0.000384074424485127,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 948
+        },
+        {
+          "C": 0.000146453727698248,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 948
+        },
+        {
+          "C": 0.000354014735292605,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 949
+        },
+        {
+          "C": 0.000383996483348111,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 949
+        },
+        {
+          "C": 0.000146334877117062,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 949
+        },
+        {
+          "C": 0.000354015048416531,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 950
+        },
+        {
+          "C": 0.000383940265466832,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 950
+        },
+        {
+          "C": 0.000146248537400353,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 950
+        },
+        {
+          "C": 0.00035401841225789,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 951
+        },
+        {
+          "C": 0.000383893781215464,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 951
+        },
+        {
+          "C": 0.000146182538997954,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 951
+        },
+        {
+          "C": 0.000354023981267928,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 952
+        },
+        {
+          "C": 0.000383852269836523,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 952
+        },
+        {
+          "C": 0.000146128414029977,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 952
+        },
+        {
+          "C": 0.000354031033038193,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 953
+        },
+        {
+          "C": 0.000383813597794438,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 953
+        },
+        {
+          "C": 0.000146081352564849,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 953
+        },
+        {
+          "C": 0.000354039195684955,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 954
+        },
+        {
+          "C": 0.00038377670232269,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 954
+        },
+        {
+          "C": 0.000146040151377764,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 954
+        },
+        {
+          "C": 0.000354047265804216,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 955
+        },
+        {
+          "C": 0.000383741030060295,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 955
+        },
+        {
+          "C": 0.000146003350743829,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 955
+        },
+        {
+          "C": 0.000354057068729885,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 956
+        },
+        {
+          "C": 0.000383706276485328,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 956
+        },
+        {
+          "C": 0.000145969920433595,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 956
+        },
+        {
+          "C": 0.000354067482697729,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 957
+        },
+        {
+          "C": 0.000383672263605661,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 957
+        },
+        {
+          "C": 0.00014593910941059,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 957
+        },
+        {
+          "C": 0.000354077417254189,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 958
+        },
+        {
+          "C": 0.000383638880435925,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 958
+        },
+        {
+          "C": 0.000145909365761929,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 958
+        },
+        {
+          "C": 0.000354088801763173,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 959
+        },
+        {
+          "C": 0.000383606051241803,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 959
+        },
+        {
+          "C": 0.000145881279905124,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 959
+        },
+        {
+          "C": 0.000354099581279638,
+          "plant": 0,
+          "reason": "respiration and mineralization",
+          "tick": 960
+        },
+        {
+          "C": 0.000383573721290317,
+          "plant": 1,
+          "reason": "respiration and mineralization",
+          "tick": 960
+        },
+        {
+          "C": 0.000145854547491932,
+          "plant": 2,
+          "reason": "respiration and mineralization",
+          "tick": 960
+        }
+      ],
+      "returned_C": 10.6539212886597,
+      "shared_C": 10.0903190126597,
+      "sources": {
+        "0": 5.29370400315129,
+        "1": 5.32802319317998,
+        "2": 0.029894092328445,
+        "seed": 0.0023
+      }
+    },
+    "allocation_residual": 0,
+    "budget_error": 0.00000000000000532907051820075,
+    "censored": "",
+    "contested_cell_ticks": 0,
+    "decomposition": {
+      "associated_N_W": "already mobilized by unchanged turnover; zero additional return",
+      "cap_C_per_plant_hour": 0.0001,
+      "enabled": 1,
+      "excluded_detritus": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      },
+      "heat_released": 2.49880848,
+      "litter": 0.116320544187236,
+      "rate": 0.002,
+      "returned_C": 0.124940424,
+      "sources": [
+        {
+          "atmosphere": 0.0,
+          "heat_released": 1.16651326,
+          "litter": 0.0497849367467724,
+          "plant": 0,
+          "returned_C": 0.058325663
+        },
+        {
+          "atmosphere": 0.0,
+          "heat_released": 1.28839344,
+          "litter": 0.0571488083156183,
+          "plant": 1,
+          "returned_C": 0.064419672
+        },
+        {
+          "atmosphere": 0.0,
+          "heat_released": 0.04390178,
+          "litter": 0.00938679912484566,
+          "plant": 2,
+          "returned_C": 0.002195089
+        }
+      ],
+      "this_hour_C": 0.00021858
+    },
+    "detritus": {
+      "C": 0.0,
+      "N": 0.0,
+      "W": 0.0
+    },
+    "error": "",
+    "field": [
+      1107550236,
+      24183517,
+      0,
+      0,
+      755604,
+      16781
+    ],
+    "hydrology": {
+      "cloud": 0.000346147,
+      "condensed_this_hour": 0.000346147,
+      "condensed_total": 0.247532416,
+      "connected_mobile": 1.15808394457412,
+      "disconnected_mobile": 0.0,
+      "enabled": 1,
+      "heat": 0.0352030526748814,
+      "latent_released": 0.495064832,
+      "radiated": 0.459861779325119,
+      "rain_cells": 273,
+      "rain_this_hour": 0.000349643,
+      "rain_total": 0.247186269,
+      "sources_q": {
+        "0": 85806717,
+        "1": 148372943,
+        "2": 13352756
+      },
+      "vapor": 0.0342687219999999,
+      "water_limited_cell_hours": 20808,
+      "water_received": 1.539636094,
+      "water_requested": 16.381081967
+    },
+    "intercepted": [
+      58948453120,
+      100886016000,
+      17392640000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "life_atmos": 0.0,
+    "life_events": [
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 96
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 96
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 128
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 128
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 160
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 160
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 192
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 192
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 224
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 224
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 256
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 256
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 288
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 288
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 320
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 320
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 352
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 352
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 384
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 384
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 416
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 416
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 448
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 448
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 480
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 480
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 512
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 512
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 544
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 544
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 576
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 576
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 608
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 608
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 640
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 640
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 672
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 672
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 704
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 704
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 736
+      },
+      {
+        "message": "Parent B funded escrow #0",
+        "tick": 736
+      },
+      {
+        "message": "Propagule #0 released / dormant",
+        "tick": 738
+      },
+      {
+        "message": "Paid germination: child C / copied genotype / mutation OFF",
+        "tick": 742
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 768
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 768
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 800
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 800
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 832
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 832
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 864
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 864
+      },
+      {
+        "message": "Parent A: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 896
+      },
+      {
+        "message": "Parent B: reserve incomplete (collecting half of new surplus; maintenance protected)",
+        "tick": 896
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 928
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 928
+      },
+      {
+        "message": "Parent A: reserve incomplete (no new surplus after maintenance)",
+        "tick": 960
+      },
+      {
+        "message": "Parent B: reserve incomplete (no new surplus after maintenance)",
+        "tick": 960
+      }
+    ],
+    "life_heat": 0.000550208679769737,
+    "limited_cell_ticks": 30734,
+    "lineage": [
+      {
+        "birth_tick": 742,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 15220,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      }
+    ],
+    "matter": {
+      "C": {
+        "atmosphere": 10.0903190126597,
+        "detritus": 0.0,
+        "litter": 0.116320544187236,
+        "mobile": 0.116244587815178,
+        "reserves": 0.0365158553378641,
+        "seed_gas": 0.0,
+        "seed_organic": 0.0,
+        "structure": 0.2634
+      },
+      "N": {
+        "detritus": 0.0,
+        "mobile": 0.0456667672378204,
+        "reserves": 0.00148175576217956,
+        "seeds": 0.0,
+        "soil": 0.024183517,
+        "structure": 0.0101904
+      },
+      "W": {
+        "bound": 0.0790199999999999,
+        "cloud": 0.000346147,
+        "detritus": 0.0,
+        "mobile": 1.15808394457412,
+        "reserves": 0.0295710114258841,
+        "seeds": 0.0,
+        "soil": 1.107550236,
+        "vapor": 0.0342687219999999
+      },
+      "boundary_exports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      },
+      "boundary_imports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    "plants": [
+      {
+        "data": {
+          "error": 0.000000000000099475983006414,
+          "hydro": true,
+          "leaves": 4,
+          "living": 56,
+          "nodes": 56,
+          "offset": false,
+          "pending": 2,
+          "photo": true,
+          "root_centroid_x": -2.37500036342277,
+          "root_tip_x": -1,
+          "root_tip_y": -8,
+          "seed": 7301,
+          "shoot_centroid_x": -0.368421039495029,
+          "shoot_tip_x": 1,
+          "shoot_tip_y": 21,
+          "side": false,
+          "tick": 960,
+          "totals": {
+            "built_c": 0.1086,
+            "completed": 6,
+            "expired": 158,
+            "fixed_c": 0.190742611,
+            "photons": 58.9484531199994,
+            "respired_c": 0.235378340151297,
+            "uptake_n": 0.0186610390000002,
+            "uptake_w": 0.681687041000005
+          }
+        },
+        "generation": 0,
+        "id": 0,
+        "reserve": {
+          "balance": {
+            "c": 0.00876978622009826,
+            "n": 0.000393674620306392,
+            "w": 0.00780938858842068
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.010038702817813,
+            "n": 0.000393674620306392,
+            "w": 0.00787349240612788
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": -0.0000062446341139912,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 955
+            },
+            {
+              "amount": -0.00000768705157163093,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 955
+            },
+            {
+              "amount": -0.0000109308970922046,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 955
+            },
+            {
+              "amount": -0.0000117318196628426,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 955
+            },
+            {
+              "amount": -0.00000624056402248972,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 956
+            },
+            {
+              "amount": -0.00000768392941284614,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 956
+            },
+            {
+              "amount": -0.0000109285640393441,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 956
+            },
+            {
+              "amount": -0.0000117300781537584,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 956
+            },
+            {
+              "amount": -0.00000624187573876631,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 957
+            },
+            {
+              "amount": -0.00000768471535608044,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 957
+            },
+            {
+              "amount": -0.0000109287264695385,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 957
+            },
+            {
+              "amount": -0.0000117300706796781,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 957
+            },
+            {
+              "amount": -0.00000625515287751664,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 958
+            },
+            {
+              "amount": -0.00000769527897755508,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 958
+            },
+            {
+              "amount": -0.0000109351215180403,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 958
+            },
+            {
+              "amount": -0.0000117351249341191,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 958
+            },
+            {
+              "amount": -0.00000628558399554288,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 959
+            },
+            {
+              "amount": -0.00000772030682387106,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 959
+            },
+            {
+              "amount": -0.0000109507238425443,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 959
+            },
+            {
+              "amount": -0.0000117479246287061,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 959
+            },
+            {
+              "amount": -0.00000633692074823776,
+              "node": 48,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 960
+            },
+            {
+              "amount": -0.00000776323685239041,
+              "node": 51,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 960
+            },
+            {
+              "amount": -0.0000109777086029235,
+              "node": 52,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 960
+            },
+            {
+              "amount": -0.0000117704600928633,
+              "node": 54,
+              "reason": "maintenance priority",
+              "resource": "c",
+              "tick": 960
+            }
+          ],
+          "refunded": {
+            "c": 0.00126891659771472,
+            "n": 0.0,
+            "w": 0.0000641038177072037
+          },
+          "released": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "sources": {
+            "0:c": 0.000452084960316482,
+            "0:n": 0.0000195628552294222,
+            "0:w": 0.00051020773784427,
+            "10:c": 0.000386778809011623,
+            "10:n": 0.0000134788574577819,
+            "10:w": 0.00027522213730199,
+            "11:c": 0.000345892686250138,
+            "11:n": 0.0000118635943123533,
+            "11:w": 0.000225780059391623,
+            "12:c": 0.000313504798446394,
+            "12:n": 0.0000104146613537593,
+            "12:w": 0.000183432821301767,
+            "13:c": 0.000280939064314826,
+            "13:n": 0.00000903516763821895,
+            "13:w": 0.000148259687733925,
+            "14:c": 0.000248869395835246,
+            "14:n": 0.00000774220390170978,
+            "14:w": 0.000116780813235156,
+            "15:c": 0.000216147415714503,
+            "15:n": 0.00000652373128449142,
+            "15:w": 0.0000672003443685801,
+            "16:c": 0.000201359806914943,
+            "16:n": 0.00000607816708659531,
+            "16:w": 0.0000826152090572767,
+            "17:c": 0.000190658542631384,
+            "17:n": 0.00000583417545570006,
+            "17:w": 0.0000789516536650671,
+            "18:c": 0.000179293365202061,
+            "18:n": 0.00000546298766493751,
+            "18:w": 0.000073277549966102,
+            "19:c": 0.000172705130549592,
+            "19:n": 0.00000529906659677984,
+            "19:w": 0.0000279536585363158,
+            "1:c": 0.000454543457816288,
+            "1:n": 0.0000168393103809031,
+            "1:w": 0.000386349734820698,
+            "20:c": 0.000168808158628766,
+            "20:n": 0.00000506631053274372,
+            "20:w": 0.0000665588636076243,
+            "21:c": 0.000161276647135329,
+            "21:n": 0.00000490693275638809,
+            "21:w": 0.0000631071941874841,
+            "22:c": 0.000157112901441925,
+            "22:n": 0.00000468113001980722,
+            "22:w": 0.0000610484109437868,
+            "23:c": 0.000146459506455024,
+            "23:n": 0.00000448287390122698,
+            "23:w": 0.0000572270964083943,
+            "24:c": 0.000143242822590109,
+            "24:n": 0.00000429321391984672,
+            "24:w": 0.0000570129011060262,
+            "25:c": 0.000131763655613479,
+            "25:n": 0.00000409536566369874,
+            "25:w": 0.0000528044768450092,
+            "26:c": 0.00013540484623222,
+            "26:n": 0.00000404925655875262,
+            "26:w": 0.0000541271953613726,
+            "27:c": 0.00012399205305613,
+            "27:n": 0.00000386426563500271,
+            "27:w": 0.0000494089815202858,
+            "28:c": 0.000129311482670656,
+            "28:n": 0.00000384820422598044,
+            "28:w": 0.0000519179628560815,
+            "29:c": 0.00011392455991657,
+            "29:n": 0.00000358786854544791,
+            "29:w": 0.0000466222830094177,
+            "2:c": 0.000439625394602542,
+            "2:n": 0.0000208903339009465,
+            "2:w": 0.000591781888092743,
+            "30:c": 0.000119991233517054,
+            "30:n": 0.00000359541898592362,
+            "30:w": 0.0000509394462431087,
+            "31:c": 0.000103972279552588,
+            "31:n": 0.0000033342962052802,
+            "31:w": 0.0000447468234145468,
+            "32:c": 0.00011663754559715,
+            "32:n": 0.0000034918063616154,
+            "32:w": 0.0000502693374377529,
+            "33:c": 0.0000966586752657951,
+            "33:n": 0.00000313402239495309,
+            "33:w": 0.0000433025748907661,
+            "34:c": 0.000109072490456095,
+            "34:n": 0.00000327004742380015,
+            "34:w": 0.0000498462962864845,
+            "35:c": 0.0000884193793793195,
+            "35:n": 0.00000291544141350493,
+            "35:w": 0.0000424733903906969,
+            "36:c": 0.000107716871031922,
+            "36:n": 0.00000323182920415728,
+            "36:w": 0.0000496739298095407,
+            "37:c": 0.0000812572714220527,
+            "37:n": 0.00000271280536340187,
+            "37:w": 0.0000419070872824779,
+            "38:c": 0.0000849394707879537,
+            "38:n": 0.00000473846959004819,
+            "38:w": 0.000125532289800617,
+            "39:c": 0.0000774984126717046,
+            "39:n": 0.00000261819051563417,
+            "39:w": 0.0000414769968550721,
+            "3:c": 0.000445133801557038,
+            "3:n": 0.0000166444959328564,
+            "3:w": 0.000275369319402769,
+            "40:c": 0.0000617580185470748,
+            "40:n": 0.00000400636202425053,
+            "40:w": 0.00010262788438916,
+            "41:c": 0.0000520688530640778,
+            "41:n": 0.00000388819054869511,
+            "41:w": 0.0000997656634681575,
+            "42:c": 0.0000437577916269954,
+            "42:n": 0.00000378512281652047,
+            "42:w": 0.0000969482925771798,
+            "43:c": 0.0000364922571286473,
+            "43:n": 0.00000365500061331226,
+            "43:w": 0.0000925939768626694,
+            "44:c": 0.0000315974721129299,
+            "44:n": 0.00000360784476017824,
+            "44:w": 0.0000913694849359334,
+            "45:c": 0.0000279193176865723,
+            "45:n": 0.00000359903131502917,
+            "45:w": 0.0000914372336177099,
+            "46:c": 0.0000721641054640788,
+            "46:n": 0.00000245937230431866,
+            "46:w": 0.0000412146693281367,
+            "47:c": 0.0000257929882279069,
+            "47:n": 0.00000349998693781857,
+            "47:w": 0.0000875235011787967,
+            "48:c": -0.000144049253863772,
+            "48:n": 0.00000345477755749431,
+            "48:w": 0.0000855708799735168,
+            "49:c": 0.0000686427579257495,
+            "49:n": 0.000002362905166956,
+            "49:w": 0.0000409546473738721,
+            "4:c": 0.000436988328749221,
+            "4:n": 0.0000166217388079371,
+            "4:w": 0.000276667458870452,
+            "50:c": 0.0000243304249132726,
+            "50:n": 0.00000342115970686987,
+            "50:w": 0.0000837769844176808,
+            "51:c": -0.000213657310647898,
+            "51:n": 0.00000339754843044756,
+            "51:w": 0.0000827069656262444,
+            "52:c": -0.000380296278884639,
+            "52:n": 0.00000333968711205893,
+            "52:w": 0.0000812425617343577,
+            "53:c": 0.0000666067410925071,
+            "53:n": 0.00000231678939728067,
+            "53:w": 0.0000406859976363643,
+            "54:c": -0.000439565497086906,
+            "54:n": 0.00000336200526777498,
+            "54:w": 0.0000813605991512657,
+            "55:c": 0.0000653977163910774,
+            "55:n": 0.00000231477990280666,
+            "55:w": 0.0000406404274694602,
+            "5:c": 0.000465530116457327,
+            "5:n": 0.0000165989149418861,
+            "5:w": 0.000266618987209952,
+            "6:c": 0.000469894329795888,
+            "6:n": 0.0000165759882052614,
+            "6:w": 0.000264063198076739,
+            "7:c": 0.000431452584546503,
+            "7:n": 0.0000221347976351648,
+            "7:w": 0.000637412564526685,
+            "8:c": 0.000420377621686706,
+            "8:n": 0.0000225689856652604,
+            "8:w": 0.000652285887301099,
+            "9:c": 0.000421586242580067,
+            "9:n": 0.0000151162737754012,
+            "9:w": 0.000328734569720389
+          },
+          "surplus": 0.020077405635626
+        }
+      },
+      {
+        "data": {
+          "error": 0.000000000000127897692436818,
+          "hydro": true,
+          "leaves": 5,
+          "living": 58,
+          "nodes": 58,
+          "offset": false,
+          "pending": 3,
+          "photo": true,
+          "root_centroid_x": 0.100000004749745,
+          "root_tip_x": 0,
+          "root_tip_y": -8,
+          "seed": 15220,
+          "shoot_centroid_x": 3.45070492213881,
+          "shoot_tip_x": 4,
+          "shoot_tip_y": 20,
+          "side": false,
+          "tick": 960,
+          "totals": {
+            "built_c": 0.1098,
+            "completed": 6,
+            "expired": 157,
+            "fixed_c": 0.329922329,
+            "photons": 100.886016000001,
+            "respired_c": 0.263603521180006,
+            "uptake_n": 0.036499824,
+            "uptake_w": 0.823162864000001
+          }
+        },
+        "generation": 0,
+        "id": 1,
+        "reserve": {
+          "balance": {
+            "c": 0.0159968082031274,
+            "n": 0.00062732581188735,
+            "w": 0.012546516237747
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.0669968082031274,
+            "n": 0.00262732581188734,
+            "w": 0.0529188823612399
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": 0.00000176513436303739,
+              "node": 34,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000173088257658521,
+              "node": 35,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000176376662660021,
+              "node": 36,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000248986343661711,
+              "node": 37,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.0000025290173416742,
+              "node": 38,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.0000017259165656777,
+              "node": 39,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000256357720615083,
+              "node": 40,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000259361530216637,
+              "node": 41,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000176321050736031,
+              "node": 42,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000260143298657957,
+              "node": 43,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000260597272886011,
+              "node": 44,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261044673600435,
+              "node": 45,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261371270241053,
+              "node": 46,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000172182239585158,
+              "node": 47,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261614497293517,
+              "node": 48,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261777363102892,
+              "node": 49,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000171860200501189,
+              "node": 50,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261882855965642,
+              "node": 51,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000261951446291552,
+              "node": 52,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000171625585604156,
+              "node": 53,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.000002619705484818,
+              "node": 54,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000262005890910698,
+              "node": 55,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000171478387663348,
+              "node": 56,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000171418591273616,
+              "node": 57,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            }
+          ],
+          "refunded": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.000372366123492961
+          },
+          "released": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "sources": {
+            "0:c": 0.00188125325928026,
+            "0:n": 0.0000663847973318355,
+            "0:w": 0.00153468376241294,
+            "10:c": 0.00141654342392942,
+            "10:n": 0.0000773142393271574,
+            "10:w": 0.00189506799975228,
+            "11:c": 0.00191494868467909,
+            "11:n": 0.0000575602697780048,
+            "11:w": 0.00118387000719658,
+            "12:c": 0.00183780270084226,
+            "12:n": 0.0000541775192057496,
+            "12:w": 0.00106812149204082,
+            "13:c": 0.00132942441384041,
+            "13:n": 0.0000772188098975011,
+            "13:w": 0.00190168997154128,
+            "14:c": 0.00176421988301984,
+            "14:n": 0.0000508998587775307,
+            "14:w": 0.000956229009732261,
+            "15:c": 0.00169861443873832,
+            "15:n": 0.000047804229136243,
+            "15:w": 0.000851404074831606,
+            "16:c": 0.00157147007998764,
+            "16:n": 0.0000450845595559411,
+            "16:w": 0.000782409527953988,
+            "17:c": 0.00146386790613143,
+            "17:n": 0.0000424497527224325,
+            "17:w": 0.000707642547040657,
+            "18:c": 0.00135903713299993,
+            "18:n": 0.0000399401616190262,
+            "18:w": 0.000610115901035668,
+            "19:c": 0.00168864691784852,
+            "19:n": 0.0000458249434038788,
+            "19:w": 0.000487762021913843,
+            "1:c": 0.00199473027187071,
+            "1:n": 0.0000610662186259871,
+            "1:w": 0.00130406613021296,
+            "20:c": 0.00133242000416239,
+            "20:n": 0.000039267316732365,
+            "20:w": 0.000568536907562903,
+            "21:c": 0.00128281599810171,
+            "21:n": 0.0000385193533365056,
+            "21:w": 0.000612851110380462,
+            "22:c": 0.00128506736969013,
+            "22:n": 0.0000382474965041198,
+            "22:w": 0.000537851528700231,
+            "23:c": 0.00122370365798833,
+            "23:n": 0.0000373192132140416,
+            "23:w": 0.000544289418821737,
+            "24:c": 0.00125536913714183,
+            "24:n": 0.0000374566444705823,
+            "24:w": 0.000506632009349668,
+            "25:c": 0.00122937814765951,
+            "25:n": 0.0000367848537419583,
+            "25:w": 0.000524610185989158,
+            "26:c": 0.00117327747988657,
+            "26:n": 0.0000362800466230586,
+            "26:w": 0.000563045089030185,
+            "27:c": 0.00112101214196145,
+            "27:n": 0.0000352571942566055,
+            "27:w": 0.000529812134776521,
+            "28:c": 0.00119985060885039,
+            "28:n": 0.0000361029503870269,
+            "28:w": 0.000546834100710772,
+            "29:c": 0.00117705256104144,
+            "29:n": 0.000035557293927098,
+            "29:w": 0.000554830546241991,
+            "2:c": 0.00175637413604606,
+            "2:n": 0.000069047919531921,
+            "2:w": 0.00168200891616063,
+            "30:c": 0.0010692586084533,
+            "30:n": 0.0000342473495717949,
+            "30:w": 0.000523902730454116,
+            "31:c": 0.00102842503810846,
+            "31:n": 0.0000334805308707557,
+            "31:w": 0.00050875094919207,
+            "32:c": 0.00115578310923786,
+            "32:n": 0.0000350283518181579,
+            "32:w": 0.000548036215514942,
+            "33:c": 0.000980065418953953,
+            "33:n": 0.000032435398887782,
+            "33:w": 0.000496260926528621,
+            "34:c": 0.00113744194650707,
+            "34:n": 0.0000345166541650041,
+            "34:w": 0.000544001314366129,
+            "35:c": 0.000940038240027341,
+            "35:n": 0.0000316052770110813,
+            "35:w": 0.000485799505400533,
+            "36:c": 0.00111363480692573,
+            "36:n": 0.0000337686336785307,
+            "36:w": 0.000541714377289563,
+            "37:c": 0.000744619067467816,
+            "37:n": 0.0000469890187988651,
+            "37:w": 0.00122437262814307,
+            "38:c": 0.000665112106633686,
+            "38:n": 0.0000465429327547494,
+            "38:w": 0.00122137708048916,
+            "39:c": 0.000907968744778511,
+            "39:n": 0.0000309240619999173,
+            "39:w": 0.000476985648792236,
+            "3:c": 0.00200375708506349,
+            "3:n": 0.0000604890523799176,
+            "3:w": 0.000934765597541793,
+            "40:c": 0.000591615604816219,
+            "40:n": 0.0000461001256998189,
+            "40:w": 0.00121387690505868,
+            "41:c": 0.000521513840648264,
+            "41:n": 0.0000453973393235232,
+            "41:w": 0.00119360278069686,
+            "42:c": 0.00110277748419819,
+            "42:n": 0.0000333907441237328,
+            "42:w": 0.000540678827956601,
+            "43:c": 0.000496864733789295,
+            "43:n": 0.0000448035498138704,
+            "43:w": 0.0011718297455139,
+            "44:c": 0.000484730076233061,
+            "44:n": 0.0000445442187874366,
+            "44:w": 0.00115728716884075,
+            "45:c": 0.000468043011894894,
+            "45:n": 0.0000441924843366192,
+            "45:w": 0.00114690294332941,
+            "46:c": 0.000460434494237133,
+            "46:n": 0.0000444053183220791,
+            "46:w": 0.00115084389381793,
+            "47:c": 0.000871693515693273,
+            "47:n": 0.0000300112991229533,
+            "47:w": 0.000469798016248855,
+            "48:c": 0.000441039138009909,
+            "48:n": 0.0000433970343479929,
+            "48:w": 0.00111392525856591,
+            "49:c": 0.000433435748714295,
+            "49:n": 0.000043597100488637,
+            "49:w": 0.00111516897024833,
+            "4:c": 0.00188125146607815,
+            "4:n": 0.0000604537297451734,
+            "4:w": 0.000954081083492944,
+            "50:c": 0.000836397523001714,
+            "50:n": 0.0000290995635762185,
+            "50:w": 0.000463128919479686,
+            "51:c": 0.000422992522436064,
+            "51:n": 0.0000427917800153084,
+            "51:w": 0.00108840504881643,
+            "52:c": 0.00041463216519909,
+            "52:n": 0.0000429255096091285,
+            "52:w": 0.00108611701714767,
+            "53:c": 0.000805791727936646,
+            "53:n": 0.0000282893508437849,
+            "53:w": 0.00045736878825123,
+            "54:c": 0.000395959917431458,
+            "54:n": 0.0000411593535511262,
+            "54:w": 0.00102739221757337,
+            "55:c": 0.000385486032528272,
+            "55:n": 0.0000410753230651979,
+            "55:w": 0.00101744449571574,
+            "56:c": 0.000762893238133237,
+            "56:n": 0.0000269200460416561,
+            "56:w": 0.000448482439492036,
+            "57:c": 0.000693138837325489,
+            "57:n": 0.0000247158257189435,
+            "57:w": 0.000426905751692481,
+            "5:c": 0.00202064412290603,
+            "5:n": 0.000060417780647464,
+            "5:w": 0.000928171776745733,
+            "6:c": 0.00203964137437086,
+            "6:n": 0.0000603811771966786,
+            "6:w": 0.000923015308645593,
+            "7:c": 0.00167212586585896,
+            "7:n": 0.0000723243969120205,
+            "7:w": 0.0017791195829563,
+            "8:c": 0.00158797399412271,
+            "8:n": 0.0000748409624114569,
+            "8:w": 0.00183838382431254,
+            "9:c": 0.00150274723970926,
+            "9:n": 0.0000764988941433953,
+            "9:w": 0.00187425410604681
+          },
+          "surplus": 0.138875448255504
+        }
+      },
+      {
+        "data": {
+          "error": 0.0000000000000248689957516035,
+          "hydro": true,
+          "leaves": 4,
+          "living": 12,
+          "nodes": 12,
+          "offset": false,
+          "pending": 0,
+          "photo": true,
+          "root_centroid_x": 3.00000007781717,
+          "root_tip_x": 3,
+          "root_tip_y": -3,
+          "seed": 15220,
+          "shoot_centroid_x": 3.28571402600833,
+          "shoot_tip_x": 4,
+          "shoot_tip_y": 3,
+          "side": false,
+          "tick": 960,
+          "totals": {
+            "built_c": 0.0108,
+            "completed": 0,
+            "expired": 24,
+            "fixed_c": 0.042937336,
+            "photons": 17.39264,
+            "respired_c": 0.0276990033284448,
+            "uptake_n": 0.000655660000000001,
+            "uptake_w": 0.034786189
+          }
+        },
+        "generation": 1,
+        "id": 2,
+        "reserve": {
+          "balance": {
+            "c": 0.0117492609146385,
+            "n": 0.000460755329985823,
+            "w": 0.00921510659971644
+          },
+          "capacity": {
+            "c": 0.051,
+            "n": 0.002,
+            "w": 0.04
+          },
+          "committed": false,
+          "deposited": {
+            "c": 0.0117492609146385,
+            "n": 0.000460755329985823,
+            "w": 0.00921510659971644
+          },
+          "disposed": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "last_surplus": 0.0,
+          "reason": "no new surplus after maintenance",
+          "recent": [
+            {
+              "amount": 0.00000918898997210255,
+              "node": 8,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000888976100737808,
+              "node": 9,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000732618933269623,
+              "node": 10,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000869644183995467,
+              "node": 11,
+              "reason": "new surplus allocation",
+              "resource": "c",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000377517023860752,
+              "node": 0,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000367732200552456,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000334354842375684,
+              "node": 2,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000294504531970345,
+              "node": 3,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000294256380448851,
+              "node": 4,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000294010531428708,
+              "node": 5,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000293766369680126,
+              "node": 6,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000339636811806943,
+              "node": 7,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000364754875089347,
+              "node": 8,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000362871979520899,
+              "node": 9,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000341990641268355,
+              "node": 10,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.000000362106001817008,
+              "node": 11,
+              "reason": "new surplus allocation",
+              "resource": "n",
+              "tick": 948
+            },
+            {
+              "amount": 0.0000102178399712635,
+              "node": 0,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000861603621673662,
+              "node": 1,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.000011287259854409,
+              "node": 2,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.0000120152350058443,
+              "node": 7,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000865610065834785,
+              "node": 8,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000870356113155427,
+              "node": 9,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.0000123288208096434,
+              "node": 10,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            },
+            {
+              "amount": 0.00000872519014859055,
+              "node": 11,
+              "reason": "new surplus allocation",
+              "resource": "w",
+              "tick": 948
+            }
+          ],
+          "refunded": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "released": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          },
+          "sources": {
+            "0:c": 0.0010589995568559,
+            "0:n": 0.0000453775052352367,
+            "0:w": 0.00131234480804264,
+            "10:c": 0.00081941844322969,
+            "10:n": 0.0000360209101486424,
+            "10:w": 0.00131329992639612,
+            "11:c": 0.000873705010847595,
+            "11:n": 0.0000360581618349599,
+            "11:w": 0.00083975363589688,
+            "1:c": 0.00109673381158488,
+            "1:n": 0.000043756050300101,
+            "1:w": 0.00108937744893318,
+            "2:c": 0.000966572440036102,
+            "2:n": 0.0000396896154603054,
+            "2:w": 0.00140756733775187,
+            "3:c": 0.00104380372149385,
+            "3:n": 0.0000357491535443892,
+            "3:w": 0.0000156037501950582,
+            "4:c": 0.000952859836435255,
+            "4:n": 0.0000357874196413185,
+            "4:w": 0.0000144958903023278,
+            "5:c": 0.00105105447239689,
+            "5:n": 0.0000357908243573873,
+            "5:w": 0.00000910526672452891,
+            "6:c": 0.00106083656185819,
+            "6:n": 0.0000357610571892579,
+            "6:w": 0.00000385568478274465,
+            "7:c": 0.000882379554459464,
+            "7:n": 0.0000376242607566806,
+            "7:w": 0.00137340175613256,
+            "8:c": 0.00100390616979732,
+            "8:n": 0.0000406560098537631,
+            "8:w": 0.000952837151685672,
+            "9:c": 0.000938991335643324,
+            "9:n": 0.0000384843616637802,
+            "9:w": 0.000883463942872849
+          },
+          "surplus": 0.0234985218292769
+        }
+      }
+    ],
+    "propagules": [
+      {
+        "birth": 736,
+        "c": 0.0,
+        "child": 2,
+        "deadline": 754,
+        "failure": "",
+        "gas": 0.0,
+        "genotype": {
+          "branch_seed": 15220,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "id": 0,
+        "n": 0.0,
+        "parent": 1,
+        "pos": "(3, 0, 3)",
+        "release": 738,
+        "respired": 0.0011,
+        "stage": "juvenile",
+        "w": 0.0
+      }
+    ],
+    "radiation": {
+      "canopy_flux": 0.0,
+      "day_energy": 1073.28,
+      "energy_error": 0.0,
+      "heat_inside": 121.362425554998,
+      "hour": 23,
+      "input_this_tick": 0.0,
+      "input_total": 42931.2,
+      "leaf_prompt_out": 114.604634008889,
+      "mode": 2,
+      "output_total": 42811.5754172542,
+      "source_remaining": 0.0,
+      "stored_inside": 132.080582745803,
+      "thermal_out": 2233.42733236531,
+      "transmitted_out": 40463.54345088,
+      "units": "E model units; one tick = one model hour;24 ticks/day"
+    },
+    "shadow_loss": [
+      56654884000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sky_emitted": 42931200000000,
+    "sky_escaped": 40463543450880,
+    "sky_remaining": 0,
+    "sky_wood": 2290429440000,
+    "space_conflicts": 512,
+    "tick": 960
+  },
+  "error": "",
+  "fingerprint": "a24cc10ba38c457ac3b209d3d14cee81ee189af35c2615567c8a9fda63b6c1cd",
+  "horizon": 960,
+  "hourly_hash_mismatches": 0,
+  "lineage": [
+    {
+      "birth_tick": 742,
+      "child": 2,
+      "generation": 1,
+      "genotype": {
+        "branch_seed": 15220,
+        "physiology": "paid-v8",
+        "version": 1
+      },
+      "mutation": false,
+      "parent": 1,
+      "propagule": 0
+    }
+  ],
+  "max_error": 0.0000000000145519152283669,
+  "max_plant_error": 0.000000000000227373675443232,
+  "metric_differences": [
+    {
+      "differences": [
+        {
+          "actual": 0.363089896656697,
+          "expected": 0.363089896656698,
+          "path": "/hydrology/connected_mobile"
+        },
+        {
+          "actual": 0.363089896656697,
+          "expected": 0.363089896656698,
+          "path": "/matter/W/mobile"
+        }
+      ],
+      "tick": 96
+    },
+    {
+      "differences": [
+        {
+          "actual": 0.0215801500080218,
+          "expected": 0.0215801500080219,
+          "path": "/hydrology/heat"
+        }
+      ],
+      "tick": 240
+    },
+    {
+      "differences": [
+        {
+          "actual": 0.029894092328445,
+          "expected": 0.0298940923284451,
+          "path": "/air/plants/2/returned_C"
+        },
+        {
+          "actual": 0.029894092328445,
+          "expected": 0.0298940923284451,
+          "path": "/air/sources/2"
+        },
+        {
+          "actual": 0.00111392525856591,
+          "expected": 0.00111392525856592,
+          "path": "/plants/1/reserve/sources/48:w"
+        }
+      ],
+      "tick": 960
+    }
+  ],
+  "mismatch": [
+    {
+      "kind": "metrics",
+      "tick": 96
+    },
+    {
+      "kind": "metrics",
+      "tick": 240
+    },
+    {
+      "kind": "metrics",
+      "tick": 960
+    }
+  ],
+  "mode": 1,
+  "reverse": true,
+  "seed": 7301
+}

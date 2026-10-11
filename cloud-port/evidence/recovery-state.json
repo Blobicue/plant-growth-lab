@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-10T00:21:21.685146+00:00",
+  "environment_accessible": true,
+  "verified_commit": "ab4b0f1e455f02d1119857f1280a6deb91c5c845",
+  "engine_sha256_verified": "8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+  "snapshot_verification": {
+    "checked": 189,
+    "mismatches": []
+  },
+  "active_engine_processes_before_recovery": 0,
+  "cpu_max": "400000 100000",
+  "memory_max": "17179869184",
+  "memory_current": 683384832,
+  "completed_extension_seeds": [
+    12011
+  ],
+  "unfinished_extension_seeds": [
+    4242,
+    7301
+  ],
+  "prior_stop": "owned600s timeout, not disconnect",
+  "duplicate_jobs_launched": false
+}

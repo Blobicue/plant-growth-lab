@@ -1,0 +1,123 @@
+TRANSPORT-ONLY ALTERNATIVE T1 — FROZEN BEFORE IMPLEMENTATION/RESULTS
+Basis: db7f2d1aae27961ffefb5734de45b29bad4af449. Allocation feedback stays OFF.
+Prior W27/candidate30, all negative evidence and all previous branches are immutable.
+
+Identity audit and interpretation
+Node IDs are append indices used for references, ordering, occupancy and allocator
+ties. Parent-before-child is an executable requirement; node0 is the collar. Birth
+is stored explicitly, but transport never reads age or developmental priority.
+The previous permutation [0,2,1,6,5,4,3] preserves node0, all birth timestamps,
+positions, kinds, masses, references and parent-before-child topology. The seven
+seed nodes have equal birth time. Therefore its transport effect cannot be explained
+by a changed age or ancestry. Reversing real parent/child links, birth times or the
+order of actual tissue construction would NOT be an equivalent renumbering.
+Other ordered subsystems exist; this experiment changes transport only and must
+not claim arbitrary-ID invariance of the whole engine without testing it.
+
+Existing contract
+Three in-place sequential passes/hour: F_ij=.24*a_ij*(X_i-X_j), where
+ a_ij=min(solidC_i/PACK_i,solidC_j/PACK_j), X in mobile C,N,W.
+Only connected active paid parent-child edges exist. An edge can reuse resources
+received earlier in the same pass. Equal amounts, not defined concentrations.
+This is ordered edge splitting, not a simultaneous diffusion step. The comment
+'Pairwise finite-volume exchange, equal/opposite, no edge to an unbuilt cell' and
+amount-gradient law justify examining a simultaneous local diffusion alternative;
+they do not establish a calibrated species or unique continuous-time physiology.
+
+Selected alternative (fixed before outcomes)
+Interpret the nominal edge coefficient over a1/3h pass as conductance
+ g_ij=.72*a_ij per model hour. Hold paid topology/solid masses fixed during the
+hour's transport stage. Integrate dX_i/dt=sum_j g_ij*(X_j-X_i) for ONE model hour
+with simultaneous explicit Euler substeps, requested N=24 (eight subdivisions of
+each old pass). This resolution is chosen for numerical accuracy, not seed success.
+Use N_eff=max(N,1+floor(max_i sum_j g_ij)) so all sender retention weights are
+strictly nonnegative; disconnected/isolated nodes have zero row sum. dt=1/N_eff h.
+For every substep, freeze all X. Each directed edge sends (g_ij*dt)*X_i from i to j;
+sender retained stock is (1-dt*sum_j g_ij)*X_i. Sum all received transfers only
+AFTER frozen sends. Net edge flux equals g_ij*dt*(X_i-X_j). Outgoing amount never
+exceeds pre-substep stock; receipts cannot be re-spent within that substep.
+
+This convex averaging conserves each pool, preserves nonnegativity and bounds by
+the previous connected-component min/max. C movement creates no C, heat or chemical
+energy. No new edges, volumes, pumps, routing goals, demands or biological costs.
+Canonical physical-position ordering is used ONLY for reproducible floating-point
+summation; all fluxes use frozen state, so order cannot provide first access.
+Generic kernel tests permit arbitrary vertex/edge permutations and cycles; actual
+plants keep their existing paid tree and connectivity rules. No cycles are added.
+
+Important discretization limitation
+The nominal conductance is preserved, but the finite-step response changes. On a
+full-strength two-node edge, the old hourly difference multiplier is(1-.48)^3;
+T1 gives(1-1.44/N_eff)^N_eff, approaching exp(-1.44). Thus T1 does NOT preserve the
+old finite-step mixing speed; it preserves its nominal first-order flux coefficient.
+It generally mixes this two-node case less aggressively. Do not calibrate g upward
+to match the old multiplier, add transport time, or describe T1 as an exact bug fix.
+Differences in survival are conditional on this declared alternative contract.
+
+Numerical gates BEFORE biological sweep
+Create reproducible star(degrees1,2,4,6,16,64), chain, cycle, disconnected and zero-
+conductance fixtures, nonuniform solid fractions and depleted/zero/heterogeneous
+C,N,W pools. Include very small stocks and a uniform equilibrium. Test all edge and
+vertex permutations used against canonical physical endpoints, conservation,
+positivity, max principle and sender budgets. Compare Godot with an independent
+Python implementation and symmetric-Laplacian eigensolution. At fixed1h, use
+N=3,6,12,24,48,96 to expose discretization, never increasing total transport time.
+Require primary24 normalized L1 error <=.02 of total pool versus exact frozen-graph
+solution and non-increasing error at24,48,96 (1e-12 numerical allowance). Exact
+zero/equilibrium has an absolute1e-12 check. No physiology is simulated to select N.
+If24 fails, stop and report; do not pick another N based on biology.
+
+Also inspect actual11 newborn graphs: primary24 and refinement48, same conductance,
+same1h. Validate unchanged OFF science and original birth hashes, isolated source
+changes, local sender/recipient accounting and all old global/plant guards. Maintain
+exact deterministic saved replay. Any correctness failure stops the queue until a
+pure implementation defect is corrected with retained failure evidence. A contract
+or threshold amendment requires documentation before further results.
+
+Registered biological comparison, conditional on gates
+Same11 saved births listed with hashes in protocol.json. Fixed768h each; baseline
+is original sequential candidate30. T1 changes transport for ALL plants present
+and newly born in that world, not selected roots or descendants. This is a matched
+birth-state model-contract comparison with inherited legacy history, NOT an ordinary
+from-seed T1 population. No feedback, endowment, reserve, uptake, maintenance,
+repair, construction, maturity, deadline, genotype, field or environmental change.
+Primary22 biological cases:11 baseline and11 T1(N24). No exclusions, extensions,
+tuning, repeated competitor-deprivation controls or production promotion.
+
+For each T1 case run a fixed N48 numerical refinement through the SAME768h. These
+11 shadow runs are numerical-sensitivity checks, not a third biological hypothesis
+or an opportunity to select a favorable resolution. Report all disagreements in
+payment timing, root counts, living tissue, budgets or survival; if biological
+conclusions change with refinement, mark those conclusions numerically unresolved.
+No N selection based on these results. No further refinement sweep after outcomes.
+
+Replay/permutation checks
+Check every-hour baseline and T1 physical hashes under reversed PLANT evaluation
+and save/restore at384h. Separately run the T1 newborn topological relabeling through
+768h, comparing canonical geometry, parents, pools, ages, proposals, tips, reserves,
+field and event histories, not raw node-ID hashes. Require identical discrete
+construction/death/lineage outcomes, per-node amounts within1e-12 and full ledger
+within1e-9. These checks do not add biological samples. If other ordered subsystems
+produce substantive differences, report and stop without modifying them here.
+Generic transport kernel arbitrary-ID tests and this constrained engine permutation
+test are distinct; no claim that reversing plants tests node/edge permutation.
+
+Effects, budgets and interpretation
+Primary: paired change in cumulative paid roots at768h and time to third paid root
+(censored if absent). Report each cohort and the three seed families; descendants
+are not independent worlds. Also living/connected roots, paid/living nodes, death,
+leaf count, maturity/offspring, fixed C, absorbed light, uptake N/W, unpaid upkeep,
+repair, operating C, construction C/N/W, expired proposals, all-plant health and
+world/plant/receipt errors. Hourly first96h and daily thereafter, with exact hash
+trace. Reconcile mobile+reserve C changes against operation, construction and
+reproductive transfers. Fixed768h cannot establish sustained replacement; a live
+endpoint is censored survival. Record harms and no-effect outcomes equally.
+A larger root system is not by itself survival or reproductive success. Prior
+biological results remain correct for their original ordered contract; causal
+claims about transport-independent biological necessity must be qualified.
+
+Execution
+Serial CPU, shared per-user flock, >=8GiB measured headroom,600s/invocation; record
+commands, input hashes, elapsed time and peak RSS. No parallel engine processes.
+Recover setup/syntax errors without silently changing scientific semantics. No
+push/merge/deploy/promotion. Hardware GPU/Windows unavailable, never called passed.

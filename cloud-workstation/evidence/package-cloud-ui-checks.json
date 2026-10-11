@@ -1,0 +1,44 @@
+{
+  "adapter": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "checks": [
+    {
+      "name": "native UI loads with local control off",
+      "pass": true
+    },
+    {
+      "name": "wired Step button advances one hour",
+      "pass": true
+    },
+    {
+      "name": "wired Pause button pauses",
+      "pass": true
+    },
+    {
+      "name": "native UI saves exact replay record",
+      "pass": true
+    },
+    {
+      "name": "saved record reload through native UI",
+      "pass": true
+    },
+    {
+      "name": "native UI exact replay96h",
+      "pass": true
+    },
+    {
+      "name": "native UI rejects different scientific policy",
+      "pass": true
+    },
+    {
+      "name": "session local control enable",
+      "pass": true
+    },
+    {
+      "name": "wired Stop revokes control",
+      "pass": true
+    }
+  ],
+  "display": "X11",
+  "rendering_method": "gl_compatibility",
+  "saved_path": "/workspace/plant-growth-lab/cloud-workstation/data/PlantResearchWorkstationF1/juvenile30/runs/juvenile30-1791606111-9728-1.json"
+}

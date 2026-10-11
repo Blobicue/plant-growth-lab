@@ -1,0 +1,27 @@
+{
+  "shared-atmosphere27": {
+    "identical_source_files": 47,
+    "changed_source_files": [
+      "native/resource_field.c",
+      "native/resource_field.gdextension"
+    ],
+    "c_change_only_export_declaration": true
+  },
+  "juvenile-allocation30": {
+    "identical_source_files": 46,
+    "changed_source_files": [
+      "lab.gd",
+      "native/resource_field.c",
+      "native/resource_field.gdextension"
+    ],
+    "c_change_only_export_declaration": true
+  },
+  "seedling-diagnostics28": {
+    "identical_source_files": 21,
+    "changed_source_files": [
+      "native/resource_field.c",
+      "native/resource_field.gdextension"
+    ],
+    "c_change_only_export_declaration": true
+  }
+}

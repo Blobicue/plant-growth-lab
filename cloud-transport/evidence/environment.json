@@ -1,0 +1,9 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "visible_affinity_cpus": 5,
+  "cpu_max": "400000 100000",
+  "memory_max": "17179869184",
+  "Godot": "4.7.2.stable.official.ed1daf0bf",
+  "GPU": "unavailable"
+}

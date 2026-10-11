@@ -1,0 +1,3671 @@
+{
+  "arm": 0,
+  "baseline_known_hashes": [
+    {
+      "exact": true,
+      "tick": 960
+    }
+  ],
+  "censored": "",
+  "daily": [
+    {
+      "age": 0,
+      "budget": {},
+      "leaves": 4,
+      "living": 7,
+      "nodes": 7,
+      "pools": {
+        "c": 0.036300000000000006,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0012488,
+        "w": 0.03658
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "not collecting",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 1,
+      "tick": 678,
+      "totals": {
+        "built_c": 0.0,
+        "completed": 0,
+        "expired": 0,
+        "fixed_c": 0.0,
+        "photons": 0.0,
+        "respired_c": 0.0,
+        "uptake_n": 0.0,
+        "uptake_w": 0.0
+      }
+    },
+    {
+      "age": 24,
+      "budget": {
+        "actual_demand_C": 0.005425256625744038,
+        "connected_leaves": 96.0,
+        "construction_C": 0.010799999999999999,
+        "construction_N": 0.00038879999999999996,
+        "construction_W": 0.00324,
+        "direct_respired_C": 0.002696508247779131,
+        "fixed_C": 0.00542525,
+        "hydrated_demand_C": 0.008558868816754673,
+        "leaf_water_sum": 0.327030851485669,
+        "light_receipt_E": 2.0881920000000003,
+        "operating_C": 0.0013394705102081333,
+        "refused_C": 18.0,
+        "refused_N": 20.0,
+        "refused_W": 0.0,
+        "repair_C": 0.001389271242012736,
+        "turnover_C": 0.00119350444111184,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 0.00015039200000000003,
+        "uptake_W": 0.006705129
+      },
+      "leaves": 4,
+      "living": 12,
+      "nodes": 12,
+      "pools": {
+        "c": 0.026839470510208133,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0010103919999999997,
+        "w": 0.03733250399999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 702,
+      "totals": {
+        "built_c": 0.010799999999999999,
+        "completed": 0,
+        "expired": 2,
+        "fixed_c": 0.00542525,
+        "photons": 2.0881920000000003,
+        "respired_c": 0.002892275048680026,
+        "uptake_n": 0.00015039200000000003,
+        "uptake_w": 0.006705129
+      }
+    },
+    {
+      "age": 48,
+      "budget": {
+        "actual_demand_C": 0.004767267900855392,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0028367622548201273,
+        "fixed_C": 0.0047672609999999975,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.2975938664079488,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0004615675400285663,
+        "refused_C": 20.0,
+        "refused_N": 20.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0014689312051513036,
+        "turnover_C": 0.00126902582951853,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 8.854099999999992e-05,
+        "uptake_W": 0.004542579000000001
+      },
+      "leaves": 4,
+      "living": 12,
+      "nodes": 12,
+      "pools": {
+        "c": 0.027301038050236703,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0010989329999999999,
+        "w": 0.039491452499999996
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 726,
+      "totals": {
+        "built_c": 0.010799999999999999,
+        "completed": 0,
+        "expired": 4,
+        "fixed_c": 0.010192510999999998,
+        "photons": 4.006656,
+        "respired_c": 0.005928942679132916,
+        "uptake_n": 0.00023893299999999996,
+        "uptake_w": 0.011247708
+      }
+    },
+    {
+      "age": 72,
+      "budget": {
+        "actual_demand_C": 0.004864916410422024,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0028080744258291855,
+        "fixed_C": 0.004864910000000007,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.31343492410008594,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000605963721540293,
+        "refused_C": 18.0,
+        "refused_N": 18.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0014508718526305287,
+        "turnover_C": 0.0012535785369849459,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.879600000000009e-05,
+        "uptake_W": 0.004132373999999998
+      },
+      "leaves": 4,
+      "living": 12,
+      "nodes": 12,
+      "pools": {
+        "c": 0.027907001771776983,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.001177729,
+        "w": 0.0411913715
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 750,
+      "totals": {
+        "built_c": 0.010799999999999999,
+        "completed": 0,
+        "expired": 8,
+        "fixed_c": 0.015057421000000005,
+        "photons": 5.925120000000001,
+        "respired_c": 0.00893431042060766,
+        "uptake_n": 0.00031772900000000005,
+        "uptake_w": 0.015380081999999998
+      }
+    },
+    {
+      "age": 96,
+      "budget": {
+        "actual_demand_C": 0.004865437342370273,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0024,
+        "construction_N": 5.76e-05,
+        "construction_W": 0.0007199999999999999,
+        "direct_respired_C": 0.0028546176537962284,
+        "fixed_C": 0.004865429999999997,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.315622449350135,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005352347340940814,
+        "refused_C": 17.0,
+        "refused_N": 22.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0014755776121096876,
+        "turnover_C": 0.0012786402751210457,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.252000000000013e-05,
+        "uptake_W": 0.003890485999999997
+      },
+      "leaves": 4,
+      "living": 13,
+      "nodes": 13,
+      "pools": {
+        "c": 0.026042236505871067,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.001192649,
+        "w": 0.041929142499999995
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 774,
+      "totals": {
+        "built_c": 0.013199999999999998,
+        "completed": 0,
+        "expired": 10,
+        "fixed_c": 0.019922851000000002,
+        "photons": 7.843584000000001,
+        "respired_c": 0.011985865411392509,
+        "uptake_n": 0.0003902490000000002,
+        "uptake_w": 0.019270567999999995
+      }
+    },
+    {
+      "age": 120,
+      "budget": {
+        "actual_demand_C": 0.0048306967836928725,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.002890095815252262,
+        "fixed_C": 0.004830689999999992,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3074851155767753,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000444604855027243,
+        "refused_C": 20.0,
+        "refused_N": 20.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0014959893297204873,
+        "turnover_C": 0.0012977439005204484,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.785500000000002e-05,
+        "uptake_W": 0.0037200529999999905
+      },
+      "leaves": 4,
+      "living": 13,
+      "nodes": 13,
+      "pools": {
+        "c": 0.026486841360898322,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0012605040000000004,
+        "w": 0.043233850500000004
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 798,
+      "totals": {
+        "built_c": 0.013199999999999998,
+        "completed": 0,
+        "expired": 12,
+        "fixed_c": 0.024753540999999993,
+        "photons": 9.762048,
+        "respired_c": 0.015074206655844781,
+        "uptake_n": 0.0004581040000000002,
+        "uptake_w": 0.022990620999999985
+      }
+    },
+    {
+      "age": 144,
+      "budget": {
+        "actual_demand_C": 0.00488104842000956,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.00287415759561533,
+        "fixed_C": 0.004881041999999999,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.31609757451795484,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005208577130724622,
+        "refused_C": 18.0,
+        "refused_N": 18.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0014860266913122064,
+        "turnover_C": 0.0012891617822544082,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.408699999999989e-05,
+        "uptake_W": 0.0035887939999999924
+      },
+      "leaves": 4,
+      "living": 13,
+      "nodes": 13,
+      "pools": {
+        "c": 0.027007699073970787,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0013245910000000002,
+        "w": 0.04438212350000001
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 3,
+      "tick": 822,
+      "totals": {
+        "built_c": 0.013199999999999998,
+        "completed": 0,
+        "expired": 16,
+        "fixed_c": 0.029634582999999992,
+        "photons": 11.680512,
+        "respired_c": 0.0181452291605179,
+        "uptake_n": 0.0005221910000000001,
+        "uptake_w": 0.026579414999999978
+      }
+    },
+    {
+      "age": 168,
+      "budget": {
+        "actual_demand_C": 0.004869491556727916,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0018,
+        "construction_N": 0.000108,
+        "construction_W": 0.00054,
+        "direct_respired_C": 0.0030237427800280285,
+        "fixed_C": 0.004869485999999992,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.31419980610054243,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0002788814148615049,
+        "refused_C": 32.0,
+        "refused_N": 17.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015668618051104593,
+        "turnover_C": 0.0013697076507843227,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 8.829699999999998e-05,
+        "uptake_W": 0.004778098000000005
+      },
+      "leaves": 4,
+      "living": 14,
+      "nodes": 14,
+      "pools": {
+        "c": 0.025486580488832292,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.001304888,
+        "w": 0.046185478499999995
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 4,
+      "tick": 846,
+      "totals": {
+        "built_c": 0.014999999999999998,
+        "completed": 0,
+        "expired": 18,
+        "fixed_c": 0.034504068999999984,
+        "photons": 13.598976,
+        "respired_c": 0.021366126094872064,
+        "uptake_n": 0.0006104880000000001,
+        "uptake_w": 0.03135751299999998
+      }
+    },
+    {
+      "age": 192,
+      "budget": {
+        "actual_demand_C": 0.004859762891205023,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030510999968167644,
+        "fixed_C": 0.004859756000000007,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3123725719075165,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.00022675714152482998,
+        "refused_C": 40.0,
+        "refused_N": 20.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015818988616584121,
+        "turnover_C": 0.0013844384598244114,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.75009999999999e-05,
+        "uptake_W": 0.004442938000000035
+      },
+      "leaves": 4,
+      "living": 14,
+      "nodes": 14,
+      "pools": {
+        "c": 0.02571333763035711,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0013823890000000001,
+        "w": 0.048198538500000006
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 4,
+      "tick": 870,
+      "totals": {
+        "built_c": 0.014999999999999998,
+        "completed": 0,
+        "expired": 20,
+        "fixed_c": 0.03936382499999999,
+        "photons": 15.51744,
+        "respired_c": 0.024614686493522817,
+        "uptake_n": 0.000687989,
+        "uptake_w": 0.03580045100000002
+      }
+    },
+    {
+      "age": 216,
+      "budget": {
+        "actual_demand_C": 0.004931086674901863,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030250720485431658,
+        "fixed_C": 0.004931080999999997,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3248059679027076,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0003400658931300071,
+        "refused_C": 36.0,
+        "refused_N": 10.0,
+        "refused_W": 0.0,
+        "repair_C": 0.001565943058326825,
+        "turnover_C": 0.0013704234107540124,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.309600000000025e-05,
+        "uptake_W": 0.004271941999999959
+      },
+      "leaves": 4,
+      "living": 14,
+      "nodes": 14,
+      "pools": {
+        "c": 0.026053403523487118,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0014554849999999996,
+        "w": 0.050004940000000005
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 4,
+      "tick": 894,
+      "totals": {
+        "built_c": 0.014999999999999998,
+        "completed": 0,
+        "expired": 24,
+        "fixed_c": 0.04429490599999999,
+        "photons": 17.435904,
+        "respired_c": 0.027835278189638796,
+        "uptake_n": 0.0007610850000000002,
+        "uptake_w": 0.04007239299999998
+      }
+    },
+    {
+      "age": 240,
+      "budget": {
+        "actual_demand_C": 0.004997451422829746,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003002924797515902,
+        "fixed_C": 0.004997444999999996,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.33673915924114534,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.00044228155343737545,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015522386490467183,
+        "turnover_C": 0.0013584979678931781,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.964199999999986e-05,
+        "uptake_W": 0.004146188999999995
+      },
+      "leaves": 4,
+      "living": 14,
+      "nodes": 14,
+      "pools": {
+        "c": 0.02649568507692449,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0015251269999999994,
+        "w": 0.0516524065
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 4,
+      "tick": 918,
+      "totals": {
+        "built_c": 0.014999999999999998,
+        "completed": 0,
+        "expired": 26,
+        "fixed_c": 0.049292350999999984,
+        "photons": 19.354368,
+        "respired_c": 0.031031943668308228,
+        "uptake_n": 0.0008307270000000001,
+        "uptake_w": 0.04421858199999997
+      }
+    },
+    {
+      "age": 264,
+      "budget": {
+        "actual_demand_C": 0.0050558790584423466,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0029835195574551498,
+        "fixed_C": 0.0050558749999999875,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3477053474763012,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000532131162827192,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015402242797176457,
+        "turnover_C": 0.0013480489924758497,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.671699999999934e-05,
+        "uptake_W": 0.0040429310000000135
+      },
+      "leaves": 4,
+      "living": 14,
+      "nodes": 14,
+      "pools": {
+        "c": 0.027027816239751697,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0015918439999999996,
+        "w": 0.05316739999999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 4,
+      "tick": 942,
+      "totals": {
+        "built_c": 0.014999999999999998,
+        "completed": 0,
+        "expired": 28,
+        "fixed_c": 0.05434822599999997,
+        "photons": 21.272832,
+        "respired_c": 0.034207638513005324,
+        "uptake_n": 0.0008974439999999994,
+        "uptake_w": 0.048261512999999985
+      }
+    },
+    {
+      "age": 288,
+      "budget": {
+        "actual_demand_C": 0.0050785426406167586,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0018,
+        "construction_N": 0.000108,
+        "construction_W": 0.00054,
+        "direct_respired_C": 0.00307361685247331,
+        "fixed_C": 0.005078534999999988,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3544232381163446,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0004171104099741643,
+        "refused_C": 35.0,
+        "refused_N": 10.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015878077375525137,
+        "turnover_C": 0.0013965629205625518,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 8.221000000000053e-05,
+        "uptake_W": 0.004840158000000025
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.025644926649725872,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0015660539999999999,
+        "w": 0.0549282905
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 966,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 32,
+        "fixed_c": 0.05942676099999996,
+        "photons": 23.191296,
+        "respired_c": 0.03747250018246871,
+        "uptake_n": 0.000979654,
+        "uptake_w": 0.05310167100000001
+      }
+    },
+    {
+      "age": 312,
+      "budget": {
+        "actual_demand_C": 0.005055005841874865,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.00315645976285935,
+        "fixed_C": 0.005055000999999969,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3467606957754124,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0002650684252915993,
+        "refused_C": 36.0,
+        "refused_N": 12.0,
+        "refused_W": 0.0,
+        "repair_C": 0.00163347281184902,
+        "turnover_C": 0.0014411706415396498,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.839999999999974e-05,
+        "uptake_W": 0.0048360689999999915
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.025909995075017504,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0016444539999999996,
+        "w": 0.05723685899999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 990,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 34,
+        "fixed_c": 0.06448176199999993,
+        "photons": 25.10976,
+        "respired_c": 0.04082126211563759,
+        "uptake_n": 0.0010580539999999997,
+        "uptake_w": 0.05793774
+      }
+    },
+    {
+      "age": 336,
+      "budget": {
+        "actual_demand_C": 0.005103393432961893,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003130668331782996,
+        "fixed_C": 0.0051033859999999875,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3569301224472492,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.00035452496212052967,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016181927060964615,
+        "turnover_C": 0.0014272829478831517,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.443399999999974e-05,
+        "uptake_W": 0.004668438000000011
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.026264520037138046,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0017188879999999996,
+        "w": 0.059353604
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1014,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 36,
+        "fixed_c": 0.06958514799999992,
+        "photons": 27.028224,
+        "respired_c": 0.04414284020563406,
+        "uptake_n": 0.0011324879999999994,
+        "uptake_w": 0.06260617800000001
+      }
+    },
+    {
+      "age": 360,
+      "budget": {
+        "actual_demand_C": 0.005165686801175193,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003107773512578716,
+        "fixed_C": 0.005165679999999992,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3696339814210507,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0004537192909173386,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016041871965039374,
+        "turnover_C": 0.0014149549683116162,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.140400000000039e-05,
+        "uptake_W": 0.004549529000000066
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.0267182393280554,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0017902919999999993,
+        "w": 0.061320293
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1038,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 40,
+        "fixed_c": 0.07475082799999991,
+        "photons": 28.946688,
+        "respired_c": 0.0474398459464053,
+        "uptake_n": 0.0012038919999999998,
+        "uptake_w": 0.06715570700000008
+      }
+    },
+    {
+      "age": 384,
+      "budget": {
+        "actual_demand_C": 0.005223518518608377,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030873611702096656,
+        "fixed_C": 0.0052235130000000685,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.38190878152529173,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005445069232477603,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015916449065426423,
+        "turnover_C": 0.0014039637070359739,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.881300000000133e-05,
+        "uptake_W": 0.004451082000000051
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.027262746251303087,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0018591049999999987,
+        "w": 0.0631596185
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1062,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 42,
+        "fixed_c": 0.07997434099999998,
+        "photons": 30.865152000000002,
+        "respired_c": 0.05071488831612171,
+        "uptake_n": 0.0012727050000000011,
+        "uptake_w": 0.07160678900000013
+      }
+    },
+    {
+      "age": 408,
+      "budget": {
+        "actual_demand_C": 0.005275801142955855,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.00306898993645253,
+        "fixed_C": 0.005275794,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.3934706062682945,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0006264528170742554,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015803512464732143,
+        "turnover_C": 0.0013940715042436698,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.649700000000086e-05,
+        "uptake_W": 0.004365031000000089
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.027889199068377342,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0019256019999999985,
+        "w": 0.06488675249999998
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1086,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 44,
+        "fixed_c": 0.08525013499999998,
+        "photons": 32.783616,
+        "respired_c": 0.05397015799480401,
+        "uptake_n": 0.001339202000000002,
+        "uptake_w": 0.07597182000000022
+      }
+    },
+    {
+      "age": 432,
+      "budget": {
+        "actual_demand_C": 0.0053231203786562355,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030523447838036255,
+        "fixed_C": 0.005323114999999962,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.40434452879685995,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000700650151263761,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015701200649325747,
+        "turnover_C": 0.0013851087297404136,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.440499999999958e-05,
+        "uptake_W": 0.004287732000000058
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.02858984921964114,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0019900069999999985,
+        "w": 0.06651292699999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1110,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 48,
+        "fixed_c": 0.09057324999999994,
+        "photons": 34.70208,
+        "respired_c": 0.05720751411379995,
+        "uptake_n": 0.0014036070000000016,
+        "uptake_w": 0.08025955200000028
+      }
+    },
+    {
+      "age": 456,
+      "budget": {
+        "actual_demand_C": 0.005366143752506767,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030371856260270314,
+        "fixed_C": 0.005366135000000036,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.41458917269835843,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0007681452589396413,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.001560804115033363,
+        "turnover_C": 0.0013769461063222476,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.24719999999994e-05,
+        "uptake_W": 0.00421716300000001
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.029357994478580753,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0020524789999999985,
+        "w": 0.0680470225
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1134,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 50,
+        "fixed_c": 0.09593938499999997,
+        "photons": 36.620544,
+        "respired_c": 0.06042855774853828,
+        "uptake_n": 0.001466079000000001,
+        "uptake_w": 0.08447671500000029
+      }
+    },
+    {
+      "age": 480,
+      "budget": {
+        "actual_demand_C": 0.005405432412781701,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0030233216567950947,
+        "fixed_C": 0.005405425999999977,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4242580530107411,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0008298187147840237,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.001552285628420859,
+        "turnover_C": 0.001369480892120435,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.0686000000000117e-05,
+        "uptake_W": 0.004152092999999968
+      },
+      "leaves": 4,
+      "living": 15,
+      "nodes": 15,
+      "pools": {
+        "c": 0.030187813193364797,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0021131649999999984,
+        "w": 0.06949640249999998
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 5,
+      "tick": 1158,
+      "totals": {
+        "built_c": 0.0168,
+        "completed": 0,
+        "expired": 52,
+        "fixed_c": 0.10134481099999995,
+        "photons": 38.539008,
+        "respired_c": 0.06363468414163374,
+        "uptake_n": 0.001526765000000001,
+        "uptake_w": 0.08862880800000025
+      }
+    },
+    {
+      "age": 504,
+      "budget": {
+        "actual_demand_C": 0.0054187045312426236,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0018,
+        "construction_N": 0.000108,
+        "construction_W": 0.00054,
+        "direct_respired_C": 0.0031299250977526545,
+        "fixed_C": 0.005418698,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.42978488612485655,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0006796749574233692,
+        "refused_C": 35.0,
+        "refused_N": 10.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016090979448239757,
+        "turnover_C": 0.0014268827449437369,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.386799999999994e-05,
+        "uptake_W": 0.004877205000000037
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.02906748815078817,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0020790329999999992,
+        "w": 0.0711242585
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1182,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 56,
+        "fixed_c": 0.10676350899999995,
+        "photons": 40.457472,
+        "respired_c": 0.06694682443926672,
+        "uptake_n": 0.001600633000000001,
+        "uptake_w": 0.09350601300000029
+      }
+    },
+    {
+      "age": 528,
+      "budget": {
+        "actual_demand_C": 0.005390434599622568,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003197212246492416,
+        "fixed_C": 0.005390428999999974,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.41972855747036586,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005468142033603542,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016464025501472036,
+        "turnover_C": 0.0014631142865728396,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.997000000000014e-05,
+        "uptake_W": 0.004802963999999937
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.029614302354148546,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.002149002999999999,
+        "w": 0.07323200799999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1206,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 58,
+        "fixed_c": 0.11215393799999993,
+        "photons": 42.375936,
+        "respired_c": 0.07032732494933344,
+        "uptake_n": 0.0016706030000000012,
+        "uptake_w": 0.09830897700000023
+      }
+    },
+    {
+      "age": 552,
+      "budget": {
+        "actual_demand_C": 0.005412506167435682,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0031790533693338654,
+        "fixed_C": 0.005412499000000057,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.42591808395925473,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005974818913169111,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.00163596373934928,
+        "turnover_C": 0.001453336429641312,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.721799999999953e-05,
+        "uptake_W": 0.004677827999999995
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.030211784245465396,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0022162209999999983,
+        "w": 0.07520358650000002
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1230,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 60,
+        "fixed_c": 0.11756643699999998,
+        "photons": 44.2944,
+        "respired_c": 0.073689005628375,
+        "uptake_n": 0.0017378210000000007,
+        "uptake_w": 0.10298680500000022
+      }
+    },
+    {
+      "age": 576,
+      "budget": {
+        "actual_demand_C": 0.005452729825230686,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0031622052739533725,
+        "fixed_C": 0.005452725000000033,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4363080623867107,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0006647164961364944,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016258032299101665,
+        "turnover_C": 0.001444264378282585,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.50530000000009e-05,
+        "uptake_W": 0.004587213999999978
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.030876500741601847,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.002281273999999999,
+        "w": 0.077064438
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1254,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 64,
+        "fixed_c": 0.12301916200000002,
+        "photons": 46.212864,
+        "respired_c": 0.07703274975395571,
+        "uptake_n": 0.0018028740000000016,
+        "uptake_w": 0.1075740190000002
+      }
+    },
+    {
+      "age": 600,
+      "budget": {
+        "actual_demand_C": 0.00549336687767838,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003146734003171498,
+        "fixed_C": 0.005493362000000029,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4470751825882553,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000730247057913742,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016163809389147892,
+        "turnover_C": 0.0014359336940154214,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.315700000000032e-05,
+        "uptake_W": 0.004512188000000042
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.03160674779951556,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0023444309999999984,
+        "w": 0.07882994499999998
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1278,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 66,
+        "fixed_c": 0.12851252400000004,
+        "photons": 48.131328,
+        "respired_c": 0.08035993100202637,
+        "uptake_n": 0.001866031000000002,
+        "uptake_w": 0.11208620700000024
+      }
+    },
+    {
+      "age": 624,
+      "budget": {
+        "actual_demand_C": 0.005531536949988032,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003132481334916685,
+        "fixed_C": 0.005531530000000007,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4575128511026421,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0007913660405343437,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016076826245489785,
+        "turnover_C": 0.0014282591803397528,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.144600000000016e-05,
+        "uptake_W": 0.004447319000000005
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.0323981138400499,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.002405876999999999,
+        "w": 0.08051149899999997
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1302,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 68,
+        "fixed_c": 0.13404405400000005,
+        "photons": 50.049792000000004,
+        "respired_c": 0.08367183578115206,
+        "uptake_n": 0.001927477000000002,
+        "uptake_w": 0.11653352600000025
+      }
+    },
+    {
+      "age": 648,
+      "budget": {
+        "actual_demand_C": 0.005566986232807544,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0031192769713919853,
+        "fixed_C": 0.005566980000000055,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.46751305696666984,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0008480809063786631,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0015996221222294071,
+        "turnover_C": 0.0014211491384418377,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 5.984600000000012e-05,
+        "uptake_W": 0.004393993000000027
+      },
+      "leaves": 4,
+      "living": 16,
+      "nodes": 16,
+      "pools": {
+        "c": 0.0332461947464285,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.002465722999999998,
+        "w": 0.082122002
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 6,
+      "tick": 1326,
+      "totals": {
+        "built_c": 0.0186,
+        "completed": 0,
+        "expired": 72,
+        "fixed_c": 0.1396110340000001,
+        "photons": 51.968256000000004,
+        "respired_c": 0.0869695857363313,
+        "uptake_n": 0.001987323000000002,
+        "uptake_w": 0.12092751900000027
+      }
+    },
+    {
+      "age": 672,
+      "budget": {
+        "actual_demand_C": 0.00558387425707799,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0018,
+        "construction_N": 0.000108,
+        "construction_W": 0.00054,
+        "direct_respired_C": 0.0032313173364661224,
+        "fixed_C": 0.005583869999999852,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.47418443192420945,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000693221337660284,
+        "refused_C": 35.0,
+        "refused_N": 7.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016593313258734456,
+        "turnover_C": 0.0014814785657894505,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 7.082199999999903e-05,
+        "uptake_W": 0.005043589000000001
+      },
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.03213941608408893,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0024285449999999977,
+        "w": 0.08383365599999998
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1350,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 74,
+        "fixed_c": 0.14519490399999996,
+        "photons": 53.886720000000004,
+        "respired_c": 0.09037875583288127,
+        "uptake_n": 0.0020581450000000012,
+        "uptake_w": 0.12597110800000028
+      }
+    },
+    {
+      "age": 696,
+      "budget": {
+        "actual_demand_C": 0.005561261942973936,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003289472280344048,
+        "fixed_C": 0.005561255000000015,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.46509333628349087,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0005802953489562293,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.001691487370699738,
+        "turnover_C": 0.0015127927663391026,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.693299999999862e-05,
+        "uptake_W": 0.004949162999999979
+      },
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.03271971143304514,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.002495477999999998,
+        "w": 0.08600219150000002
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1374,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 76,
+        "fixed_c": 0.15075615899999997,
+        "photons": 55.805184000000004,
+        "respired_c": 0.09384692271758588,
+        "uptake_n": 0.002125078,
+        "uptake_w": 0.13092027100000025
+      }
+    },
+    {
+      "age": 720,
+      "budget": {
+        "actual_demand_C": 0.005573195487075552,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003273526176997664,
+        "fixed_C": 0.005573190000000117,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4691323854968784,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000617136684325641,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016825271386768112,
+        "turnover_C": 0.0015042064029987424,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.452099999999881e-05,
+        "uptake_W": 0.004846032999999944
+      },
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.033336848117370664,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0025599989999999986,
+        "w": 0.08806162949999999
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1398,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 80,
+        "fixed_c": 0.1563293490000001,
+        "photons": 57.723648000000004,
+        "respired_c": 0.09729876963026143,
+        "uptake_n": 0.0021895989999999987,
+        "uptake_w": 0.1357663040000002
+      }
+    },
+    {
+      "age": 744,
+      "budget": {
+        "actual_demand_C": 0.005604754227497263,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.0032582733540357533,
+        "fixed_C": 0.005604748000000076,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4784793857579916,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.000673017519477162,
+        "refused_C": 36.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016734571264871597,
+        "turnover_C": 0.0014959933444807904,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.261000000000287e-05,
+        "uptake_W": 0.004771770000000036
+      },
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.03400986563684775,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0026226089999999984,
+        "w": 0.0900310255
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1422,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 82,
+        "fixed_c": 0.16193409700000017,
+        "photons": 59.642112000000004,
+        "respired_c": 0.10073450676630324,
+        "uptake_n": 0.0022522090000000015,
+        "uptake_w": 0.14053807400000023
+      }
+    },
+    {
+      "age": 768,
+      "budget": {
+        "actual_demand_C": 0.005639360389945492,
+        "connected_leaves": 96.0,
+        "construction_C": 0.0,
+        "construction_N": 0.0,
+        "construction_W": 0.0,
+        "direct_respired_C": 0.003243960662632914,
+        "fixed_C": 0.005639353000000014,
+        "hydrated_demand_C": 0.007863204966624926,
+        "leaf_water_sum": 0.4889241599460669,
+        "light_receipt_E": 1.9184640000000002,
+        "operating_C": 0.0007305729728497568,
+        "refused_C": 40.0,
+        "refused_N": 0.0,
+        "refused_W": 0.0,
+        "repair_C": 0.0016648193645173424,
+        "turnover_C": 0.0014882865106484924,
+        "unpaid_C": 0.0,
+        "unshaded_hydrated_C": 0.010072960725860593,
+        "uptake_N": 6.091400000000132e-05,
+        "uptake_W": 0.004710615000000057
+      },
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.03474043860969749,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0026835229999999984,
+        "w": 0.091921964
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1446,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 84,
+        "fixed_c": 0.16757345000000018,
+        "photons": 61.560576000000005,
+        "respired_c": 0.1041550002828048,
+        "uptake_n": 0.002313123000000003,
+        "uptake_w": 0.1452486890000003
+      }
+    }
+  ],
+  "duration": 768,
+  "endpoint": {
+    "fingerprint": "f9ac4c308056b2ed0816177df6971e291a4597ae45c05a3c5f73293a27c7fd21",
+    "lineage": [
+      {
+        "birth_tick": 678,
+        "child": 2,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 0
+      },
+      {
+        "birth_tick": 1286,
+        "child": 3,
+        "generation": 1,
+        "genotype": {
+          "branch_seed": 12161,
+          "physiology": "paid-v8",
+          "version": 1
+        },
+        "mutation": false,
+        "parent": 1,
+        "propagule": 1
+      }
+    ],
+    "target": {
+      "age": 768,
+      "budget": {},
+      "leaves": 4,
+      "living": 17,
+      "nodes": 17,
+      "pools": {
+        "c": 0.03474043860969749,
+        "disconnected_c": 0.0,
+        "disconnected_n": 0.0,
+        "disconnected_w": 0.0,
+        "n": 0.0026835229999999984,
+        "w": 0.091921964
+      },
+      "reserve": {
+        "balance": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "capacity": {
+          "c": 0.051,
+          "n": 0.002,
+          "w": 0.04
+        },
+        "committed": false,
+        "deposited": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "disposed": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "last_surplus": 0.0,
+        "reason": "juvenile: reproductive collection deferred until32 paid cells",
+        "recent": [],
+        "refunded": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "released": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        },
+        "sources": {},
+        "surplus": 0.0
+      },
+      "roots": 7,
+      "tick": 1446,
+      "totals": {
+        "built_c": 0.020399999999999998,
+        "completed": 0,
+        "expired": 84,
+        "fixed_c": 0.16757345000000018,
+        "photons": 61.560576000000005,
+        "respired_c": 0.1041550002828048,
+        "uptake_n": 0.002313123000000003,
+        "uptake_w": 0.1452486890000003
+      }
+    },
+    "tick": 1446,
+    "world": {
+      "ledger": {
+        "C": 10.622800000000002,
+        "E": 64945.89600000001,
+        "N": 0.08152243999999999,
+        "W": 2.4088400609999994
+      },
+      "matter": {
+        "C": {
+          "atmosphere": 10.049122249366409,
+          "detritus": 0.0,
+          "litter": 0.15985235889172195,
+          "mobile": 0.1071050025889433,
+          "reserves": 0.00801839859334992,
+          "seed_gas": 0.0,
+          "seed_organic": 0.0,
+          "structure": 0.29870199055957886
+        },
+        "N": {
+          "detritus": 0.0,
+          "mobile": 0.049047881153196464,
+          "reserves": 0.0015158281031050786,
+          "seeds": 0.0,
+          "soil": 0.019011416,
+          "structure": 0.011947314743698454
+        },
+        "W": {
+          "bound": 0.08961059716787342,
+          "cloud": 0.000520596,
+          "detritus": 0.0,
+          "mobile": 1.249813332770025,
+          "reserves": 0.030316562062101586,
+          "seeds": 0.0,
+          "soil": 0.98703989,
+          "vapor": 0.051539082999999895
+        },
+        "boundary_exports": {
+          "C": 0.0,
+          "N": 0.0,
+          "W": 0.0
+        },
+        "boundary_imports": {
+          "C": 0.0,
+          "N": 0.0,
+          "W": 0.0
+        }
+      },
+      "plants": [
+        {
+          "connected_roots": 6,
+          "generation": 0,
+          "id": 0,
+          "mobile": {
+            "c": 0.002131438908640407,
+            "disconnected_n": 0.007125036323730579,
+            "disconnected_w": 0.2699232032507694,
+            "n": 0.014879534435692971,
+            "w": 0.5571210359199548
+          },
+          "nodes": 57,
+          "reserve": {
+            "c": 8.719579708890766e-05,
+            "n": 0.0008718798206085841,
+            "w": 0.017437596412171692
+          }
+        },
+        {
+          "connected_roots": 21,
+          "generation": 0,
+          "id": 1,
+          "mobile": {
+            "c": 0.043903937939479616,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0304210627175035,
+            "w": 0.5651196128500703
+          },
+          "nodes": 59,
+          "reserve": {
+            "c": 0.007931202796261014,
+            "n": 0.0006439482824964945,
+            "w": 0.012878965649929894
+          }
+        },
+        {
+          "connected_roots": 7,
+          "generation": 1,
+          "id": 2,
+          "mobile": {
+            "c": 0.03474043860969749,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0026835229999999984,
+            "w": 0.091921964
+          },
+          "nodes": 17,
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        },
+        {
+          "connected_roots": 3,
+          "generation": 1,
+          "id": 3,
+          "mobile": {
+            "c": 0.026329187131125763,
+            "disconnected_n": 0.0,
+            "disconnected_w": 0.0,
+            "n": 0.0010637610000000003,
+            "w": 0.03565072
+          },
+          "nodes": 13,
+          "reserve": {
+            "c": 0.0,
+            "n": 0.0,
+            "w": 0.0
+          }
+        }
+      ],
+      "shared_air": 10.049122249366409
+    }
+  },
+  "error": "",
+  "events": [
+    {
+      "age": 3,
+      "data": {
+        "cursor": 0,
+        "front": 2,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -2, 3)",
+        "proposal": 1
+      },
+      "event": "built_node_7",
+      "tick": 681
+    },
+    {
+      "age": 3,
+      "data": {
+        "cursor": 0,
+        "front": 1,
+        "kind": "stem",
+        "path_size": 4,
+        "position": "(3, 2, 3)",
+        "proposal": 0
+      },
+      "event": "built_node_8",
+      "tick": 681
+    },
+    {
+      "age": 4,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 7,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 681,
+          "bound_w": 0.00054,
+          "c": 0.002521023433789853,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.909596710897876e-05,
+          "parent": 2,
+          "pos": "(3, -2, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.003458391611517831
+        },
+        "pools": {
+          "c": 0.033662404300593966,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0011295180000000001,
+          "w": 0.03597304199999999
+        },
+        "proposal": 1,
+        "short": [
+          "n"
+        ]
+      },
+      "event": "refusal_root_[\"n\"]",
+      "tick": 682
+    },
+    {
+      "age": 4,
+      "data": {
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front": 8,
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 681,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.002325198768962288,
+          "connected": true,
+          "kind": "stem",
+          "light": 1.0,
+          "light_receipt": 0,
+          "n": 7.972969069368594e-05,
+          "parent": 1,
+          "pos": "(3, 2, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.759999999999999e-05,
+          "stress": 0.0,
+          "w": 0.002391329551401347
+        },
+        "pools": {
+          "c": 0.033662404300593966,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0011295180000000001,
+          "w": 0.03597304199999999
+        },
+        "proposal": 0,
+        "short": [
+          "c"
+        ]
+      },
+      "event": "refusal_stem_[\"c\"]",
+      "tick": 682
+    },
+    {
+      "age": 5,
+      "data": {
+        "cursor": 1,
+        "front": 8,
+        "kind": "stem",
+        "path_size": 4,
+        "position": "(4, 2, 3)",
+        "proposal": 0
+      },
+      "event": "built_node_9",
+      "tick": 683
+    },
+    {
+      "age": 6,
+      "data": {
+        "cursor": 1,
+        "front": 7,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -3, 3)",
+        "proposal": 1
+      },
+      "event": "built_node_10",
+      "tick": 684
+    },
+    {
+      "age": 6,
+      "data": {
+        "cost": {
+          "c": 0.0024,
+          "n": 5.76e-05,
+          "w": 0.0007199999999999999
+        },
+        "front": 9,
+        "kind": "stem",
+        "local": {
+          "active": true,
+          "birth": 683,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0010607887630796524,
+          "connected": true,
+          "kind": "stem",
+          "light": 1.0,
+          "light_receipt": 0,
+          "n": 4.170037338003518e-05,
+          "parent": 8,
+          "pos": "(4, 2, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.76e-05,
+          "stress": 0.0,
+          "w": 0.001524707091998325
+        },
+        "pools": {
+          "c": 0.03009446516792346,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0009709580000000001,
+          "w": 0.03461049299999999
+        },
+        "proposal": 0,
+        "short": [
+          "c",
+          "n"
+        ]
+      },
+      "event": "refusal_stem_[\"c\", \"n\"]",
+      "tick": 684
+    },
+    {
+      "age": 7,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 10,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 684,
+          "bound_w": 0.00054,
+          "c": 0.000990194266427739,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 3.3637499965832254e-05,
+          "parent": 7,
+          "pos": "(3, -3, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.00010800000000000001,
+          "stress": 0.0,
+          "w": 0.0021288914113032323
+        },
+        "pools": {
+          "c": 0.029922115865346183,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.000993201,
+          "w": 0.035424225000000004
+        },
+        "proposal": 1,
+        "short": [
+          "c",
+          "n"
+        ]
+      },
+      "event": "refusal_root_[\"c\", \"n\"]",
+      "tick": 685
+    },
+    {
+      "age": 9,
+      "data": {
+        "cursor": 2,
+        "front": 9,
+        "kind": "stem",
+        "path_size": 4,
+        "position": "(4, 3, 3)",
+        "proposal": 0
+      },
+      "event": "built_node_11",
+      "tick": 687
+    },
+    {
+      "age": 17,
+      "data": {
+        "before": {
+          "birth": 681,
+          "blocked": "C",
+          "cursor": 3,
+          "deadline": 695,
+          "front": 11,
+          "heading": "(0.362456, 0.932001, 0.0)",
+          "kind": "stem",
+          "parent": 1,
+          "path": [
+            "(3, 2, 3)",
+            "(4, 2, 3)",
+            "(4, 3, 3)",
+            "(4, 4, 3)"
+          ],
+          "state": "developing",
+          "tip": 0
+        },
+        "local": {
+          "active": true,
+          "birth": 687,
+          "bound_w": 0.0007199999999999999,
+          "c": 0.0019115946931590193,
+          "connected": true,
+          "kind": "stem",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 7.236649704133245e-05,
+          "parent": 9,
+          "pos": "(4, 3, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0024,
+          "solid_n": 5.760000000000002e-05,
+          "stress": 0.0,
+          "w": 0.0026563335535574896
+        },
+        "pools": {
+          "c": 0.0257385207474973,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0009814779999999998,
+          "w": 0.037048635999999996
+        },
+        "proposal": 0
+      },
+      "event": "cancel_stem_C",
+      "tick": 695
+    },
+    {
+      "age": 17,
+      "data": {
+        "before": {
+          "birth": 681,
+          "blocked": "N",
+          "cursor": 2,
+          "deadline": 695,
+          "front": 10,
+          "heading": "(0.046465, -0.992396, 0.113976)",
+          "kind": "root",
+          "parent": 2,
+          "path": [
+            "(3, -2, 3)",
+            "(3, -3, 3)",
+            "(3, -4, 3)"
+          ],
+          "state": "developing",
+          "tip": 1
+        },
+        "local": {
+          "active": true,
+          "birth": 684,
+          "bound_w": 0.0005400000000000001,
+          "c": 0.0021311378919074415,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.586337851211533e-05,
+          "parent": 7,
+          "pos": "(3, -3, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.000108,
+          "stress": 0.0,
+          "w": 0.0034951969857152628
+        },
+        "pools": {
+          "c": 0.0257385207474973,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0009814779999999998,
+          "w": 0.037048635999999996
+        },
+        "proposal": 1
+      },
+      "event": "cancel_root_N",
+      "tick": 695
+    },
+    {
+      "age": 81,
+      "data": {
+        "cursor": 0,
+        "front": 11,
+        "kind": "stem",
+        "path_size": 4,
+        "position": "(4, 4, 3)",
+        "proposal": 8
+      },
+      "event": "built_node_12",
+      "tick": 759
+    },
+    {
+      "age": 150,
+      "data": {
+        "cursor": 0,
+        "front": 10,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -4, 3)",
+        "proposal": 17
+      },
+      "event": "built_node_13",
+      "tick": 828
+    },
+    {
+      "age": 161,
+      "data": {
+        "before": {
+          "birth": 825,
+          "blocked": "C",
+          "cursor": 1,
+          "deadline": 839,
+          "front": 13,
+          "heading": "(0.08765, -0.98979, 0.112401)",
+          "kind": "root",
+          "parent": 10,
+          "path": [
+            "(3, -4, 3)",
+            "(3, -5, 3)",
+            "(3, -6, 3)"
+          ],
+          "state": "developing",
+          "tip": 1
+        },
+        "local": {
+          "active": true,
+          "birth": 828,
+          "bound_w": 0.0005400000000000002,
+          "c": 0.001343449021393519,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 8.038439821703146e-05,
+          "parent": 10,
+          "pos": "(3, -4, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.00010800000000000002,
+          "stress": 0.0,
+          "w": 0.0033226642799935578
+        },
+        "pools": {
+          "c": 0.024419378965872467,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0012811359999999998,
+          "w": 0.046054124499999995
+        },
+        "proposal": 17
+      },
+      "event": "cancel_root_C",
+      "tick": 839
+    },
+    {
+      "age": 207,
+      "data": {
+        "cost": {
+          "c": 0.0018,
+          "n": 0.000108,
+          "w": 0.00054
+        },
+        "front": 13,
+        "kind": "root",
+        "local": {
+          "active": true,
+          "birth": 828,
+          "bound_w": 0.0005400000000000004,
+          "c": 0.001697243657000188,
+          "connected": true,
+          "kind": "root",
+          "light": 0.0,
+          "light_receipt": 0,
+          "n": 0.00010812282298161976,
+          "parent": 10,
+          "pos": "(3, -4, 3)",
+          "shadow_owner": -1,
+          "solid_c": 0.0018,
+          "solid_n": 0.00010800000000000001,
+          "stress": 0.0,
+          "w": 0.003946800547113768
+        },
+        "pools": {
+          "c": 0.025276764624168,
+          "disconnected_c": 0.0,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0014285140000000003,
+          "w": 0.049665184
+        },
+        "proposal": 23,
+        "short": [
+          "c"
+        ]
+      },
+      "event": "refusal_root_[\"c\"]",
+      "tick": 885
+    },
+    {
+      "age": 276,
+      "data": {
+        "cursor": 0,
+        "front": 13,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -5, 3)",
+        "proposal": 31
+      },
+      "event": "built_node_14",
+      "tick": 954
+    },
+    {
+      "age": 490,
+      "data": {
+        "cursor": 0,
+        "front": 14,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -6, 3)",
+        "proposal": 55
+      },
+      "event": "built_node_15",
+      "tick": 1168
+    },
+    {
+      "age": 657,
+      "data": {
+        "cursor": 0,
+        "front": 15,
+        "kind": "root",
+        "path_size": 3,
+        "position": "(3, -7, 3)",
+        "proposal": 73
+      },
+      "event": "built_node_16",
+      "tick": 1335
+    }
+  ],
+  "generation": 1,
+  "id": 2,
+  "max_error": 2.1827872842550278e-11,
+  "max_plant_error": 5.115907697472721e-13,
+  "origin": {
+    "ledger": {
+      "C": 10.622799999999996,
+      "E": 30600.936,
+      "N": 0.08152244,
+      "W": 2.4088400610000003
+    },
+    "matter": {
+      "C": {
+        "atmosphere": 10.039690829401973,
+        "detritus": 0.0,
+        "litter": 0.09273954545338972,
+        "mobile": 0.2306141402824815,
+        "reserves": 0.0035554848621514013,
+        "seed_gas": 0.0,
+        "seed_organic": 0.0,
+        "structure": 0.25620000000000026
+      },
+      "N": {
+        "detritus": 0.0,
+        "mobile": 0.042255170221092105,
+        "reserves": 0.000139430778907899,
+        "seeds": 0.0,
+        "soil": 0.029136639,
+        "structure": 0.009991199999999999
+      },
+      "W": {
+        "bound": 0.0768599999999999,
+        "cloud": 0.000314338,
+        "detritus": 0.0,
+        "mobile": 1.046725159921842,
+        "reserves": 0.0027886155781579472,
+        "seeds": 0.0,
+        "soil": 1.251032439,
+        "vapor": 0.03111950849999995
+      },
+      "boundary_exports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      },
+      "boundary_imports": {
+        "C": 0.0,
+        "N": 0.0,
+        "W": 0.0
+      }
+    },
+    "plants": [
+      {
+        "connected_roots": 15,
+        "generation": 0,
+        "id": 0,
+        "mobile": {
+          "c": 0.07745011716512304,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.012868529221092098,
+          "w": 0.475447254421842
+        },
+        "nodes": 57,
+        "reserve": {
+          "c": 0.0035554848621514013,
+          "n": 0.00013943077890789813,
+          "w": 0.0027886155781579472
+        }
+      },
+      {
+        "connected_roots": 21,
+        "generation": 0,
+        "id": 1,
+        "mobile": {
+          "c": 0.1168640231173584,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.028137841000000004,
+          "w": 0.5346979055000003
+        },
+        "nodes": 59,
+        "reserve": {
+          "c": 0.0,
+          "n": 8.673617379884035e-19,
+          "w": 0.0
+        }
+      },
+      {
+        "connected_roots": 1,
+        "generation": 1,
+        "id": 2,
+        "mobile": {
+          "c": 0.036300000000000006,
+          "disconnected_n": 0.0,
+          "disconnected_w": 0.0,
+          "n": 0.0012488,
+          "w": 0.03658
+        },
+        "nodes": 7,
+        "reserve": {
+          "c": 0.0,
+          "n": 0.0,
+          "w": 0.0
+        }
+      }
+    ],
+    "shared_air": 10.039690829401973
+  },
+  "origin_exact": true,
+  "origin_fingerprint": "71c8b69ba682f4da7e5be37a7cb42e459b55a2ceecda6187828de5672aa069d7",
+  "seed": 4242
+}

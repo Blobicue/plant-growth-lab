@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "after": {
+        "c": 9.000000000000002e-05,
+        "n": 6e-06,
+        "w": 0.001
+      },
+      "bank": {
+        "c": 0.0,
+        "n": 0.0,
+        "w": 0.0
+      },
+      "before": {
+        "c": 9e-05,
+        "n": 6e-06,
+        "w": 0.001
+      },
+      "canonical_nodes_and_bank_exact": true,
+      "conservation_error": 1.3552527156068805e-20,
+      "fixture": "scarce_upkeep"
+    },
+    {
+      "after": {
+        "c": 0.0789,
+        "n": 0.0022799,
+        "w": 0.1239
+      },
+      "bank": {
+        "c": 0.05099999999999999,
+        "n": 0.002,
+        "w": 0.04
+      },
+      "before": {
+        "c": 0.07890000000000003,
+        "n": 0.002279900000000001,
+        "w": 0.12390000000000001
+      },
+      "canonical_nodes_and_bank_exact": true,
+      "conservation_error": 2.7755575615628914e-17,
+      "fixture": "near_capacity_collection"
+    }
+  ],
+  "pass": true,
+  "synthetic_closed_transfer_fixtures": true
+}

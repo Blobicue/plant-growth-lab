@@ -1,0 +1,35 @@
+GEN2 SURVIVAL CAUSAL DIAGNOSTIC — PASSIVE OBSERVATION FIRST
+Parent701d108 preserved on migration/linux-cpu. This branch is diagnostic only.
+No publication, model correction or intervention is authorized by this plan.
+
+Saved evidence inspected first: all six gen2 grandchildren have four original
+leaf packets, only two root packets and12–13total paid packets. Reproducing gen1
+children have13root packets and32total packets, also only four original leaves.
+The later founder-born gen1 plant12011/id4 also dies with the gen2-like morphology.
+Thus inherited generation label/genes alone cannot explain survival. All original
+mutation flags are false; compare matched genotypes and birth environments.
+At12288h shared atmospheric carbon is9.57–9.88, while soil N is0.000515–0.000891
+of the original0.08soil N; most N is now in plant mobile/structural compartments.
+This identifies candidate delivery/depletion mechanisms but does not prove cause.
+
+Original compaction omitted ordinary daily history, and final snapshots cannot
+recover the first binding constraint. Therefore run passive observation only for
+three unchanged candidate seeds12011,4242,7301 to12288h, sequentially. Save every
+ordinary descendant birth state; daily cumulative budgets; first construction
+shortfalls (all C/N/W constraints independently, not only the first reported one),
+proposal cancellations, paid growth, first unpaid maintenance, each tissue death,
+maturity and whole-plant death. Separate founder gen0, child gen1, grandchild gen2,
+next generation gen3. No claims from a selected successful individual alone.
+
+Observer subclasses call the unchanged methods exactly once; no physics edits.
+Require exact known state hashes at96,240,480,720,960,8160,12288. These runs fill
+missing causal histories and do not repeat the migration validation suites.
+Use the existing per-user flock and8GiB effective headroom monitor.600s normal
+bound, explicit900s guard for instrumented full trajectories if needed. Stop on
+any script/physical error. Preserve logs and check measured runtime/memory.
+A96h smoke observer matched the original fingerprint before longer runs.
+
+No control matrix has been selected yet. Pre-register a small single-factor
+matched-birth-state matrix only AFTER examining passive budgets/refusals/deaths.
+No rates/costs/genes/maturity tuning, resource creation, manual successful tissue,
+or reversal of the previous negative28/29 retention evidence.

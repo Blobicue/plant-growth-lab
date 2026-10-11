@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-port/toolchain/Godot_v4.7.2-stable_linux.x86_64",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-workstation/packages/model",
+    "--script",
+    "res://restart_checks.gd",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-workstation/packages/model/lab.pck",
+    "--display-driver",
+    "x11",
+    "--rendering-method",
+    "gl_compatibility",
+    "--rendering-driver",
+    "opengl3",
+    "--audio-driver",
+    "Dummy"
+  ],
+  "input_sha256": {
+    "lab.pck": "14e4c25f0fb8b2df3a19d49e4dff0bc3d12d6c18a76a3fce56d2649c4a122159",
+    "native/resource_field.so": "061f31f814abab39ff32d320434d6d2a51b386752996400cecd4dd5585e65dc4"
+  },
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 13.94026594800016,
+  "peak_rss_bytes": 246247424,
+  "initial_headroom_bytes": 11048681472,
+  "minimum_headroom_bytes": 10913492992
+}

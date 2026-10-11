@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/workspace/plant-growth-lab/cloud-workstation/packages/model/godot",
+    "--path",
+    "/workspace/plant-growth-lab/cloud-workstation/packages/model",
+    "--main-pack",
+    "/workspace/plant-growth-lab/cloud-workstation/packages/model/lab.pck",
+    "--rendering-method",
+    "gl_compatibility",
+    "--audio-driver",
+    "Dummy",
+    "--quit-after",
+    "5"
+  ],
+  "exit": 0,
+  "stop_reason": null,
+  "wall_seconds": 12.63586851099899,
+  "peak_rss_bytes": 457207808,
+  "minimum_headroom_bytes": 10617102336
+}

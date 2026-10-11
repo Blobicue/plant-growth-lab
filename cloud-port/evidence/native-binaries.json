@@ -1,0 +1,14 @@
+{
+  "shared-atmosphere27": {
+    "sha256": "821c80ac2c13c1b24fb45d99692263270da0248dd7feff220d250568fe97220d",
+    "elf": "cloud-port/work/shared-atmosphere27/native/resource_field.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=0a1c52589c61c3ac1f32a983ca5bebcf66c826de, with debug_info, not stripped",
+    "dependencies": "\tlinux-vdso.so.1 (0x00007f8acfc5e000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f8acfa39000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f8acfc60000)\n",
+    "exported_entry": true
+  },
+  "juvenile-allocation30": {
+    "sha256": "061f31f814abab39ff32d320434d6d2a51b386752996400cecd4dd5585e65dc4",
+    "elf": "cloud-port/work/juvenile-allocation30/native/resource_field.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=329031515386b962be04d9a4f45dd76bed7282e5, with debug_info, not stripped",
+    "dependencies": "\tlinux-vdso.so.1 (0x00007f2f89c9e000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2f89a79000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f2f89ca0000)\n",
+    "exported_entry": true
+  }
+}
